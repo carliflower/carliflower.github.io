@@ -1,6 +1,6 @@
 angular.module('app', ['ngRoute', 'firebase'])
 
-.value('fbURL', 'https://luminous-heat-7812.firebaseio.com/')
+.value('fbURL', 'https://ng-projects-list.firebaseio.com/')
 .service('fbRef', function(fbURL) {
   return new Firebase(fbURL)
 })
