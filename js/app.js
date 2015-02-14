@@ -19,8 +19,23 @@ angular.module('app', ['ngRoute', 'firebase'])
 
 .controller('homeCtrl', function($scope, $firebase) {
     var ref = new Firebase("https://luminous-heat-7812.firebaseio.com/");
-    // create an AngularFire reference to the data
-    var sync = $firebase(ref);
-    // download the data into a local object
-    $scope.data = sync.$asObject();
+  var sync = $firebase(ref);
+  // download the data into a local object
+  var syncObject = sync.$asObject();
+  // synchronize the object with a three-way data binding
+  // click on `index.html` above to see it used in the DOM!
+  syncObject.$bindTo($scope, "data");
+
+// var postsRef = ref.child("projects");
+
+//   postsRef.push({
+//     author: "gracehop",
+//     title: "Announcing COBOL, a New Programming Language"
+//   });
+
+//   postsRef.push({
+//     author: "alanisawesome",
+//     title: "The Turing Machine"
+//   });
+
 });
