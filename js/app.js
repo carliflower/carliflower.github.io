@@ -41,7 +41,10 @@ angular.module('app', ['ngRoute', 'firebase'])
   };
 })
 
-.config(function($routeProvider) {
+.config(function($routeProvider, $interpolateProvider) {
+
+  $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
+
   $routeProvider
     .when('/', {
       controller:'ListCtrl',
