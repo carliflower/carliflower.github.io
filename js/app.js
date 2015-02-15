@@ -33,29 +33,44 @@
                 }]
             }
         })
-        .when('/rules/', {
-          controller:'RulesCtrl',
-          templateUrl:'templates/rules.html'
-        })
         .when('/rules', {
-          controller:'RulesCtrl',
-          templateUrl:'templates/rules.html'
-        })
-        .when('/picks/', {
-          controller:'PicksCtrl',
-          templateUrl:'templates/picks.html'
+            controller:'StandingsCtrl as vm',
+            templateUrl:'templates/rules.html',
+            resolve: {
+                // controller will not be loaded until $requireAuth resolves
+                // Auth refers to our $firebaseAuth wrapper in the example above
+                "CurrentAuth": ["AuthService", function(AuthService) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return AuthService.$requireAuth();
+                }]
+            }
         })
         .when('/picks', {
-          controller:'PicksCtrl',
-          templateUrl:'templates/picks.html'
-        })
-        .when('/posts/', {
-          controller:'PostsCtrl',
-          templateUrl:'templates/posts.html'
+            controller:'StandingsCtrl as vm',
+            templateUrl:'templates/picks.html',
+            resolve: {
+                // controller will not be loaded until $requireAuth resolves
+                // Auth refers to our $firebaseAuth wrapper in the example above
+                "CurrentAuth": ["AuthService", function(AuthService) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return AuthService.$requireAuth();
+                }]
+            }
         })
         .when('/posts', {
-          controller:'PostsCtrl',
-          templateUrl:'templates/posts.html'
+            controller:'StandingsCtrl as vm',
+            templateUrl:'templates/posts.html',
+            resolve: {
+                // controller will not be loaded until $requireAuth resolves
+                // Auth refers to our $firebaseAuth wrapper in the example above
+                "CurrentAuth": ["AuthService", function(AuthService) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return AuthService.$requireAuth();
+                }]
+            }
         })
         .otherwise({
           redirectTo:'/'
