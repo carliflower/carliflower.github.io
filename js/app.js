@@ -1,41 +1,64 @@
-angular.module('app', ['ngRoute', 'firebase'])
-.config(function($routeProvider, $interpolateProvider) {
-  $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
+//IIFE - keeps code isolated and off global scope
+(function() {
+    angular
+        .module('app', [
+            'ngRoute',
+            'firebase',
+            'log.ex.uo',
+            'members',
+            'AuthService',
+            'standings'])
+        .config(appConfig);
 
-  $routeProvider
-    .when('/', {
-      controller:'homeCtrl',
-      templateUrl:'templates/home.html'
-      // resolve: {
-      //   projects: function (Projects) {
-      //     return Projects.fetch();
-      //   }
-      // }
-    })
-    .otherwise({
-      redirectTo:'/'
-    });
-})
+    function appConfig($routeProvider, $interpolateProvider, $locationProvider, logExProvider) {
+      logExProvider.enableLogging(true);
 
-.controller('homeCtrl', function($scope, $firebase) {
-    var ref = new Firebase("https://luminous-heat-7812.firebaseio.com/");
-  var sync = $firebase(ref);
-  // download the data into a local object
-  var syncObject = sync.$asObject();
-  // synchronize the object with a three-way data binding
-  // click on `index.html` above to see it used in the DOM!
-  syncObject.$bindTo($scope, "data");
+      //required since we are using jekyll and its templates use {{}}
+      $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
 
-// var postsRef = ref.child("projects");
+      //enable html5 history api mode
+      $locationProvider.html5Mode(true);
 
-//   postsRef.push({
-//     author: "gracehop",
-//     title: "Announcing COBOL, a New Programming Language"
-//   });
-
-//   postsRef.push({
-//     author: "alanisawesome",
-//     title: "The Turing Machine"
-//   });
-
-});
+      $routeProvider
+        .when('/', {
+            controller:'StandingsCtrl as vm',
+            templateUrl:'templates/standings.html',
+            resolve: {
+                // controller will not be loaded until $requireAuth resolves
+                // Auth refers to our $firebaseAuth wrapper in the example above
+                "CurrentAuth": ["AuthService", function(AuthService) {
+                    // $requireAuth returns a promise so the resolve waits for it to complete
+                    // If the promise is rejected, it will throw a $stateChangeError (see above)
+                    return AuthService.$requireAuth();
+                }]
+            }
+        })
+        .when('/rules/', {
+          controller:'RulesCtrl',
+          templateUrl:'templates/rules.html'
+        })
+        .when('/rules', {
+          controller:'RulesCtrl',
+          templateUrl:'templates/rules.html'
+        })
+        .when('/picks/', {
+          controller:'PicksCtrl',
+          templateUrl:'templates/picks.html'
+        })
+        .when('/picks', {
+          controller:'PicksCtrl',
+          templateUrl:'templates/picks.html'
+        })
+        .when('/posts/', {
+          controller:'PostsCtrl',
+          templateUrl:'templates/posts.html'
+        })
+        .when('/posts', {
+          controller:'PostsCtrl',
+          templateUrl:'templates/posts.html'
+        })
+        .otherwise({
+          redirectTo:'/'
+        });
+    }
+})();

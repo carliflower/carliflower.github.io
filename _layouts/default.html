@@ -2,7 +2,14 @@
 <html ng-app="app">
   {% include head.html %}
   <body>
-    {{ content }}
+    <div class="container-fluid">
+        {% include header.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+    </div>
+
     {% include scripts.html %}
   </body>
 </html>

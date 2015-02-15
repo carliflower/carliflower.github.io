@@ -1,0 +1,34 @@
+{
+    "members": {
+        "1": {
+            "name": "Carli Poirier",
+            "picks": "1,2,3,4,5",
+            "paid": false
+        },
+        "2": {
+            "name": "Andrew Hamilton",
+            "picks": "1,2,3,4,5",
+            "paid": false
+        }
+    },
+    "houseguests": {
+       "1": {
+            "name": "John Smith",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dignissimos excepturi cumque autem eius quod quis non voluptates. Inventore ad voluptatem non, tenetur, delectus laboriosam vero laborum tempore explicabo nesciunt.",
+            "photo": "http://bigbrothercanada.globaltv.com/asset/img/wp/Arisa-Cox-Season-2.jpg",
+            "hometown": "Halifax, Nova Scotia",
+            "evicted": false,
+            "hoh": 2,
+            "pov": 0
+        },
+        "2": {
+            "name": "Jane Smith",
+            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dignissimos excepturi cumque autem eius quod quis non voluptates. Inventore ad voluptatem non, tenetur, delectus laboriosam vero laborum tempore explicabo nesciunt.",
+            "photo": "http://bigbrothercanada.globaltv.com/asset/img/wp/Arisa-Cox-Season-2.jpg",
+            "hometown": "Cape Breton, Nova Scotia",
+            "evicted": false,
+            "hoh": 3,
+            "pov": 1
+        }
+    }
+}
