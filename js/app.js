@@ -26,7 +26,7 @@
             .state('home', {
                 url: '/',
                 controller:'StandingsCtrl as vm',
-                templateUrl:'templates/standings.html',
+                templateUrl:'/templates/standings.html',
                 resolve: {
                     // controller will not be loaded until $requireAuth resolves
                     // Auth refers to our $firebaseAuth wrapper in the example above
