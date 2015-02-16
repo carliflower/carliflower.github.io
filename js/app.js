@@ -6,6 +6,7 @@
             'firebase',
             'log.ex.uo',
             'members',
+            'houseguests',
             'AuthService',
             'standings'])
         .config(appConfig);
@@ -17,7 +18,7 @@
       $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
 
       //enable html5 history api mode
-      $locationProvider.html5Mode(true);
+      $locationProvider.html5Mode(false);
 
         $urlRouterProvider.otherwise('/');
 
@@ -77,6 +78,6 @@
                         return AuthService.$requireAuth();
                     }]
                 }
-            })
+            });
     }
 })();

@@ -9,11 +9,13 @@
         '$log',
         'CurrentAuth',
         'MembersService',
-        'AuthService'
+        'HouseguestsService',
+        'AuthService',
+        '$timeout'
     ];
 
     //controller begins
-    function StandingsCtrl($log, CurrentAuth, MembersService, AuthService) {
+    function StandingsCtrl($log, CurrentAuth, MembersService, HouseguestsService, AuthService, $timeout) {
         $log = $log.getInstance('StandingsCtrl', true);
 
         //controllerAs 'vm' scope
@@ -21,39 +23,66 @@
 
         //dependancy injections on scope
         vm.MembersService = MembersService;
+        vm.HouseguestsService = HouseguestsService;
         vm.CurrentAuth = CurrentAuth;
-
-        // //variables on scope
-
-        // vm.data = $stateParams.shipmentID;
-        // vm.shipment = {};
 
         //apply internal methods to scope
         vm.loadData = loadData;
         vm.init = init;
+        vm.generateStandings = generateStandings;
 
         //start controller
         vm.loadData();
 
         //internal methods
         function loadData() {
-            $log.debug("loadData");
+            var vmSelf = vm;
+            // $log.debug("loadData");
+            vm.members = vm.MembersService.get();
+            vm.members.$loaded().then(function() {
+                // $log.debug(vm.members);
+                vmSelf.houseguests = vm.HouseguestsService.get();
+                vmSelf.houseguests.$loaded().then(function() {
+                    // $log.debug(vm.houseguests);
+                    vmSelf.init();
+                });
 
-            vm.members = vm.MembersService.getMembers();
-            vm.init();
+            });
         }
 
         function init() {
             $log.debug("init");
-
-
-            $log.debug(vm.members);
-            // $log.debug(vm.CurrentAuth);
-            // // any time auth status updates, add the user data to scope
-            // vm.currentAuth.$onAuth(function(authData) {
-            //     vm.authData = authData;
-            // });
+            vm.generateStandings();
         }
+
+        function generateStandings() {
+            $log.debug("generateStandings", vm.members, vm.houseguests);
+            //loop through houseguests and tally their point value
+            //then loop through members and tally point total of all their picks
+            //then sort by points
+
+            for (var i = 0; i < vm.houseguests.length; i++) {
+                var x = i;
+                vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(vm.houseguests[i]);
+                vm.houseguests.$save(i).then(function(ref) {
+                  ref.key() === vm.houseguests[x].$id; // true
+                });
+            };
+
+            for (var i = 0; i < vm.members.length; i++) {
+                var x = i;
+                vm.members[i].points = vm.MembersService.tallyPickPoints(vm.houseguests, vm.members[i]);
+                vm.members.$save(i).then(function(ref) {
+                  ref.key() === vm.members[x].$id; // true
+                });
+            };
+
+            //reverse lists so they are in desc point value
+            // vm.houseguests.reverse();
+            // vm.members.reverse();
+
+        }
+
     }
     //controller ends
 })();

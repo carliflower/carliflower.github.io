@@ -1,0 +1,15 @@
+$small-width: 540px;
+
+@mixin small {
+  @media (min-width: #{$small-width}) {
+    @content;
+  }
+}
+
+.inline-list {
+    list-style-type: none;
+
+    li {
+        display: inline-block;
+    }
+}
