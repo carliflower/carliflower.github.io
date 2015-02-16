@@ -43,43 +43,56 @@
                 url: '/rules',
                 controller:'StandingsCtrl as vm',
                 templateUrl:'/templates/rules.html',
-                resolve: {
-                    // controller will not be loaded until $requireAuth resolves
-                    // Auth refers to our $firebaseAuth wrapper in the example above
-                    "CurrentAuth": ["AuthService", function(AuthService) {
-                        // $requireAuth returns a promise so the resolve waits for it to complete
-                        // If the promise is rejected, it will throw a $stateChangeError (see above)
-                        return AuthService.$requireAuth();
-                    }]
-                }
+                // resolve: {
+                //     // controller will not be loaded until $requireAuth resolves
+                //     // Auth refers to our $firebaseAuth wrapper in the example above
+                //     "CurrentAuth": ["AuthService", function(AuthService) {
+                //         // $requireAuth returns a promise so the resolve waits for it to complete
+                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
+                //         return AuthService.$requireAuth();
+                //     }]
+                // }
             })
             .state('picks', {
                 url: '/picks',
                 controller:'StandingsCtrl as vm',
                 templateUrl:'/templates/picks.html',
-                resolve: {
-                    // controller will not be loaded until $requireAuth resolves
-                    // Auth refers to our $firebaseAuth wrapper in the example above
-                    "CurrentAuth": ["AuthService", function(AuthService) {
-                        // $requireAuth returns a promise so the resolve waits for it to complete
-                        // If the promise is rejected, it will throw a $stateChangeError (see above)
-                        return AuthService.$requireAuth();
-                    }]
-                }
+                // resolve: {
+                //     // controller will not be loaded until $requireAuth resolves
+                //     // Auth refers to our $firebaseAuth wrapper in the example above
+                //     "CurrentAuth": ["AuthService", function(AuthService) {
+                //         // $requireAuth returns a promise so the resolve waits for it to complete
+                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
+                //         return AuthService.$requireAuth();
+                //     }]
+                // }
             })
             .state('posts', {
                 url: '/posts',
                 controller:'StandingsCtrl as vm',
                 templateUrl:'/templates/posts.html',
-                resolve: {
-                    // controller will not be loaded until $requireAuth resolves
-                    // Auth refers to our $firebaseAuth wrapper in the example above
-                    "CurrentAuth": ["AuthService", function(AuthService) {
-                        // $requireAuth returns a promise so the resolve waits for it to complete
-                        // If the promise is rejected, it will throw a $stateChangeError (see above)
-                        return AuthService.$requireAuth();
-                    }]
-                }
+                // resolve: {
+                //     // controller will not be loaded until $requireAuth resolves
+                //     // Auth refers to our $firebaseAuth wrapper in the example above
+                //     "CurrentAuth": ["AuthService", function(AuthService) {
+                //         // $requireAuth returns a promise so the resolve waits for it to complete
+                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
+                //         return AuthService.$requireAuth();
+                //     }]
+                // }
             });
     }
 })();
+
+// {
+//   "rules": {
+//     "members": {
+//       ".read": "auth !== null && auth.provider === 'anonymous'",
+//       ".write": "auth !== null && auth.provider === 'anonymous'"
+//     },
+//     "houseguests": {
+//       ".read": "auth !== null && auth.provider === 'anonymous'",
+//       ".write": "auth !== null && auth.provider === 'anonymous'"
+//     }
+//   }
+// }

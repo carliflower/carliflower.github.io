@@ -37,7 +37,7 @@
         function loadData() {
             var vmSelf = vm;
 
-            vm.currentAuth = AuthService.$requireAuth();
+            // vm.currentAuth = AuthService.$requireAuth();
 
             // $log.debug("loadData");
             vm.members = vm.MembersService.get();
