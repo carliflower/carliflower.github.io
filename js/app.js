@@ -15,7 +15,7 @@
       logExProvider.enableLogging(true);
 
       //required since we are using jekyll and its templates use {{}}
-      // $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
+      $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
 
       //enable html5 history api mode
       $locationProvider.html5Mode(false);
