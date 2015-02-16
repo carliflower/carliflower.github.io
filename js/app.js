@@ -20,7 +20,7 @@
       //enable html5 history api mode
       $locationProvider.html5Mode(false);
 
-      console.log("here");
+      // console.log("here");
 
         $urlRouterProvider.otherwise('/');
 
@@ -29,15 +29,15 @@
                 url: '/',
                 controller:'StandingsCtrl as vm',
                 templateUrl:'/templates/standings.html',
-                resolve: {
-                    // controller will not be loaded until $requireAuth resolves
-                    // Auth refers to our $firebaseAuth wrapper in the example above
-                    "CurrentAuth": ["AuthService", function(AuthService) {
-                        // $requireAuth returns a promise so the resolve waits for it to complete
-                        // If the promise is rejected, it will throw a $stateChangeError (see above)
-                        return AuthService.$requireAuth();
-                    }]
-                }
+                // resolve: {
+                //     // controller will not be loaded until $requireAuth resolves
+                //     // Auth refers to our $firebaseAuth wrapper in the example above
+                //     "CurrentAuth": ["AuthService", function(AuthService) {
+                //         // $requireAuth returns a promise so the resolve waits for it to complete
+                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
+                //         return AuthService.$requireAuth();
+                //     }]
+                // }
             })
             .state('rules', {
                 url: '/rules',

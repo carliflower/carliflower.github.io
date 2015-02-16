@@ -7,7 +7,6 @@
     //injection for js minification
     StandingsCtrl.$inject = [
         '$log',
-        'CurrentAuth',
         'MembersService',
         'HouseguestsService',
         'AuthService',
@@ -15,7 +14,7 @@
     ];
 
     //controller begins
-    function StandingsCtrl($log, CurrentAuth, MembersService, HouseguestsService, AuthService, $timeout) {
+    function StandingsCtrl($log, MembersService, HouseguestsService, AuthService, $timeout) {
         $log = $log.getInstance('StandingsCtrl', true);
 
         //controllerAs 'vm' scope
@@ -24,7 +23,7 @@
         //dependancy injections on scope
         vm.MembersService = MembersService;
         vm.HouseguestsService = HouseguestsService;
-        vm.CurrentAuth = CurrentAuth;
+        vm.currentAuth = false;
 
         //apply internal methods to scope
         vm.loadData = loadData;
@@ -37,6 +36,9 @@
         //internal methods
         function loadData() {
             var vmSelf = vm;
+
+            vm.currentAuth = AuthService.$requireAuth();
+
             // $log.debug("loadData");
             vm.members = vm.MembersService.get();
             vm.members.$loaded().then(function() {
