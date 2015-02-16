@@ -40,7 +40,7 @@
             .state('rules', {
                 url: '/rules',
                 controller:'StandingsCtrl as vm',
-                templateUrl:'templates/rules.html',
+                templateUrl:'/templates/rules.html',
                 resolve: {
                     // controller will not be loaded until $requireAuth resolves
                     // Auth refers to our $firebaseAuth wrapper in the example above
@@ -54,7 +54,7 @@
             .state('picks', {
                 url: '/picks',
                 controller:'StandingsCtrl as vm',
-                templateUrl:'templates/picks.html',
+                templateUrl:'/templates/picks.html',
                 resolve: {
                     // controller will not be loaded until $requireAuth resolves
                     // Auth refers to our $firebaseAuth wrapper in the example above
@@ -68,7 +68,7 @@
             .state('posts', {
                 url: '/posts',
                 controller:'StandingsCtrl as vm',
-                templateUrl:'templates/posts.html',
+                templateUrl:'/templates/posts.html',
                 resolve: {
                     // controller will not be loaded until $requireAuth resolves
                     // Auth refers to our $firebaseAuth wrapper in the example above
