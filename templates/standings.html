@@ -1,33 +1,18 @@
 <div class="standings">
 
-        <h1>Standings</h1>
+    <h1>Standings</h1>
 
-        <ul class="member-standings">
-            <li ng-repeat="member in vm.members | orderBy: '-points'">
-                <div>
-                   <span class="name">{[{member.name}]} - {[{member.points}]}</span>
-                </div>
-            </li>
-        </ul>
-
-
-        <h1>House Guests</h1>
-        <ul class="houseguest-grid">
-            <li ng-repeat="houseguest in vm.houseguests  | orderBy: '-points'">
-                <div class="houseguest-tile" style="background: transparent url('{[{houseguest.photo}]}') -100px -50px no-repeat;">
-                    <div class="bio">
-                        <p class="name">{[{houseguest.name}]}</p>
-                        <p class="hometown">{[{houseguest.hometown}]}</p>
-                    </div>
-                    <div class="points">
-                        <div class="wins">
-                            <span class="hoh">HOH: {[{houseguest.hoh}]}</span>
-                            <span class="pov">POV: {[{houseguest.pov}]}</span>
-                        </div>
-                        <div class="total">{[{houseguest.points}]}</div>
-                    </div>
-                </div>
-            </li>
-        </ul>
+    <ul class="member-standings">
+        <li class="member-tile" ng-repeat="member in vm.members | orderBy: '-points'">
+            <div>
+               <div class="name">{[{member.name}]} - {[{member.points}]}</div>
+               <ul class="houseguest-picks">
+                    <li class="houseguest-thumb" ng-repeat="id in vm.MembersService.getMemberPicksAsArray(member)">
+                        <img ng-src="{[{vm.houseguests[id].photo}]}" alt="{[{vm.houseguests[id].name}]}">
+                    </li>
+               </ul>
+            </div>
+        </li>
+    </ul>
 
 </div>

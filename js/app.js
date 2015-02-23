@@ -5,10 +5,13 @@
             'ui.router',
             'firebase',
             'log.ex.uo',
+            'AuthService',
             'members',
             'houseguests',
-            'AuthService',
-            'standings'])
+            'standings',
+            'picks',
+            'rules',
+            'posts'])
         .config(appConfig);
 
     function appConfig($urlRouterProvider, $stateProvider, $interpolateProvider, $locationProvider, logExProvider) {
@@ -29,57 +32,26 @@
                 url: '/',
                 controller:'StandingsCtrl as vm',
                 templateUrl:'/templates/standings.html',
-                // resolve: {
-                //     // controller will not be loaded until $requireAuth resolves
-                //     // Auth refers to our $firebaseAuth wrapper in the example above
-                //     "CurrentAuth": ["AuthService", function(AuthService) {
-                //         // $requireAuth returns a promise so the resolve waits for it to complete
-                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
-                //         return AuthService.$requireAuth();
-                //     }]
-                // }
+            })
+            .state('houseguests', {
+                url: '/houseguests',
+                controller:'HouseguestsCtrl as vm',
+                templateUrl:'/templates/houseguests.html'
             })
             .state('rules', {
                 url: '/rules',
-                controller:'StandingsCtrl as vm',
-                templateUrl:'/templates/rules.html',
-                // resolve: {
-                //     // controller will not be loaded until $requireAuth resolves
-                //     // Auth refers to our $firebaseAuth wrapper in the example above
-                //     "CurrentAuth": ["AuthService", function(AuthService) {
-                //         // $requireAuth returns a promise so the resolve waits for it to complete
-                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
-                //         return AuthService.$requireAuth();
-                //     }]
-                // }
+                controller:'RulesCtrl as vm',
+                templateUrl:'/templates/rules.html'
             })
             .state('picks', {
                 url: '/picks',
-                controller:'StandingsCtrl as vm',
-                templateUrl:'/templates/picks.html',
-                // resolve: {
-                //     // controller will not be loaded until $requireAuth resolves
-                //     // Auth refers to our $firebaseAuth wrapper in the example above
-                //     "CurrentAuth": ["AuthService", function(AuthService) {
-                //         // $requireAuth returns a promise so the resolve waits for it to complete
-                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
-                //         return AuthService.$requireAuth();
-                //     }]
-                // }
+                controller:'PicksCtrl as vm',
+                templateUrl:'/templates/picks.html'
             })
             .state('posts', {
                 url: '/posts',
-                controller:'StandingsCtrl as vm',
-                templateUrl:'/templates/posts.html',
-                // resolve: {
-                //     // controller will not be loaded until $requireAuth resolves
-                //     // Auth refers to our $firebaseAuth wrapper in the example above
-                //     "CurrentAuth": ["AuthService", function(AuthService) {
-                //         // $requireAuth returns a promise so the resolve waits for it to complete
-                //         // If the promise is rejected, it will throw a $stateChangeError (see above)
-                //         return AuthService.$requireAuth();
-                //     }]
-                // }
+                controller:'PostsCtrl as vm',
+                templateUrl:'/templates/posts.html'
             });
     }
 })();

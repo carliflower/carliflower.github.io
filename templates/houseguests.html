@@ -1,0 +1,23 @@
+<div class="houseguests">
+
+    <h1>Houseguest Rankings</h1>
+
+    <ul class="houseguest-grid">
+        <li ng-repeat="houseguest in vm.houseguests  | orderBy: '-points'">
+            <div class="houseguest-tile" style="background: transparent url('{[{houseguest.photo}]}') 0 0 no-repeat;">
+                <div class="bio">
+                    <p class="name">{[{houseguest.name}]}</p>
+                    <p class="hometown">{[{houseguest.hometown}]}</p>
+                </div>
+                <div class="points">
+                    <div class="wins">
+                        <span class="hoh">HOH: {[{houseguest.hoh}]}</span>
+                        <span class="pov">POV: {[{houseguest.pov}]}</span>
+                    </div>
+                    <div class="total">{[{houseguest.points}]}</div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</div>

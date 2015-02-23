@@ -1,7 +1,7 @@
 //IIFE - keeps code isolated and off global scope
 (function() {
     angular
-        .module('houseguests',[])
+        .module('houseguests')
         .service('HouseguestsService', HouseguestsService);
 
     //injection for js minification

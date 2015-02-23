@@ -1,5 +1,55 @@
 <div class="picks">
-    <h2>Make Your Picks</h2>
-    <p></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quam sapiente, totam consequatur. Error necessitatibus ipsum, dolore, cupiditate facere assumenda fugit soluta unde vero nihil esse voluptate iste, dignissimos illum!
-</div>
 
+    <h1>Make Your Picks</h1>
+
+    <div ng-if="vm.picksSaved && vm.isLoaded">
+        <h2>Your picks are now saved.</h2>
+        <h2>Let the games begin!</h2>
+    </div>
+
+    <div ng-if="!vm.picksSaved && vm.isLoaded">
+
+        <h2>Rules for Picking</h2>
+
+        <ul class="pick-rules">
+            <li>Each person picks a team of 5 houseguests.</li>
+            <li>No two people can have the exact same 5 houseguests on their team.</li>
+            <li>The site will tell you if someone else has already chosen the combo you want.</li>
+            <li>If you can't make up your mind, use the random pick button at the bottom of the screen!</li>
+        </ul>
+
+        <hr/>
+
+        <div class="code-entry" ng-if="!vm.isValidCode">
+            <h3>Enter your pick code</h3>
+            <input type="text" ng-model="vm.pickCode" />
+            <div ng-if="vm.pickCode !== ''" class="code-message">{[{vm.codeMessage}]}</div>
+        </div>
+
+        <div class="picker" ng-if="vm.isValidCode">
+
+            <h3>Hello {[{vm.member.name}]}</h3>
+            <p>To make your picks select 5 houseguests and press the button at the bottom of the page</p>
+
+            <ul class="houseguest-grid">
+                <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
+                    <div class="houseguest-tile" ng-class="{ 'selected': houseguest.selected }" style="background: transparent url('{[{houseguest.photo}]}') 0 0 no-repeat;" ng-click="vm.selectPick(houseguest.$id)">
+                        <div class="bio">
+                            <p class="name">{[{houseguest.name}]}</p>
+                            <p class="hometown">{[{houseguest.hometown}]}</p>
+                            <p class="profession">{[{houseguest.profession}]}</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="pick-buttons">
+                <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}" />
+                <input class="button" type="submit" ng-click="vm.randomPicks()" value="Make Random Picks" />
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

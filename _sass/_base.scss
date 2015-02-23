@@ -69,7 +69,8 @@ header {
     min-height: 600px;
     color: #fff;
     background-color: #000;
-    text-align: center
+    text-align: center;
+    padding: 0 25px 10px 25px;
 }
 
 footer {
@@ -81,7 +82,7 @@ footer {
 
         li {
             display: block;
-            margin: 10px;
+            padding: 10px;
 
             @include small {
                 display: inline-block;
@@ -93,7 +94,8 @@ footer {
 
 
 h1, h2, h3, h4, h5, h6 {
-    padding: 10px 0 10px 0;
+    padding: 20px 0;
+    text-transform: uppercase;
 }
 
 .main-nav {
@@ -110,25 +112,57 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .member-standings {
-    li {
+    display: inline-block;
+
+    &>li {
         margin: 10px;
+        padding: 10px 20px;
+        border: 1px solid #ececec;
+
+        .houseguest-picks {
+            width: 230px;
+            display: inline-block;
+            margin: 10px 0 0 0;
+        }
+
+        .houseguest-thumb {
+           display: inline-block;
+           width: 20%;
+
+           img {
+            width: 50px;
+           }
+        }
     }
 }
+
 
 .houseguest-grid {
     li {
         display: inline-block;
-        width: 300px;
-        padding: 5px;
+        width: 250px;
+        height: 250px;
+        padding: 10px;
     }
 }
 
 .houseguest-tile {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     display: inline-block;
     position: relative;
     border: 1px solid #ececec;
+    background-size: cover !important;
+    cursor: pointer;
+
+    &.selected {
+        border: 1px solid rgba(240,159,10, 1);
+
+        .bio {
+            color: white;
+            background: rgba(240,159,10, 0.85);
+        }
+    }
 
     .bio {
         position: absolute;
@@ -137,14 +171,16 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         text-align: center;
         padding: 5px 0;
-        background-color: #000;
-        color: #fff;
+        background: rgba(255,255,255, 0.85);
+        color: #000;
+        text-transform: uppercase;
 
         .name {
             margin-bottom: 5px;
+            font-weight: bold;
         }
 
-        .hometown {
+        .hometown, .profession {
             font-size: 0.65em;
         }
     }
@@ -167,6 +203,71 @@ h1, h2, h3, h4, h5, h6 {
             float: right;
             padding: 5px;
             font-size: 1em;
+        }
+    }
+}
+
+
+.picks {
+
+    .pick-rules {
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+        li {
+            padding: 6px 0;
+        }
+    }
+
+    .code-entry {
+        margin-top: 20px;
+
+        input {
+            border: 5px solid white;
+            -webkit-box-shadow:
+              inset 0 0 8px  rgba(0,0,0,0.1),
+                    0 0 16px rgba(0,0,0,0.1);
+            -moz-box-shadow:
+              inset 0 0 8px  rgba(0,0,0,0.1),
+                    0 0 16px rgba(0,0,0,0.1);
+            box-shadow:
+              inset 0 0 8px  rgba(0,0,0,0.1),
+                    0 0 16px rgba(0,0,0,0.1);
+            padding: 5px;
+            background: rgba(255,255,255,0.5);
+            margin: 0 0 10px 0;
+            font-size: 20px;
+            color: #FFF;
+        }
+    }
+
+    .code-message {
+        margin: 10px 0;
+    }
+
+    .pick-buttons {
+        margin: 25px 0;
+
+        input {
+            margin: 25px 25px;
+        }
+    }
+}
+
+.rules {
+
+
+
+    .intro {
+        margin-bottom: 20px;
+    }
+
+    ul {
+        margin: 0 auto;
+        margin-bottom: 20px;
+
+        li {
+            padding: 6px 0;
         }
     }
 }

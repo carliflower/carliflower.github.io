@@ -2,54 +2,430 @@
     "members": {
         "0": {
             "name": "Carli Poirier",
-            "picks": "0,1",
+            "picks": "0,2",
             "paid": false,
-            "points": 0
+            "points": 0,
+            "pickcode": "a1b2"
         },
         "1": {
             "name": "Andrew Hamilton",
-            "picks": "0,1,2",
+            "picks": "",
             "paid": false,
-            "points": 0
+            "points": 0,
+            "pickcode": "0"
         },
-        "2": {
-            "name": "Mr. Jones",
-            "picks": "0",
+        "3": {
+            "name": "Michelle Hearn",
+            "picks": "",
             "paid": false,
-            "points": 0
+            "points": 0,
+            "pickcode": "0"
+        },
+        "4": {
+            "name": "Patsy Poirier",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "5": {
+            "name": "Teddy Poirier",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "6": {
+            "name": "Scott Munro",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "7": {
+            "name": "Claudine Sampson",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "8": {
+            "name": "TC Fougere",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "9": {
+            "name": "Stacey Pottie",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "10": {
+            "name": "Liz Blackburn",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "11": {
+            "name": "Alicia Fraser",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "12": {
+            "name": "Bryna Moriera",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "13": {
+            "name": "Sheri Bowen",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "14": {
+            "name": "Steven Belliveau",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "15": {
+            "name": "Josh Scott Savage",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "16": {
+            "name": "Jeevan Singh",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "17": {
+            "name": "Suzanne MacLeod",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "18": {
+            "name": "Annalee Anderson",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "19": {
+            "name": "Dave Fraser",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "20": {
+            "name": "Quincy Morrison",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "21": {
+            "name": "Bryan Munroe",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "22": {
+            "name": "Jordan Bonaparte",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "23": {
+            "name": "Kim Sampson",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "24": {
+            "name": "Jason Sprague",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "25": {
+            "name": "Ellie Major",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "26": {
+            "name": "Erin Gordon",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "27": {
+            "name": "Matt Currie",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "28": {
+            "name": "Carlos Purcell",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "29": {
+            "name": "Jade Billings",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "30": {
+            "name": "Corey Tynes",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "31": {
+            "name": "Jennifer Nixon",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "32": {
+            "name": "Kris Kehoe",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "33": {
+            "name": "Patricia Johnston",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "34": {
+            "name": "Graham Johnston",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "35": {
+            "name": "Patti Tanner",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "36": {
+            "name": "Darien Dewolf",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "37": {
+            "name": "Shawn Gillam-Wright",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
         }
     },
     "houseguests": {
        "0": {
-            "name": "John Smith",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dignissimos excepturi cumque autem eius quod quis non voluptates. Inventore ad voluptatem non, tenetur, delectus laboriosam vero laborum tempore explicabo nesciunt.",
-            "photo": "http://bigbrothercanada.globaltv.com/asset/img/wp/Arisa-Cox-Season-2.jpg",
-            "hometown": "Halifax, Nova Scotia",
+            "name": "Houseguest 1",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
             "evicted": false,
-            "hoh": 2,
+            "hoh": 1,
             "pov": 0,
             "jury": false,
             "points": 0
         },
         "1": {
-            "name": "Jane Smith",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dignissimos excepturi cumque autem eius quod quis non voluptates. Inventore ad voluptatem non, tenetur, delectus laboriosam vero laborum tempore explicabo nesciunt.",
-            "photo": "http://bigbrothercanada.globaltv.com/asset/img/wp/Arisa-Cox-Season-2.jpg",
-            "hometown": "Cape Breton, Nova Scotia",
+            "name": "Houseguest 2",
+            "bio": "Bio Unavailable",
+            "photo": "assets/female-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
             "evicted": false,
-            "hoh": 3,
-            "pov": 1,
+            "hoh": 0,
+            "pov": 0,
             "jury": false,
             "points": 0
         },
-        "2": {
-            "name": "Joe Smith",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dignissimos excepturi cumque autem eius quod quis non voluptates. Inventore ad voluptatem non, tenetur, delectus laboriosam vero laborum tempore explicabo nesciunt.",
-            "photo": "http://bigbrothercanada.globaltv.com/asset/img/wp/Arisa-Cox-Season-2.jpg",
-            "hometown": "Cape Breton, Nova Scotia",
+       "2": {
+            "name": "Houseguest 3",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
             "evicted": false,
             "hoh": 0,
-            "pov": 4,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+        "3": {
+            "name": "Houseguest 4",
+            "bio": "Bio Unavailable",
+            "photo": "assets/female-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+       "4": {
+            "name": "Houseguest 5",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+       "5": {
+            "name": "Houseguest 6",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+        "6": {
+            "name": "Houseguest 7",
+            "bio": "Bio Unavailable",
+            "photo": "assets/female-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+       "7": {
+            "name": "Houseguest 8",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+        "8": {
+            "name": "Houseguest 9",
+            "bio": "Bio Unavailable",
+            "photo": "assets/female-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+       "9": {
+            "name": "Houseguest 10",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+        "10": {
+            "name": "Houseguest 11",
+            "bio": "Bio Unavailable",
+            "photo": "assets/female-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+       "11": {
+            "name": "Houseguest 12",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+        "12": {
+            "name": "Houseguest 13",
+            "bio": "Bio Unavailable",
+            "photo": "assets/female-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
+            "jury": false,
+            "points": 0
+        },
+       "13": {
+            "name": "Houseguest 14",
+            "bio": "Bio Unavailable",
+            "photo": "assets/male-avatar.png",
+            "hometown": "Hometown Unknown",
+            "profession": "Unemployed",
+            "evicted": false,
+            "hoh": 0,
+            "pov": 0,
             "jury": false,
             "points": 0
         }
