@@ -40,7 +40,7 @@
             $log.debug("loadData");
             vm.members = vm.MembersService.get();
             vm.members.$loaded().then(function() {
-                $log.debug(vm.members);
+                $log.debug(vm.members, vm.members.length);
                 vmSelf.houseguests = vm.HouseguestsService.get();
                 vmSelf.houseguests.$loaded().then(function() {
                     $log.debug(vm.houseguests);

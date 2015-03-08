@@ -14,10 +14,7 @@
     function MembersService($log, $firebase) {
         $log = $log.getInstance('MembersService', true);
 
-
         this.ref = false;
-
-        //internal method attached to service
         this.get = get;
         this.tallyPickPoints = tallyPickPoints;
         this.findMemberByPickCode = findMemberByPickCode;
@@ -25,22 +22,13 @@
         this.checkIfPicksAreValid = checkIfPicksAreValid;
         this.setMemberPicksAsString = setMemberPicksAsString;
         this.hasCompletedPicks = hasCompletedPicks;
+        this.gatherAllMemberPicks = gatherAllMemberPicks;
+        this.generateRandomPick = generateRandomPick;
 
         //internal methods
         function get() {
             $log.debug("get");
-            // create a reference to the user's profile
             this.ref = new Firebase("https://luminous-heat-7812.firebaseio.com/members/");
-            // return it as a synchronized object
-
-            // this.ref.orderByChild("points").on("child_changed", function(snapshot) {
-            //   // console.log(snapshot.key() + " has " + snapshot.val().points + " points");
-            // });
-
-            // this.ref.orderByChild("points").on("child_added", function(snapshot) {
-            //   // console.log(snapshot.key() + " has " + snapshot.val().points + " points");
-            // });
-
             return $firebase(this.ref).$asArray();
         }
 
@@ -62,12 +50,10 @@
 
         function findMemberByPickCode(members, pickCode) {
             $log.debug("findMemberByPickCode", pickCode);
-
             var response = {
                 isValidCode: false,
                 member: null
             };
-
             for (var m = 0; m < members.length; m++) {
                 var member = members[m];
                 if (member.pickcode == pickCode) {
@@ -87,21 +73,27 @@
         }
 
         function setMemberPicksAsString(memberpicks) {
-
             function compareNumbers(a, b) {
               return a - b;
             }
-
             //sort by numeric order and then return as a string.
             //ex.  ["3", "2", "1"] becomes "1,2,3"
             var s = memberpicks.sort(compareNumbers).join();
-            $log.debug("setMemberPicksAsString", memberpicks, s);
+            //$log.debug("setMemberPicksAsString", memberpicks, s);
             return s;
         }
 
-        function checkIfPicksAreValid(memberpicks) {
-            $log.debug("checkIfPicksAreValid", memberpicks);
-            var arePicksValid = true;
+        function checkIfPicksAreValid(members, currentpicks) {
+            $log.debug("checkIfPicksAreValid", currentpicks);
+            var arePicksValid = false;
+
+            var allCurrentPicksAsArrayOfSortedStrings = this.gatherAllMemberPicks(members);
+            var pickSetIsUsed = _.includes(allCurrentPicksAsArrayOfSortedStrings, currentpicks);
+
+            if (!pickSetIsUsed) {
+                arePicksValid = true;
+            }
+
             return arePicksValid;
         }
 
@@ -112,6 +104,49 @@
                 r = true;
             }
             return r;
+        }
+
+        function gatherAllMemberPicks(members) {
+            var picks = [];
+            for (var m = 0; m < members.length; m++) {
+                var member = members[m];
+                var memberPicksArray = this.getMemberPicksAsArray(member);
+                var memberPicksAsSortedString = this.setMemberPicksAsString(memberPicksArray);
+                picks.push(memberPicksAsSortedString);
+            }
+            $log.debug("gatherMemberPicks", picks);
+            return picks;
+        }
+
+
+        function generateRandomPick(members, houseguests) {
+            var allCurrentPicksAsArrayOfSortedStrings = this.gatherAllMemberPicks(members);
+            var pickSetIsUsed = true;
+
+            //randomize order of houseguests
+            var randomizedHouseguestsOrder = _.shuffle(houseguests);
+            // $log.debug("randomizedHouseguestsOrder", randomizedHouseguestsOrder);
+            var randomSample = [];
+            var availablePickSet = "";
+
+            // $log.debug("allCurrentPicksAsArrayOfSortedStrings", allCurrentPicksAsArrayOfSortedStrings);
+            while (pickSetIsUsed) {
+                //generate 5 unique random index #s
+                randomSample = _.sample(randomizedHouseguestsOrder, 5);
+                // $log.debug("randomSample", randomSample);
+                var randomSampleIds = _.map(randomSample, '$id');
+                var randomSampleString = this.setMemberPicksAsString(randomSampleIds);
+                // $log.debug("randomSampleString", randomSampleString);
+                //check if randomSample is used
+                pickSetIsUsed = _.includes(allCurrentPicksAsArrayOfSortedStrings, randomSampleString);
+                $log.debug("generateRandomPick", pickSetIsUsed, randomSampleString);
+                if (!pickSetIsUsed) {
+                    availablePickSet = randomSampleString.split(",");
+                }
+            }
+
+            return availablePickSet;
+
 
         }
 

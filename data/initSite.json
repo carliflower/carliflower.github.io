@@ -1,259 +1,427 @@
 {
     "members": {
         "0": {
-            "name": "Carli Poirier",
-            "picks": "0,2",
+            "name": "Alex Moriera",
+            "picks": "",
             "paid": false,
             "points": 0,
-            "pickcode": "a1b2"
+            "pickcode": "0"
         },
         "1": {
-            "name": "Andrew Hamilton",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "3": {
-            "name": "Michelle Hearn",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "4": {
-            "name": "Patsy Poirier",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "5": {
-            "name": "Teddy Poirier",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "6": {
-            "name": "Scott Munro",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "7": {
-            "name": "Claudine Sampson",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "8": {
-            "name": "TC Fougere",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "9": {
-            "name": "Stacey Pottie",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "10": {
-            "name": "Liz Blackburn",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "11": {
             "name": "Alicia Fraser",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "12": {
-            "name": "Bryna Moriera",
+        "2": {
+            "name": "Victoria Martin",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "13": {
-            "name": "Sheri Bowen",
+        "3": {
+            "name": "Andrew Hamilton",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "14": {
-            "name": "Steven Belliveau",
+        "4": {
+            "name": "Andrew King",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "15": {
-            "name": "Josh Scott Savage",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "16": {
-            "name": "Jeevan Singh",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "17": {
-            "name": "Suzanne MacLeod",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "18": {
+        "5": {
             "name": "Annalee Anderson",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "19": {
+        "6": {
+            "name": "Austen Bernhardt",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "7": {
+            "name": "Brennan Dewolf",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "8": {
+            "name": "Bryna Moriera",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "9": {
+            "name": "Carla Hage",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "10": {
+            "name": "Carli Poirier",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "11": {
+            "name": "Cathy Berthier",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "12": {
+            "name": "Claudine Sampson",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "13": {
+            "name": "Corey Tynes",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "14": {
+            "name": "Dariette Pinder",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "15": {
             "name": "Dave Fraser",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "20": {
-            "name": "Quincy Morrison",
+        "16": {
+            "name": "David Surette",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "21": {
-            "name": "Bryan Munroe",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "22": {
-            "name": "Jordan Bonaparte",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "23": {
-            "name": "Kim Sampson",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "24": {
-            "name": "Jason Sprague",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "25": {
+        "17": {
             "name": "Ellie Major",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "26": {
+        "18": {
+            "name": "Ericka Branscombe",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "19": {
             "name": "Erin Gordon",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "27": {
-            "name": "Matt Currie",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "28": {
-            "name": "Carlos Purcell",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "29": {
-            "name": "Jade Billings",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "30": {
-            "name": "Corey Tynes",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "31": {
-            "name": "Jennifer Nixon",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "32": {
-            "name": "Kris Kehoe",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "33": {
-            "name": "Patricia Johnston",
-            "picks": "",
-            "paid": false,
-            "points": 0,
-            "pickcode": "0"
-        },
-        "34": {
+        "20": {
             "name": "Graham Johnston",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
+        "21": {
+            "name": "Heather Chouinard",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "22": {
+            "name": "Jade Billings",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "23": {
+            "name": "Jason Sprague",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "24": {
+            "name": "Jeevan Singh",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "25": {
+            "name": "Jennifer Nixon",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "26": {
+            "name": "Jordan Bonaparte",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "27": {
+            "name": "Josh Scott Savage",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "28": {
+            "name": "Julie Charman",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "29": {
+            "name": "Kayla Crocke",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "30": {
+            "name": "Kim Houck",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "31": {
+            "name": "Kim Sampson",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "32": {
+            "name": "Laura Mccoombs",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "33": {
+            "name": "Lex Diakow",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "34": {
+            "name": "Lisa DeBouvier",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
         "35": {
-            "name": "Patti Tanner",
+            "name": "Lisa Shanks",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
         "36": {
-            "name": "Darien Dewolf",
+            "name": "Lori Doiron-Benoit",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "37": {
+            "name": "Liz Blackburn",
             "picks": "",
             "paid": false,
             "points": 0,
             "pickcode": "0"
         },
-        "37": {
-            "name": "Shawn Gillam-Wright",
+        "38": {
+            "name": "Mandy Benjamin",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "39": {
+            "name": "Mark Sutherland",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "40": {
+            "name": "Matt Currie",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "41": {
+            "name": "Matt Summers",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "42": {
+            "name": "Michelle Hearn",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "43": {
+            "name": "Nicole McAndrew",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "44": {
+            "name": "Patsy Poirier",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "45": {
+            "name": "Patricia Johnston",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "46": {
+            "name": "Patti Tanner",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "47": {
+            "name": "Quincy Morrison",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "48": {
+            "name": "Scott Munro",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "49": {
+            "name": "Sean Hamilton",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "50": {
+            "name": "Shanna Burke",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "51": {
+            "name": "Shawn Gillan Wright",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "52": {
+            "name": "Shelley Cox",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "53": {
+            "name": "Sheri Bowen",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "54": {
+            "name": "Stacey Pottie",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "55": {
+            "name": "Stacy Izzard",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+       "56": {
+            "name": "Steven Belliveau",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+        "57": {
+            "name": "Suzanne MacLeod",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+       "58": {
+            "name": "TC Fougere",
+            "picks": "",
+            "paid": true,
+            "points": 0,
+            "pickcode": "0"
+        },
+       "59": {
+            "name": "Teddy Poirier",
+            "picks": "",
+            "paid": false,
+            "points": 0,
+            "pickcode": "0"
+        },
+       "60": {
+            "name": "Terry Walker",
             "picks": "",
             "paid": false,
             "points": 0,

@@ -1,16 +1,20 @@
 <div class="standings">
 
     <h1>Standings</h1>
+    <p>{[{vm.members.length}]} People</p>
 
     <ul class="member-standings">
-        <li class="member-tile" ng-repeat="member in vm.members | orderBy: '-points'">
+        <li class="member-tile" ng-repeat="member in vm.members | orderBy: '+name'">
             <div>
-               <div class="name">{[{member.name}]} - {[{member.points}]}</div>
-               <ul class="houseguest-picks">
+                <div class="name">
+                    <span class="paid" ng-if="member.paid">$</span>
+                    {[{member.name}]} - {[{member.points}]}
+                </div>
+                <ul class="houseguest-picks">
                     <li class="houseguest-thumb" ng-repeat="id in vm.MembersService.getMemberPicksAsArray(member)">
                         <img ng-src="{[{vm.houseguests[id].photo}]}" alt="{[{vm.houseguests[id].name}]}">
                     </li>
-               </ul>
+                </ul>
             </div>
         </li>
     </ul>

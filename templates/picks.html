@@ -3,8 +3,9 @@
     <h1>Make Your Picks</h1>
 
     <div ng-if="vm.picksSaved && vm.isLoaded">
-        <h2>Your picks are now saved.</h2>
-        <h2>Let the games begin!</h2>
+        <h2>Good Luck!</h2>
+        <h2>Your picks were:</h2>
+        <p>{[{vm.getPickNameString()}]}</p>
     </div>
 
     <div ng-if="!vm.picksSaved && vm.isLoaded">
@@ -22,7 +23,7 @@
 
         <div class="code-entry" ng-if="!vm.isValidCode">
             <h3>Enter your pick code</h3>
-            <input type="text" ng-model="vm.pickCode" />
+            <input type="text" ng-model="vm.pickCodeDisabled" />
             <div ng-if="vm.pickCode !== ''" class="code-message">{[{vm.codeMessage}]}</div>
         </div>
 
@@ -43,9 +44,19 @@
                 </li>
             </ul>
 
+
             <div class="pick-buttons">
-                <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}" />
-                <input class="button" type="submit" ng-click="vm.randomPicks()" value="Make Random Picks" />
+                <div>
+                    <input class="button" type="submit" ng-click="vm.clearSelections()" value="Clear Selections" />
+                    <input class="button" type="submit" ng-click="vm.getAvailableRandomPick()" value="Make Random Picks" />
+                </div>
+                <div class="selected-picks">
+                    <p>Your Current Picks are:</p>
+                    <p>{[{vm.getPickNameString()}]}</p>
+                </div>
+                <div>
+                    <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}" />
+                </div>
             </div>
 
         </div>
