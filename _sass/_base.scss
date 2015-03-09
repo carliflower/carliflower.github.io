@@ -33,6 +33,18 @@ header, footer {
     padding-bottom: 10px;
 }
 
+footer {
+    a {
+        text-decoration: none;
+        color: #000;
+
+        &.active {
+            text-decoration: underline;
+            color: #000;
+        }
+    }
+}
+
 header {
     font-weight: 900;
     text-align: center;
