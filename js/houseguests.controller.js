@@ -8,10 +8,11 @@
     HouseguestsCtrl.$inject = [
         '$log',
         'HouseguestsService',
+        '$window'
     ];
 
     //controller begins
-    function HouseguestsCtrl($log, HouseguestsService) {
+    function HouseguestsCtrl($log, HouseguestsService, $window) {
         $log = $log.getInstance('HouseguestsCtrl', true);
 
         //controllerAs 'vm' scope
@@ -23,6 +24,7 @@
         //apply internal methods to scope
         vm.loadData = loadData;
         vm.init = init;
+        vm.showBio = showBio;
 
         vm.randomNum = function() {
             return Math.floor((Math.random() * 100000) + 1);
@@ -42,6 +44,11 @@
 
         function init() {
             $log.debug("init");
+        }
+
+        function showBio(bio) {
+            $log.debug("showBio");
+            $window.open(bio, '_blank');
         }
 
     }

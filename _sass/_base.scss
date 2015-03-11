@@ -49,10 +49,13 @@ header {
     font-weight: 900;
     text-align: center;
 
+    h3{color: #AAAAAA;}
+
     h1 {
         color: #FF0000;
         font-size: 46px;
         margin: 10px 0 0 0;
+
 
         img {
             display: inline-block;
@@ -165,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     border: 1px solid #ececec;
     background-size: cover !important;
-    cursor: pointer;
+
 
     &.selected {
         border: 1px solid rgba(240,159,10, 1);
@@ -195,6 +198,14 @@ h1, h2, h3, h4, h5, h6 {
         .hometown, .profession {
             font-size: 0.65em;
         }
+
+        .biolink {
+            font-size: 0.6em;
+            color: #FF0000;
+            font-weight: 900;
+            margin-top: 5px;
+            cursor: pointer;
+        }
     }
 
     .points {
@@ -221,6 +232,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .picks {
+
+    .houseguest-tile {
+        cursor: pointer;
+    }
 
     .pick-rules {
         margin: 0 auto;

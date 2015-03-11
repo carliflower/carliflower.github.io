@@ -1,6 +1,6 @@
 <div class="houseguests">
 
-    <h1>Houseguest Rankings</h1>
+    <h1>Houseguest Bios</h1>
 
     <ul class="houseguest-grid">
         <li ng-repeat="houseguest in vm.houseguests  | orderBy: '-points'">
@@ -8,11 +8,13 @@
                 <div class="bio">
                     <p class="name">{[{houseguest.name}]}</p>
                     <p class="hometown">{[{houseguest.hometown}]}</p>
+                    <p ng-if="houseguest.bio.length" class="biolink" ng-click="vm.showBio(houseguest.bio)">View Full Bio</p>
                 </div>
                 <div class="points">
                     <div class="wins">
                         <span class="hoh">HOH: {[{houseguest.hoh}]}</span>
                         <span class="pov">POV: {[{houseguest.pov}]}</span>
+                        <span class="weeks">WEEKS: {[{houseguest.weeks}]}</span>
                     </div>
                     <div class="total">{[{houseguest.points}]}</div>
                 </div>
