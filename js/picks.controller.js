@@ -42,7 +42,9 @@
         vm.selectPick = selectPick;
         vm.savePicks = savePicks;
         vm.savePicksCopy = savePicksCopy;
-        vm.randomPicks = randomPicks;
+        vm.getAvailableRandomPick = getAvailableRandomPick;
+        vm.getPickNameString = getPickNameString;
+        vm.clearSelections = clearSelections;
 
         //start controller
         vm.loadData();
@@ -141,6 +143,7 @@
 
         function savePicks() {
             $log.debug("savePicks");
+            console.log("savePicks", vm.memberPicks, vm.member);
             //check if picks are valid
             var picks = vm.MembersService.setMemberPicksAsString(vm.memberPicks);
             var arePicksValid = vm.MembersService.checkIfPicksAreValid(picks);
@@ -155,10 +158,29 @@
             }
         }
 
-        function randomPicks() {
+        function getPickNameString() {
+            var names = "";
+            for (var i = 0; i < vm.memberPicks.length; i++) {
+                names += vm.houseguests[vm.memberPicks[i]].name + ", ";
+            }
+            return names;
+        }
+
+        function clearSelections() {
+            $log.debug("clearSelections");
+            for (var i = 0; i < vm.houseguests.length; i++) {
+                vm.houseguests[i].selected = false;
+            }
+            vm.memberPicks = [];
+        }
+
+        function getAvailableRandomPick() {
             $log.debug("randomPicks");
-            //make a random team and then loop through all member picks
-            //and check to see if the team exists
+            vm.clearSelections();
+            vm.memberPicks = vm.MembersService.generateRandomPick(vm.members, vm.houseguests);
+            for (var i = 0; i < vm.memberPicks.length; i++) {
+                vm.houseguests[vm.memberPicks[i]].selected = true;
+            }
         }
 
     }

@@ -66,8 +66,10 @@
 
         function getMemberPicksAsArray(member) {
             var a = [];
-            if (member.picks !== "") {
-                a = member.picks.split(',');
+            if (member.picks) {
+                if (member.picks.length) {
+                    a = member.picks.split(',');
+                }
             }
             return a;
         }
