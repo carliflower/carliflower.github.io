@@ -78,7 +78,7 @@
 
             //watch for a pickcode being entered
             $scope.$watch(angular.bind(vm, function (pickCode) {
-              return this.pickCode;
+              return this.pickCode.toLowerCase();
             }), function (newVal) {
               vm.onPickCodeChange();
             });

@@ -56,7 +56,7 @@
             };
             for (var m = 0; m < members.length; m++) {
                 var member = members[m];
-                if (member.pickcode == pickCode) {
+                if (member.pickcode.toLowerCase() == pickCode.toLowerCase()) {
                     response.isValidCode = true;
                     response.member = member;
                 }
