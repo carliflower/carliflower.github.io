@@ -15,7 +15,7 @@
 
     //controller begins
     function PicksCtrl($log, $scope, MembersService, HouseguestsService, AuthService) {
-        $log = $log.getInstance('PicksCtrl', true);
+        $log = $log.getInstance('PicksCtrl', false);
 
         //controllerAs 'vm' scope
         var vm = this;
@@ -50,8 +50,6 @@
         //internal methods
         function loadData() {
             var vmSelf = vm;
-
-            // vm.currentAuth = AuthService.$requireAuth();
 
             // $log.debug("loadData");
             vm.members = vm.MembersService.get();

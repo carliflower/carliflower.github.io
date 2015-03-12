@@ -12,7 +12,7 @@
 
     //service begins
     function MembersService($log, $firebase) {
-        $log = $log.getInstance('MembersService', true);
+        $log = $log.getInstance('MembersService', false);
 
         this.ref = false;
         this.get = get;
@@ -79,7 +79,7 @@
             //sort by numeric order and then return as a string.
             //ex.  ["3", "2", "1"] becomes "1,2,3"
             var s = memberpicks.sort(compareNumbers).join();
-            //$log.debug("setMemberPicksAsString", memberpicks, s);
+            $log.debug("setMemberPicksAsString", memberpicks, s);
             return s;
         }
 
@@ -146,7 +146,6 @@
             }
 
             return availablePickSet;
-
 
         }
 

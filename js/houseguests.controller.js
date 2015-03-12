@@ -13,7 +13,7 @@
 
     //controller begins
     function HouseguestsCtrl($log, HouseguestsService, $window) {
-        $log = $log.getInstance('HouseguestsCtrl', true);
+        $log = $log.getInstance('HouseguestsCtrl', false);
 
         //controllerAs 'vm' scope
         var vm = this;

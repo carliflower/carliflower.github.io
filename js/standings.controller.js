@@ -15,7 +15,7 @@
 
     //controller begins
     function StandingsCtrl($log, MembersService, HouseguestsService, AuthService, $timeout) {
-        $log = $log.getInstance('StandingsCtrl', true);
+        $log = $log.getInstance('StandingsCtrl', false);
 
         //controllerAs 'vm' scope
         var vm = this;

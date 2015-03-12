@@ -12,7 +12,7 @@
 
     //service begins
     function HouseguestsService($log, $firebase) {
-        $log = $log.getInstance('HouseguestsService', true);
+        $log = $log.getInstance('HouseguestsService', false);
 
         //interal vars
         this.ref = false;
@@ -23,25 +23,13 @@
 
         //internal methods
         function get() {
-            // $log.debug("get");
-            // create a reference to the user's profile
+            $log.debug("get");
             this.ref = new Firebase("https://luminous-heat-7812.firebaseio.com/houseguests/");
-            // return it as a synchronized object
-
-            // this.ref.orderByChild("points").on("child_changed", function(snapshot) {
-            //   // console.log(snapshot.key() + " has " + snapshot.val().points + " points");
-            // });
-
-            // this.ref.orderByChild("points").on("child_added", function(snapshot) {
-            //   // console.log(snapshot.key() + " has " + snapshot.val().points + " points");
-            // });
-
-
             return $firebase(this.ref).$asArray();
         }
 
         function tallyPoints(houseguest) {
-            // $log.debug("tallyPoints", houseguest);
+            $log.debug("tallyPoints", houseguest);
             var tally = houseguest.hoh + houseguest.pov;
             $log.debug("tallyPoints", tally);
             return tally;

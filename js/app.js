@@ -55,16 +55,3 @@
             });
     }
 })();
-
-// {
-//   "rules": {
-//     "members": {
-//       ".read": "auth !== null && auth.provider === 'anonymous'",
-//       ".write": "auth !== null && auth.provider === 'anonymous'"
-//     },
-//     "houseguests": {
-//       ".read": "auth !== null && auth.provider === 'anonymous'",
-//       ".write": "auth !== null && auth.provider === 'anonymous'"
-//     }
-//   }
-// }

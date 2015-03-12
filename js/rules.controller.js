@@ -11,7 +11,7 @@
 
     //controller begins
     function RulesCtrl($log) {
-        $log = $log.getInstance('RulesCtrl', true);
+        $log = $log.getInstance('RulesCtrl', false);
 
         //controllerAs 'vm' scope
         var vm = this;

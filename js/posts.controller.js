@@ -11,7 +11,7 @@
 
     //controller begins
     function PostsCtrl($log) {
-        $log = $log.getInstance('PostsCtrl', true);
+        $log = $log.getInstance('PostsCtrl', false);
 
         //controllerAs 'vm' scope
         var vm = this;
