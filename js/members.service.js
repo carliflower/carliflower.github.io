@@ -12,7 +12,7 @@
 
     //service begins
     function MembersService($log, $firebase) {
-        $log = $log.getInstance('MembersService', false);
+        $log = $log.getInstance('MembersService', true);
 
         this.ref = false;
         this.get = get;
@@ -86,16 +86,18 @@
         }
 
         function checkIfPicksAreValid(members, currentpicks) {
-            $log.debug("checkIfPicksAreValid", currentpicks);
+            $log.debug("checkIfPicksAreValid", members, currentpicks);
             var arePicksValid = false;
 
             var allCurrentPicksAsArrayOfSortedStrings = this.gatherAllMemberPicks(members);
             var pickSetIsUsed = _.includes(allCurrentPicksAsArrayOfSortedStrings, currentpicks);
+            $log.debug("pickSetIsUsed", pickSetIsUsed);
 
             if (!pickSetIsUsed) {
                 arePicksValid = true;
             }
 
+            $log.debug("arePicksValid", arePicksValid);
             return arePicksValid;
         }
 

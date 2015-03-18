@@ -146,7 +146,7 @@
             console.log("savePicks", vm.memberPicks, vm.member);
             //check if picks are valid
             var picks = vm.MembersService.setMemberPicksAsString(vm.memberPicks);
-            var arePicksValid = vm.MembersService.checkIfPicksAreValid(picks);
+            var arePicksValid = vm.MembersService.checkIfPicksAreValid(vm.members, picks);
             if (arePicksValid) {
                 //save and notify users
                 vm.MembersService.ref.child(vm.member.$id).update({
@@ -155,6 +155,7 @@
                 vm.picksSaved = true;
             } else {
                 //notify user to make new picks
+                alert("Sorry, That combination of houseguests is taken. Try a new combination.");
             }
         }
 
