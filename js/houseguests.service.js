@@ -30,7 +30,7 @@
 
         function tallyPoints(houseguest) {
             $log.debug("tallyPoints", houseguest);
-            var tally = houseguest.hoh + houseguest.pov;
+            var tally = houseguest.hoh + houseguest.pov + houseguest.weeks;
             $log.debug("tallyPoints", tally);
             return tally;
         }
