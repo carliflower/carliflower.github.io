@@ -3,14 +3,14 @@
     <h1>Make Your Picks</h1>
 
     <div ng-if="vm.picksSaved && vm.isLoaded">
-        <h2>Good Luck!</h2>
+        <h2>Good Luck! {[{vm.member.name}]}</h2>
         <h2>Your picks were:</h2>
         <p>{[{vm.getPickNameString()}]}</p>
     </div>
 
     <div ng-if="!vm.picksSaved && vm.isLoaded">
 
-        <h3>This is open for testing right now.  Any picks made will be lost when the test is completed.</h3>
+        <!-- <h3>This is open for testing right now.  Any picks made will be lost when the test is completed.</h3> -->
 
         <h2>Rules for Picking</h2>
 
