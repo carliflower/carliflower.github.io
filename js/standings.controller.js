@@ -8,13 +8,11 @@
     StandingsCtrl.$inject = [
         '$log',
         'MembersService',
-        'HouseguestsService',
-        'AuthService',
-        '$timeout'
+        'HouseguestsService'
     ];
 
     //controller begins
-    function StandingsCtrl($log, MembersService, HouseguestsService, AuthService, $timeout) {
+    function StandingsCtrl($log, MembersService, HouseguestsService) {
         $log = $log.getInstance('StandingsCtrl', false);
 
         //controllerAs 'vm' scope
@@ -23,7 +21,6 @@
         //dependancy injections on scope
         vm.MembersService = MembersService;
         vm.HouseguestsService = HouseguestsService;
-        vm.currentAuth = false;
 
         //apply internal methods to scope
         vm.loadData = loadData;
@@ -60,12 +57,12 @@
 
             for (var i = 0; i < vm.houseguests.length; i++) {
                 vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(vm.houseguests[i]);
-                vm.houseguests.$save(i);
+                // vm.houseguests.$save(i);
             }
 
             for (var x = 0; x < vm.members.length; x++) {
                 vm.members[x].points = vm.MembersService.tallyPickPoints(vm.houseguests, vm.members[x]);
-                vm.members.$save(x);
+                // vm.members.$save(x);
             }
         }
 

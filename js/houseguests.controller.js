@@ -25,10 +25,7 @@
         vm.loadData = loadData;
         vm.init = init;
         vm.showBio = showBio;
-
-        vm.randomNum = function() {
-            return Math.floor((Math.random() * 100000) + 1);
-        };
+        vm.totalPoints = totalPoints;
 
         //start controller
         vm.loadData();
@@ -49,6 +46,10 @@
         function showBio(bio) {
             $log.debug("showBio");
             $window.open(bio, '_blank');
+        }
+
+        function totalPoints(houseguest) {
+            return houseguest.hoh + houseguest.pov + houseguest.weeks;
         }
 
     }

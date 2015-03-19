@@ -7,11 +7,11 @@
     //injection for js minification
     MembersService.$inject = [
         '$log',
-        '$firebase'
+        '$firebaseArray'
     ];
 
     //service begins
-    function MembersService($log, $firebase) {
+    function MembersService($log, $firebaseArray) {
         $log = $log.getInstance('MembersService', true);
 
         this.ref = false;
@@ -29,7 +29,8 @@
         function get() {
             $log.debug("get");
             this.ref = new Firebase("https://luminous-heat-7812.firebaseio.com/members/");
-            return $firebase(this.ref).$asArray();
+            // this.ref = new Firebase("https://bbcantest.firebaseio.com/members/");
+            return $firebaseArray(this.ref);
         }
 
         function tallyPickPoints(houseguests, member) {
@@ -40,7 +41,7 @@
                 for (var m = 0; m < picks.length; m++) {
                     var pick = picks[m];
                     if (pick == houseguests[h].$id) {
-                        tally += houseguests[h].points;
+                        tally += houseguests[h].hoh + houseguests[h].pov + houseguests[h].weeks;
                     }
                 }
             }

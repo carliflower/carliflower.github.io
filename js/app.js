@@ -5,7 +5,6 @@
             'ui.router',
             'firebase',
             'log.ex.uo',
-            'AuthService',
             'members',
             'houseguests',
             'standings',

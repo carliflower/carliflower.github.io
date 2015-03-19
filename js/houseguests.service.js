@@ -7,11 +7,11 @@
     //injection for js minification
     HouseguestsService.$inject = [
         '$log',
-        '$firebase'
+        '$firebaseArray'
     ];
 
     //service begins
-    function HouseguestsService($log, $firebase) {
+    function HouseguestsService($log, $firebaseArray) {
         $log = $log.getInstance('HouseguestsService', false);
 
         //interal vars
@@ -25,7 +25,8 @@
         function get() {
             $log.debug("get");
             this.ref = new Firebase("https://luminous-heat-7812.firebaseio.com/houseguests/");
-            return $firebase(this.ref).$asArray();
+            // this.ref = new Firebase("https://bbcantest.firebaseio.com/houseguests/");
+            return $firebaseArray(this.ref);
         }
 
         function tallyPoints(houseguest) {

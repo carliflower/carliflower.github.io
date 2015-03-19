@@ -9,12 +9,11 @@
         '$log',
         '$scope',
         'MembersService',
-        'HouseguestsService',
-        'AuthService'
+        'HouseguestsService'
     ];
 
     //controller begins
-    function PicksCtrl($log, $scope, MembersService, HouseguestsService, AuthService) {
+    function PicksCtrl($log, $scope, MembersService, HouseguestsService) {
         $log = $log.getInstance('PicksCtrl', false);
 
         //controllerAs 'vm' scope
