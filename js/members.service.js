@@ -12,7 +12,7 @@
 
     //service begins
     function MembersService($log, $firebaseArray) {
-        $log = $log.getInstance('MembersService', true);
+        $log = $log.getInstance('MembersService', false);
 
         this.ref = false;
         this.get = get;
