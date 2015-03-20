@@ -26,6 +26,7 @@
         vm.loadData = loadData;
         vm.init = init;
         vm.generateStandings = generateStandings;
+        vm.statReports = statReports;
 
         //start controller
         vm.loadData();
@@ -50,6 +51,7 @@
         function init() {
             $log.debug("init");
             vm.generateStandings();
+            vm.statReports();
         }
 
         function generateStandings() {
@@ -64,6 +66,49 @@
                 vm.members[x].points = vm.MembersService.tallyPickPoints(vm.houseguests, vm.members[x]);
                 // vm.members.$save(x);
             }
+        }
+
+        function statReports() {
+
+            console.log("----------  REPORTS -----------");
+
+            //how many people have picked
+            var t = 0;
+            for (var i=0; i < vm.members.length; i++) {
+                if (vm.members[i].picks.length) {
+                      t++;
+                 }
+            }
+            console.log(t + " people have made their picks.");
+
+            //duplicate check
+            var p = [];
+            for (var i=0; i < vm.members.length; i++) {
+                if (vm.members[i].picks.length) {
+                      var m = vm.members[i].picks.split();
+                      p.push(m.join(""));
+                 }
+            }
+
+            p.sort();
+
+            var c = p.slice(0);
+
+            for (var i=0; i < c.length; i++) {
+                var pick = c[i];
+
+                //loop through p and count how many times it exists
+                var t = 0;
+                for (var x=0; x < p.length;x++) {
+                    if (p[x] === pick) {
+                        t++;
+                    }
+                }
+
+                console.log(pick + ": " + t);
+            }
+
+
         }
 
     }
