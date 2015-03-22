@@ -10,7 +10,9 @@
             'standings',
             'picks',
             'rules',
-            'posts'])
+            'posts',
+            'stats',
+            'd3'])
         .config(appConfig);
 
     function appConfig($urlRouterProvider, $stateProvider, $interpolateProvider, $locationProvider, logExProvider) {
@@ -51,6 +53,11 @@
                 url: '/posts',
                 controller:'PostsCtrl as vm',
                 templateUrl:'/templates/posts.html'
+            })
+            .state('stats', {
+                url: '/stats',
+                controller:'StatsCtrl as vm',
+                templateUrl:'/templates/stats.html'
             });
     }
 })();
