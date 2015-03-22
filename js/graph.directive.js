@@ -81,10 +81,31 @@ angular.module('app')
                   .attr('y', function(d,i) {
                     return i * (barHeight + barPadding) + 35;
                   })
-                  .attr('x', 75)
+                  .attr('x', 60)
                   .text(function(d) {
-                    return d.name + " - " + d.count;
-                  });
+                    return d.name;
+                  })
+                  .append("tspan")
+                    .attr('fill', '#fff')
+                    .attr('y', function(d,i) {
+                        return i * (barHeight + barPadding) + 65;
+                    })
+                    .attr('x', 60)
+                    .text(function(d) {return d.count;});
+        //}
+
+              // svg.selectAll('text')
+              //   .data(data)
+              //   .enter()
+              //     .append('text')
+              //     .attr('fill', '#fff')
+              //     .attr('y', function(d,i) {
+              //       return i * (barHeight + barPadding) + 10;
+              //     })
+              //     .attr('x', 50)
+              //     .text(function(d) {
+              //       return d.count;
+              //     });
 
 // <image xlink:href="firefox.jpg" x="0" y="0" height="50px" width="50px"/>
 
