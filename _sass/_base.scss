@@ -114,11 +114,22 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+.new {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    top: 0;
+    display: inline-block;
+}
+
 .main-nav {
+    position: relative;
 
     li {
         display: block;
         margin: 10px;
+        position: relative;
 
         @include small {
             display: inline-block;
