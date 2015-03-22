@@ -88,10 +88,10 @@ angular.module('app')
                   .append("tspan")
                     .attr('fill', '#fff')
                     .attr('y', function(d,i) {
-                        return i * (barHeight + barPadding) + 65;
+                        return i * (barHeight + barPadding) + 60;
                     })
                     .attr('x', 60)
-                    .text(function(d) {return d.count;});
+                    .text(function(d) {return d.count + " picks";});
         //}
 
               // svg.selectAll('text')
