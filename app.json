@@ -650,7 +650,7 @@
     "points" : 0
   }, {
     "name" : "Michael Gillis",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "mg12",
     "picks" : "1,3,5,9,14",
     "points" : 0
