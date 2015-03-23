@@ -3,7 +3,6 @@
     angular
         .module('app', [
             'ui.router',
-            'firebase',
             'log.ex.uo',
             'members',
             'houseguests',
@@ -12,7 +11,8 @@
             'rules',
             'posts',
             'stats',
-            'd3'])
+            'd3',
+            'data'])
         .config(appConfig);
 
     function appConfig($urlRouterProvider, $stateProvider, $interpolateProvider, $locationProvider, logExProvider) {

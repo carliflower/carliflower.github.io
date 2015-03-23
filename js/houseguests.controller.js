@@ -8,11 +8,12 @@
     HouseguestsCtrl.$inject = [
         '$log',
         'HouseguestsService',
-        '$window'
+        '$window',
+        'DataService'
     ];
 
     //controller begins
-    function HouseguestsCtrl($log, HouseguestsService, $window) {
+    function HouseguestsCtrl($log, HouseguestsService, $window, DataService) {
         $log = $log.getInstance('HouseguestsCtrl', false);
 
         //controllerAs 'vm' scope
@@ -20,23 +21,35 @@
 
         //dependancy injections on scope
         vm.HouseguestsService = HouseguestsService;
+        vm.DataService = DataService;
 
         //apply internal methods to scope
         vm.loadData = loadData;
         vm.init = init;
         vm.showBio = showBio;
         vm.totalPoints = totalPoints;
+        vm.houseguests = [];
+        vm.members = [];
 
         //start controller
         vm.loadData();
 
         //internal methods
         function loadData() {
-            vm.houseguests = vm.HouseguestsService.get();
-            vm.houseguests.$loaded().then(function() {
-                $log.debug("loadData", vm.houseguests);
-                vm.init();
-            });
+            var _vm = vm;
+            if (!vm.DataService.houseguests.length) {
+                vm.DataService.get().
+                    success(function(data, status, headers, config) {
+                        $log.debug("loadData", data);
+                        _vm.houseguests = data['houseguests'];
+                        _vm.members = data['members'];
+                        _vm.init();
+                    }).
+                    error(function(data, status, headers, config) {
+                        console.log("Error: loading data");
+                    });
+            }
+
         }
 
         function init() {

@@ -6,16 +6,13 @@
 
     //injection for js minification
     MembersService.$inject = [
-        '$log',
-        '$firebaseArray'
+        '$log'
     ];
 
     //service begins
-    function MembersService($log, $firebaseArray) {
+    function MembersService($log) {
         $log = $log.getInstance('MembersService', false);
 
-        this.ref = false;
-        this.get = get;
         this.tallyPickPoints = tallyPickPoints;
         this.findMemberByPickCode = findMemberByPickCode;
         this.getMemberPicksAsArray = getMemberPicksAsArray;
@@ -26,13 +23,6 @@
         this.generateRandomPick = generateRandomPick;
 
         //internal methods
-        function get() {
-            $log.debug("get");
-            this.ref = new Firebase("https://luminous-heat-7812.firebaseio.com/members/");
-            // this.ref = new Firebase("https://bbcantest.firebaseio.com/members/");
-            return $firebaseArray(this.ref);
-        }
-
         function tallyPickPoints(houseguests, member) {
             var tally = 0;
             for (var h = 0; h < houseguests.length; h++) {
