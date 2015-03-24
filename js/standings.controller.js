@@ -57,7 +57,6 @@
         }
 
         function generateStandings() {
-            $log.debug("generateStandings", vm.members, vm.houseguests);
 
             for (var i = 0; i < vm.houseguests.length; i++) {
                 vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(vm.houseguests[i]);
@@ -68,6 +67,7 @@
                 vm.members[x].points = vm.MembersService.tallyPickPoints(vm.houseguests, vm.members[x]);
                 // vm.members.$save(x);
             }
+            $log.debug("generateStandings", vm.members, vm.houseguests);
         }
 
         function statReports() {

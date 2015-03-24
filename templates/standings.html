@@ -4,7 +4,7 @@
     <p>{[{vm.members.length}]} People</p>
 
     <ul class="member-standings">
-        <li class="member-tile" ng-repeat="member in vm.members | orderBy: '+name'">
+        <li class="member-tile" ng-repeat="member in vm.members | orderBy: '+points'">
             <div>
                 <div class="name">
                     <span class="paid" ng-if="member.paid">$</span>

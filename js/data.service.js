@@ -12,7 +12,7 @@
 
     //service begins
     function DataService($log, $http) {
-        $log = $log.getInstance('DataService', true);
+        $log = $log.getInstance('DataService', false);
 
         //internal method attached to service
         this.houseguests = [];

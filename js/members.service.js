@@ -30,7 +30,7 @@
                 var picks = member.picks.split(',');
                 for (var m = 0; m < picks.length; m++) {
                     var pick = picks[m];
-                    if (pick == houseguests[h].$id) {
+                    if (pick == h) {
                         tally += houseguests[h].hoh + houseguests[h].pov + houseguests[h].weeks;
                     }
                 }
