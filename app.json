@@ -121,7 +121,7 @@
     "weeks" : 0
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/godfrey-mangwiza/",
-    "evicted" : true,
+    "evicted" : false,
     "hoh" : 1,
     "hometown" : "Toronto, ON",
     "jury" : false,

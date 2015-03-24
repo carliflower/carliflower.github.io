@@ -10,6 +10,12 @@ body {
     background-color: #fff;
 }
 
+.evicted {
+  -webkit-filter: grayscale(1) !important;
+  -moz-filter: grayscale(1) !important;
+  -ms-filter: grayscale(1) !important;
+  filter: grayscale(1) !important;
+}
 
 h1 {
     font-size: 1.5em;
