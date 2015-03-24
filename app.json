@@ -2,7 +2,7 @@
   "houseguests" : [ {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/brittnee-blair/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Calgary, AB",
     "jury" : false,
     "name" : "Brittnee Blair",
@@ -14,7 +14,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/bobby-hlad/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Oakville, ON",
     "jury" : false,
     "name" : "Bobby Hlad",
@@ -26,7 +26,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sarah-hanlon/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Toronto, ON",
     "jury" : false,
     "name" : "Sarah Hanlon",
@@ -38,7 +38,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/zach-oleynik/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Regina, SK",
     "jury" : false,
     "name" : "Zach Oleynik",
@@ -50,7 +50,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/ashleigh-wood/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Calgary, AB",
     "jury" : false,
     "name" : "Ashleigh Wood",
@@ -62,7 +62,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/jordan-parhar/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Cloverdale, B.C.",
     "jury" : false,
     "name" : "Jordan Parhar",
@@ -74,7 +74,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/bruno-ielo/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Ottawa, ON",
     "jury" : false,
     "name" : "Bruno Ielo",
@@ -86,7 +86,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/willow-macdonald/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Lower Sackville, N.S.",
     "jury" : false,
     "name" : "Willow MacDonald",
@@ -98,7 +98,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/naeha-sareen/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Toronto, ON",
     "jury" : false,
     "name" : "Neaha Sareen",
@@ -110,7 +110,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/graig-merritt/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Pitt Meadows, B.C.",
     "jury" : false,
     "name" : "Graig Merritt",
@@ -122,7 +122,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/godfrey-mangwiza/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Toronto, ON",
     "jury" : false,
     "name" : "Godfrey Mangwiza",
@@ -134,7 +134,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sindy-nguyen/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Huntsville, ON",
     "jury" : false,
     "name" : "Sindy Nguyen",
@@ -146,7 +146,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/pilar-nemer/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Dartmouth, NS",
     "jury" : false,
     "name" : "Pilar Nemer",
@@ -158,7 +158,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/johnny-colatruglio/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Winnipeg, MB",
     "jury" : false,
     "name" : "Johnny Colatruglio",
@@ -170,7 +170,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/kevin-martin/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Grand Prairie, AB",
     "jury" : false,
     "name" : "Kevin Martin",
@@ -182,7 +182,7 @@
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/risha-denner/",
     "evicted" : false,
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Toronto, ON",
     "jury" : false,
     "name" : "Risha Denner",
