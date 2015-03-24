@@ -54,6 +54,10 @@
 
         function init() {
             $log.debug("init");
+            for (var i = 0; i < vm.houseguests.length; i++) {
+                vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(vm.houseguests[i]);
+                // vm.houseguests.$save(i);
+            }
         }
 
         function showBio(bio) {
