@@ -590,7 +590,7 @@
     "points" : 0
   }, {
     "name" : "Karen MacDonald",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "km12",
     "picks" : "5,7,10,12,14",
     "points" : 0
@@ -602,7 +602,7 @@
     "points" : 0
   }, {
     "name" : "Lori MacDonald",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "lmd12",
     "picks" : "1,6,7,9,12",
     "points" : 0
