@@ -181,12 +181,12 @@
     "weeks" : 0
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/risha-denner/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 1,
     "hometown" : "Toronto, ON",
     "jury" : false,
     "name" : "Risha Denner",
-    "photo" : "assets/houseguest-16.png",
+    "photo" : "assets/houseguest-16-bw.png",
     "points" : 0,
     "pov" : 0,
     "profession" : "Waitress",
