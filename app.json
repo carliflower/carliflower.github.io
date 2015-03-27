@@ -206,7 +206,7 @@
     "points" : 0
   }, {
     "name" : "Victoria Martin",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "vm56",
     "picks" : "1,4,7,9,14",
     "points" : 0
@@ -380,7 +380,7 @@
     "points" : 0
   }, {
     "name" : "Laura Mccoombs",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "lm89",
     "picks" : "10,11,12,13,15",
     "points" : 0
