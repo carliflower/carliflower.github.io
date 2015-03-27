@@ -344,7 +344,7 @@
     "points" : 0
   }, {
     "name" : "Jordan Bonaparte",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "jbp23",
     "picks" : "1,7,9,12,14",
     "points" : 0
@@ -374,7 +374,7 @@
     "points" : 0
   }, {
     "name" : "Kim Sampson",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "ks78",
     "picks" : "2,5,9,10,14",
     "points" : 0
