@@ -19,6 +19,8 @@
         //controllerAs 'vm' scope
         var vm = this;
 
+        vm.sortedMembers = [];
+
         //dependancy injections on scope
         vm.DataService = DataService;
         vm.MembersService = MembersService;
@@ -67,6 +69,11 @@
                 vm.members[x].points = vm.MembersService.tallyPickPoints(vm.houseguests, vm.members[x]);
                 // vm.members.$save(x);
             }
+
+            //sort members by points and alphaname
+            vm.sortedMembers = _.sortByOrder(vm.members, ['points', 'name'], [false, true]);
+
+
             $log.debug("generateStandings", vm.members, vm.houseguests);
         }
 
