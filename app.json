@@ -176,7 +176,7 @@
     "name" : "Kevin Martin",
     "photo" : "assets/houseguest-15.png",
     "points" : 0,
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "Professional Poker Player",
     "weeks" : 1
   }, {
