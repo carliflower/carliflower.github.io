@@ -3,7 +3,7 @@
     <h1>Houseguest Bios</h1>
 
     <ul class="houseguest-grid">
-        <li ng-repeat="houseguest in vm.houseguests  | orderBy: '-points'">
+        <li ng-repeat="houseguest in vm.houseguests  | orderBy: ['-points','name']">
             <div class="houseguest-tile" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;">
                 <div class="bio">
                     <p class="name">{[{houseguest.name}]}</p>
