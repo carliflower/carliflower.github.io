@@ -55,7 +55,7 @@
         function init() {
             $log.debug("init");
             vm.generateStandings();
-            vm.statReports();
+            //vm.statReports();
         }
 
         function generateStandings() {
@@ -73,6 +73,23 @@
             //sort members by points and alphaname
             vm.sortedMembers = _.sortByOrder(vm.members, ['points', 'name'], [false, true]);
 
+            var pointCounts = _.countBy(vm.sortedMembers, function(member) {
+              return member.points;
+            });
+            var sortedPoints = _.pairs(pointCounts)
+            _.sortBy(1).reverse();
+
+            vm.firstPlacePointValue = sortedPoints[sortedPoints.length-1][0];
+            vm.secondPlacePointValue = sortedPoints[sortedPoints.length-2][0];
+            vm.thirdPlacePointValue = sortedPoints[sortedPoints.length-3][0];
+            vm.fourthPlacePointValue = sortedPoints[sortedPoints.length-4][0];
+            vm.lastPlacePointValue = sortedPoints[0][0];
+
+            // console.log(vm.firstPlacePointValue);
+            // console.log(vm.secondPlacePointValue);
+            // console.log(vm.thirdPlacePointValue);
+            // console.log(vm.fourthPlacePointValue);
+            // console.log(vm.lastPlacePointValue);
 
             $log.debug("generateStandings", vm.members, vm.houseguests);
         }

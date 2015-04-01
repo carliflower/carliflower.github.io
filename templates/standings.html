@@ -1,6 +1,15 @@
 <div class="standings">
 
     <h1>Standings</h1>
+    <h2>Prizes</h2>
+<!--     <ul style="text-transform: uppercase;">
+        <li style="margin-bottom: 5px;">1st: $500</li>
+        <li style="margin-bottom: 5px;">2nd: $150</li>
+        <li style="margin-bottom: 5px;">3rd: $75</li>
+        <li style="margin-bottom: 5px;">4th: $25</li>
+        <li style="margin-bottom: 5px;">Last: $20</li>
+    </ul> -->
+
     <p>{[{vm.members.length}]} People</p>
 
     <ul class="member-standings">
@@ -15,6 +24,21 @@
                         <img ng-src="{[{vm.houseguests[id].photo}]}" alt="{[{vm.houseguests[id].name}]}">
                     </li>
                 </ul>
+                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
+                        $500 Prize
+                </div>
+                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.secondPlacePointValue">
+                        $150 Prize
+                </div>
+                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.thirdPlacePointValue">
+                        $75 Prize
+                </div>
+                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.fourthPlacePointValue">
+                        $25 Prize
+                </div>
+                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.lastPlacePointValue && member.points != vm.fourthPlacePointValue">
+                        $20 Prize
+                </div>
             </div>
         </li>
     </ul>
