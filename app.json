@@ -97,12 +97,12 @@
     "weeks" : 2
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/naeha-sareen/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 1,
     "hometown" : "Toronto, ON",
     "jury" : false,
     "name" : "Neaha Sareen",
-    "photo" : "assets/houseguest-9.png",
+    "photo" : "assets/houseguest-9-bw.png",
     "points" : 0,
     "pov" : 0,
     "profession" : "Chiropractor, Entrepreneur",
