@@ -290,7 +290,7 @@
     "points" : 0
   }, {
     "name" : "Ellie Major",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "em12",
     "picks" : "0,1,6,10,14",
     "points" : 0
@@ -566,13 +566,13 @@
     "points" : 0
   }, {
     "name" : "Julie Francis",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "jf12",
     "picks" : "3,10,12,13,14",
     "points" : 0
   }, {
     "name" : "Terrilynn Crocker",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "tlc12",
     "picks" : "1,5,7,8,10",
     "points" : 0
