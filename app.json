@@ -524,7 +524,7 @@
     "points" : 0
   }, {
     "name" : "Steven Belliveau",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "sb89",
     "picks" : "0,1,10,12,14",
     "points" : 0
