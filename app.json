@@ -10,7 +10,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Plus-Size Model",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/bobby-hlad/",
     "evicted" : false,
@@ -22,7 +22,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Rock Climbing Instructor",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sarah-hanlon/",
     "evicted" : false,
@@ -34,7 +34,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Hemployee at a Vapour Lounge",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/zach-oleynik/",
     "evicted" : false,
@@ -46,7 +46,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "University Student",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/ashleigh-wood/",
     "evicted" : false,
@@ -58,7 +58,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Unemployed",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/jordan-parhar/",
     "evicted" : false,
@@ -70,7 +70,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Student",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/bruno-ielo/",
     "evicted" : false,
@@ -82,7 +82,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Construction Worker",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/willow-macdonald/",
     "evicted" : false,
@@ -94,7 +94,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Sales & Marketing Rep.",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/naeha-sareen/",
     "evicted" : true,
@@ -130,7 +130,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Psychology Student",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sindy-nguyen/",
     "evicted" : true,
@@ -154,15 +154,15 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Student",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/johnny-colatruglio/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 1,
     "hometown" : "Winnipeg, MB",
     "jury" : false,
     "name" : "Johnny Colatruglio",
-    "photo" : "assets/houseguest-14.png",
+    "photo" : "assets/houseguest-14-bw.png",
     "points" : 0,
     "pov" : 1,
     "profession" : "IT Project Manager",
@@ -178,7 +178,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Professional Poker Player",
-    "weeks" : 3
+    "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/risha-denner/",
     "evicted" : true,
