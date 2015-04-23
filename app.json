@@ -61,12 +61,12 @@
     "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/jordan-parhar/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 1,
     "hometown" : "Cloverdale, B.C.",
     "jury" : false,
     "name" : "Jordan Parhar",
-    "photo" : "assets/houseguest-6.png",
+    "photo" : "assets/houseguest-6-bw.png",
     "points" : 0,
     "pov" : 0,
     "profession" : "Student",
