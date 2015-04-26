@@ -296,7 +296,7 @@
     "points" : 0
   }, {
     "name" : "Ericka Branscombe",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "eb23",
     "picks" : "1,7,9,13,14",
     "points" : 0
@@ -626,7 +626,7 @@
     "points" : 0
   }, {
     "name" : "Tamara Carr",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "tc34",
     "picks" : "1,2,6,7,9",
     "points" : 0
