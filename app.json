@@ -230,7 +230,7 @@
     "points" : 0
   }, {
     "name" : "Austen Bernhardt",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "ab67",
     "picks" : "1,7,9,10,12",
     "points" : 0
