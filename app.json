@@ -169,12 +169,12 @@
     "weeks" : 3
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/kevin-martin/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 3,
     "hometown" : "Grand Prairie, AB",
     "jury" : false,
     "name" : "Kevin Martin",
-    "photo" : "assets/houseguest-15.png",
+    "photo" : "assets/houseguest-15-bw.png",
     "points" : 0,
     "pov" : 2,
     "profession" : "Professional Poker Player",
