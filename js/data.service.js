@@ -24,7 +24,7 @@
         function get() {
             var self = this;
             $log.debug("get");
-            return $http.get('/appdata.json');
+            return $http.get('/app.json');
         }
     }
     //service ends
