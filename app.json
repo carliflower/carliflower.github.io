@@ -548,7 +548,7 @@
     "points" : 0
   }, {
     "name" : "Terry Walker",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "tw45",
     "picks" : "3,4,5,12,14",
     "points" : 0
