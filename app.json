@@ -32,7 +32,7 @@
     "name" : "Sarah Hanlon",
     "photo" : "assets/houseguest-3.png",
     "points" : 0,
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "Hemployee at a Vapour Lounge",
     "weeks" : 7
   }, {
