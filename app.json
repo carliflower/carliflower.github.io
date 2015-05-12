@@ -314,7 +314,7 @@
     "points" : 0
   }, {
     "name" : "Heather Chouinard",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "hc56",
     "picks" : "1,5,8,9,14",
     "points" : 0
@@ -332,7 +332,7 @@
     "points" : 0
   }, {
     "name" : "Scott Beckwith",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "sb01",
     "picks" : "3,4,8,10,13",
     "points" : 0
