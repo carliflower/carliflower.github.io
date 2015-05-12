@@ -224,7 +224,7 @@
     "points" : 0
   }, {
     "name" : "Annalee Anderson",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "aaa56",
     "picks" : "0,3,7,9,14",
     "points" : 0
