@@ -55,7 +55,7 @@
         function init() {
             $log.debug("init");
             vm.generateStandings();
-            //vm.statReports();
+            vm.statReports();
         }
 
         function generateStandings() {
