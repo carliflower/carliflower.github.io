@@ -362,7 +362,7 @@
     "points" : 0
   }, {
     "name" : "Kayla Crocke",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "kc56",
     "picks" : "1,4,5,9,14",
     "points" : 0
@@ -494,7 +494,7 @@
     "points" : 0
   }, {
     "name" : "Shawn Gillan-Wright",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "sgw34",
     "picks" : "1,4,5,12,14",
     "points" : 0
