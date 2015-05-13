@@ -135,6 +135,16 @@
             }
 
 
+            //payee count
+            var outstandingPayees = 0;
+            for (var i=0; i < vm.members.length; i++) {
+                if (!vm.members[i].paid) {
+                      outstandingPayees++;
+                 }
+            }
+
+            console.log(outstandingPayees + " of " + vm.members.length + " still owe us money.");
+
         }
 
     }
