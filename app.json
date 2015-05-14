@@ -464,7 +464,7 @@
     "points" : 0
   }, {
     "name" : "Patti Tanner",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "pt67",
     "picks" : "0,7,9,13,14",
     "points" : 0
