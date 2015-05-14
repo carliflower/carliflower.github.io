@@ -10,7 +10,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Plus-Size Model",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/bobby-hlad/",
     "evicted" : true,
@@ -22,7 +22,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Rock Climbing Instructor",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sarah-hanlon/",
     "evicted" : false,
@@ -34,7 +34,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Hemployee at a Vapour Lounge",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/zach-oleynik/",
     "evicted" : false,
@@ -46,7 +46,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "University Student",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/ashleigh-wood/",
     "evicted" : false,
@@ -58,7 +58,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Unemployed",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/jordan-parhar/",
     "evicted" : true,
@@ -73,12 +73,12 @@
     "weeks" : 4
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/bruno-ielo/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 2,
     "hometown" : "Ottawa, ON",
     "jury" : false,
     "name" : "Bruno Ielo",
-    "photo" : "assets/houseguest-7.png",
+    "photo" : "assets/houseguest-7-bw.png",
     "points" : 0,
     "pov" : 2,
     "profession" : "Construction Worker",
@@ -130,7 +130,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Psychology Student",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sindy-nguyen/",
     "evicted" : true,
@@ -154,7 +154,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Student",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/johnny-colatruglio/",
     "evicted" : true,
