@@ -326,7 +326,7 @@
     "points" : 0
   }, {
     "name" : "Jason Sprague",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "js78",
     "picks" : "1,4,9,12,14",
     "points" : 0
@@ -476,7 +476,7 @@
     "points" : 0
   }, {
     "name" : "Scott Munro",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "sm89",
     "picks" : "3,6,7,12,14",
     "points" : 0
