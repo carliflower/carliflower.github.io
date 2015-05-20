@@ -37,12 +37,12 @@
     "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/zach-oleynik/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 2,
     "hometown" : "Regina, SK",
     "jury" : false,
     "name" : "Zach Oleynik",
-    "photo" : "assets/houseguest-4.png",
+    "photo" : "assets/houseguest-4-bw.png",
     "points" : 0,
     "pov" : 1,
     "profession" : "University Student",
