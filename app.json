@@ -10,7 +10,7 @@
     "points" : 0,
     "pov" : 0,
     "profession" : "Plus-Size Model",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/bobby-hlad/",
     "evicted" : true,
@@ -34,7 +34,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Hemployee at a Vapour Lounge",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/zach-oleynik/",
     "evicted" : true,
@@ -58,7 +58,7 @@
     "points" : 0,
     "pov" : 2,
     "profession" : "Unemployed",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/jordan-parhar/",
     "evicted" : true,
@@ -130,7 +130,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Psychology Student",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sindy-nguyen/",
     "evicted" : true,
@@ -145,12 +145,12 @@
     "weeks" : 2
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/pilar-nemer/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 2,
     "hometown" : "Dartmouth, NS",
     "jury" : false,
     "name" : "Pilar Nemer",
-    "photo" : "assets/houseguest-13.png",
+    "photo" : "assets/houseguest-13-bw.png",
     "points" : 0,
     "pov" : 0,
     "profession" : "Student",
