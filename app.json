@@ -470,7 +470,7 @@
     "points" : 0
   }, {
     "name" : "Quincy Morrison",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "qm78",
     "picks" : "0,4,7,9,12",
     "points" : 0
