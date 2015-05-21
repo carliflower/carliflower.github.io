@@ -272,7 +272,7 @@
     "points" : 0
   }, {
     "name" : "Darreatte Pinder",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "dp67",
     "picks" : "1,8,10,12,14",
     "points" : 0
