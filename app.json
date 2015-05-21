@@ -578,7 +578,7 @@
     "points" : 0
   }, {
     "name" : "Rema Faddoul",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "rf23",
     "picks" : "2,3,4,5,13",
     "points" : 0
