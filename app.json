@@ -242,7 +242,7 @@
     "points" : 0
   }, {
     "name" : "Carla Hage",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "ch12",
     "picks" : "1,5,6,7,12",
     "points" : 0
