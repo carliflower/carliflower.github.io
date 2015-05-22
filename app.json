@@ -350,7 +350,7 @@
     "points" : 0
   }, {
     "name" : "Josh Scott Savage",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "jss34",
     "picks" : "6,7,8,12,15",
     "points" : 0
