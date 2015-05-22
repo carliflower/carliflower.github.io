@@ -596,7 +596,7 @@
     "points" : 0
   }, {
     "name" : "Krista Ratchford",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "kd12",
     "picks" : "1,2,6,7,14",
     "points" : 0
