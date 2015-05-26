@@ -338,7 +338,7 @@
     "points" : 0
   }, {
     "name" : "Jennifer Nixon",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "jn12",
     "picks" : "1,4,6,12,13",
     "points" : 0
