@@ -368,7 +368,7 @@
     "points" : 0
   }, {
     "name" : "Kim Houck",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "kh67",
     "picks" : "0,1,9,10,14",
     "points" : 0
