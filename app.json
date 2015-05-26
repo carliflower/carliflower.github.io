@@ -644,7 +644,7 @@
     "points" : 0
   }, {
     "name" : "Daryl Cormier",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "dc23",
     "picks" : "1,3,5,9,12",
     "points" : 0
