@@ -56,7 +56,7 @@
     "name" : "Ashleigh Wood",
     "photo" : "assets/houseguest-5.png",
     "points" : 0,
-    "pov" : 2,
+    "pov" : 3,
     "profession" : "Unemployed",
     "weeks" : 9
   }, {
@@ -392,7 +392,7 @@
     "points" : 0
   }, {
     "name" : "Katrina Coyle",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "kc12",
     "picks" : "4,9,10,13,14",
     "points" : 0
