@@ -1,12 +1,12 @@
 {
   "houseguests" : [ {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/brittnee-blair/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 4,
     "hometown" : "Calgary, AB",
     "jury" : false,
     "name" : "Brittnee Blair",
-    "photo" : "assets/houseguest-1.png",
+    "photo" : "assets/houseguest-1-bw.png",
     "points" : 0,
     "pov" : 0,
     "profession" : "Plus-Size Model",
