@@ -34,7 +34,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Hemployee at a Vapour Lounge",
-    "weeks" : 9
+    "weeks" : 10
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/zach-oleynik/",
     "evicted" : true,
@@ -49,12 +49,12 @@
     "weeks" : 8
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/ashleigh-wood/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 2,
     "hometown" : "Calgary, AB",
-    "jury" : false,
+    "jury" : true,
     "name" : "Ashleigh Wood",
-    "photo" : "assets/houseguest-5.png",
+    "photo" : "assets/houseguest-5-bw.png",
     "points" : 0,
     "pov" : 3,
     "profession" : "Unemployed",
@@ -130,7 +130,7 @@
     "points" : 0,
     "pov" : 1,
     "profession" : "Psychology Student",
-    "weeks" : 9
+    "weeks" : 10
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/sindy-nguyen/",
     "evicted" : true,
