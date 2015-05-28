@@ -121,12 +121,12 @@
     "weeks" : 2
   }, {
     "bio" : "https://bigbrothercanada.globaltv.com/theshow/houseguests/godfrey-mangwiza/",
-    "evicted" : false,
+    "evicted" : true,
     "hoh" : 2,
     "hometown" : "Toronto, ON",
     "jury" : false,
     "name" : "Godfrey Mangwiza",
-    "photo" : "assets/houseguest-11.png",
+    "photo" : "assets/houseguest-11-bw.png",
     "points" : 0,
     "pov" : 1,
     "profession" : "Psychology Student",
