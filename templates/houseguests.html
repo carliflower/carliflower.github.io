@@ -7,6 +7,7 @@
             <div class="houseguest-tile" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;">
                 <div class="bio">
                     <p class="name">{[{houseguest.name}]}</p>
+                    <p class="age">Age: {[{houseguest.age}]}</p>
                     <p class="hometown">{[{houseguest.hometown}]}</p>
                     <p class="profession">{[{houseguest.profession}]}</p>
                     <p ng-if="houseguest.bio.length" class="biolink" ng-click="vm.showBio(houseguest.bio)">View Full Bio</p>
