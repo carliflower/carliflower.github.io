@@ -1,5 +1,6 @@
 // site vars
-$base-font-family: 'Shadows Into Light Two',Helvetica, Arial, sans-serif;
+// $base-font-family: 'Shadows Into Light Two',Helvetica, Arial, sans-serif;
+$base-font-family: 'Roboto',Helvetica, Arial, sans-serif;
 $base-font-size:   24px;
 $base-font-color:  #CDCDCD;
 
@@ -8,6 +9,17 @@ body {
     font-size: $base-font-size;
     color: $base-font-color;
     background-color: #fff;
+}
+
+.tiny {
+    font-size: 12px;
+    color: black;
+}
+
+.us-flag {
+    top: 5px;
+    display: inline-block;
+    position: relative;
 }
 
 .evicted {

@@ -14,7 +14,7 @@
 
     //controller begins
     function StandingsCtrl($log, MembersService, HouseguestsService, DataService) {
-        $log = $log.getInstance('StandingsCtrl', false);
+        $log = $log.getInstance('StandingsCtrl', true);
 
         //controllerAs 'vm' scope
         var vm = this;
@@ -28,12 +28,18 @@
 
         //apply internal methods to scope
         vm.loadData = loadData;
+        vm.loadDataFirebase = loadDataFirebase;
         vm.init = init;
         vm.generateStandings = generateStandings;
         vm.statReports = statReports;
 
         //start controller
-        vm.loadData();
+        //start controller
+        if (vm.DataService.useFirebase) {
+            vm.loadDataFirebase();
+        } else {
+            vm.loadData();
+        }
 
         //internal methods
         function loadData() {
@@ -47,9 +53,25 @@
                         _vm.init();
                     }).
                     error(function(data, status, headers, config) {
-                        console.log("Error: loading data");
+                        console.log("Error: loading data", data, status, headers, config);
                     });
             }
+        }
+
+        function loadDataFirebase() {
+            var _vm = vm;
+
+            $log.debug("loadData");
+            vm.members = vm.MembersService.get();
+            vm.members.$loaded().then(function() {
+                $log.debug(vm.members, _vm.members.length);
+                _vm.houseguests = _vm.HouseguestsService.get();
+                _vm.houseguests.$loaded().then(function() {
+                    $log.debug(_vm.houseguests);
+                    _vm.init();
+                });
+
+            });
         }
 
         function init() {
@@ -77,19 +99,14 @@
               return member.points;
             });
             var sortedPoints = _.pairs(pointCounts)
-            _.sortBy(1).reverse();
+            $log.info("sortedPoints", sortedPoints);
 
-            vm.firstPlacePointValue = sortedPoints[sortedPoints.length-1][0];
-            vm.secondPlacePointValue = sortedPoints[sortedPoints.length-2][0];
-            vm.thirdPlacePointValue = sortedPoints[sortedPoints.length-3][0];
-            vm.fourthPlacePointValue = sortedPoints[sortedPoints.length-4][0];
-            vm.lastPlacePointValue = sortedPoints[0][0];
-
-            // console.log(vm.firstPlacePointValue);
-            // console.log(vm.secondPlacePointValue);
-            // console.log(vm.thirdPlacePointValue);
-            // console.log(vm.fourthPlacePointValue);
-            // console.log(vm.lastPlacePointValue);
+            //used when the point spread has start to thin out and show the prize values/
+            // vm.firstPlacePointValue = sortedPoints[sortedPoints.length-1][0];
+            // vm.secondPlacePointValue = sortedPoints[sortedPoints.length-2][0];
+            // vm.thirdPlacePointValue = sortedPoints[sortedPoints.length-3][0];
+            // vm.fourthPlacePointValue = sortedPoints[sortedPoints.length-4][0];
+            // vm.lastPlacePointValue = sortedPoints[0][0];
 
             $log.debug("generateStandings", vm.members, vm.houseguests);
         }

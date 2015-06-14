@@ -6,11 +6,13 @@
 
     //injection for js minification
     MembersService.$inject = [
-        '$log'
+        '$log',
+        '$firebaseArray',
+        'DataService'
     ];
 
     //service begins
-    function MembersService($log) {
+    function MembersService($log, $firebaseArray, DataService) {
         $log = $log.getInstance('MembersService', false);
 
         this.tallyPickPoints = tallyPickPoints;
@@ -21,8 +23,17 @@
         this.hasCompletedPicks = hasCompletedPicks;
         this.gatherAllMemberPicks = gatherAllMemberPicks;
         this.generateRandomPick = generateRandomPick;
+        this.get = get;
+        this.DataService = DataService;
 
         //internal methods
+        function get() {
+            $log.debug("get");
+            this.ref = new Firebase("https://"+this.DataService.firebaseUrl+"/members/");
+            // this.ref = new Firebase("https://bbcantest.firebaseio.com/members/");
+            return $firebaseArray(this.ref);
+        }
+
         function tallyPickPoints(houseguests, member) {
             var tally = 0;
             for (var h = 0; h < houseguests.length; h++) {

@@ -27,11 +27,16 @@
 
         //apply internal methods to scope
         vm.loadData = loadData;
+        vm.loadDataFirebase = loadDataFirebase;
         vm.init = init;
         vm.houseguestPopularity = houseguestPopularity;
 
         //start controller
-        vm.loadData();
+        if (vm.DataService.useFirebase) {
+            vm.loadDataFirebase();
+        } else {
+            vm.loadData();
+        }
 
         //internal methods
         function loadData() {
@@ -50,13 +55,26 @@
             }
         }
 
+        function loadDataFirebase() {
+            var _vm = vm;
+            $log.debug("loadData");
+            vm.members = vm.MembersService.get();
+            vm.members.$loaded().then(function() {
+                $log.debug(vm.members, _vm.members.length);
+                _vm.houseguests = _vm.HouseguestsService.get();
+                _vm.houseguests.$loaded().then(function() {
+                    $log.debug(vm.houseguests);
+                    _vm.init();
+                });
+            });
+        }
+
         function init() {
             $log.debug("init");
             vm.houseguestPopularity();
         }
 
         function houseguestPopularity() {
-            console.log("houseguestPopularity");
 
             var d = [];
             for (var i=0; i < vm.members.length; i++) {

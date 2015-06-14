@@ -25,6 +25,7 @@
 
         //apply internal methods to scope
         vm.loadData = loadData;
+        vm.loadDataFirebase = loadDataFirebase;
         vm.init = init;
         vm.showBio = showBio;
         vm.totalPoints = totalPoints;
@@ -32,10 +33,28 @@
         vm.members = [];
 
         //start controller
-        vm.loadData();
+        if (vm.DataService.useFirebase) {
+            vm.loadDataFirebase();
+        } else {
+            vm.loadData();
+        }
 
         //internal methods
+        function loadDataFirebase() {
+            vm.houseguests = vm.HouseguestsService.get();
+            vm.houseguests.$loaded().then(function() {
+                $log.debug("loadData", vm.houseguests);
+                vm.init();
+            });
+        }
+
         function loadData() {
+            vm.houseguests = vm.HouseguestsService.get();
+            vm.houseguests.$loaded().then(function() {
+                $log.debug("loadData", vm.houseguests);
+                vm.init();
+            });
+
             var _vm = vm;
             if (!vm.DataService.houseguests.length) {
                 vm.DataService.get().
@@ -49,7 +68,6 @@
                         console.log("Error: loading data");
                     });
             }
-
         }
 
         function init() {
