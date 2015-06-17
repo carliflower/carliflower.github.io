@@ -12,9 +12,9 @@ angular.module('app')
         d3Service.d3().then(function(d3) {
 
           var renderTimeout;
-          var margin = parseInt(attrs.margin) || 20,
+          var margin = parseInt(attrs.margin) || 250,
               barHeight = parseInt(attrs.barHeight) || 100,
-              barPadding = parseInt(attrs.barPadding) || 20;
+              barPadding = parseInt(attrs.barPadding) || 30;
 
           var svg = d3.select(ele[0])
             .append('svg')
@@ -52,6 +52,8 @@ angular.module('app')
 
               svg.attr('height', height);
 
+              //125,75
+
               svg.selectAll('rect')
                 .data(data)
                 .enter()
@@ -63,7 +65,7 @@ angular.module('app')
                   .attr('width', 250)
                   .attr('x', Math.round(margin/2))
                   .attr('y', function(d,i) {
-                    return i * (barHeight + barPadding);
+                    return i * (barHeight + barPadding) + 75;
                   })
                   .attr('fill', function(d) {
                     return "#0095dd";
