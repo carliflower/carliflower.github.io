@@ -25,7 +25,7 @@
         function get() {
             var self = this;
             // $log.debug("get");
-            return $http.get('http://127.0.0.1:4000/app.json');
+            return $http.get('/app.json');
         }
     }
     //service ends
