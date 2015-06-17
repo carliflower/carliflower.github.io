@@ -13,7 +13,7 @@ angular.module('app')
 
           var renderTimeout;
           var margin = parseInt(attrs.margin) || 20,
-              barHeight = parseInt(attrs.barHeight) || 75,
+              barHeight = parseInt(attrs.barHeight) || 100,
               barPadding = parseInt(attrs.barPadding) || 20;
 
           var svg = d3.select(ele[0])
@@ -119,7 +119,7 @@ angular.module('app')
                                   .attr('y', function(d,i) {
                                     return i * (barHeight + barPadding);
                                   })
-                                .attr("width", "50")
+                                .attr("width", "100")
                                 .attr("height", barHeight);
 
 
