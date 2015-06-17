@@ -81,7 +81,7 @@ angular.module('app')
                   .attr('y', function(d,i) {
                     return i * (barHeight + barPadding) + 35;
                   })
-                  .attr('x', 60)
+                  .attr('x', 125)
                   .text(function(d) {
                     return d.name;
                   })
@@ -90,7 +90,7 @@ angular.module('app')
                     .attr('y', function(d,i) {
                         return i * (barHeight + barPadding) + 60;
                     })
-                    .attr('x', 60)
+                    .attr('x', 125)
                     .text(function(d) {return d.count + " picks";});
         //}
 
