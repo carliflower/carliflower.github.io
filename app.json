@@ -484,7 +484,7 @@
     "paid" : false,
     "pickcode" : "th17",
     "picks" : "0,4,7,8,12"
-  }, null, {
+  }, {
     "name" : "Russ Burke",
     "paid" : false,
     "pickcode" : "rb35",
