@@ -164,6 +164,10 @@ h1, h2, h3, h4, h5, h6 {
         padding: 10px 20px;
         border: 1px solid #ececec;
 
+        .paid {
+            font-size: 0.6em;
+        }
+
         .houseguest-picks {
             width: 230px;
             display: inline-block;

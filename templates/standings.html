@@ -16,8 +16,8 @@
         <li class="member-tile" ng-repeat="member in vm.sortedMembers">
             <div>
                 <div class="name">
-                    <span class="paid" ng-if="member.paid">$</span>
-                    {[{member.name}]} - {[{member.points}]}
+
+                    {[{member.name}]} <span class="paid" ng-if="member.paid"> $ </span> - {[{member.points}]}
                 </div>
                 <ul class="houseguest-picks">
                     <li class="houseguest-thumb" ng-repeat="id in vm.MembersService.getMemberPicksAsArray(member)">
