@@ -9,11 +9,12 @@
         '$log',
         'MembersService',
         'HouseguestsService',
-        'DataService'
+        'DataService',
+        '$window'
     ];
 
     //controller begins
-    function StandingsCtrl($log, MembersService, HouseguestsService, DataService) {
+    function StandingsCtrl($log, MembersService, HouseguestsService, DataService,'$window) {
         $log = $log.getInstance('StandingsCtrl', true);
 
         //controllerAs 'vm' scope
