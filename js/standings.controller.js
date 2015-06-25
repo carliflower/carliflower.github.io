@@ -32,6 +32,7 @@
         vm.init = init;
         vm.generateStandings = generateStandings;
         vm.statReports = statReports;
+        vm.showBio = showBio;
 
         //start controller
         if (vm.DataService.useFirebase) {
@@ -73,6 +74,10 @@
             });
         }
 
+        function showBio(bio) {
+            $log.debug("showBio");
+            $window.open(bio, '_blank');
+        }
         function init() {
             $log.debug("init");
             vm.generateStandings();
