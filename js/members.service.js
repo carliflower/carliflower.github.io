@@ -13,7 +13,7 @@
 
     //service begins
     function MembersService($log, $firebaseArray, DataService) {
-        $log = $log.getInstance('MembersService', false);
+        $log = $log.getInstance('MembersService', true);
 
         this.tallyPickPoints = tallyPickPoints;
         this.findMemberByPickCode = findMemberByPickCode;
@@ -35,6 +35,7 @@
         }
 
         function tallyPickPoints(houseguests, member) {
+            $log.debug("tallyPickPoints", houseguests, member);
             var tally = 0;
             for (var h = 0; h < houseguests.length; h++) {
                 //loop through each houseguest and then loop through the members picks
