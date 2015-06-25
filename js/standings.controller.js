@@ -34,7 +34,6 @@
         vm.statReports = statReports;
 
         //start controller
-        //start controller
         if (vm.DataService.useFirebase) {
             vm.loadDataFirebase();
         } else {

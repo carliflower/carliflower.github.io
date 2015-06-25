@@ -17,7 +17,7 @@
         .config(appConfig);
 
     function appConfig($urlRouterProvider, $stateProvider, $interpolateProvider, $locationProvider, logExProvider) {
-      logExProvider.enableLogging(false);
+      logExProvider.enableLogging(true);
 
       //required since we are using jekyll and its templates use {{}}
       $interpolateProvider.startSymbol('{[{').endSymbol('}]}');
