@@ -79,7 +79,7 @@
   }, {
     "age" : "25",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215047/",
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Fall River, Massachusetts",
     "jury" : false,
     "name" : "Jason Roy",
@@ -152,6 +152,28 @@
     "photo" : "assets/vanessa_rousso.png",
     "pov" : 0,
     "profession" : "Professional Poker Player",
+    "weeks" : 0
+  }, {
+    "age" : "?",
+    "bio" : "",
+    "hoh" : 0,
+    "hometown" : "?",
+    "jury" : false,
+    "name" : "Jessy",
+    "photo" : "assets/male-avatar.png",
+    "pov" : 0,
+    "profession" : "?",
+    "weeks" : 0
+  }, {
+    "age" : "?",
+    "bio" : "",
+    "hoh" : 0,
+    "hometown" : "?",
+    "jury" : false,
+    "name" : "Jeff",
+    "photo" : "assets/male-avatar.png",
+    "pov" : 0,
+    "profession" : "?",
     "weeks" : 0
   } ],
   "members" : [ {
