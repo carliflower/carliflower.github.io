@@ -154,26 +154,26 @@
     "profession" : "Professional Poker Player",
     "weeks" : 0
   }, {
-    "age" : "?",
-    "bio" : "",
+    "age" : "26",
+    "bio" : "http://www.cbs.com/shows/big_brother/cast/215057/",
     "hoh" : 0,
-    "hometown" : "?",
+    "hometown" : "Tampa, Florida",
     "jury" : false,
     "name" : "Jeffrey Weldon",
-    "photo" : "assets/male-avatar.png",
+    "photo" : "assets/jeff_weldon.jpg",
     "pov" : 0,
-    "profession" : "?",
+    "profession" : "Account Executive",
     "weeks" : 0
   }, {
-    "age" : "?",
-    "bio" : "",
+    "age" : "27",
+    "bio" : "http://www.cbs.com/shows/big_brother/cast/215056/",
     "hoh" : 0,
-    "hometown" : "?",
+    "hometown" : "Los Angeles, California",
     "jury" : false,
     "name" : "Jackie Ibarra",
-    "photo" : "assets/male-avatar.png",
+    "photo" : "assets/jackie_ibarra.jpg",
     "pov" : 0,
-    "profession" : "?",
+    "profession" : "Professional Dancer",
     "weeks" : 0
   } ],
   "members" : [ {
@@ -453,7 +453,7 @@
     "picks" : "1,3,7,11,12"
   }, {
     "name" : "Melissa Freeze",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "mf39",
     "picks" : "3,5,9,10,11"
   }, {
