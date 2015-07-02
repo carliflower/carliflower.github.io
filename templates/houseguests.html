@@ -4,7 +4,7 @@
 
     <ul class="houseguest-grid">
         <li ng-repeat="houseguest in vm.houseguests  | orderBy: ['-points','name']">
-            <div class="houseguest-tile" ng-class="{alternate: houseguest.isAlternate}" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;">
+            <div class="houseguest-tile" test="{{houseguest.isAlternate}}" ng-class="{alternate: houseguest.isAlternate}" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;">
                 <div class="bio">
                     <p class="name">{[{houseguest.name}]}</p>
                     <p class="age">Age: {[{houseguest.age}]}</p>
