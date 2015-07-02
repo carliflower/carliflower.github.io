@@ -76,6 +76,7 @@
                 vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(vm.houseguests[i]);
                 vm.houseguests[i].isAlternate = "";
                 if (vm.houseguest[i].name === "Jeffrey Weldon" || vm.houseguest[i].name === "Jackie Ibarra") {
+                    console.log("alternate", vm.houseguest[i].name);
                     vm.houseguests[i].isAlternate = "alternate";
                 }
             }
