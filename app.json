@@ -139,7 +139,7 @@
     "jury" : false,
     "name" : "Steve Moses",
     "photo" : "assets/steve_moses.png",
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "College Student",
     "weeks" : 0
   }, {
