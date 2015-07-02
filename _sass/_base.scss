@@ -205,6 +205,11 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #ececec;
     background-size: contain !important;
 
+    &.alternate {
+        background-size: initial !important;
+        background-position:  50% 0 !important;
+    }
+
 
     &.selected {
         border: 1px solid rgba(240,159,10, 1);
