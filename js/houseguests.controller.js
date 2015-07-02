@@ -49,12 +49,6 @@
         }
 
         function loadData() {
-            vm.houseguests = vm.HouseguestsService.get();
-            vm.houseguests.$loaded().then(function() {
-                $log.debug("loadData", vm.houseguests);
-                vm.init();
-            });
-
             var _vm = vm;
             if (!vm.DataService.houseguests.length) {
                 vm.DataService.get().
@@ -74,11 +68,6 @@
             $log.debug("init");
             for (var i = 0; i < vm.houseguests.length; i++) {
                 vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(vm.houseguests[i]);
-                vm.houseguests[i].isAlternate = "";
-                if (vm.houseguest[i].name === "Jeffrey Weldon" || vm.houseguest[i].name === "Jackie Ibarra") {
-                    console.log("alternate", vm.houseguest[i].name);
-                    vm.houseguests[i].isAlternate = "alternate";
-                }
             }
         }
 
