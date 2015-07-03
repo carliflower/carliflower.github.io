@@ -418,7 +418,7 @@
     "picks" : "3,5,8,10,13"
   }, {
     "name" : "Adam Weaver",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "aw56",
     "picks" : "3,6,7,12,13"
   }, {
