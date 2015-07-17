@@ -9,7 +9,7 @@
     "photo" : "assets/audrey_middleton.png",
     "pov" : 0,
     "profession" : "Digital Media Consultant",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "30",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215041/",
@@ -20,7 +20,7 @@
     "photo" : "assets/austin_matelson.png",
     "pov" : 0,
     "profession" : "Professional Wrestler",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "26",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215042/",
@@ -31,7 +31,7 @@
     "photo" : "assets/becky_burgess.png",
     "pov" : 0,
     "profession" : "Retail Manager",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "23",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215043/",
@@ -42,7 +42,7 @@
     "photo" : "assets/clay_honeycutt.png",
     "pov" : 0,
     "profession" : "Graduate Student",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "27",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215044/",
@@ -75,7 +75,7 @@
     "photo" : "assets/james_huling.png",
     "pov" : 0,
     "profession" : "Retail Associate",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "25",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215047/",
@@ -86,7 +86,7 @@
     "photo" : "assets/jason_roy.png",
     "pov" : 0,
     "profession" : "Supermarket Cashier",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "27",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215048/",
@@ -97,7 +97,7 @@
     "photo" : "assets/john_mcguire.png",
     "pov" : 2,
     "profession" : "Dentist",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "23",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215049/",
@@ -108,7 +108,7 @@
     "photo" : "assets/liz_nolan.png",
     "pov" : 0,
     "profession" : "Twins",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "25",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215050/",
@@ -119,7 +119,7 @@
     "photo" : "assets/meg_maley.png",
     "pov" : 0,
     "profession" : "Server",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "33",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215051/",
@@ -130,7 +130,7 @@
     "photo" : "assets/shelli_poole.png",
     "pov" : 0,
     "profession" : "Interior Designer",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "22",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215052/",
@@ -141,7 +141,7 @@
     "photo" : "assets/steve_moses.png",
     "pov" : 1,
     "profession" : "College Student",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "32",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215053/",
@@ -152,7 +152,7 @@
     "photo" : "assets/vanessa_rousso.png",
     "pov" : 0,
     "profession" : "Professional Poker Player",
-    "weeks" : 2
+    "weeks" : 3
   }, {
     "age" : "26",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215057/",
@@ -160,7 +160,7 @@
     "hometown" : "Tampa, Florida",
     "jury" : false,
     "name" : "Jeffrey Weldon",
-    "photo" : "assets/jeff_weldon.jpg",
+    "photo" : "assets/jeff_weldon-bw.jpg",
     "pov" : 0,
     "profession" : "Account Executive",
     "weeks" : 2
@@ -174,7 +174,7 @@
     "photo" : "assets/jackie_ibarra.jpg",
     "pov" : 0,
     "profession" : "Professional Dancer",
-    "weeks" : 2
+    "weeks" : 3
   } ],
   "members" : [ {
     "name" : "Alex Moreira",
