@@ -101,7 +101,7 @@
   }, {
     "age" : "23",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215049/",
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Miami, Florida",
     "jury" : false,
     "name" : "Liz & Julia Nolan",
@@ -123,7 +123,7 @@
   }, {
     "age" : "33",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215051/",
-    "hoh" : 1,
+    "hoh" : 2,
     "hometown" : "Marietta, Georgia",
     "jury" : false,
     "name" : "Shelli Poole",
