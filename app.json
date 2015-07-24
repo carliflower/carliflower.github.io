@@ -145,7 +145,7 @@
   }, {
     "age" : "32",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215053/",
-    "hoh" : 1,
+    "hoh" : 2,
     "hometown" : "Las Vegas",
     "jury" : false,
     "name" : "Vanessa Rousso",
@@ -167,7 +167,7 @@
   }, {
     "age" : "27",
     "bio" : "http://www.cbs.com/shows/big_brother/cast/215056/",
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Los Angeles, California",
     "jury" : false,
     "name" : "Jackie Ibarra",
