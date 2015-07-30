@@ -40,7 +40,7 @@
     "jury" : false,
     "name" : "Clay Honeycutt",
     "photo" : "assets/clay_honeycutt.png",
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "Graduate Student",
     "weeks" : 4
   }, {
