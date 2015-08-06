@@ -73,7 +73,7 @@
     "jury" : false,
     "name" : "James Huling",
     "photo" : "assets/james_huling.png",
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "Retail Associate",
     "weeks" : 5
   }, {
