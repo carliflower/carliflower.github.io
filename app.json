@@ -95,7 +95,7 @@
     "jury" : false,
     "name" : "John McGuire",
     "photo" : "assets/john_mcguire.png",
-    "pov" : 2,
+    "pov" : 3,
     "profession" : "Dentist",
     "weeks" : 7
   }, {
