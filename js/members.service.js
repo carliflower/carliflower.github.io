@@ -13,7 +13,7 @@
 
     //service begins
     function MembersService($log, $firebaseArray, DataService) {
-        $log = $log.getInstance('MembersService', true);
+        $log = $log.getInstance('MembersService', false);
 
         this.tallyPickPoints = tallyPickPoints;
         this.findMemberByPickCode = findMemberByPickCode;
