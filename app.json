@@ -106,7 +106,7 @@
         "jury": false,
         "name": "Liz Nolan",
         "photo": "assets/liz_nolan.png",
-        "pov": 0,
+        "pov": 1,
         "profession": "Twins",
         "weeks": 8
     }, {
