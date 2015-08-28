@@ -20,7 +20,7 @@
         "photo": "assets/austin_matelson.png",
         "pov": 0,
         "profession": "Professional Wrestler",
-        "weeks": 9
+        "weeks": 10
     }, {
         "age": "26",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215042/",
@@ -75,7 +75,7 @@
         "photo": "assets/james_huling.png",
         "pov": 1,
         "profession": "Retail Associate",
-        "weeks": 9
+        "weeks": 10
     }, {
         "age": "25",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215047/",
@@ -94,7 +94,7 @@
         "hometown": "Scranton, Pennsylvania",
         "jury": false,
         "name": "John McGuire",
-        "photo": "assets/john_mcguire.png",
+        "photo": "assets/john_mcguire-bw.png",
         "pov": 3,
         "profession": "Dentist",
         "weeks": 9
@@ -108,7 +108,7 @@
         "photo": "assets/liz_nolan.png",
         "pov": 1,
         "profession": "Twins",
-        "weeks": 9
+        "weeks": 10
     }, {
         "age": "25",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215050/",
@@ -119,7 +119,7 @@
         "photo": "assets/meg_maley.png",
         "pov": 0,
         "profession": "Server",
-        "weeks": 9
+        "weeks": 10
     }, {
         "age": "33",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215051/",
@@ -141,7 +141,7 @@
         "photo": "assets/steve_moses.png",
         "pov": 2,
         "profession": "College Student",
-        "weeks": 9
+        "weeks": 10
     }, {
         "age": "32",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215053/",
@@ -152,7 +152,7 @@
         "photo": "assets/vanessa_rousso.png",
         "pov": 2,
         "profession": "Professional Poker Player",
-        "weeks": 9
+        "weeks": 10
     }, {
         "age": "26",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215057/",
@@ -185,7 +185,7 @@
         "photo": "assets/liz_nolan.png",
         "pov": 0,
         "profession": "Twins",
-        "weeks": 9
+        "weeks": 10
     }],
     "members": [{
         "name": "Alex Moreira",
