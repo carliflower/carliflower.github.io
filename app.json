@@ -20,7 +20,7 @@
         "photo": "assets/austin_matelson.png",
         "pov": 0,
         "profession": "Professional Wrestler",
-        "weeks": 11
+        "weeks": 12
     }, {
         "age": "26",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215042/",
@@ -72,7 +72,7 @@
         "hometown": "Sumter, South Carolina",
         "jury": false,
         "name": "James Huling",
-        "photo": "assets/james_huling.png",
+        "photo": "assets/james_huling-bw.png",
         "pov": 2,
         "profession": "Retail Associate",
         "weeks": 11
@@ -108,7 +108,7 @@
         "photo": "assets/liz_nolan.png",
         "pov": 1,
         "profession": "Twins",
-        "weeks": 11
+        "weeks": 12
     }, {
         "age": "25",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215050/",
@@ -141,7 +141,7 @@
         "photo": "assets/steve_moses.png",
         "pov": 2,
         "profession": "College Student",
-        "weeks": 11
+        "weeks": 12
     }, {
         "age": "32",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215053/",
@@ -152,7 +152,7 @@
         "photo": "assets/vanessa_rousso.png",
         "pov": 2,
         "profession": "Professional Poker Player",
-        "weeks": 11
+        "weeks": 12
     }, {
         "age": "26",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215057/",
@@ -185,7 +185,7 @@
         "photo": "assets/liz_nolan.png",
         "pov": 1,
         "profession": "Twins",
-        "weeks": 11
+        "weeks": 12
     }],
     "members": [{
         "name": "Alex Moreira",
