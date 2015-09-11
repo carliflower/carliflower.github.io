@@ -20,7 +20,7 @@
         "photo": "assets/austin_matelson.png",
         "pov": 1,
         "profession": "Professional Wrestler",
-        "weeks": 12
+        "weeks": 13
     }, {
         "age": "26",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215042/",
@@ -108,7 +108,7 @@
         "photo": "assets/liz_nolan.png",
         "pov": 1,
         "profession": "Twins",
-        "weeks": 12
+        "weeks": 13
     }, {
         "age": "25",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215050/",
@@ -141,7 +141,7 @@
         "photo": "assets/steve_moses.png",
         "pov": 2,
         "profession": "College Student",
-        "weeks": 12
+        "weeks": 13
     }, {
         "age": "32",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215053/",
@@ -152,7 +152,7 @@
         "photo": "assets/vanessa_rousso.png",
         "pov": 2,
         "profession": "Professional Poker Player",
-        "weeks": 12
+        "weeks": 13
     }, {
         "age": "26",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215057/",
@@ -182,7 +182,7 @@
         "hometown": "Miami, Florida",
         "jury": false,
         "name": "Julia Nolan",
-        "photo": "assets/liz_nolan.png",
+        "photo": "assets/julia_nolan-bw.png",
         "pov": 1,
         "profession": "Twins",
         "weeks": 12
