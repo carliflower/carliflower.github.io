@@ -94,7 +94,7 @@
         "hometown": "Scranton, Pennsylvania",
         "jury": false,
         "name": "John McGuire",
-        "photo": "assets/john_mcguire.png",
+        "photo": "assets/john_mcguire-bw.png",
         "pov": 4,
         "profession": "Dentist",
         "weeks": 13
@@ -108,7 +108,7 @@
         "photo": "assets/liz_nolan.png",
         "pov": 1,
         "profession": "Twins",
-        "weeks": 14
+        "weeks": 15
     }, {
         "age": "25",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215050/",
@@ -141,7 +141,7 @@
         "photo": "assets/steve_moses.png",
         "pov": 2,
         "profession": "College Student",
-        "weeks": 14
+        "weeks": 15
     }, {
         "age": "32",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215053/",
@@ -152,7 +152,7 @@
         "photo": "assets/vanessa_rousso.png",
         "pov": 3,
         "profession": "Professional Poker Player",
-        "weeks": 14
+        "weeks": 15
     }, {
         "age": "26",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215057/",
