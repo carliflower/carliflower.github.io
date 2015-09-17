@@ -150,7 +150,7 @@
         "jury": false,
         "name": "Vanessa Rousso",
         "photo": "assets/vanessa_rousso.png",
-        "pov": 2,
+        "pov": 3,
         "profession": "Professional Poker Player",
         "weeks": 14
     }, {
@@ -309,7 +309,7 @@
         "picks": "0,5,8,9,11"
     }, {
         "name": "Mandy Benjamin",
-        "paid": false,
+        "paid": true,
         "pickcode": "mb67",
         "picks": "0,3,9,10,13"
     }, {
@@ -369,7 +369,7 @@
         "picks": "2,3,4,8,9"
     }, {
         "name": "Shelley Cox",
-        "paid": false,
+        "paid": true,
         "pickcode": "sc45",
         "picks": "0,3,4,7,11"
     }, {
@@ -384,7 +384,7 @@
         "picks": "0,3,4,5,8"
     }, {
         "name": "Steven Belliveau",
-        "paid": false,
+        "paid": true,
         "pickcode": "sb89",
         "picks": "0,3,5,7,13"
     }, {
@@ -479,7 +479,7 @@
         "picks": "3,5,7,10,13"
     }, {
         "name": "Bryan Munroe",
-        "paid": false,
+        "paid": true,
         "pickcode": "bm37",
         "picks": "3,5,6,8,10"
     }, {
