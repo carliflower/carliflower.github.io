@@ -344,12 +344,12 @@
         "picks": "0,4,9,12,13"
     }, {
         "name": "Quincy Morrison",
-        "paid": false,
+        "paid": true,
         "pickcode": "qm78",
         "picks": "1,3,4,9,13"
     }, {
         "name": "Scott Munro",
-        "paid": false,
+        "paid": true,
         "pickcode": "sm89",
         "picks": "1,6,7,9,12"
     }, {
@@ -534,7 +534,7 @@
         "picks": "2,4,11,12,13"
     }, {
         "name": "Brenda Munro",
-        "paid": false,
+        "paid": true,
         "pickcode": "bm33",
         "picks": "1,3,4,5,8"
     }, {
