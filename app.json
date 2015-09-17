@@ -329,7 +329,7 @@
         "picks": "0,5,6,9,10"
     }, {
         "name": "Nicole McAndrew",
-        "paid": false,
+        "paid": true,
         "pickcode": "nm34",
         "picks": "0,5,7,10,12"
     }, {
@@ -524,7 +524,7 @@
         "picks": "0,3,8,10,11"
     }, {
         "name": "Courtney Gallichon",
-        "paid": false,
+        "paid": true,
         "pickcode": "cg27",
         "picks": "0,1,5,7,8"
     }, {
