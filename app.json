@@ -279,7 +279,7 @@
         "picks": "5,7,8,10,11"
     }, {
         "name": "Kayla Crocke",
-        "paid": false,
+        "paid": true,
         "pickcode": "kc56",
         "picks": "0,3,5,9,12"
     }, {
@@ -364,7 +364,7 @@
         "picks": "0,2,3,8,13"
     }, {
         "name": "Shawn Gillan-Wright",
-        "paid": false,
+        "paid": true,
         "pickcode": "sgw34",
         "picks": "2,3,4,8,9"
     }, {
