@@ -554,7 +554,7 @@
         "picks": "0,3,8,12,13"
     }, {
         "name": "Jamie Aalders",
-        "paid": false,
+        "paid": true,
         "pickcode": "ja46",
         "picks": "0,1,4,9,11"
     }, {
