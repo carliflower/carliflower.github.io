@@ -399,7 +399,7 @@
         "picks": "1,3,4,8,13"
     }, {
         "name": "Cathy Stothart",
-        "paid": false,
+        "paid": true,
         "pickcode": "cts12",
         "picks": "0,1,5,7,12"
     }, {
@@ -539,7 +539,7 @@
         "picks": "1,3,4,5,8"
     }, {
         "name": "Brian Allt",
-        "paid": false,
+        "paid": true,
         "pickcode": "ba09",
         "picks": "2,3,5,10,12"
     }, {
