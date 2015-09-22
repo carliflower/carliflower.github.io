@@ -569,7 +569,7 @@
         "picks": "2,3,8,12,13"
     }, {
         "name": "Suzanne MacLeod",
-        "paid": false,
+        "paid": true,
         "pickcode": "sm12",
         "picks": "1,4,8,10,13"
     }, {
