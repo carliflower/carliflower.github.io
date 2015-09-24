@@ -141,7 +141,7 @@
         "photo": "assets/steve_moses.png",
         "pov": 2,
         "profession": "College Student",
-        "weeks": 16
+        "weeks": 17
     }, {
         "age": "32",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215053/",
@@ -269,7 +269,7 @@
         "picks": "0,3,10,12,13"
     }, {
         "name": "Jordan Bonaparte",
-        "paid": false,
+        "paid": true,
         "pickcode": "jbp23",
         "picks": "0,1,5,8,13"
     }, {
@@ -289,7 +289,7 @@
         "picks": "3,4,5,10,12"
     }, {
         "name": "Kim Sampson",
-        "paid": false,
+        "paid": true,
         "pickcode": "ks78",
         "picks": "3,4,5,7,10"
     }, {
