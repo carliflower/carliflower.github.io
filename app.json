@@ -108,7 +108,7 @@
         "photo": "assets/liz_nolan.png",
         "pov": 1,
         "profession": "Twins",
-        "weeks": 15
+        "weeks": 16
     }, {
         "age": "25",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215050/",
@@ -141,7 +141,7 @@
         "photo": "assets/steve_moses.png",
         "pov": 2,
         "profession": "College Student",
-        "weeks": 15
+        "weeks": 16
     }, {
         "age": "32",
         "bio": "http://www.cbs.com/shows/big_brother/cast/215053/",
@@ -149,7 +149,7 @@
         "hometown": "Las Vegas",
         "jury": false,
         "name": "Vanessa Rousso",
-        "photo": "assets/vanessa_rousso.png",
+        "photo": "assets/vanessa_rousso-bw.png",
         "pov": 3,
         "profession": "Professional Poker Player",
         "weeks": 15
