@@ -17,8 +17,8 @@
         //internal method attached to service
         this.houseguests = [];
         this.members = [];
-        this.useFirebase = false;
-        this.firebaseUrl = "bbuspool2015.firebaseio.com";
+        this.useFirebase = true;
+        this.firebaseUrl = "luminous-heat-7812.firebaseio.com/";
         this.get = get;
 
         //internal methods
