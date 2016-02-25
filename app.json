@@ -198,11 +198,6 @@
         "weeks": 0
     }],
     "members": [{
-        "name": "Alex Moreira",
-        "paid": false,
-        "pickcode": "am12",
-        "picks": ""
-    }, {
         "name": "Alicia Fraser",
         "paid": false,
         "pickcode": "af23",
