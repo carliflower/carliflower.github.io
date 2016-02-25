@@ -93,7 +93,7 @@
         "hometown": "Ottawa, ON",
         "jury": false,
         "name": "Philippe Paquette",
-        "photo": "assets/philippe-paquette.png",
+        "photo": "assets/philippe_paquette.png",
         "pov": 0,
         "profession": "DJ",
         "weeks": 0
@@ -104,7 +104,7 @@
         "hometown": "Vancouver, BC",
         "jury": false,
         "name": "Christine Kelsey",
-        "photo": "assets/christine-kelsey.png",
+        "photo": "assets/christine_kelsey.png",
         "pov": 0,
         "profession": "Housekeeper",
         "weeks": 0
@@ -115,7 +115,7 @@
         "hometown": "Guelph, ON",
         "jury": false,
         "name": "Mitchell Moffit",
-        "photo": "assets/mitchell-moffit.png",
+        "photo": "assets/mitchell_moffit.png",
         "pov": 0,
         "profession": "YouTuber",
         "weeks": 0
@@ -126,7 +126,7 @@
         "hometown": "St. John, NB",
         "jury": false,
         "name": "Dallas Cormier",
-        "photo": "assets/dallas-cormier.png",
+        "photo": "assets/dallas_cormier.png",
         "pov": 0,
         "profession": "Welder",
         "weeks": 0
@@ -137,7 +137,7 @@
         "hometown": "Toronto, ON",
         "jury": false,
         "name": "Sharry Ash",
-        "photo": "assets/sharry-ash.png",
+        "photo": "assets/sharry_ash.png",
         "pov": 0,
         "profession": "Customer Service Supervisor",
         "weeks": 0
@@ -148,7 +148,7 @@
         "hometown": "Winnipeg, MB",
         "jury": false,
         "name": "Cassandra Shahinfar",
-        "photo": "assets/cassandra-shahinfar.png",
+        "photo": "assets/cassandra_shahinfar.png",
         "pov": 0,
         "profession": "Social Media Strategist",
         "weeks": 0
