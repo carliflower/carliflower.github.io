@@ -474,6 +474,18 @@
             "paid": false,
             "pickcode": "rh67",
             "picks": ""
+        },
+        {
+            "name": "Zeina Faddoul",
+            "paid": false,
+            "pickcode": "zf44",
+            "picks": ""
+        },
+        {
+            "name": "John Chidiac",
+            "paid": false,
+            "pickcode": "jc89",
+            "picks": ""
         }
     ]
 }
