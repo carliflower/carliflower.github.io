@@ -28,7 +28,6 @@
 
         //internal methods
         function get() {
-            $log.debug("get");
             this.ref = new Firebase("https://"+this.DataService.firebaseUrl+"/members/");
             // this.ref = new Firebase("https://bbcantest.firebaseio.com/members/");
             return $firebaseArray(this.ref);

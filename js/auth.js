@@ -15,7 +15,6 @@
         $log = $log.getInstance('AuthService', false);
         var ref = new Firebase("https://luminous-heat-7812.firebaseio.com/");
         var fbAuth = $firebaseAuth(ref);
-        // $log.debug(fbAuth);
         return fbAuth;
     }
     //factory ends

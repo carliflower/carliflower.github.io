@@ -22,9 +22,7 @@
 
         //internal methods
         function get() {
-            $log.debug("get");
             this.ref = new Firebase("https://"+this.DataService.firebaseUrl+"/houseguests/");
-            // this.ref = new Firebase("https://bbcantest.firebaseio.com/houseguests/");
             return $firebaseArray(this.ref);
         }
 
