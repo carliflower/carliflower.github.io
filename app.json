@@ -13,7 +13,7 @@
   }, {
     "age" : "25",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/loveita-adams/",
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Fort McMurray, AB",
     "jury" : false,
     "name" : "Loveita Adams",
@@ -385,7 +385,7 @@
     "pickcode" : "cy00",
     "picks" : "0,1,7,10,11"
   }, {
-    "name" : "Jennifer Thomas",
+    "name" : "Jennifer Penney",
     "paid" : false,
     "pickcode" : "jt55",
     "picks" : "0,2,4,7,8"
