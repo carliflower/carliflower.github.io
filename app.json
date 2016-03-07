@@ -2,7 +2,7 @@
   "houseguests" : [ {
     "age" : "24",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/jared-kesler/",
-    "hoh" : 0,
+    "hoh" : 1,
     "hometown" : "Winnipeg, MB",
     "jury" : false,
     "name" : "Jared Kesler",
@@ -365,8 +365,8 @@
     "pickcode" : "bm56",
     "picks" : "0,3,4,9,10"
   }, {
-    "name" : "Carol Ann Wilson",
-    "paid" : false,
+    "name" : "CarolAnn Wilson",
+    "paid" : true,
     "pickcode" : "caw77",
     "picks" : "0,5,7,9,11"
   }, {
@@ -400,13 +400,13 @@
     "pickcode" : "as34",
     "picks" : "0,1,2,8,10"
   }, {
-    "name" : "Robyn Handy",
+    "name" : "Robin Handy",
     "paid" : false,
     "pickcode" : "rh67",
     "picks" : "1,7,8,10,11"
   }, {
     "name" : "Zeina Faddoul",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "zf44",
     "picks" : "1,2,3,5,8"
   }, {
