@@ -153,6 +153,28 @@
     "pov" : 0,
     "profession" : "Social Media Strategist",
     "weeks" : 1
+  }, {
+    "age" : "33",
+    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/nikki-grahame/",
+    "hoh" : 0,
+    "hometown" : "London, UK",
+    "jury" : false,
+    "name" : "Nikki Grahame",
+    "photo" : "assets/nikki_grahame.png",
+    "pov" : 0,
+    "profession" : "TV Personality",
+    "weeks" : 0
+  }, {
+    "age" : "31",
+    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/tim-dormer/",
+    "hoh" : 0,
+    "hometown" : "Bondi Beach, AU",
+    "jury" : false,
+    "name" : "Tim Dormer",
+    "photo" : "assets/time-dormer.png",
+    "pov" : 0,
+    "profession" : "TV & Radio Host",
+    "weeks" : 0
   } ],
   "members" : [ {
     "name" : "Andrew Hamilton",
