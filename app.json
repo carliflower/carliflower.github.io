@@ -106,7 +106,7 @@
     "jury" : false,
     "name" : "Christine Kelsey",
     "photo" : "assets/christine_kelsey.png",
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "Housekeeper",
     "weeks" : 1
   }, {
@@ -391,7 +391,7 @@
     "picks" : "0,2,4,7,8"
   }, {
     "name" : "Gerri Hamilton",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "gh22",
     "picks" : "1,2,4,8,11"
   }, {
@@ -401,7 +401,7 @@
     "picks" : "0,1,2,8,10"
   }, {
     "name" : "Robin Handy",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "rh67",
     "picks" : "1,7,8,10,11"
   }, {
