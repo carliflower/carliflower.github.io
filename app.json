@@ -128,7 +128,7 @@
     "jury" : false,
     "name" : "Dallas Cormier",
     "photo" : "assets/dallas_cormier.png",
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "Welder",
     "weeks" : 2
   }, {
