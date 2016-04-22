@@ -9,7 +9,7 @@
     "photo" : "assets/jared-kesler.png",
     "pov" : 2,
     "profession" : "Pipeline Worker",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "age" : "25",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/loveita-adams/",
@@ -39,7 +39,7 @@
     "hometown" : "Vancouver, BC",
     "jury" : false,
     "name" : "Maddy Pavle",
-    "photo" : "assets/maddy-pavel.png",
+    "photo" : "assets/maddy-pavel-bw.png",
     "pov" : 0,
     "profession" : "Server",
     "weeks" : 8
@@ -64,7 +64,7 @@
     "photo" : "assets/joel-lefevre.png",
     "pov" : 0,
     "profession" : "Actor",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "age" : "19",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/paige-distranski/",
@@ -97,7 +97,7 @@
     "photo" : "assets/philippe_paquette.png",
     "pov" : 2,
     "profession" : "DJ & Student",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "age" : "47",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/christine-kelsey/",
@@ -152,7 +152,7 @@
     "photo" : "assets/cassandra_shahinfar.png",
     "pov" : 0,
     "profession" : "Social Media Strategist",
-    "weeks" : 8
+    "weeks" : 9
   }, {
     "age" : "33",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/nikki-grahame/",
@@ -163,7 +163,7 @@
     "photo" : "assets/nikki-grahame.png",
     "pov" : 0,
     "profession" : "TV Personality",
-    "weeks" : 7
+    "weeks" : 8
   }, {
     "age" : "31",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/tim-dormer/",
@@ -174,7 +174,7 @@
     "photo" : "assets/tim-dormer.png",
     "pov" : 0,
     "profession" : "TV & Radio Host",
-    "weeks" : 7
+    "weeks" : 8
   } ],
   "members" : [ {
     "name" : "Andrew Hamilton",
