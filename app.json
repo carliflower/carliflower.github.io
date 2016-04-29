@@ -64,7 +64,7 @@
     "photo" : "assets/joel-lefevre.png",
     "pov" : 0,
     "profession" : "Actor",
-    "weeks" : 10
+    "weeks" : 11
   }, {
     "age" : "19",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/paige-distranski/",
@@ -86,7 +86,7 @@
     "photo" : "assets/kelsey_faith.png",
     "pov" : 0,
     "profession" : "Flight Attendant",
-    "weeks" : 9
+    "weeks" : 10
   }, {
     "age" : "21 & 20",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/philippe-paquette/",
@@ -97,7 +97,7 @@
     "photo" : "assets/philippe_paquette.png",
     "pov" : 3,
     "profession" : "DJ & Student",
-    "weeks" : 10
+    "weeks" : 11
   }, {
     "age" : "47",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/christine-kelsey/",
@@ -152,7 +152,7 @@
     "photo" : "assets/cassandra_shahinfar.png",
     "pov" : 1,
     "profession" : "Social Media Strategist",
-    "weeks" : 10
+    "weeks" : 11
   }, {
     "age" : "33",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/nikki-grahame/",
@@ -160,7 +160,7 @@
     "hometown" : "London, UK",
     "jury" : false,
     "name" : "Nikki Grahame",
-    "photo" : "assets/nikki-grahame.png",
+    "photo" : "assets/nikki-grahame-bw.png",
     "pov" : 0,
     "profession" : "TV Personality",
     "weeks" : 9
@@ -174,7 +174,7 @@
     "photo" : "assets/tim-dormer.png",
     "pov" : 0,
     "profession" : "TV & Radio Host",
-    "weeks" : 9
+    "weeks" : 10
   } ],
   "members" : [ {
     "name" : "Andrew Hamilton",
