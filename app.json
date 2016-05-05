@@ -172,7 +172,7 @@
     "jury" : false,
     "name" : "Tim Dormer",
     "photo" : "assets/tim-dormer.png",
-    "pov" : 0,
+    "pov" : 1,
     "profession" : "TV & Radio Host",
     "weeks" : 10
   } ],
