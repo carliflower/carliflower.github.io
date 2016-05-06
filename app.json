@@ -61,7 +61,7 @@
     "hometown" : "Edmonton, AB",
     "jury" : false,
     "name" : "Joel Lefevre",
-    "photo" : "assets/joel-lefevre.png",
+    "photo" : "assets/joel-lefevre-bw.png",
     "pov" : 0,
     "profession" : "Actor",
     "weeks" : 11
@@ -86,18 +86,18 @@
     "photo" : "assets/kelsey_faith.png",
     "pov" : 0,
     "profession" : "Flight Attendant",
-    "weeks" : 10
+    "weeks" : 11
   }, {
     "age" : "21 & 20",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/philippe-paquette/",
-    "hoh" : 2,
+    "hoh" : 3,
     "hometown" : "Ottawa, ON",
     "jury" : false,
     "name" : "Phil & Nick Paquette",
     "photo" : "assets/philippe_paquette.png",
     "pov" : 3,
     "profession" : "DJ & Student",
-    "weeks" : 11
+    "weeks" : 12
   }, {
     "age" : "47",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/christine-kelsey/",
@@ -152,7 +152,7 @@
     "photo" : "assets/cassandra_shahinfar.png",
     "pov" : 1,
     "profession" : "Social Media Strategist",
-    "weeks" : 11
+    "weeks" : 12
   }, {
     "age" : "33",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/nikki-grahame/",
@@ -174,7 +174,7 @@
     "photo" : "assets/tim-dormer.png",
     "pov" : 1,
     "profession" : "TV & Radio Host",
-    "weeks" : 10
+    "weeks" : 11
   } ],
   "members" : [ {
     "name" : "Andrew Hamilton",
