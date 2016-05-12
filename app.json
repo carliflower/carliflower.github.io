@@ -178,7 +178,7 @@
   } ],
   "members" : [ {
     "name" : "Andrew Hamilton",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "ah34",
     "picks" : "3,6,7,12,13"
   }, {
@@ -188,7 +188,7 @@
     "picks" : "1,5,8,10,13"
   }, {
     "name" : "Carli Poirier",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "cp23",
     "picks" : "0,2,4,7,10"
   }, {
