@@ -79,7 +79,7 @@
   }, {
     "age" : "25",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/kelsey-faith/",
-    "hoh" : 1,
+    "hoh" : 2,
     "hometown" : "Calgary, AB",
     "jury" : false,
     "name" : "Kelsey Faith",
@@ -233,7 +233,7 @@
     "picks" : "1,3,4,9,13"
   }, {
     "name" : "Kayla Crocker",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "kc56",
     "picks" : "1,2,5,12,13"
   }, {
@@ -288,7 +288,7 @@
     "picks" : "1,2,6,8,12"
   }, {
     "name" : "Shawn Gillan-Wright",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "sgw34",
     "picks" : "3,5,6,8,10"
   }, {
