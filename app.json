@@ -95,7 +95,7 @@
     "jury" : false,
     "name" : "Phil & Nick Paquette",
     "photo" : "assets/philippe_paquette.png",
-    "pov" : 3,
+    "pov" : 4,
     "profession" : "DJ & Student",
     "weeks" : 12
   }, {
@@ -408,7 +408,7 @@
     "picks" : "0,1,7,10,11"
   }, {
     "name" : "Jennifer Penney",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "jt55",
     "picks" : "0,2,4,7,8"
   }, {
