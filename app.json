@@ -86,7 +86,7 @@
     "photo" : "assets/kelsey_faith.png",
     "pov" : 0,
     "profession" : "Flight Attendant",
-    "weeks" : 11
+    "weeks" : 12
   }, {
     "age" : "21 & 20",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/philippe-paquette/",
@@ -97,7 +97,7 @@
     "photo" : "assets/philippe_paquette.png",
     "pov" : 4,
     "profession" : "DJ & Student",
-    "weeks" : 12
+    "weeks" : 13
   }, {
     "age" : "47",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/christine-kelsey/",
@@ -149,7 +149,7 @@
     "hometown" : "Winnipeg, MB",
     "jury" : false,
     "name" : "Cassandra Shahinfar",
-    "photo" : "assets/cassandra_shahinfar.png",
+    "photo" : "assets/cassandra_shahinfar-bw.png",
     "pov" : 1,
     "profession" : "Social Media Strategist",
     "weeks" : 12
@@ -174,7 +174,7 @@
     "photo" : "assets/tim-dormer.png",
     "pov" : 1,
     "profession" : "TV & Radio Host",
-    "weeks" : 11
+    "weeks" : 12
   } ],
   "members" : [ {
     "name" : "Andrew Hamilton",
