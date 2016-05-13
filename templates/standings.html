@@ -1,13 +1,13 @@
 <div class="standings">
 
     <h1>Standings</h1>
-     <h2>Prizes</h2>
+    <!--<h2>Prizes</h2>
     <ul style="text-transform: uppercase; margin-bottom: 25px;">
         <li style="margin-bottom: 5px;">1st: $400</li>
         <li style="margin-bottom: 5px;">2nd: $100</li>
         <li style="margin-bottom: 5px;">3rd: $70</li>
         <li style="margin-bottom: 5px;">Last: $10</li>
-    </ul> 
+    </ul> -->
 
     <p>{[{vm.members.length}]} People</p>
 
@@ -24,16 +24,16 @@
                     </li>
                 </ul>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
-                        In Running for $400
+                        Winner! $400
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.secondPlacePointValue">
-                        In Running for $100
+                        Winner! $100
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.thirdPlacePointValue">
-                        In Running For $70
+                        Winner! $70
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.lastPlacePointValue">
-                        In Running For $10
+                        Winner! $10
                 </div>
             </div>
         </li>
