@@ -86,7 +86,7 @@
     "photo" : "assets/kelsey_faith.png",
     "pov" : 0,
     "profession" : "Flight Attendant",
-    "weeks" : 12
+    "weeks" : 13
   }, {
     "age" : "21 & 20",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/philippe-paquette/",
@@ -97,7 +97,7 @@
     "photo" : "assets/philippe_paquette.png",
     "pov" : 4,
     "profession" : "DJ & Student",
-    "weeks" : 13
+    "weeks" : 14
   }, {
     "age" : "47",
     "bio" : "http://bigbrothercanada.globaltv.com/houseguests/christine-kelsey/",
@@ -171,7 +171,7 @@
     "hometown" : "Bondi Beach, AU",
     "jury" : false,
     "name" : "Tim Dormer",
-    "photo" : "assets/tim-dormer.png",
+    "photo" : "assets/tim-dormer-bw.png",
     "pov" : 1,
     "profession" : "TV & Radio Host",
     "weeks" : 12
@@ -218,7 +218,7 @@
     "picks" : "0,6,10,11,12"
   }, {
     "name" : "Scott Beckwith",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "sb01",
     "picks" : "2,5,6,7,11"
   }, {
