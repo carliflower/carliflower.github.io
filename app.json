@@ -278,7 +278,7 @@
     "picks" : "2,3,6,7,11"
   }, {
     "name" : "Emilie LeBlanc",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "sh12",
     "picks" : "2,5,6,11,12"
   }, {
