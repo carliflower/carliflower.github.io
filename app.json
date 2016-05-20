@@ -443,7 +443,7 @@
     "picks" : "0,2,3,8,10"
   }, {
     "name" : "Natalie Hynes",
-    "paid" : false,
+    "paid" : true,
     "pickcode" : "nh55",
     "picks" : "2,3,6,7,13"
   }, {
