@@ -1,471 +1,546 @@
 {
-  "houseguests" : [ {
-    "age" : "24",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/jared-kesler/",
-    "hoh" : 1,
-    "hometown" : "Winnipeg, MB",
-    "jury" : false,
-    "name" : "Jared Kesler",
-    "photo" : "assets/jared-kesler-bw.png",
-    "pov" : 2,
-    "profession" : "Pipeline Worker",
-    "weeks" : 9
-  }, {
-    "age" : "25",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/loveita-adams/",
-    "hoh" : 2,
-    "hometown" : "Fort McMurray, AB",
-    "jury" : false,
-    "name" : "Loveita Adams",
-    "photo" : "assets/loveita-adams-bw.png",
-    "pov" : 0,
-    "profession" : "CEO",
-    "weeks" : 4
-  }, {
-    "age" : "26",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/ramsey-aburaneh/",
-    "hoh" : 0,
-    "hometown" : "Toronto, ON",
-    "jury" : false,
-    "name" : "Ramsey Aburaneh",
-    "photo" : "assets/ramsey-aburaneh-bw.png",
-    "pov" : 2,
-    "profession" : "Digital Marketing",
-    "weeks" : 8
-  }, {
-    "age" : "21",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/maddy-pavle/",
-    "hoh" : 2,
-    "hometown" : "Vancouver, BC",
-    "jury" : false,
-    "name" : "Maddy Pavle",
-    "photo" : "assets/maddy-pavel-bw.png",
-    "pov" : 0,
-    "profession" : "Server",
-    "weeks" : 8
-  }, {
-    "age" : "21",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/raul-manriquez/",
-    "hoh" : 1,
-    "hometown" : "Calgary, AB",
-    "jury" : false,
-    "name" : "Raul Manriquez",
-    "photo" : "assets/raul-manriquez-bw.png",
-    "pov" : 0,
-    "profession" : "Fashion Stylist",
-    "weeks" : 7
-  }, {
-    "age" : "33",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/joel-lefevre/",
-    "hoh" : 1,
-    "hometown" : "Edmonton, AB",
-    "jury" : false,
-    "name" : "Joel Lefevre",
-    "photo" : "assets/joel-lefevre-bw.png",
-    "pov" : 0,
-    "profession" : "Actor",
-    "weeks" : 11
-  }, {
-    "age" : "19",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/paige-distranski/",
-    "hoh" : 0,
-    "hometown" : "Thunder Bay, ON",
-    "jury" : false,
-    "name" : "Paige Distranski",
-    "photo" : "assets/paige-distranski-bw.png",
-    "pov" : 0,
-    "profession" : "Veterinarian Tech Assistant",
-    "weeks" : 0
-  }, {
-    "age" : "25",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/kelsey-faith/",
-    "hoh" : 2,
-    "hometown" : "Calgary, AB",
-    "jury" : false,
-    "name" : "Kelsey Faith",
-    "photo" : "assets/kelsey_faith-bw.png",
-    "pov" : 0,
-    "profession" : "Flight Attendant",
-    "weeks" : 13
-  }, {
-    "age" : "21 & 20",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/philippe-paquette/",
-    "hoh" : 3,
-    "hometown" : "Ottawa, ON",
-    "jury" : false,
-    "name" : "Phil & Nick Paquette",
-    "photo" : "assets/philippe_paquette.png",
-    "pov" : 4,
-    "profession" : "DJ & Student",
-    "weeks" : 15
-  }, {
-    "age" : "47",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/christine-kelsey/",
-    "hoh" : 0,
-    "hometown" : "Vancouver, BC",
-    "jury" : false,
-    "name" : "Christine Kelsey",
-    "photo" : "assets/christine_kelsey-bw.png",
-    "pov" : 1,
-    "profession" : "Housekeeper",
-    "weeks" : 2
-  }, {
-    "age" : "27",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/mitchell-moffit/",
-    "hoh" : 0,
-    "hometown" : "Guelph, ON",
-    "jury" : false,
-    "name" : "Mitchell Moffit",
-    "photo" : "assets/mitchell_moffit-bw.png",
-    "pov" : 0,
-    "profession" : "YouTuber",
-    "weeks" : 6
-  }, {
-    "age" : "24",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/dallas-cormier/",
-    "hoh" : 0,
-    "hometown" : "St. John, NB",
-    "jury" : false,
-    "name" : "Dallas Cormier",
-    "photo" : "assets/dallas_cormier-bw.png",
-    "pov" : 2,
-    "profession" : "Welder",
-    "weeks" : 5
-  }, {
-    "age" : "30",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/sharry-ash/",
-    "hoh" : 0,
-    "hometown" : "Toronto, ON",
-    "jury" : false,
-    "name" : "Sharry Ash",
-    "photo" : "assets/sharry_ash-bw.png",
-    "pov" : 0,
-    "profession" : "Customer Service Supervisor",
-    "weeks" : 1
-  }, {
-    "age" : "22",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/cassandra-shahinfar/",
-    "hoh" : 1,
-    "hometown" : "Winnipeg, MB",
-    "jury" : false,
-    "name" : "Cassandra Shahinfar",
-    "photo" : "assets/cassandra_shahinfar-bw.png",
-    "pov" : 1,
-    "profession" : "Social Media Strategist",
-    "weeks" : 12
-  }, {
-    "age" : "33",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/nikki-grahame/",
-    "hoh" : 0,
-    "hometown" : "London, UK",
-    "jury" : false,
-    "name" : "Nikki Grahame",
-    "photo" : "assets/nikki-grahame-bw.png",
-    "pov" : 0,
-    "profession" : "TV Personality",
-    "weeks" : 9
-  }, {
-    "age" : "31",
-    "bio" : "http://bigbrothercanada.globaltv.com/houseguests/tim-dormer/",
-    "hoh" : 1,
-    "hometown" : "Bondi Beach, AU",
-    "jury" : false,
-    "name" : "Tim Dormer",
-    "photo" : "assets/tim-dormer-bw.png",
-    "pov" : 1,
-    "profession" : "TV & Radio Host",
-    "weeks" : 12
-  } ],
-  "members" : [ {
-    "name" : "Andrew Hamilton",
-    "paid" : true,
-    "pickcode" : "ah34",
-    "picks" : "3,6,7,12,13"
-  }, {
-    "name" : "Bryna Moreira",
-    "paid" : true,
-    "pickcode" : "bm89",
-    "picks" : "1,5,8,10,13"
-  }, {
-    "name" : "Carli Poirier",
-    "paid" : true,
-    "pickcode" : "cp23",
-    "picks" : "0,2,4,7,10"
-  }, {
-    "name" : "Claudine Sampson",
-    "paid" : true,
-    "pickcode" : "cs45",
-    "picks" : "2,5,6,9,13"
-  }, {
-    "name" : "Lynn Shannon",
-    "paid" : true,
-    "pickcode" : "ls78",
-    "picks" : "2,4,5,10,13"
-  }, {
-    "name" : "Ericka Branscombe",
-    "paid" : true,
-    "pickcode" : "eb23",
-    "picks" : "2,4,9,10,13"
-  }, {
-    "name" : "Erin Gordon",
-    "paid" : true,
-    "pickcode" : "eg34",
-    "picks" : "0,7,10,11,12"
-  }, {
-    "name" : "Jade Billings",
-    "paid" : true,
-    "pickcode" : "jb67",
-    "picks" : "0,6,10,11,12"
-  }, {
-    "name" : "Scott Beckwith",
-    "paid" : true,
-    "pickcode" : "sb01",
-    "picks" : "2,5,6,7,11"
-  }, {
-    "name" : "Jennifer Nixon",
-    "paid" : true,
-    "pickcode" : "jn12",
-    "picks" : "2,3,7,10,11"
-  }, {
-    "name" : "Jordan Bonaparte",
-    "paid" : true,
-    "pickcode" : "jbp23",
-    "picks" : "1,3,4,9,13"
-  }, {
-    "name" : "Kayla Crocker",
-    "paid" : true,
-    "pickcode" : "kc56",
-    "picks" : "1,2,5,12,13"
-  }, {
-    "name" : "Kim Sampson",
-    "paid" : true,
-    "pickcode" : "ks78",
-    "picks" : "0,3,10,11,12"
-  }, {
-    "name" : "Alexis Diakow",
-    "paid" : true,
-    "pickcode" : "ld12",
-    "picks" : "0,3,10,11,13"
-  }, {
-    "name" : "Lori Doiron-Benoit",
-    "paid" : true,
-    "pickcode" : "ldb45",
-    "picks" : "2,3,5,11,13"
-  }, {
-    "name" : "Mark Sutherland",
-    "paid" : true,
-    "pickcode" : "ms78",
-    "picks" : "1,3,6,7,13"
-  }, {
-    "name" : "Matt Currie",
-    "paid" : true,
-    "pickcode" : "mc89",
-    "picks" : "0,2,5,8,11"
-  }, {
-    "name" : "Michelle Hearn",
-    "paid" : true,
-    "pickcode" : "mh23",
-    "picks" : "1,5,10,11,12"
-  }, {
-    "name" : "Patricia Johnston",
-    "paid" : true,
-    "pickcode" : "pj56",
-    "picks" : "1,2,4,11,13"
-  }, {
-    "name" : "Scott Munro",
-    "paid" : true,
-    "pickcode" : "sm89",
-    "picks" : "2,3,6,7,11"
-  }, {
-    "name" : "Emilie LeBlanc",
-    "paid" : true,
-    "pickcode" : "sh12",
-    "picks" : "2,5,6,11,12"
-  }, {
-    "name" : "Shanna Burke",
-    "paid" : true,
-    "pickcode" : "sb23",
-    "picks" : "1,2,6,8,12"
-  }, {
-    "name" : "Shawn Gillan-Wright",
-    "paid" : true,
-    "pickcode" : "sgw34",
-    "picks" : "3,5,6,8,10"
-  }, {
-    "name" : "Sheri Bowen",
-    "paid" : true,
-    "pickcode" : "sb56",
-    "picks" : "0,2,8,10,11"
-  }, {
-    "name" : "Stacey Pottie",
-    "paid" : true,
-    "pickcode" : "sp67",
-    "picks" : "2,4,5,8,13"
-  }, {
-    "name" : "TC Fougere",
-    "paid" : true,
-    "pickcode" : "tcf23",
-    "picks" : "1,3,8,9,10"
-  }, {
-    "name" : "Cathy Stothart",
-    "paid" : true,
-    "pickcode" : "cts12",
-    "picks" : "5,9,10,11,12"
-  }, {
-    "name" : "Julie Francis",
-    "paid" : true,
-    "pickcode" : "jf12",
-    "picks" : "4,7,8,11,12"
-  }, {
-    "name" : "Lyla Faddoul",
-    "paid" : true,
-    "pickcode" : "lf12",
-    "picks" : "0,4,6,10,13"
-  }, {
-    "name" : "Krista Ratchford",
-    "paid" : true,
-    "pickcode" : "kd12",
-    "picks" : "0,1,5,8,11"
-  }, {
-    "name" : "Lori MacDonald",
-    "paid" : true,
-    "pickcode" : "lmd12",
-    "picks" : "0,3,6,10,11"
-  }, {
-    "name" : "Jason Mackenzie",
-    "paid" : false,
-    "pickcode" : "jmac12",
-    "picks" : "3,5,7,10,13"
-  }, {
-    "name" : "Tanya Bungay",
-    "paid" : true,
-    "pickcode" : "tb93",
-    "picks" : "0,2,3,7,9"
-  }, {
-    "name" : "Eddie Bungay",
-    "paid" : true,
-    "pickcode" : "eb72",
-    "picks" : "2,8,9,10,13"
-  }, {
-    "name" : "Amanda Short",
-    "paid" : true,
-    "pickcode" : "as19",
-    "picks" : "0,1,2,4,13"
-  }, {
-    "name" : "Teresa Macleod",
-    "paid" : true,
-    "pickcode" : "tm48",
-    "picks" : "4,5,9,10,13"
-  }, {
-    "name" : "Erin Fletcher",
-    "paid" : true,
-    "pickcode" : "ef68",
-    "picks" : "2,5,6,8,11"
-  }, {
-    "name" : "Russ Burke",
-    "paid" : true,
-    "pickcode" : "rb35",
-    "picks" : "1,6,7,8,10"
-  }, {
-    "name" : "Courtney Gallichon",
-    "paid" : false,
-    "pickcode" : "cg27",
-    "picks" : "4,8,10,12,13"
-  }, {
-    "name" : "Tamara Carr",
-    "paid" : false,
-    "pickcode" : "tc34",
-    "picks" : "3,5,6,10,11"
-  }, {
-    "name" : "Justin Leblanc",
-    "paid" : true,
-    "pickcode" : "jl89",
-    "picks" : "0,2,4,8,13"
-  }, {
-    "name" : "Ben Milton",
-    "paid" : false,
-    "pickcode" : "bm56",
-    "picks" : "0,3,4,9,10"
-  }, {
-    "name" : "CarolAnn Wilson",
-    "paid" : true,
-    "pickcode" : "caw77",
-    "picks" : "0,5,7,9,11"
-  }, {
-    "name" : "Cindy Cook",
-    "paid" : true,
-    "pickcode" : "cc30",
-    "picks" : "1,5,8,10,11"
-  }, {
-    "name" : "Chelsea Roche",
-    "paid" : false,
-    "pickcode" : "cz12",
-    "picks" : "0,6,7,10,11"
-  }, {
-    "name" : "Chantal Roche",
-    "paid" : true,
-    "pickcode" : "cy00",
-    "picks" : "0,1,7,10,11"
-  }, {
-    "name" : "Jennifer Penney",
-    "paid" : true,
-    "pickcode" : "jt55",
-    "picks" : "0,2,4,7,8"
-  }, {
-    "name" : "Gerri Hamilton",
-    "paid" : true,
-    "pickcode" : "gh22",
-    "picks" : "1,2,4,8,11"
-  }, {
-    "name" : "Andrew Smith",
-    "paid" : true,
-    "pickcode" : "as34",
-    "picks" : "0,1,2,8,10"
-  }, {
-    "name" : "Robin Handy",
-    "paid" : true,
-    "pickcode" : "rh67",
-    "picks" : "1,7,8,10,11"
-  }, {
-    "name" : "Zeina Faddoul",
-    "paid" : true,
-    "pickcode" : "zf44",
-    "picks" : "1,2,3,5,8"
-  }, {
-    "name" : "John Chidiac",
-    "paid" : true,
-    "pickcode" : "jc89",
-    "picks" : "0,3,5,9,13"
-  }, {
-    "name" : "Marlisa Ghosn",
-    "paid" : true,
-    "pickcode" : "mg67",
-    "picks" : "0,2,3,8,10"
-  }, {
-    "name" : "Natalie Hynes",
-    "paid" : true,
-    "pickcode" : "nh55",
-    "picks" : "2,3,6,7,13"
-  }, {
-    "name" : "Johnna Campbell",
-    "paid" : true,
-    "pickcode" : "jc56",
-    "picks" : "3,6,7,11,13"
-  }, {
-    "name" : "Chuck Boudreau",
-    "paid" : false,
-    "pickcode" : "cb32",
-    "picks" : "0,3,6,8,11"
-  }, {
-    "name" : "Victoria Samson",
-    "paid" : true,
-    "pickcode" : "vs99",
-    "picks" : "0,4,10,12,13"
-  }, {
-    "name" : "Ashley Hryckowian",
-    "paid" : true,
-    "pickcode" : "ah88",
-    "picks" : "0,1,2,8,11"
-  }
+  "houseguests": [
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    },
+    {
+      "age": "Unknown",
+      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
+      "hoh": 0,
+      "hometown": "Unknown",
+      "jury": false,
+      "name": "Unknown",
+      "photo": "assets/female-avatar.png",
+      "pov": 0,
+      "profession": "Unknown",
+      "weeks": 0
+    }
+  ],
+  "members": [
+    {
+      "name": "Andrew Hamilton",
+      "paid": false,
+      "pickcode": "ah34",
+      "picks": ""
+    },
+    {
+      "name": "Bryna Moreira",
+      "paid": false,
+      "pickcode": "bm89",
+      "picks": ""
+    },
+    {
+      "name": "Carli Poirier",
+      "paid": false,
+      "pickcode": "cp23",
+      "picks": ""
+    },
+    {
+      "name": "Claudine Sampson",
+      "paid": false,
+      "pickcode": "cs45",
+      "picks": ""
+    },
+    {
+      "name": "Lynn Shannon",
+      "paid": false,
+      "pickcode": "ls78",
+      "picks": ""
+    },
+    {
+      "name": "Ericka Branscombe",
+      "paid": false,
+      "pickcode": "eb23",
+      "picks": ""
+    },
+    {
+      "name": "Erin Gordon",
+      "paid": false,
+      "pickcode": "eg34",
+      "picks": ""
+    },
+    {
+      "name": "Jade Billings",
+      "paid": false,
+      "pickcode": "jb67",
+      "picks": ""
+    },
+    {
+      "name": "Scott Beckwith",
+      "paid": false,
+      "pickcode": "sb01",
+      "picks": ""
+    },
+    {
+      "name": "Jennifer Nixon",
+      "paid": false,
+      "pickcode": "jn12",
+      "picks": ""
+    },
+    {
+      "name": "Jordan Bonaparte",
+      "paid": false,
+      "pickcode": "jbp23",
+      "picks": ""
+    },
+    {
+      "name": "Kayla Crocker",
+      "paid": false,
+      "pickcode": "kc56",
+      "picks": ""
+    },
+    {
+      "name": "Kim Sampson",
+      "paid": false,
+      "pickcode": "ks78",
+      "picks": ""
+    },
+    {
+      "name": "Alexis Diakow",
+      "paid": false,
+      "pickcode": "ld12",
+      "picks": ""
+    },
+    {
+      "name": "Lori Doiron-Benoit",
+      "paid": false,
+      "pickcode": "ldb45",
+      "picks": ""
+    },
+    {
+      "name": "Mark Sutherland",
+      "paid": false,
+      "pickcode": "ms78",
+      "picks": ""
+    },
+    {
+      "name": "Matt Currie",
+      "paid": false,
+      "pickcode": "mc89",
+      "picks": ""
+    },
+    {
+      "name": "Michelle Hearn",
+      "paid": false,
+      "pickcode": "mh23",
+      "picks": ""
+    },
+    {
+      "name": "Patricia Johnston",
+      "paid": false,
+      "pickcode": "pj56",
+      "picks": ""
+    },
+    {
+      "name": "Scott Munro",
+      "paid": false,
+      "pickcode": "sm89",
+      "picks": ""
+    },
+    {
+      "name": "Emilie LeBlanc",
+      "paid": false,
+      "pickcode": "sh12",
+      "picks": ""
+    },
+    {
+      "name": "Shanna Burke",
+      "paid": false,
+      "pickcode": "sb23",
+      "picks": ""
+    },
+    {
+      "name": "Shawn Gillan-Wright",
+      "paid": false,
+      "pickcode": "sgw34",
+      "picks": ""
+    },
+    {
+      "name": "Sheri Bowen",
+      "paid": false,
+      "pickcode": "sb56",
+      "picks": ""
+    },
+    {
+      "name": "Stacey Pottie",
+      "paid": false,
+      "pickcode": "sp67",
+      "picks": ""
+    },
+    {
+      "name": "TC Fougere",
+      "paid": false,
+      "pickcode": "tcf23",
+      "picks": ""
+    },
+    {
+      "name": "Cathy Stothart",
+      "paid": false,
+      "pickcode": "cts12",
+      "picks": ""
+    },
+    {
+      "name": "Julie Francis",
+      "paid": false,
+      "pickcode": "jf12",
+      "picks": ""
+    },
+    {
+      "name": "Lyla Faddoul",
+      "paid": false,
+      "pickcode": "lf12",
+      "picks": ""
+    },
+    {
+      "name": "Krista Ratchford",
+      "paid": false,
+      "pickcode": "kd12",
+      "picks": ""
+    },
+    {
+      "name": "Lori MacDonald",
+      "paid": false,
+      "pickcode": "lmd12",
+      "picks": ""
+    },
+    {
+      "name": "Jason Mackenzie",
+      "paid": false,
+      "pickcode": "jmac12",
+      "picks": ""
+    },
+    {
+      "name": "Tanya Bungay",
+      "paid": false,
+      "pickcode": "tb93",
+      "picks": ""
+    },
+    {
+      "name": "Eddie Bungay",
+      "paid": false,
+      "pickcode": "eb72",
+      "picks": ""
+    },
+    {
+      "name": "Amanda Short",
+      "paid": false,
+      "pickcode": "as19",
+      "picks": ""
+    },
+    {
+      "name": "Teresa Macleod",
+      "paid": false,
+      "pickcode": "tm48",
+      "picks": ""
+    },
+    {
+      "name": "Erin Fletcher",
+      "paid": false,
+      "pickcode": "ef68",
+      "picks": ""
+    },
+    {
+      "name": "Russ Burke",
+      "paid": false,
+      "pickcode": "rb35",
+      "picks": ""
+    },
+    {
+      "name": "Courtney Gallichon",
+      "paid": false,
+      "pickcode": "cg27",
+      "picks": ""
+    },
+    {
+      "name": "Tamara Carr",
+      "paid": false,
+      "pickcode": "tc34",
+      "picks": ""
+    },
+    {
+      "name": "Justin Leblanc",
+      "paid": false,
+      "pickcode": "jl89",
+      "picks": ""
+    },
+    {
+      "name": "Ben Milton",
+      "paid": false,
+      "pickcode": "bm56",
+      "picks": ""
+    },
+    {
+      "name": "CarolAnn Wilson",
+      "paid": false,
+      "pickcode": "caw77",
+      "picks": ""
+    },
+    {
+      "name": "Cindy Cook",
+      "paid": false,
+      "pickcode": "cc30",
+      "picks": ""
+    },
+    {
+      "name": "Chelsea Roche",
+      "paid": false,
+      "pickcode": "cz12",
+      "picks": ""
+    },
+    {
+      "name": "Chantal Roche",
+      "paid": false,
+      "pickcode": "cy00",
+      "picks": ""
+    },
+    {
+      "name": "Jennifer Penney",
+      "paid": false,
+      "pickcode": "jt55",
+      "picks": ""
+    },
+    {
+      "name": "Gerri Hamilton",
+      "paid": false,
+      "pickcode": "gh22",
+      "picks": ""
+    },
+    {
+      "name": "Andrew Smith",
+      "paid": false,
+      "pickcode": "as34",
+      "picks": ""
+    },
+    {
+      "name": "Robin Handy",
+      "paid": false,
+      "pickcode": "rh67",
+      "picks": ""
+    },
+    {
+      "name": "Zeina Faddoul",
+      "paid": false,
+      "pickcode": "zf44",
+      "picks": ""
+    },
+    {
+      "name": "John Chidiac",
+      "paid": false,
+      "pickcode": "jc89",
+      "picks": ""
+    },
+    {
+      "name": "Marlisa Ghosn",
+      "paid": false,
+      "pickcode": "mg67",
+      "picks": ""
+    },
+    {
+      "name": "Natalie Hynes",
+      "paid": false,
+      "pickcode": "nh55",
+      "picks": ""
+    },
+    {
+      "name": "Johnna Campbell",
+      "paid": false,
+      "pickcode": "jc56",
+      "picks": ""
+    },
+    {
+      "name": "Chuck Boudreau",
+      "paid": false,
+      "pickcode": "cb32",
+      "picks": ""
+    },
+    {
+      "name": "Victoria Samson",
+      "paid": false,
+      "pickcode": "vs99",
+      "picks": ""
+    },
+    {
+      "name": "Ashley Hryckowian",
+      "paid": false,
+      "pickcode": "ah88",
+      "picks": ""
+    }
   ]
 }
