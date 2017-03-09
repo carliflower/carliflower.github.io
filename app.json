@@ -119,7 +119,7 @@
       "pov": 0,
       "profession": "Musician & Server",
       "weeks": 0
-    },    
+    },
     {
       "age": "Unknown",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
@@ -421,61 +421,61 @@
       "paid": false,
       "pickcode": "tp88",
       "picks": ""
-    },    
+    },
     {
       "name": "Patsy Poirier",
       "paid": false,
       "pickcode": "mom101",
       "picks": ""
-    },   
+    },
     {
       "name": "Cayla Joudrey",
       "paid": false,
       "pickcode": "cj36",
       "picks": ""
-    }, 
+    },
     {
       "name": "Kaitlin Burke",
       "paid": true,
       "pickcode": "kb58",
       "picks": ""
-    },  
+    },
     {
       "name": "Tuesdaie Faulkner",
       "paid": true,
       "pickcode": "tf18",
       "picks": ""
-    }, 
+    },
     {
       "name": "Joy Lyle",
       "paid": false,
       "pickcode": "jl93",
       "picks": ""
-    },    
+    },
     {
       "name": "Kathy Hampson",
       "paid": false,
       "pickcode": "kh64",
       "picks": ""
-    },   
+    },
     {
       "name": "Ms. Jmac",
       "paid": false,
       "pickcode": "jmac111",
       "picks": ""
-    },  
+    },
     {
       "name": "Alex Moreira",
       "paid": false,
       "pickcode": "am77",
       "picks": ""
-    }, 
+    },
     {
       "name": "Janeen Felix",
       "paid": false,
       "pickcode": "jf38",
       "picks": ""
-    }, 
+    },
     {
       "name": "Shar Munroe",
       "paid": false,
@@ -487,12 +487,24 @@
       "paid": false,
       "pickcode": "tm39",
       "picks": ""
-    },                    
+    },
     {
       "name": "Jennifer Taylor",
       "paid": false,
       "pickcode": "jt68",
       "picks": ""
-    }                     
+    },
+    {
+      "name": "Amanda Piercey",
+      "paid": true,
+      "pickcode": "ap47",
+      "picks": ""
+    },
+    {
+      "name": "Stephen Wayne Piercey",
+      "paid": true,
+      "pickcode": "swp51",
+      "picks": ""
+    }
   ]
 }
