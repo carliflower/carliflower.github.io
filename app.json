@@ -487,6 +487,12 @@
       "paid": false,
       "pickcode": "tm39",
       "picks": ""
+    },                    
+    {
+      "name": "Jennifer Taylor",
+      "paid": false,
+      "pickcode": "jt68",
+      "picks": ""
     }                     
   ]
 }
