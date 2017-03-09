@@ -442,7 +442,7 @@
     },  
     {
       "name": "Tuesdaie Faulkner",
-      "paid": false,
+      "paid": true,
       "pickcode": "tf18",
       "picks": ""
     }, 
