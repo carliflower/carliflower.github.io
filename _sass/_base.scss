@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     position: relative;
     border: 1px solid #ececec;
-    background-size: contain !important;
+    background-size: cover !important;
 
     &.alternate {
         background-size: initial !important;
