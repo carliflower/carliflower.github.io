@@ -121,18 +121,6 @@
       "weeks": 0
     },
     {
-      "age": "Unknown",
-      "bio": "http://bigbrothercanada.globaltv.com/houseguests/",
-      "hoh": 0,
-      "hometown": "Unknown",
-      "jury": false,
-      "name": "Unknown",
-      "photo": "assets/male-avatar.png",
-      "pov": 0,
-      "profession": "Unknown",
-      "weeks": 0
-    },
-    {
       "age": "27",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/sindy-nguyen",
       "hoh": 0,
@@ -193,22 +181,22 @@
       "weeks": 0
     },
     {
-      "age": "30",
+      "age": "22",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/jackie-mccurrach",
       "hoh": 0,
-      "hometown": "Madoc, ON",
+      "hometown": "PORT COQUITLAM, BC",
       "jury": false,
       "name": "Jackie Mccurrach",
       "photo": "assets/jackie-mccurrach.png",
       "pov": 0,
-      "profession": "Professional Boxer",
+      "profession": "Professional Pizza Maker",
       "weeks": 0
     }
   ],
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah34",
       "picks": ""
     },
@@ -220,7 +208,7 @@
     },
     {
       "name": "Carli Poirier",
-      "paid": false,
+      "paid": true,
       "pickcode": "cp23",
       "picks": ""
     },
@@ -274,7 +262,7 @@
     },
     {
       "name": "Lori Doiron-Benoit",
-      "paid": false,
+      "paid": true,
       "pickcode": "ldb45",
       "picks": ""
     },
@@ -292,7 +280,7 @@
     },
     {
       "name": "Michelle Hearn",
-      "paid": false,
+      "paid": true,
       "pickcode": "mh23",
       "picks": ""
     },
@@ -328,13 +316,13 @@
     },
     {
       "name": "Stacey Pottie",
-      "paid": false,
+      "paid": true,
       "pickcode": "sp67",
       "picks": ""
     },
     {
       "name": "TC Fougere",
-      "paid": false,
+      "paid": true,
       "pickcode": "tcf23",
       "picks": ""
     },
@@ -364,7 +352,7 @@
     },
     {
       "name": "Lori MacDonald",
-      "paid": false,
+      "paid": true,
       "pickcode": "lmd12",
       "picks": ""
     },
@@ -442,7 +430,7 @@
     },
     {
       "name": "Cayla Joudrey",
-      "paid": false,
+      "paid": true,
       "pickcode": "cj36",
       "picks": ""
     },
@@ -490,7 +478,7 @@
     },
     {
       "name": "Shar Munroe",
-      "paid": false,
+      "paid": true,
       "pickcode": "sm18",
       "picks": ""
     },
@@ -516,6 +504,198 @@
       "name": "Stephen Wayne Piercey",
       "paid": true,
       "pickcode": "swp51",
+      "picks": ""
+    },
+    {
+      "name": "Ben Milton",
+      "paid": false,
+      "pickcode": "bm29",
+      "picks": ""
+    },   
+    {
+      "name": "Chantale Murphy",
+      "paid": false,
+      "pickcode": "cm06",
+      "picks": ""
+    },
+    {
+      "name": "Amanda Curwin",
+      "paid": false,
+      "pickcode": "ac10",
+      "picks": ""
+    },
+    {
+      "name": "Ashley Beggs",
+      "paid": false,
+      "pickcode": "ab49",
+      "picks": ""
+    },
+    {
+      "name": "Lisa Skinner",
+      "paid": false,
+      "pickcode": "ls93",
+      "picks": ""
+    },
+    {
+      "name": "Heather McEwen",
+      "paid": false,
+      "pickcode": "hm38",
+      "picks": ""
+    },
+    {
+      "name": "Kayla Mehling",
+      "paid": false,
+      "pickcode": "km27",
+      "picks": ""
+    },
+    {
+      "name": "Patty Ann Gaudet",
+      "paid": false,
+      "pickcode": "pag12",
+      "picks": ""
+    },
+    {
+      "name": "Allison Heard",
+      "paid": true,
+      "pickcode": "ah48",
+      "picks": ""
+    },
+    {
+      "name": "Drew Miller",
+      "paid": false,
+      "pickcode": "dm91",
+      "picks": ""
+    },
+    {
+      "name": "Robin Handy",
+      "paid": false,
+      "pickcode": "rh72",
+      "picks": ""
+    },    
+    {
+      "name": "Rachael Handy",
+      "paid": false,
+      "pickcode": "rh48",
+      "picks": ""
+    },   
+    {
+      "name": "Iain Campbell",
+      "paid": false,
+      "pickcode": "ic62",
+      "picks": ""
+    }, 
+    {
+      "name": "Kelly Marie",
+      "paid": false,
+      "pickcode": "km64",
+      "picks": ""
+    },  
+    {
+      "name": "Olivia Hearn",
+      "paid": true,
+      "pickcode": "oh15",
+      "picks": ""
+    },  
+    {
+      "name": "Wendy Friske",
+      "paid": false,
+      "pickcode": "wf68",
+      "picks": ""
+    },  
+    {
+      "name": "Sheri Marie",
+      "paid": false,
+      "pickcode": "sm28",
+      "picks": ""
+    }, 
+    {
+      "name": "Kayla Mercer",
+      "paid": false,
+      "pickcode": "km49",
+      "picks": ""
+    },  
+    {
+      "name": "Ray Munroe",
+      "paid": true,
+      "pickcode": "rm69",
+      "picks": ""
+    },         
+    {
+      "name": "Megan Rae Emin",
+      "paid": false,
+      "pickcode": "mre73",
+      "picks": ""
+    },
+    {
+      "name": "Valentia Tattrie",
+      "paid": false,
+      "pickcode": "vt34",
+      "picks": ""
+    },
+    {
+      "name": "Minna Whitman",
+      "paid": false,
+      "pickcode": "mw60",
+      "picks": ""
+    },   
+    {
+      "name": "Adam Davis",
+      "paid": true,
+      "pickcode": "ad23",
+      "picks": ""
+    },
+    {
+      "name": "Alan Flett",
+      "paid": false,
+      "pickcode": "af52",
+      "picks": ""
+    },
+    {
+      "name": "Sajid Khan",
+      "paid": false,
+      "pickcode": "sk84",
+      "picks": ""
+    },
+    {
+      "name": "Brenda Munro",
+      "paid": false,
+      "pickcode": "db88",
+      "picks": ""
+    },
+    {
+      "name": "Amy Davis",
+      "paid": false,
+      "pickcode": "ad72",
+      "picks": ""
+    },
+    {
+      "name": "Melissa Deveaux",
+      "paid": false,
+      "pickcode": "md44",
+      "picks": ""
+    },
+    {
+      "name": "Becca Melanson",
+      "paid": false,
+      "pickcode": "bm04",
+      "picks": ""
+    },
+    {
+      "name": "Lucie Belval",
+      "paid": true,
+      "pickcode": "lb91",
+      "picks": ""
+    },
+    {
+      "name": "Pamela Trenholm",
+      "paid": false,
+      "pickcode": "pt51",
+      "picks": ""
+    },
+    {
+      "name": "Jason Sprague",
+      "paid": false,
+      "pickcode": "js19",
       "picks": ""
     }
   ]
