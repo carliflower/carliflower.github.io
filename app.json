@@ -703,6 +703,12 @@
       "paid": false,
       "pickcode": "km47",
       "picks": ""
-    }    
+    },
+    {
+      "name": "AJ Benoit",
+      "paid": false,
+      "pickcode": "ajb77",
+      "picks": ""
+    }
   ]
 }
