@@ -538,7 +538,7 @@
     },
     {
       "name": "Heather McEwen",
-      "paid": false,
+      "paid": true,
       "pickcode": "hm38",
       "picks": ""
     },
