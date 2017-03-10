@@ -364,7 +364,7 @@
     },
     {
       "name": "Amanda Short",
-      "paid": false,
+      "paid": true,
       "pickcode": "as19",
       "picks": ""
     },
@@ -568,13 +568,13 @@
     },
     {
       "name": "Robin Handy",
-      "paid": false,
+      "paid": true,
       "pickcode": "rh72",
       "picks": ""
     },
     {
       "name": "Rachael Handy",
-      "paid": false,
+      "paid": true,
       "pickcode": "rh48",
       "picks": ""
     },
@@ -646,13 +646,13 @@
     },
     {
       "name": "Alan Flett",
-      "paid": false,
+      "paid": true,
       "pickcode": "af52",
       "picks": ""
     },
     {
       "name": "Sajid Khan",
-      "paid": false,
+      "paid": true,
       "pickcode": "sk84",
       "picks": ""
     },
