@@ -98,12 +98,12 @@
             }
 
             //sort members by points and alphaname
-            // vm.sortedMembers = _.sortByOrder(vm.members, ['points', 'name'], [false, true]);
+            vm.sortedMembers = _.sortByOrder(vm.members, ['points', 'name'], [false, true]);
 
-            // var pointCounts = _.countBy(vm.sortedMembers, function(member) {
-            //   return member.points;
-            // });
-            // var sortedPoints = _.pairs(pointCounts)
+            var pointCounts = _.countBy(vm.sortedMembers, function(member) {
+              return member.points;
+            });
+            var sortedPoints = _.pairs(pointCounts)
             // $log.info("sortedPoints", sortedPoints);
 
             // //used when the point spread has start to thin out and show the prize values/
