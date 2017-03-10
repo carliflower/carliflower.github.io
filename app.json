@@ -511,7 +511,7 @@
       "paid": false,
       "pickcode": "bm29",
       "picks": ""
-    },   
+    },
     {
       "name": "Chantale Murphy",
       "paid": false,
@@ -571,55 +571,55 @@
       "paid": false,
       "pickcode": "rh72",
       "picks": ""
-    },    
+    },
     {
       "name": "Rachael Handy",
       "paid": false,
       "pickcode": "rh48",
       "picks": ""
-    },   
+    },
     {
       "name": "Iain Campbell",
       "paid": false,
       "pickcode": "ic62",
       "picks": ""
-    }, 
+    },
     {
       "name": "Kelly Marie",
       "paid": true,
       "pickcode": "km64",
       "picks": ""
-    },  
+    },
     {
       "name": "Olivia Hearn",
       "paid": true,
       "pickcode": "oh15",
       "picks": ""
-    },  
+    },
     {
       "name": "Wendy Friske",
       "paid": false,
       "pickcode": "wf68",
       "picks": ""
-    },  
+    },
     {
       "name": "Sheri Marie",
       "paid": true,
       "pickcode": "sm28",
       "picks": ""
-    }, 
+    },
     {
       "name": "Kayla Mercer",
       "paid": false,
       "pickcode": "km49",
       "picks": ""
-    },  
+    },
     {
       "name": "Ray Munroe",
       "paid": true,
       "pickcode": "rm69",
       "picks": ""
-    },         
+    },
     {
       "name": "Megan Rae Emin",
       "paid": true,
@@ -637,7 +637,7 @@
       "paid": false,
       "pickcode": "mw60",
       "picks": ""
-    },   
+    },
     {
       "name": "Adam Davis",
       "paid": true,
@@ -709,6 +709,12 @@
       "paid": false,
       "pickcode": "ajb77",
       "picks": ""
-    }
+    },
+    {
+      "name": "Suzanne McLeod",
+      "paid": false,
+      "pickcode": "sm37",
+      "picks": ""
+    },
   ]
 }
