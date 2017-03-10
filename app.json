@@ -532,7 +532,7 @@
     },
     {
       "name": "Lisa Skinner",
-      "paid": false,
+      "paid": true,
       "pickcode": "ls93",
       "picks": ""
     },
@@ -670,7 +670,7 @@
     },
     {
       "name": "Melissa Deveaux",
-      "paid": false,
+      "paid": true,
       "pickcode": "md44",
       "picks": ""
     },
@@ -715,6 +715,6 @@
       "paid": false,
       "pickcode": "sm37",
       "picks": ""
-    },
+    }
   ]
 }
