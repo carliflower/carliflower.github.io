@@ -622,7 +622,7 @@
     },         
     {
       "name": "Megan Rae Emin",
-      "paid": false,
+      "paid": true,
       "pickcode": "mre73",
       "picks": ""
     },
@@ -697,6 +697,12 @@
       "paid": false,
       "pickcode": "js19",
       "picks": ""
-    }
+    },
+    {
+      "name": "Kerry MacKenzie",
+      "paid": false,
+      "pickcode": "km47",
+      "picks": ""
+    }    
   ]
 }
