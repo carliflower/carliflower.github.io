@@ -98,20 +98,20 @@
             }
 
             //sort members by points and alphaname
-            vm.sortedMembers = _.sortByOrder(vm.members, ['points', 'name'], [false, true]);
+            // vm.sortedMembers = _.sortByOrder(vm.members, ['points', 'name'], [false, true]);
 
-            var pointCounts = _.countBy(vm.sortedMembers, function(member) {
-              return member.points;
-            });
-            var sortedPoints = _.pairs(pointCounts)
-            $log.info("sortedPoints", sortedPoints);
+            // var pointCounts = _.countBy(vm.sortedMembers, function(member) {
+            //   return member.points;
+            // });
+            // var sortedPoints = _.pairs(pointCounts)
+            // $log.info("sortedPoints", sortedPoints);
 
-            //used when the point spread has start to thin out and show the prize values/
-            vm.firstPlacePointValue = sortedPoints[sortedPoints.length-1][0];
-            vm.secondPlacePointValue = sortedPoints[sortedPoints.length-2][0];
-            vm.thirdPlacePointValue = sortedPoints[sortedPoints.length-3][0];
-            vm.fourthPlacePointValue = sortedPoints[sortedPoints.length-4][0];
-            vm.lastPlacePointValue = sortedPoints[0][0];
+            // //used when the point spread has start to thin out and show the prize values/
+            // vm.firstPlacePointValue = sortedPoints[sortedPoints.length-1][0];
+            // vm.secondPlacePointValue = sortedPoints[sortedPoints.length-2][0];
+            // vm.thirdPlacePointValue = sortedPoints[sortedPoints.length-3][0];
+            // vm.fourthPlacePointValue = sortedPoints[sortedPoints.length-4][0];
+            // vm.lastPlacePointValue = sortedPoints[0][0];
 
             // $log.debug("generateStandings", vm.members, vm.houseguests);
         }
