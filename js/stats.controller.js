@@ -112,6 +112,9 @@
                     name: vm.houseguests[i].name,
                     photo: vm.houseguests[i].photo,
                     points: vm.HouseguestsService.tallyPoints(vm.houseguests[i]),
+                    hoh: vm.houseguests[i].hoh,
+                    pov: vm.houseguests[i].pov,
+                    weeks: vm.houseguests[i].weeks,
                     count: counts[i]
                 };
 
