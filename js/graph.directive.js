@@ -81,7 +81,7 @@ angular.module('app')
                   .append('text')
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 35;
+                    return i * (barHeight + barPadding) + 10;
                   })
                   .attr('x', 125)
                   .text(function (d) {
@@ -90,12 +90,22 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
+                    return i * (barHeight + barPadding) + 35;
+                  })
+                  .attr('x', 125)
+                  .text(function (d) {
+                    return "HOH Wins: " + d.hoh;
+                  })
+                  .append("tspan")
+                  .attr('fill', '#fff')
+                  .attr('y', function (d, i) {
                     return i * (barHeight + barPadding) + 60;
                   })
                   .attr('x', 125)
                   .text(function (d) {
-                    return "HOH WINS: " + d.hoh + " POV WINS: " + d.pov; })
-                                  .append("tspan")
+                    return "POV Wins: " + d.pov;
+                  })
+                  .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
                     return i * (barHeight + barPadding) + 85;
