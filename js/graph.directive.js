@@ -65,7 +65,7 @@ angular.module('app')
                   .attr('width', 250)
                   .attr('x', Math.round(margin / 2))
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 105;
+                    return i * (barHeight + barPadding) + 95;
                   })
                   .attr('fill', function (d) {
                     return "#0095dd";
@@ -81,7 +81,7 @@ angular.module('app')
                   .append('text')
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 10;
+                    return i * (barHeight + barPadding) + 15;
                   })
                   .attr('x', 125)
                   .text(function (d) {
@@ -90,7 +90,7 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 35;
+                    return i * (barHeight + barPadding) + 30;
                   })
                   .attr('x', 125)
                   .text(function (d) {
@@ -99,7 +99,7 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 60;
+                    return i * (barHeight + barPadding) + 55;
                   })
                   .attr('x', 125)
                   .text(function (d) {
@@ -108,7 +108,7 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 85;
+                    return i * (barHeight + barPadding) + 80;
                   })
                   .attr('x', 125)
                   .text(function (d) { return "Picked " + d.count + " times"; });
