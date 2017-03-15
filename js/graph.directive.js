@@ -85,7 +85,7 @@ angular.module('app')
                   })
                   .attr('x', 125)
                   .text(function(d) {
-                    return d.name + "&nbsp;&nbsp;&nbsp;HOH WINS:&nbsp;" + d.hoh + "&nbsp;&nbsp;&nbsp;POV WINS:&nbsp;" +  d.pov;
+                    return d.name + " - HOH WINS:&nbsp;" + d.hoh + "POV WINS:" +  d.pov;
                   })
                   .append("tspan")
                     .attr('fill', '#fff')
