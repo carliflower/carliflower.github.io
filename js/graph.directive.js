@@ -99,7 +99,7 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 50;
+                    return i * (barHeight + barPadding) + 55;
                   })
                   .attr('x', 125)
                   .text(function (d) {
