@@ -111,6 +111,7 @@
                 var o = {
                     name: vm.houseguests[i].name,
                     photo: vm.houseguests[i].photo,
+                    points: vm.HouseguestsService.tallyPoints(vm.houseguests[i]),
                     count: counts[i]
                 };
 
