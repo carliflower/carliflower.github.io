@@ -85,9 +85,10 @@ angular.module('app')
                   })
                   .attr('x', 125)
                   .text(function(d) {
-                    return d.name + " --- HOH WINS: " + d.hoh + " POV WINS: " +  d.pov;
+                    return d.name;
                 })
-                .attr('y', 125)
+                .append('text')
+                .attr('x', 125)
                 .text(function (d) {
                   return "HOH Wins: " + d.hoh + " POV wins: " + d.pov;
                 })                
