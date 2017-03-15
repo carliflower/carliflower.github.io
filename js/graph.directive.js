@@ -85,12 +85,12 @@ angular.module('app')
                   })
                   .attr('x', 125)
                   .text(function (d) {
-                    return d.name + " --- HOH Wins: " + d.hoh + " POV wins: " + d.pov;
+                    return d.name + " --- HOH WINS: " + d.hoh + " POV WINS: " + d.pov;
                   })
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 75;
+                    return i * (barHeight + barPadding) + 60;
                   })
                   .attr('x', 125)
                   .text(function (d) { return "Picked " + d.count + " times"; });
