@@ -65,7 +65,7 @@ angular.module('app')
                   .attr('width', 250)
                   .attr('x', Math.round(margin / 2))
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 95;
+                    return i * (barHeight + barPadding) + 90;
                   })
                   .attr('fill', function (d) {
                     return "#0095dd";
@@ -90,7 +90,7 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 30;
+                    return i * (barHeight + barPadding) + 35;
                   })
                   .attr('x', 125)
                   .text(function (d) {
@@ -99,7 +99,7 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 55;
+                    return i * (barHeight + barPadding) + 50;
                   })
                   .attr('x', 125)
                   .text(function (d) {
@@ -108,7 +108,7 @@ angular.module('app')
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 80;
+                    return i * (barHeight + barPadding) + 75;
                   })
                   .attr('x', 125)
                   .text(function (d) { return "Picked " + d.count + " times"; });
