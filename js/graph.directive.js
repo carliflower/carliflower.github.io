@@ -65,7 +65,7 @@ angular.module('app')
                   .attr('width', 250)
                   .attr('x', Math.round(margin / 2))
                   .attr('y', function (d, i) {
-                    return i * (barHeight + barPadding) + 75;
+                    return i * (barHeight + barPadding) + 105;
                   })
                   .attr('fill', function (d) {
                     return "#0095dd";
@@ -85,12 +85,20 @@ angular.module('app')
                   })
                   .attr('x', 125)
                   .text(function (d) {
-                    return d.name + " --- HOH WINS: " + d.hoh + " POV WINS: " + d.pov;
+                    return d.name;
                   })
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
                     return i * (barHeight + barPadding) + 60;
+                  })
+                  .attr('x', 125)
+                  .text(function (d) {
+                    return "HOH WINS: " + d.hoh + " POV WINS: " + d.pov; })
+                                  .append("tspan")
+                  .attr('fill', '#fff')
+                  .attr('y', function (d, i) {
+                    return i * (barHeight + barPadding) + 85;
                   })
                   .attr('x', 125)
                   .text(function (d) { return "Picked " + d.count + " times"; });
