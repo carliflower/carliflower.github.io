@@ -85,7 +85,7 @@ angular.module('app')
                   })
                   .attr('x', 125)
                   .text(function(d) {
-                    return d.name + "    HOH WINS: " + d.hoh + "   POV WINS: " +  d.pov;
+                    return d.name + "&nbsp;&nbsp;&nbsp;HOH WINS:&nbsp;" + d.hoh + "&nbsp;&nbsp;&nbsp;POV WINS:&nbsp;" +  d.pov;
                   })
                   .append("tspan")
                     .attr('fill', '#fff')
@@ -93,7 +93,7 @@ angular.module('app')
                         return i * (barHeight + barPadding) + 60;
                     })
                     .attr('x', 125)
-                    .text(function(d) {return d.count + " picks";});
+                    .text(function(d) {return "Picked " + d.count + " times";});
         //}
 
               // svg.selectAll('text')
