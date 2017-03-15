@@ -52,7 +52,7 @@ angular.module('app')
 
                 svg.attr('height', height);
 
-                //125,75
+                //100,75
 
                 svg.selectAll('rect')
                   .data(data)
@@ -83,16 +83,17 @@ angular.module('app')
                   .attr('y', function (d, i) {
                     return i * (barHeight + barPadding) + 15;
                   })
-                  .attr('x', 125)
+                  .attr('x', 100)
                   .text(function (d) {
                     return d.name;
                   })
+                  .style("font-weight", "bold")
                   .append("tspan")
                   .attr('fill', '#fff')
                   .attr('y', function (d, i) {
                     return i * (barHeight + barPadding) + 35;
                   })
-                  .attr('x', 125)
+                  .attr('x', 100)
                   .text(function (d) {
                     return "HOH Wins: " + d.hoh;
                   })
@@ -101,7 +102,7 @@ angular.module('app')
                   .attr('y', function (d, i) {
                     return i * (barHeight + barPadding) + 55;
                   })
-                  .attr('x', 125)
+                  .attr('x', 100)
                   .text(function (d) {
                     return "POV Wins: " + d.pov;
                   })
@@ -110,7 +111,7 @@ angular.module('app')
                   .attr('y', function (d, i) {
                     return i * (barHeight + barPadding) + 75;
                   })
-                  .attr('x', 125)
+                  .attr('x', 100)
                   .text(function (d) { return "Picked " + d.count + " times"; });
                 //}
 
