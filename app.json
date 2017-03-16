@@ -9,7 +9,7 @@
       "name": "Gary Levy",
       "photo": "assets/gary-levy.png",
       "pov": 0,
-      "profession": "Artit",
+      "profession": "Artist",
       "weeks": 0
     },
     {
@@ -159,7 +159,7 @@
     {
       "age": "53",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/karen-singbeil",
-      "hoh": 0,
+      "hoh": 1,
       "hometown": "Victoria, BC",
       "jury": false,
       "name": "Karen Singbeil",
