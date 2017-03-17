@@ -10,7 +10,7 @@
       "photo": "assets/gary-levy.png",
       "pov": 0,
       "profession": "Artist",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "25",
@@ -22,7 +22,7 @@
       "photo": "assets/neda-kalantar.png",
       "pov": 0,
       "profession": "Entrepreneur",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "25",
@@ -34,7 +34,7 @@
       "photo": "assets/dallas-cormier.png",
       "pov": 0,
       "profession": "Lobster Fisherman & Welder",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "24",
@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 0,
       "profession": "Professional Poker Player",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "33",
@@ -58,7 +58,7 @@
       "photo": "assets/bruno-ielo.png",
       "pov": 1,
       "profession": "Construction Worker",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "25",
@@ -70,7 +70,7 @@
       "photo": "assets/dre-gwenaelle.png",
       "pov": 0,
       "profession": "Masters Student",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "32",
@@ -82,7 +82,7 @@
       "photo": "assets/ika-wong.png",
       "pov": 0,
       "profession": "Financial Services Manager",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "24",
@@ -106,7 +106,7 @@
       "photo": "assets/william-laprise-desbiens.png",
       "pov": 0,
       "profession": "Marketing Student & Blogger",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "23",
@@ -118,7 +118,7 @@
       "photo": "assets/emily-hawkin.png",
       "pov": 0,
       "profession": "Musician & Server",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "27",
@@ -130,7 +130,7 @@
       "photo": "assets/sindy-nguyen.png",
       "pov": 0,
       "profession": "Beauty Queen",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "23",
@@ -142,7 +142,7 @@
       "photo": "assets/cassandra-shahinfar.png",
       "pov": 0,
       "profession": "Marketing Manager",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "25",
@@ -154,7 +154,7 @@
       "photo": "assets/demetres-giannitsos.png",
       "pov": 0,
       "profession": "Oil Field Instrument Technician",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "53",
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "30",
@@ -178,7 +178,7 @@
       "photo": "assets/dillon-carman.png",
       "pov": 0,
       "profession": "Professional Boxer",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "22",
@@ -190,7 +190,7 @@
       "photo": "assets/jackie-mccurrach.png",
       "pov": 0,
       "profession": "Professional Pizza Maker",
-      "weeks": 0
+      "weeks": 1
     }
   ],
   "members": [
