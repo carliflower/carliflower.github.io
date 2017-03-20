@@ -448,7 +448,7 @@
     },
     {
       "name": "Joy Lyle",
-      "paid": false,
+      "paid": true,
       "pickcode": "jl93",
       "picks": "3,7,10,12,15"
     },
@@ -580,7 +580,7 @@
     },
     {
       "name": "Iain Campbell",
-      "paid": false,
+      "paid": true,
       "pickcode": "ic62",
       "picks": "3,5,7,11,12"
     },
@@ -724,7 +724,7 @@
     },
     {
       "name": "Tara Lee Stewart",
-      "paid": false,
+      "paid": true,
       "pickcode": "tls28",
       "picks": "0,3,4,6,11"
     },
@@ -754,7 +754,7 @@
     },
     {
       "name": "Tracy Goodwin",
-      "paid": false,
+      "paid": true,
       "pickcode": "tg63",
       "picks": "0,2,7,11,14"
     }
