@@ -20,7 +20,7 @@
       "jury": false,
       "name": "Neda Kalantar",
       "photo": "assets/neda-kalantar.png",
-      "pov": 0,
+      "pov": 1,
       "profession": "Entrepreneur",
       "weeks": 3
     },
@@ -147,7 +147,7 @@
     {
       "age": "25",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/demetres-giannitsos",
-      "hoh": 1,
+      "hoh": 2,
       "hometown": "Edson, AB",
       "jury": false,
       "name": "Demetres Giannitsos",
