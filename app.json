@@ -111,7 +111,7 @@
     {
       "age": "23",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/emily-hawkin",
-      "hoh": 1,
+      "hoh": 0,
       "hometown": "Toronto, ON",
       "jury": false,
       "name": "Emily Hawkin",
@@ -123,7 +123,7 @@
     {
       "age": "27",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/sindy-nguyen",
-      "hoh": 0,
+      "hoh": 1,
       "hometown": "Toronto, ON",
       "jury": false,
       "name": "Sindy Nguyen",
