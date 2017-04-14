@@ -44,7 +44,7 @@
       "jury": false,
       "name": "Kevin Martin",
       "photo": "assets/kevin-martin.png",
-      "pov": 0,
+      "pov": 1,
       "profession": "Professional Poker Player",
       "weeks": 4
     },
@@ -99,7 +99,7 @@
     {
       "age": "23",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/william-laprise-desbiens",
-      "hoh": 0,
+      "hoh": 1,
       "hometown": "Trois-Rivieres, QC",
       "jury": false,
       "name": "William Laprise Desbiens",
