@@ -22,7 +22,7 @@
       "photo": "assets/neda-kalantar.png",
       "pov": 1,
       "profession": "Entrepreneur",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "25",
@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 1,
       "profession": "Professional Poker Player",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "33",
@@ -58,7 +58,7 @@
       "photo": "assets/bruno-ielo.png",
       "pov": 1,
       "profession": "Construction Worker",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "25",
@@ -70,7 +70,7 @@
       "photo": "assets/dre-gwenaelle.png",
       "pov": 0,
       "profession": "Masters Student",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "32",
@@ -82,7 +82,7 @@
       "photo": "assets/ika-wong.png",
       "pov": 0,
       "profession": "Financial Services Manager",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "24",
@@ -106,7 +106,7 @@
       "photo": "assets/william-laprise-desbiens.png",
       "pov": 1,
       "profession": "Marketing Student & Blogger",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "23",
@@ -115,7 +115,7 @@
       "hometown": "Toronto, ON",
       "jury": false,
       "name": "Emily Hawkin",
-      "photo": "assets/emily-hawkin.png",
+      "photo": "assets/emily-hawkin-bw.png",
       "pov": 0,
       "profession": "Musician & Server",
       "weeks": 4
@@ -130,7 +130,7 @@
       "photo": "assets/sindy-nguyen.png",
       "pov": 0,
       "profession": "Beauty Queen",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "23",
@@ -154,7 +154,7 @@
       "photo": "assets/demetres-giannitsos.png",
       "pov": 0,
       "profession": "Oil Field Instrument Technician",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "53",
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "30",
@@ -178,7 +178,7 @@
       "photo": "assets/dillon-carman.png",
       "pov": 1,
       "profession": "Professional Boxer",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "22",
@@ -190,7 +190,7 @@
       "photo": "assets/jackie-mccurrach.png",
       "pov": 0,
       "profession": "Professional Pizza Maker",
-      "weeks": 4
+      "weeks": 5
     }
   ],
   "members": [
