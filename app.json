@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 1,
       "profession": "Professional Poker Player",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "33",
@@ -58,7 +58,7 @@
       "photo": "assets/bruno-ielo.png",
       "pov": 1,
       "profession": "Construction Worker",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "25",
@@ -70,7 +70,7 @@
       "photo": "assets/dre-gwenaelle.png",
       "pov": 0,
       "profession": "Masters Student",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "32",
@@ -82,7 +82,7 @@
       "photo": "assets/ika-wong.png",
       "pov": 0,
       "profession": "Financial Services Manager",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "24",
@@ -106,7 +106,7 @@
       "photo": "assets/william-laprise-desbiens.png",
       "pov": 1,
       "profession": "Marketing Student & Blogger",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "23",
@@ -127,7 +127,7 @@
       "hometown": "Toronto, ON",
       "jury": false,
       "name": "Sindy Nguyen",
-      "photo": "assets/sindy-nguyen.png",
+      "photo": "assets/sindy-nguyen-bw.png",
       "pov": 0,
       "profession": "Beauty Queen",
       "weeks": 6
@@ -154,7 +154,7 @@
       "photo": "assets/demetres-giannitsos.png",
       "pov": 1,
       "profession": "Oil Field Instrument Technician",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "53",
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "30",
@@ -178,7 +178,7 @@
       "photo": "assets/dillon-carman.png",
       "pov": 1,
       "profession": "Professional Boxer",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "22",
@@ -190,7 +190,7 @@
       "photo": "assets/jackie-mccurrach.png",
       "pov": 1,
       "profession": "Professional Pizza Maker",
-      "weeks": 6
+      "weeks": 7
     }
   ],
   "members": [
