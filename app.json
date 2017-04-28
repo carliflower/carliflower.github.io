@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 1,
       "profession": "Professional Poker Player",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "33",
@@ -55,7 +55,7 @@
       "hometown": "Ottawa, ON",
       "jury": false,
       "name": "Bruno Ielo",
-      "photo": "assets/bruno-ielo.png",
+      "photo": "assets/bruno-ielo-bw.png",
       "pov": 1,
       "profession": "Construction Worker",
       "weeks": 7
@@ -70,7 +70,7 @@
       "photo": "assets/dre-gwenaelle.png",
       "pov": 0,
       "profession": "Masters Student",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "32",
@@ -82,7 +82,7 @@
       "photo": "assets/ika-wong.png",
       "pov": 0,
       "profession": "Financial Services Manager",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "24",
@@ -106,7 +106,7 @@
       "photo": "assets/william-laprise-desbiens.png",
       "pov": 2,
       "profession": "Marketing Student & Blogger",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "23",
@@ -154,7 +154,7 @@
       "photo": "assets/demetres-giannitsos.png",
       "pov": 1,
       "profession": "Oil Field Instrument Technician",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "53",
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "30",
@@ -178,7 +178,7 @@
       "photo": "assets/dillon-carman.png",
       "pov": 1,
       "profession": "Professional Boxer",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "22",
@@ -190,7 +190,7 @@
       "photo": "assets/jackie-mccurrach.png",
       "pov": 1,
       "profession": "Professional Pizza Maker",
-      "weeks": 7
+      "weeks": 8
     }
   ],
   "members": [
