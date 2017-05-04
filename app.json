@@ -472,7 +472,7 @@
     },
     {
       "name": "Janeen Felix",
-      "paid": false,
+      "paid": true,
       "pickcode": "jf38",
       "picks": "0,2,3,7,12"
     },
@@ -748,7 +748,7 @@
     },
     {
       "name": "Christine Kostiuk Boyd",
-      "paid": false,
+      "paid": true,
       "pickcode": "ckb18",
       "picks": "3,8,9,12,15"
     },
