@@ -3,7 +3,7 @@
     <h1>Houseguests</h1>
 
     <ul class="houseguest-grid">
-        <li ng-repeat="houseguest in vm.houseguests  | orderBy: ['-points','name']">
+        <li ng-repeat="houseguest in vm.houseguests | orderBy: ['-points','name']">
             <div class="houseguest-tile {[{houseguest.isAlternate}]}" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;">
                 <div class="bio" test="{[{houseguest.isAlternate}]}">
                     <p class="name">{[{houseguest.name}]}</p>
@@ -19,6 +19,7 @@
                         <span class="weeks">EVICTIONS: {[{houseguest.weeks}]}</span>
                     </div>
                     <div class="total">{[{vm.totalPoints(houseguest)}]}</div>
+                    <div ng-if="houseguest.jury">Jury Member</div>
                 </div>
             </div>
         </li>
