@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 2,
       "profession": "Professional Poker Player",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "33",
@@ -65,7 +65,7 @@
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/dre-gwenaelle",
       "hoh": 0,
       "hometown": "Montreal, QC",
-      "jury": false,
+      "jury": true,
       "name": "Dre Gwenaelle",
       "photo": "assets/dre-gwenaelle.png",
       "pov": 0,
@@ -82,7 +82,7 @@
       "photo": "assets/ika-wong.png",
       "pov": 0,
       "profession": "Financial Services Manager",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "24",
@@ -101,7 +101,7 @@
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/william-laprise-desbiens",
       "hoh": 1,
       "hometown": "Trois-Rivieres, QC",
-      "jury": false,
+      "jury": true,
       "name": "William Laprise Desbiens",
       "photo": "assets/william-laprise-desbiens.png",
       "pov": 2,
@@ -154,7 +154,7 @@
       "photo": "assets/demetres-giannitsos.png",
       "pov": 2,
       "profession": "Oil Field Instrument Technician",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "53",
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "30",
@@ -178,14 +178,14 @@
       "photo": "assets/dillon-carman.png",
       "pov": 1,
       "profession": "Professional Boxer",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "22",
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/jackie-mccurrach",
       "hoh": 0,
       "hometown": "PORT COQUITLAM, BC",
-      "jury": false,
+      "jury": true,
       "name": "Jackie Mccurrach",
       "photo": "assets/jackie-mccurrach-bw.png",
       "pov": 1,
