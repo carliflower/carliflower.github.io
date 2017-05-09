@@ -226,7 +226,7 @@
     },
     {
       "name": "Jade Billings",
-      "paid": false,
+      "paid": true,
       "pickcode": "jb67",
       "picks": "2,3,7,8,15"
     },
@@ -244,7 +244,7 @@
     },
     {
       "name": "Kayla Crocker",
-      "paid": false,
+      "paid": true,
       "pickcode": "kc56",
       "picks": "3,7,11,12,14"
     },
@@ -256,7 +256,7 @@
     },
     {
       "name": "Alexis Diakow",
-      "paid": false,
+      "paid": true,
       "pickcode": "ld12",
       "picks": "3,7,9,10,14"
     },
@@ -268,7 +268,7 @@
     },
     {
       "name": "Mark Sutherland",
-      "paid": false,
+      "paid": true,
       "pickcode": "ms78",
       "picks": "1,9,10,11,15"
     },
@@ -286,13 +286,13 @@
     },
     {
       "name": "Patricia Johnston",
-      "paid": false,
+      "paid": true,
       "pickcode": "pj56",
       "picks": "0,2,6,8,15"
     },
     {
       "name": "Scott Munro",
-      "paid": false,
+      "paid": true,
       "pickcode": "sm89",
       "picks": "2,3,8,12,14"
     },
@@ -310,7 +310,7 @@
     },
     {
       "name": "Shawn Gillam-Wright",
-      "paid": false,
+      "paid": true,
       "pickcode": "sgw34",
       "picks": "1,3,4,11,14"
     },
