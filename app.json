@@ -220,7 +220,7 @@
     },
     {
       "name": "Ericka Branscombe",
-      "paid": false,
+      "paid": true,
       "pickcode": "eb23",
       "picks": "0,1,3,6,7"
     },
@@ -238,7 +238,7 @@
     },
     {
       "name": "Jordan Bonaparte",
-      "paid": false,
+      "paid": true,
       "pickcode": "jbp23",
       "picks": "0,1,3,4,11"
     },
