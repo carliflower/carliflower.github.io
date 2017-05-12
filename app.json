@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 3,
       "profession": "Professional Poker Player",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "33",
@@ -82,7 +82,7 @@
       "photo": "assets/ika-wong.png",
       "pov": 0,
       "profession": "Financial Services Manager",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "24",
@@ -154,7 +154,7 @@
       "photo": "assets/demetres-giannitsos.png",
       "pov": 2,
       "profession": "Oil Field Instrument Technician",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "53",
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "30",
@@ -175,7 +175,7 @@
       "hometown": "Madoc, ON",
       "jury": false,
       "name": "Dillon Carman",
-      "photo": "assets/dillon-carman.png",
+      "photo": "assets/dillon-carman-bw.png",
       "pov": 1,
       "profession": "Professional Boxer",
       "weeks": 10
