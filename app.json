@@ -418,13 +418,13 @@
     },
     {
       "name": "Teddy Poirier",
-      "paid": false,
+      "paid": true,
       "pickcode": "tp88",
       "picks": "5,7,8,10,11"
     },
     {
       "name": "Patsy Poirier",
-      "paid": false,
+      "paid": true,
       "pickcode": "mom101",
       "picks": "3,4,5,7,12"
     },
