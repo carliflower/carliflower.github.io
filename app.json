@@ -328,7 +328,7 @@
     },
     {
       "name": "Cathy Stothart",
-      "paid": false,
+      "paid": true,
       "pickcode": "cts12",
       "picks": "2,3,4,6,14"
     },
