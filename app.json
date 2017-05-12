@@ -173,7 +173,7 @@
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/dillon-carman",
       "hoh": 1,
       "hometown": "Madoc, ON",
-      "jury": false,
+      "jury": true,
       "name": "Dillon Carman",
       "photo": "assets/dillon-carman-bw.png",
       "pov": 1,
