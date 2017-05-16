@@ -658,7 +658,7 @@
     },
     {
       "name": "Brenda Munro",
-      "paid": false,
+      "paid": true,
       "pickcode": "db88",
       "picks": "1,7,10,11,15"
     },
