@@ -274,7 +274,7 @@
     },
     {
       "name": "Matt Currie",
-      "paid": false,
+      "paid": true,
       "pickcode": "mc89",
       "picks": "1,2,4,10,13"
     },
@@ -376,7 +376,7 @@
     },
     {
       "name": "Erin Fletcher",
-      "paid": false,
+      "paid": true,
       "pickcode": "ef68",
       "picks": "2,6,10,12,14"
     },
@@ -508,7 +508,7 @@
     },
     {
       "name": "Ben Milton",
-      "paid": false,
+      "paid": true,
       "pickcode": "bm29",
       "picks": "3,7,9,12,15"
     },
