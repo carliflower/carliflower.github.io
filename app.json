@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 4,
       "profession": "Professional Poker Player",
-      "weeks": 12
+      "weeks": 13
     },
     {
       "age": "33",
@@ -149,9 +149,9 @@
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/demetres-giannitsos",
       "hoh": 5,
       "hometown": "Edson, AB",
-      "jury": false,
+      "jury": true,
       "name": "Demetres Giannitsos",
-      "photo": "assets/demetres-giannitsos.png",
+      "photo": "assets/demetres-giannitsos-bw.png",
       "pov": 2,
       "profession": "Oil Field Instrument Technician",
       "weeks": 12
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 12
+      "weeks": 13
     },
     {
       "age": "30",
