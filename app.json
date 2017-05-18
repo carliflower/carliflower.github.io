@@ -46,7 +46,7 @@
       "photo": "assets/kevin-martin.png",
       "pov": 4,
       "profession": "Professional Poker Player",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "33",
@@ -77,9 +77,9 @@
       "bio": "http://bigbrothercanada.globaltv.com/houseguests/ika-wong",
       "hoh": 0,
       "hometown": "Thornhill, ON",
-      "jury": false,
+      "jury": true,
       "name": "Ika Wong",
-      "photo": "assets/ika-wong.png",
+      "photo": "assets/ika-wong-bw.png",
       "pov": 0,
       "profession": "Financial Services Manager",
       "weeks": 11
@@ -154,7 +154,7 @@
       "photo": "assets/demetres-giannitsos.png",
       "pov": 2,
       "profession": "Oil Field Instrument Technician",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "53",
@@ -166,7 +166,7 @@
       "photo": "assets/karen-singbeil.png",
       "pov": 0,
       "profession": "Real Estate Broker",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "30",
