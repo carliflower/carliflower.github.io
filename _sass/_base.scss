@@ -52,6 +52,7 @@ header, footer {
 
 footer {
   padding-bottom: 10px;
+
   a {
     text-decoration: none;
     color: #000;
@@ -75,6 +76,7 @@ header {
   }
 
   h1 {
+    min-height: 110px;
     font-size: 46px;
 
     img {
