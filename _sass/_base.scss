@@ -55,8 +55,7 @@ footer {
 
   a {
     text-decoration: none;
-    color: #000;
-
+    color: #fff;
     &.active {
       text-decoration: underline;
       color: #000;
@@ -77,6 +76,9 @@ header {
 
   h1 {
     font-size: 46px;
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b6/18/dc/b618dc696ef4b55beba21a9dc3708281.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 45px;
 
     img {
       display: inline-block;
