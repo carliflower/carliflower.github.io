@@ -208,8 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   display: inline-block;
   position: relative;
-  border: 1px solid #ececec;
-  background-size: cover !important;
+  background-size: contain !important;
 
   &.alternate {
     background-size: initial !important;
@@ -232,8 +231,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     text-align: center;
     padding: 5px 0;
-    background: rgba(255, 255, 255, 0.85);
-    color: #000;
+    background: rgba(0, 0, 0, 0.58);
+    color: white;
     text-transform: uppercase;
 
     .name {
@@ -252,8 +251,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .biolink {
-      font-size: 0.6em;
-      color: #FF0000;
+      font-size: 0.8em;
+      color: #00ffe7;
       font-weight: 900;
       margin-top: 5px;
       cursor: pointer;
@@ -266,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     text-align: right;
     background-color: #000;
-    font-size: 0.65em;
+    font-size: 0.9em;
     width: 100%;
 
     .wins {
