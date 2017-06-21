@@ -66,17 +66,16 @@ footer {
 
 header {
   text-align: center;
-  background-image: url(/assets/big-brother-logo.jpg);
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: 12%;
+  //   background-image: url(/assets/big-brother-logo.jpg);
+  //   background-position: 0 0;
+  //   background-repeat: no-repeat;
+  //   background-size: 12%;
 
   h3 {
     color: #AAAAAA;
   }
 
   h1 {
-    min-height: 110px;
     font-size: 46px;
 
     img {
@@ -147,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-nav {
   position: relative;
+  font-size: 1.4em;
 
   li {
     display: block;
@@ -157,6 +157,10 @@ h1, h2, h3, h4, h5, h6 {
       display: inline-block;
     }
   }
+}
+
+.standings {
+  margin-top: 20px;
 }
 
 .member-standings {
