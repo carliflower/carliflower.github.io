@@ -1,13 +1,13 @@
 <div class="standings">
 
     <h1>Standings</h1>
-    <h2>Prizes</h2>
+    <!--<h2>Prizes</h2>
     <ul style="text-transform: uppercase; margin-bottom: 25px;">
         <li style="margin-bottom: 5px;">1st: $600</li>
         <li style="margin-bottom: 5px;">2nd: $200</li>
         <li style="margin-bottom: 5px;">3rd: $100</li>
         <li style="margin-bottom: 5px;">Last: $40</li>
-    </ul> 
+    </ul> -->
 
     <p>{[{vm.members.length}]} People</p>
 
@@ -15,25 +15,25 @@
         <li class="member-tile" ng-repeat="member in vm.sortedMembers">
             <div>
                 <div class="name">
-                    <span class="paid" ng-if="member.paid">$</span>
-                    {[{member.name}]} - {[{member.points}]}
+                    <span class="paid" ng-if="member.paid">$</span> {[{member.name}]} - {[{member.points}]}
                 </div>
                 <ul class="houseguest-picks">
                     <li class="houseguest-thumb" ng-repeat="id in vm.MembersService.getMemberPicksAsArray(member)">
-                        <img ng-click="vm.showBio(vm.houseguests[id].bio)" ng-src="{[{vm.houseguests[id].photo}]}" title="{[{vm.houseguests[id].name}]}" alt="{[{vm.houseguests[id].name}]}">
+                        <img ng-click="vm.showBio(vm.houseguests[id].bio)" ng-src="{[{vm.houseguests[id].photo}]}" title="{[{vm.houseguests[id].name}]}"
+                            alt="{[{vm.houseguests[id].name}]}">
                     </li>
                 </ul>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
-                        Winner: $600
+                    Winner: $600
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.secondPlacePointValue">
-                        Winner: $200
+                    Winner: $200
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.thirdPlacePointValue">
-                        Winner Tied: $50
+                    Winner Tied: $50
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.lastPlacePointValue">
-                        Winner: $40
+                    Winner: $40
                 </div>
             </div>
         </li>

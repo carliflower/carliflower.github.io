@@ -1,25 +1,25 @@
 // site vars
 // $base-font-family: 'Shadows Into Light Two',Helvetica, Arial, sans-serif;
-$base-font-family: 'Roboto',Helvetica, Arial, sans-serif;
-$base-font-size:   24px;
-$base-font-color:  #CDCDCD;
+$base-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+$base-font-size: 24px;
+$base-font-color: #CDCDCD;
 
 body {
-    font-family:  $base-font-family;
-    font-size: $base-font-size;
-    color: $base-font-color;
-    background-color: #fff;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $base-font-color;
+  background-color: #fff;
 }
 
 .tiny {
-    font-size: 12px;
-    color: black;
+  font-size: 12px;
+  color: black;
 }
 
 .us-flag {
-    top: 5px;
-    display: inline-block;
-    position: relative;
+  top: 5px;
+  display: inline-block;
+  position: relative;
 }
 
 .evicted {
@@ -30,330 +30,315 @@ body {
 }
 
 h1 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 h2 {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 
-    &.active {
-        text-decoration: underline;
-    }
+  &.active {
+    text-decoration: underline;
+  }
 }
 
 header, footer {
-    background-color: #efefef;
-    border: 1px solid #cecece;
-    padding-bottom: 10px;
+  background-color: #efefef;
+  border: 1px solid #cecece;
+  padding-bottom: 10px;
 }
 
 footer {
-    a {
-        text-decoration: none;
-        color: #000;
+  a {
+    text-decoration: none;
+    color: #000;
 
-        &.active {
-            text-decoration: underline;
-            color: #000;
-        }
+    &.active {
+      text-decoration: underline;
+      color: #000;
     }
+  }
 }
 
 header {
-    font-weight: 900;
-    text-align: center;
+  font-weight: 900;
+  text-align: center;
 
-    h3{color: #AAAAAA;}
+  h3 {
+    color: #AAAAAA;
+  }
 
-    h1 {
-        color: #FF0000;
-        font-size: 46px;
-        margin: 10px 0 0 0;
+  h1 {
+    color: #FF0000;
+    font-size: 46px;
+    margin: 10px 0 0 0;
 
-
-        img {
-            display: inline-block;
-            width: 75px;
-            vertical-align: middle;
-        }
-
-        span {
-            vertical-align: middle;
-            margin-top: 10px;
-            display: inline-block;
-        }
+    img {
+      display: inline-block;
+      width: 75px;
+      vertical-align: middle;
     }
 
-    nav {
-        color: #00FF00;
-
-        a {
-            color: #000;
-        }
+    span {
+      vertical-align: middle;
+      margin-top: 10px;
+      display: inline-block;
     }
+  }
 
+  nav {
+    color: #00FF00;
+
+    a {
+      color: #000;
+    }
+  }
 }
 
 .view-content {
-    min-height: 600px;
-    color: #fff;
-    background-color: #000;
-    text-align: center;
-    padding: 0 0 50px 0;
-    margin: 0 auto;
+  min-height: 600px;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 0 0 50px 0;
+  margin: 0 auto;
 }
 
 footer {
-    color: #000;
-    text-align: center;
+  color: #000;
+  text-align: center;
 
-    ul {
-        font-size: 16px;
+  ul {
+    font-size: 16px;
 
-        li {
-            display: block;
-            padding: 10px;
+    li {
+      display: block;
+      padding: 10px;
 
-            @include small {
-                display: inline-block;
-            }
-        }
-
+      @include small {
+        display: inline-block;
+      }
     }
+  }
 }
 
-
 h1, h2, h3, h4, h5, h6 {
-    padding: 20px 0;
-    text-transform: uppercase;
+  padding: 20px 0;
+  text-transform: uppercase;
 }
 
 .new {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    left: 5px;
-    top: 0;
-    display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 5px;
+  top: 0;
+  display: inline-block;
 }
 
 .main-nav {
+  position: relative;
+
+  li {
+    display: block;
+    margin: 10px;
     position: relative;
 
-    li {
-        display: block;
-        margin: 10px;
-        position: relative;
-
-        @include small {
-            display: inline-block;
-        }
+    @include small {
+      display: inline-block;
     }
-
+  }
 }
 
 .member-standings {
-    display: inline-block;
+  display: inline-block;
 
-    &>li {
-        margin: 10px;
-        padding: 10px 20px;
-        border: 1px solid #ececec;
+  & > li {
+    margin: 10px;
+    padding: 10px 20px;
+    // border: 1px solid #ececec;
 
-        .paid {
-            opacity: 0.6;
-        }
-
-        .houseguest-picks {
-            width: 230px;
-            display: inline-block;
-            margin: 10px 0 0 0;
-        }
-
-        .houseguest-thumb {
-           display: inline-block;
-           width: 20%;
-           vertical-align: top;
-
-           img {
-            width: 50px;
-            cursor: pointer;
-           }
-        }
+    .paid {
+      opacity: 0.6;
     }
+
+    .houseguest-picks {
+      width: 230px;
+      display: inline-block;
+      margin: 10px 0 0 0;
+    }
+
+    .houseguest-thumb {
+      display: inline-block;
+      width: 20%;
+      vertical-align: top;
+
+      img {
+        width: 50px;
+        cursor: pointer;
+      }
+    }
+  }
 }
 
-
 .houseguest-grid {
-    li {
-        display: inline-block;
-        width: 250px;
-        height: 250px;
-        padding: 10px;
-    }
+  li {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+  }
 }
 
 .houseguest-tile {
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-    position: relative;
-    border: 1px solid #ececec;
-    background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  border: 1px solid #ececec;
+  background-size: cover !important;
 
-    &.alternate {
-        background-size: initial !important;
-        background-position:  50% 0 !important;
-    }
+  &.alternate {
+    background-size: initial !important;
+    background-position: 50% 0 !important;
+  }
 
-
-    &.selected {
-        border: 1px solid rgba(240,159,10, 1);
-
-        .bio {
-            color: white;
-            background: rgba(240,159,10, 0.85);
-        }
-    }
+  &.selected {
+    border: 1px solid rgba(240, 159, 10, 1);
 
     .bio {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        padding: 5px 0;
-        background: rgba(255,255,255, 0.85);
-        color: #000;
-        text-transform: uppercase;
+      color: white;
+      background: rgba(240, 159, 10, 0.85);
+    }
+  }
 
-        .name {
-            margin-bottom: 5px;
-            font-weight: bold;
-            font-size: 70%;
-        }
+  .bio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+    text-transform: uppercase;
 
-        .hometown, .profession, .age {
-            font-size: 0.65em;
-            font-weight: bold;
-        }
-
-        .age {
-            margin-top: 5px;
-        }
-
-        .biolink {
-            font-size: 0.6em;
-            color: #FF0000;
-            font-weight: 900;
-            margin-top: 5px;
-            cursor: pointer;
-        }
+    .name {
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-size: 70%;
     }
 
-    .points {
-        position: absolute;
-        top: 0;
-        left: 0;
-        text-align: right;
-        background-color: #000;
-        font-size: 0.65em;
-        width: 100%;
-
-        .wins {
-            float: left;
-            padding: 5px;
-        }
-
-        .total {
-            float: right;
-            padding: 5px;
-        }
+    .hometown, .profession, .age {
+      font-size: 0.65em;
+      font-weight: bold;
     }
+
+    .age {
+      margin-top: 5px;
+    }
+
+    .biolink {
+      font-size: 0.6em;
+      color: #FF0000;
+      font-weight: 900;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .points {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    background-color: #000;
+    font-size: 0.65em;
+    width: 100%;
+
+    .wins {
+      float: left;
+      padding: 5px;
+    }
+
+    .total {
+      float: right;
+      padding: 5px;
+    }
+  }
 }
 
-
 .picks {
+  .houseguest-tile {
+    cursor: pointer;
+  }
 
-    .houseguest-tile {
-        cursor: pointer;
+  .pick-rules {
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    li {
+      padding: 6px 0;
+    }
+  }
+
+  .code-entry {
+    margin-top: 20px;
+
+    input {
+      border: 5px solid white;
+      -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
+        0 0 16px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1),
+        0 0 16px rgba(0, 0, 0, 0.1);
+      box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+      padding: 5px;
+      background: rgba(255, 255, 255, 0.5);
+      margin: 0 0 10px 0;
+      font-size: 20px;
+      color: #FFF;
+    }
+  }
+
+  .code-message {
+    margin: 10px 0;
+  }
+
+  .pick-buttons {
+    margin: 25px 0;
+
+    input {
+      margin: 25px 25px;
     }
 
-    .pick-rules {
-        margin: 0 auto;
-        margin-bottom: 20px;
-
-        li {
-            padding: 6px 0;
-        }
+    .selected-picks {
+      margin: 10px 0;
     }
-
-    .code-entry {
-        margin-top: 20px;
-
-        input {
-            border: 5px solid white;
-            -webkit-box-shadow:
-              inset 0 0 8px  rgba(0,0,0,0.1),
-                    0 0 16px rgba(0,0,0,0.1);
-            -moz-box-shadow:
-              inset 0 0 8px  rgba(0,0,0,0.1),
-                    0 0 16px rgba(0,0,0,0.1);
-            box-shadow:
-              inset 0 0 8px  rgba(0,0,0,0.1),
-                    0 0 16px rgba(0,0,0,0.1);
-            padding: 5px;
-            background: rgba(255,255,255,0.5);
-            margin: 0 0 10px 0;
-            font-size: 20px;
-            color: #FFF;
-        }
-    }
-
-    .code-message {
-        margin: 10px 0;
-    }
-
-    .pick-buttons {
-        margin: 25px 0;
-
-        input {
-            margin: 25px 25px;
-        }
-
-        .selected-picks {
-            margin: 10px 0;
-        }
-    }
+  }
 }
 
 .rules {
+  .intro {
+    margin-bottom: 20px;
+  }
 
+  ul {
+    margin: 0 auto;
+    margin-bottom: 20px;
 
-
-    .intro {
-        margin-bottom: 20px;
+    li {
+      padding: 6px 0;
     }
-
-    ul {
-        margin: 0 auto;
-        margin-bottom: 20px;
-
-        li {
-            padding: 6px 0;
-        }
-    }
+  }
 }
 
-
-.stats  {
-    .houseguest-popularity {
-        margin: 0 auto;
-        width: 75%;
-        font-size: 16px;
-    }
+.stats {
+  .houseguest-popularity {
+    margin: 0 auto;
+    width: 75%;
+    font-size: 16px;
+  }
 }
