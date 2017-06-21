@@ -1,6 +1,6 @@
 // site vars
 // $base-font-family: 'Shadows Into Light Two',Helvetica, Arial, sans-serif;
-$base-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+$base-font-family: 'Raleway', sans-serif;
 $base-font-size: 24px;
 $base-font-color: #CDCDCD;
 
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   & > li {
     margin: 10px;
     padding: 10px 20px;
-    border: 1px solid #ececec;
+    border: 6px inset rgba(255, 255, 255, 0.32);
 
     .paid {
       opacity: 0.6;
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
       vertical-align: top;
 
       img {
-        width: 50px;
+        width: 45px;
         cursor: pointer;
       }
     }
