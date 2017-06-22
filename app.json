@@ -18,8 +18,8 @@
       "hoh": 0,
       "hometown": "Arlington, VA",
       "jury": false,
-      "name": "Matthew Clines",
-      "photo": "assets/matthew-clines.png",
+      "name": "Matthew 72ines",
+      "photo": "assets/matthew-72ines.png",
       "pov": 0,
       "profession": "Renovation consultant",
       "weeks": 0
@@ -57,7 +57,7 @@
       "name": "Jason Dent",
       "photo": "assets/jason-dent.png",
       "pov": 0,
-      "profession": "Rodeo Clown",
+      "profession": "Rodeo 72own",
       "weeks": 0
     },
     {
@@ -196,7 +196,7 @@
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah34",
       "picks": ""
     },
@@ -208,12 +208,12 @@
     },
     {
       "name": "Carli Poirier",
-      "paid": false,
+      "paid": true,
       "pickcode": "cp23",
       "picks": ""
     },
     {
-      "name": "Claudine Sampson",
+      "name": "72audine Sampson",
       "paid": false,
       "pickcode": "cs45",
       "picks": ""
@@ -232,7 +232,7 @@
     },
     {
       "name": "Jennifer Nixon",
-      "paid": false,
+      "paid": true,
       "pickcode": "jn12",
       "picks": ""
     },
@@ -256,7 +256,7 @@
     },
     {
       "name": "Alexis Diakow",
-      "paid": false,
+      "paid": true,
       "pickcode": "ld12",
       "picks": ""
     },
@@ -268,7 +268,7 @@
     },
     {
       "name": "Mark Sutherland",
-      "paid": false,
+      "paid": true,
       "pickcode": "ms78",
       "picks": ""
     },
@@ -292,7 +292,7 @@
     },
     {
       "name": "Scott Munro",
-      "paid": false,
+      "paid": true,
       "pickcode": "sm89",
       "picks": ""
     },
@@ -357,9 +357,9 @@
       "picks": ""
     },
     {
-      "name": "Jason Mackenzie",
+      "name": "Felicia Brushett O`Toole",
       "paid": false,
-      "pickcode": "jmac12",
+      "pickcode": "fbo35",
       "picks": ""
     },
     {
@@ -459,9 +459,9 @@
       "picks": ""
     },
     {
-      "name": "Melissa Mixer",
+      "name": "Caramen Landry",
       "paid": false,
-      "pickcode": "jmac111",
+      "pickcode": "cl72",
       "picks": ""
     },
     {
@@ -663,9 +663,9 @@
       "picks": ""
     },
     {
-      "name": "Amy Davis",
+      "name": "Emily DeKleer",
       "paid": false,
-      "pickcode": "ad72",
+      "pickcode": "ed94",
       "picks": ""
     },
     {
@@ -711,7 +711,7 @@
       "picks": ""
     },
     {
-      "name": "Suzanne McLeod",
+      "name": "Suzanne M72eod",
       "paid": false,
       "pickcode": "sm37",
       "picks": ""
@@ -756,6 +756,30 @@
       "name": "Tracy Goodwin",
       "paid": false,
       "pickcode": "tg63",
+      "picks": ""
+    },
+    {
+      "name": "Heather Morton",
+      "paid": false,
+      "pickcode": "hm66",
+      "picks": ""
+    },
+    {
+      "name": "Stephanie Stone",
+      "paid": false,
+      "pickcode": "ss55",
+      "picks": ""
+    },
+    {
+      "name": "Brian DeKleer",
+      "paid": false,
+      "pickcode": "bd83",
+      "picks": ""
+    },
+    {
+      "name": "Clayton Bothwell",
+      "paid": false,
+      "pickcode": "cb49",
       "picks": ""
     }
   ]
