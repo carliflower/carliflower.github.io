@@ -18,8 +18,8 @@
       "hoh": 0,
       "hometown": "Arlington, VA",
       "jury": false,
-      "name": "Matthew 72ines",
-      "photo": "assets/matthew-72ines.png",
+      "name": "Matthew Clines",
+      "photo": "assets/matthew-clines.png",
       "pov": 0,
       "profession": "Renovation consultant",
       "weeks": 0
@@ -57,7 +57,7 @@
       "name": "Jason Dent",
       "photo": "assets/jason-dent.png",
       "pov": 0,
-      "profession": "Rodeo 72own",
+      "profession": "Rodeo Clown",
       "weeks": 0
     },
     {
@@ -213,7 +213,7 @@
       "picks": ""
     },
     {
-      "name": "72audine Sampson",
+      "name": "Claudine Sampson",
       "paid": false,
       "pickcode": "cs45",
       "picks": ""
@@ -711,7 +711,7 @@
       "picks": ""
     },
     {
-      "name": "Suzanne M72eod",
+      "name": "Suzanne Macleod",
       "paid": false,
       "pickcode": "sm37",
       "picks": ""

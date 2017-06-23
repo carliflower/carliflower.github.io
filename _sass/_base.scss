@@ -226,11 +226,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &.selected {
-    border: 1px solid rgba(240, 159, 10, 1);
 
     .bio {
-      color: white;
-      background: rgba(240, 159, 10, 0.85);
+      color: black;
+      background: white
     }
   }
 
