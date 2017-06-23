@@ -1,14 +1,14 @@
 //IIFE - keeps code isolated and off global scope
 (function() {
-  angular.module("standings", []).controller("StandingsCtrl", StandingsCtrl);
+  angular.module('standings', []).controller('StandingsCtrl', StandingsCtrl);
 
   //injection for js minification
   StandingsCtrl.$inject = [
-    "$log",
-    "MembersService",
-    "HouseguestsService",
-    "DataService",
-    "$window"
+    '$log',
+    'MembersService',
+    'HouseguestsService',
+    'DataService',
+    '$window'
   ];
 
   //controller begins
@@ -19,7 +19,7 @@
     DataService,
     $window
   ) {
-    $log = $log.getInstance("StandingsCtrl", false);
+    $log = $log.getInstance('StandingsCtrl', false);
 
     //controllerAs 'vm' scope
     var vm = this;
@@ -53,13 +53,13 @@
         vm.DataService
           .get()
           .success(function(data, status, headers, config) {
-            $log.debug("loadData", data);
-            _vm.houseguests = data["houseguests"];
-            _vm.members = data["members"];
+            $log.debug('loadData', data);
+            _vm.houseguests = data['houseguests'];
+            _vm.members = data['members'];
             _vm.init();
           })
           .error(function(data, status, headers, config) {
-            console.log("Error: loading data", data, status, headers, config);
+            console.log('Error: loading data', data, status, headers, config);
           });
       }
     }
@@ -67,7 +67,7 @@
     function loadDataFirebase() {
       var _vm = vm;
 
-      $log.debug("loadData");
+      $log.debug('loadData');
       vm.members = vm.MembersService.get();
       vm.members.$loaded().then(function() {
         $log.debug(vm.members, _vm.members.length);
@@ -80,11 +80,11 @@
     }
 
     function showBio(bio) {
-      $log.debug("showBio");
-      $window.open(bio, "_blank");
+      $log.debug('showBio');
+      $window.open(bio, '_blank');
     }
     function init() {
-      $log.debug("init");
+      $log.debug('init');
       vm.generateStandings();
       vm.statReports();
     }
@@ -106,7 +106,7 @@
       //sort members by points and alphaname
       vm.sortedMembers = _.sortByOrder(
         vm.members,
-        ["points", "name"],
+        ['points', 'name'],
         [false, true]
       );
       var pointCounts = _.countBy(vm.sortedMembers, function(member) {
@@ -123,7 +123,7 @@
     }
 
     function statReports() {
-      console.log("----------  REPORTS -----------");
+      console.log('----------  REPORTS -----------');
 
       //how many people have picked
       var t = 0;
@@ -132,14 +132,14 @@
           t++;
         }
       }
-      console.log(t + " people have made their picks.");
+      console.log(t + ' people have made their picks.');
 
       //duplicate check
       var p = [];
       for (var i = 0; i < vm.members.length; i++) {
         if (vm.members[i].picks.length) {
           var m = vm.members[i].picks.split();
-          p.push(m.join(""));
+          p.push(m.join(''));
         }
       }
 
@@ -158,7 +158,7 @@
           }
         }
 
-        console.log(pick + ": " + t);
+        console.log(pick + ': ' + t);
       }
 
       //payee count
@@ -170,7 +170,7 @@
       }
 
       console.log(
-        outstandingPayees + " of " + vm.members.length + " still owe us money."
+        outstandingPayees + ' of ' + vm.members.length + ' still owe us money.'
       );
     }
   }
