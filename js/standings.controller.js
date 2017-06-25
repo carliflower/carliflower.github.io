@@ -132,6 +132,9 @@
           t++;
         }
       }
+
+      vm.picksMade = t;
+
       console.log(t + ' people have made their picks.');
 
       //duplicate check
