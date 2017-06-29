@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "33",
@@ -22,7 +22,7 @@
       "photo": "assets/matthew-clines.png",
       "pov": 0,
       "profession": "Renovation consultant",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "26",
@@ -34,7 +34,7 @@
       "photo": "assets/elena-davis.png",
       "pov": 0,
       "profession": "Radio personality",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "30",
@@ -46,7 +46,7 @@
       "photo": "assets/dominique-cooper.png",
       "pov": 0,
       "profession": "Government Engineer",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "37",
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent.png",
       "pov": 0,
       "profession": "Rodeo Clown",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "26",
@@ -70,7 +70,7 @@
       "photo": "assets/jessica-graf.png",
       "pov": 0,
       "profession": "VIP Concierge",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "24",
@@ -79,7 +79,7 @@
       "hometown": "Woodridge, IL",
       "jury": false,
       "name": "Cameron Heard",
-      "photo": "assets/cameron-heard.png",
+      "photo": "assets/cameron-heard-bw.png",
       "pov": 0,
       "profession": "Microbiologist",
       "weeks": 0
@@ -94,7 +94,7 @@
       "photo": "assets/mark-jenson.png",
       "pov": 0,
       "profession": "Personal Trainer",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "28",
@@ -106,7 +106,7 @@
       "photo": "assets/megan-lowder.png",
       "pov": 0,
       "profession": "Dog Walker",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "23",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "32",
@@ -130,7 +130,7 @@
       "photo": "assets/cody-nickson.png",
       "pov": 0,
       "profession": "Construction Sales Rep",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "28",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 0,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "24",
@@ -154,7 +154,7 @@
       "photo": "assets/jillian-parker.png",
       "pov": 0,
       "profession": "Timeshare Sales Rep",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "55",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "21",
@@ -178,7 +178,7 @@
       "photo": "assets/ramses-soto.png",
       "pov": 0,
       "profession": "Cosplay Artist",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "23",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 0
+      "weeks": 1
     }
   ],
   "members": [
