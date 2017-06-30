@@ -274,7 +274,7 @@
     },
     {
       "name": "Lori Doiron-Benoit",
-      "paid": false,
+      "paid": true,
       "pickcode": "ldb45",
       "picks": "0,1,2,5,7"
     },
@@ -292,13 +292,13 @@
     },
     {
       "name": "Michelle Hearn",
-      "paid": false,
+      "paid": true,
       "pickcode": "mh23",
       "picks": "1,2,3,6,10"
     },
     {
       "name": "Patricia Johnston",
-      "paid": false,
+      "paid": true,
       "pickcode": "pj56",
       "picks": "2,7,9,12,14"
     },
@@ -394,13 +394,13 @@
     },
     {
       "name": "Tamara Carr",
-      "paid": false,
+      "paid": true,
       "pickcode": "tc34",
       "picks": "7,8,11,13,15"
     },
     {
       "name": "Gerri Hamilton",
-      "paid": false,
+      "paid": true,
       "pickcode": "gh22",
       "picks": "0,3,4,7,13"
     },
@@ -436,7 +436,7 @@
     },
     {
       "name": "Crystal Thompson",
-      "paid": false,
+      "paid": true,
       "pickcode": "ct77",
       "picks": "0,1,3,10,12"
     },
@@ -520,7 +520,7 @@
     },
     {
       "name": "Allison Heard",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah48",
       "picks": "1,2,3,4,6"
     },
@@ -538,7 +538,7 @@
     },
     {
       "name": "Olivia Hearn",
-      "paid": false,
+      "paid": true,
       "pickcode": "oh15",
       "picks": "0,5,7,9,10"
     },
@@ -658,7 +658,7 @@
     },
     {
       "name": "Amy Jollimore",
-      "paid": false,
+      "paid": true,
       "pickcode": "aj99",
       "picks": "1,5,7,9,10"
     },
@@ -670,7 +670,7 @@
     },
     {
       "name": "Graham Johnston",
-      "paid": false,
+      "paid": true,
       "pickcode": "gj69",
       "picks": "0,1,2,4,6"
     },
@@ -682,7 +682,7 @@
     },
     {
       "name": "Erin Ryan",
-      "paid": false,
+      "paid": true,
       "pickcode": "er23",
       "picks": "0,1,4,9,10"
     }
