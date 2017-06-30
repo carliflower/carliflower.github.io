@@ -191,6 +191,18 @@
       "pov": 0,
       "profession": "Dance Teacher",
       "weeks": 1
+    },
+    {
+      "age": "24",
+      "bio": "http://www.cbs.com/shows/big_brother/cast/215658/",
+      "hoh": 0,
+      "hometown": "Tarzana, CA",
+      "jury": false,
+      "name": "Paul Abrahamian",
+      "photo": "assets/paul-abrahamian.png",
+      "pov": 0,
+      "profession": "Clothing Designer",
+      "weeks": 1
     }
   ],
   "members": [
