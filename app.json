@@ -103,7 +103,7 @@
       "hometown": "Phoenix, AZ",
       "jury": false,
       "name": "Megan Lowder",
-      "photo": "assets/megan-lowder.png",
+      "photo": "assets/megan-lowder-bw.png",
       "pov": 0,
       "profession": "Dog Walker",
       "weeks": 1
@@ -140,7 +140,7 @@
       "jury": false,
       "name": "Alex Ow",
       "photo": "assets/alex-ow.png",
-      "pov": 0,
+      "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
       "weeks": 1
     },
