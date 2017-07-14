@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "33",
@@ -22,7 +22,7 @@
       "photo": "assets/matthew-clines.png",
       "pov": 0,
       "profession": "Renovation consultant",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "26",
@@ -34,7 +34,7 @@
       "photo": "assets/elena-davis.png",
       "pov": 0,
       "profession": "Radio personality",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "30",
@@ -46,7 +46,7 @@
       "photo": "assets/dominique-cooper.png",
       "pov": 0,
       "profession": "Government Engineer",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "37",
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent.png",
       "pov": 0,
       "profession": "Rodeo Clown",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "26",
@@ -70,7 +70,7 @@
       "photo": "assets/jessica-graf.png",
       "pov": 0,
       "profession": "VIP Concierge",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "24",
@@ -94,7 +94,7 @@
       "photo": "assets/mark-jenson.png",
       "pov": 0,
       "profession": "Personal Trainer",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "28",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "32",
@@ -127,7 +127,7 @@
       "hometown": "Plano, TX",
       "jury": false,
       "name": "Cody Nickson",
-      "photo": "assets/cody-nickson.png",
+      "photo": "assets/cody-nickson-bw.png",
       "pov": 0,
       "profession": "Construction Sales Rep",
       "weeks": 2
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "21",
@@ -178,7 +178,7 @@
       "photo": "assets/ramses-soto.png",
       "pov": 0,
       "profession": "Cosplay Artist",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "23",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 1,
       "profession": "Clothing Designer",
-      "weeks": 2
+      "weeks": 3
     }
   ],
   "members": [
