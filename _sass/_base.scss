@@ -2,7 +2,7 @@
 // $base-font-family: 'Shadows Into Light Two',Helvetica, Arial, sans-serif;
 $base-font-family: 'Bree Serif', sans-serif;
 $base-font-size: 24px;
-$base-font-color: #CDCDCD;
+$base-font-color: #cdcdcd;
 
 body {
   font-family: $base-font-family;
@@ -47,7 +47,8 @@ a {
   }
 }
 
-header, footer {
+header,
+footer {
   background-color: black;
   //   border: 1px solid #cecece;
 }
@@ -73,7 +74,7 @@ header {
   //   background-size: 12%;
 
   h3 {
-    color: #AAAAAA;
+    color: #aaaaaa;
   }
 
   h1 {
@@ -139,7 +140,12 @@ footer {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 20px 0;
   text-transform: uppercase;
 }
@@ -226,10 +232,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   &.selected {
-
     .bio {
       color: black;
-      background: white
+      background: white;
     }
   }
 
@@ -250,7 +255,9 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 70%;
     }
 
-    .hometown, .profession, .age {
+    .hometown,
+    .profession,
+    .age {
       font-size: 0.65em;
       font-weight: bold;
     }
@@ -317,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
       background: rgba(255, 255, 255, 0.5);
       margin: 0 0 10px 0;
       font-size: 20px;
-      color: #FFF;
+      color: #fff;
     }
   }
 
@@ -358,5 +365,18 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     width: 75%;
     font-size: 16px;
+  }
+}
+
+.trade {
+  .houseguest-thumb {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+
+    img {
+      cursor: pointer;
+      max-width: 175px;
+    }
   }
 }
