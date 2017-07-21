@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "33",
@@ -22,7 +22,7 @@
       "photo": "assets/matthew-clines.png",
       "pov": 0,
       "profession": "Renovation consultant",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "26",
@@ -34,7 +34,7 @@
       "photo": "assets/elena-davis.png",
       "pov": 0,
       "profession": "Radio personality",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "30",
@@ -43,7 +43,7 @@
       "hometown": "Woodbridge, VA",
       "jury": false,
       "name": "Dominique Cooper",
-      "photo": "assets/dominique-cooper.png",
+      "photo": "assets/dominique-cooper-bw.png",
       "pov": 0,
       "profession": "Government Engineer",
       "weeks": 3
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent.png",
       "pov": 1,
       "profession": "Rodeo Clown",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "26",
@@ -70,7 +70,7 @@
       "photo": "assets/jessica-graf.png",
       "pov": 0,
       "profession": "VIP Concierge",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "24",
@@ -94,7 +94,7 @@
       "photo": "assets/mark-jenson.png",
       "pov": 0,
       "profession": "Personal Trainer",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "28",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "32",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "21",
@@ -178,7 +178,7 @@
       "photo": "assets/ramses-soto.png",
       "pov": 0,
       "profession": "Cosplay Artist",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "23",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 3
+      "weeks": 4
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 1,
       "profession": "Clothing Designer",
-      "weeks": 3
+      "weeks": 4
     }
   ],
   "members": [
