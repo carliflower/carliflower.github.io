@@ -1,0 +1,92 @@
+<div class="trade">
+
+    <h1>Make Your Trade</h1>
+
+    <div ng-if="vm.picksSaved && vm.isLoaded">
+        <!--<h2>Good Luck! {[{vm.member.name}]}</h2>-->
+        <!--<h2>Your picks were:</h2>-->
+        <!--<p>{[{vm.getPickNameString()}]}</p>-->
+        <h2>Select 1 Houseguest to trade</h2>
+        <ul class="houseguest-picks">
+            <li class="houseguest-thumb" ng-repeat="id in vm.MembersService.getMemberPicksAsArray(vm.member)">
+                <img ng-click="vm.selectTradee(vm.houseguests[id])" ng-src="{[{vm.houseguests[id].photo}]}" title="{[{vm.houseguests[id].name}]}"
+                    alt="{[{vm.houseguests[id].name}]}">
+            </li>
+        </ul>
+        <h2>Select your new houseguest</h2>
+        <ul class="houseguest-picks">
+            <li class="houseguest-thumb" ng-repeat="id in ::vm.MembersService.getPossibleTrades(vm.houseguests, vm.members, vm.member)">
+                <img ng-click="vm.selectNewHouseguest(vm.houseguests[id])" ng-src="{[{vm.houseguests[id].photo}]}" title="{[{vm.houseguests[id].name}]}"
+                    alt="{[{vm.houseguests[id].name}]}">
+            </li>
+        </ul>
+
+        <!--<div>
+            {[{ vm.MembersService.getAvailableCombinations(vm.MembersService.getPossibleTrades(vm.houseguests, vm.members, vm.member),vm.member.picks,
+            0) }]}
+        </div>-->
+    </div>
+
+    <div ng-if="!vm.picksSaved && vm.isLoaded">
+
+        <!--<h3>This is open for testing right now. Any picks made will be lost when the test is completed.</h3>-->
+
+        <h2>Rules for Trading</h2>
+
+        <ul class="pick-rules">
+            <li>Each person picks a team of 5 houseguests.</li>
+            <li>No two people can have the exact same 5 houseguests on their team.</li>
+            <li>The site will tell you if someone else has already chosen the combo you want.</li>
+            <li>If you can't make up your mind, use the random pick button at the bottom of the screen!</li>
+        </ul>
+
+        <hr/>
+
+        <div class="code-entry" ng-if="!vm.isValidCode">
+            <h3>Enter your pick code</h3>
+            <input type="text" ng-model="vm.pickCode" />
+            <div ng-if="vm.pickCode !== ''" class="code-message">{[{vm.codeMessage}]}</div>
+        </div>
+
+        <div class="picker" ng-if="vm.isValidCode">
+
+            <h2>Hello {[{vm.member.name}]}</h2>
+
+            <!--<h3>Not open for picks yet</h3>-->
+
+            <p>To make your picks select 5 houseguests and press the button at the bottom of the page</p>
+
+            <ul class="houseguest-grid">
+                <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
+                    <div class="houseguest-tile" ng-class="{ 'selected': houseguest.selected }" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;"
+                        ng-click="vm.selectPick(houseguest.$id)">
+                        <div class="bio">
+                            <p class="name">{[{houseguest.name}]}</p>
+                            <p class="age">Age: {[{houseguest.age}]}</p>
+                            <p class="hometown">{[{houseguest.hometown}]}</p>
+                            <p class="profession">{[{houseguest.profession}]}</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="pick-buttons">
+                <div>
+                    <input class="button" type="submit" ng-click="vm.clearSelections()" value="Clear Selections" />
+                    <input class="button" type="submit" ng-click="vm.getAvailableRandomPick()" value="Make Random Picks" />
+                </div>
+                <div class="selected-picks">
+                    <p>Your Current Picks !are:</p>
+                    <p>{[{vm.getPickNameString()}]}</p>
+                </div>
+                <div>
+                    <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}"
+                    />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
