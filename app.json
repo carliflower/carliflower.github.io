@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "33",
@@ -22,7 +22,7 @@
       "photo": "assets/matthew-clines.png",
       "pov": 1,
       "profession": "Renovation consultant",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "26",
@@ -31,7 +31,7 @@
       "hometown": "Dallas, TX",
       "jury": false,
       "name": "Elena Davies",
-      "photo": "assets/elena-davis.png",
+      "photo": "assets/elena-davis-bw.png",
       "pov": 0,
       "profession": "Radio personality",
       "weeks": 7
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent.png",
       "pov": 1,
       "profession": "Rodeo Clown",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "26",
@@ -94,7 +94,7 @@
       "photo": "assets/mark-jenson.png",
       "pov": 2,
       "profession": "Personal Trainer",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "28",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "32",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "21",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 2,
       "profession": "Clothing Designer",
-      "weeks": 7
+      "weeks": 8
     }
   ],
   "members": [
