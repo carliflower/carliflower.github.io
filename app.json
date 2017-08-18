@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "33",
@@ -22,7 +22,7 @@
       "photo": "assets/matthew-clines.png",
       "pov": 1,
       "profession": "Renovation consultant",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "26",
@@ -34,7 +34,7 @@
       "photo": "assets/elena-davis.png",
       "pov": 0,
       "profession": "Radio personality",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "30",
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent.png",
       "pov": 1,
       "profession": "Rodeo Clown",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "26",
@@ -94,7 +94,7 @@
       "photo": "assets/mark-jenson.png",
       "pov": 1,
       "profession": "Personal Trainer",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "28",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "32",
@@ -127,10 +127,10 @@
       "hometown": "Plano, TX",
       "jury": false,
       "name": "Cody Nickson",
-      "photo": "assets/cody-nickson.png",
+      "photo": "assets/cody-nickson-bw.png",
       "pov": 0,
       "profession": "Construction Sales Rep",
-      "weeks": 2
+      "weeks": 5
     },
     {
       "age": "28",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "21",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 2,
       "profession": "Clothing Designer",
-      "weeks": 6
+      "weeks": 7
     }
   ],
   "members": [
