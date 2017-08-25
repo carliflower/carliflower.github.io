@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "33",
@@ -22,14 +22,14 @@
       "photo": "assets/matthew-clines.png",
       "pov": 1,
       "profession": "Renovation consultant",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "26",
       "bio": "http://www.cbs.com/shows/big_brother/cast/215643/",
       "hoh": 0,
       "hometown": "Dallas, TX",
-      "jury": false,
+      "jury": true,
       "name": "Elena Davies",
       "photo": "assets/elena-davis-bw.png",
       "pov": 0,
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent.png",
       "pov": 2,
       "profession": "Rodeo Clown",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "26",
@@ -89,9 +89,9 @@
       "bio": "http://www.cbs.com/shows/big_brother/cast/215647/",
       "hoh": 0,
       "hometown": "Grand Island, NY",
-      "jury": false,
+      "jury": true,
       "name": "Mark Jenson",
-      "photo": "assets/mark-jenson.png",
+      "photo": "assets/mark-jenson-bw.png",
       "pov": 2,
       "profession": "Personal Trainer",
       "weeks": 8
@@ -118,14 +118,14 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "32",
       "bio": "http://www.cbs.com/shows/big_brother/cast/215650/",
       "hoh": 1,
       "hometown": "Plano, TX",
-      "jury": false,
+      "jury": true,
       "name": "Cody Nickson",
       "photo": "assets/cody-nickson-bw.png",
       "pov": 0,
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "21",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 2,
       "profession": "Clothing Designer",
-      "weeks": 8
+      "weeks": 9
     }
   ],
   "members": [
