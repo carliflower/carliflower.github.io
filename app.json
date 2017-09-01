@@ -10,16 +10,16 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "33",
       "bio": "http://www.cbs.com/shows/big_brother/cast/215640/",
       "hoh": 0,
       "hometown": "Arlington, VA",
-      "jury": false,
+      "jury": true,
       "name": "Matthew Clines",
-      "photo": "assets/matthew-clines.png",
+      "photo": "assets/matthew-clines-bw.png",
       "pov": 1,
       "profession": "Renovation consultant",
       "weeks": 9
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent.png",
       "pov": 3,
       "profession": "Rodeo Clown",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "26",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "32",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "21",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 2,
       "profession": "Clothing Designer",
-      "weeks": 9
+      "weeks": 10
     }
   ],
   "members": [
