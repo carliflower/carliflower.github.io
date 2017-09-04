@@ -238,7 +238,7 @@
     },
     {
       "name": "Jade Billings",
-      "paid": false,
+      "paid": true,
       "pickcode": "jb67",
       "picks": "0,1,5,16,7"
     },
@@ -376,7 +376,7 @@
     },
     {
       "name": "Teresa Grezel",
-      "paid": false,
+      "paid": true,
       "pickcode": "tm48",
       "picks": "1,2,3,7,10"
     },
@@ -472,7 +472,7 @@
     },
     {
       "name": "Janeen Felix",
-      "paid": false,
+      "paid": true,
       "pickcode": "jf38",
       "picks": "1,3,9,10,14"
     },
@@ -526,7 +526,7 @@
     },
     {
       "name": "Drew Miller",
-      "paid": false,
+      "paid": true,
       "pickcode": "dm91",
       "picks": "0,1,3,4,8"
     },
@@ -550,7 +550,7 @@
     },
     {
       "name": "Charlene Cheverie",
-      "paid": false,
+      "paid": true,
       "pickcode": "cc77",
       "picks": "0,1,16,7,14"
     },
@@ -580,7 +580,7 @@
     },
     {
       "name": "Pamela Trenholm",
-      "paid": false,
+      "paid": true,
       "pickcode": "pt51",
       "picks": "0,4,16,7,15"
     },
@@ -616,7 +616,7 @@
     },
     {
       "name": "Ashley Hryckowian",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah55",
       "picks": "0,1,16,7,11"
     },
@@ -652,7 +652,7 @@
     },
     {
       "name": "Beth Morash",
-      "paid": false,
+      "paid": true,
       "pickcode": "bm37",
       "picks": "0,4,5,7,9"
     },
