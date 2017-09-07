@@ -256,7 +256,7 @@
     },
     {
       "name": "Kayla Crocker",
-      "paid": false,
+      "paid": true,
       "pickcode": "kc56",
       "picks": "3,5,7,9,10"
     },
@@ -322,7 +322,7 @@
     },
     {
       "name": "Shawn Gillam-Wright",
-      "paid": false,
+      "paid": true,
       "pickcode": "sgw34",
       "picks": "3,7,8,9,11"
     },
@@ -346,13 +346,13 @@
     },
     {
       "name": "Lyla Arab",
-      "paid": false,
+      "paid": true,
       "pickcode": "lf12",
       "picks": "0,1,5,7,10"
     },
     {
       "name": "Krista Ratchford",
-      "paid": false,
+      "paid": true,
       "pickcode": "kd12",
       "picks": "0,1,16,8,10"
     },
@@ -406,13 +406,13 @@
     },
     {
       "name": "Andrew Smith",
-      "paid": false,
+      "paid": true,
       "pickcode": "as34",
       "picks": "0,1,3,4,7"
     },
     {
       "name": "Chuck Boudreau",
-      "paid": false,
+      "paid": true,
       "pickcode": "cb32",
       "picks": "5,16,10,11,15"
     },
@@ -454,7 +454,7 @@
     },
     {
       "name": "Kathy Hampson",
-      "paid": false,
+      "paid": true,
       "pickcode": "kh64",
       "picks": "0,4,5,16,14"
     },
@@ -514,7 +514,7 @@
     },
     {
       "name": "Heather McEwen",
-      "paid": false,
+      "paid": true,
       "pickcode": "hm38",
       "picks": "0,3,4,16,7"
     },
@@ -532,7 +532,7 @@
     },
     {
       "name": "Kelly Marie",
-      "paid": false,
+      "paid": true,
       "pickcode": "km64",
       "picks": "0,1,5,16,10"
     },
@@ -610,7 +610,7 @@
     },
     {
       "name": "Courtney Keun",
-      "paid": false,
+      "paid": true,
       "pickcode": "ck77",
       "picks": "16,8,10,11,14"
     },
@@ -628,7 +628,7 @@
     },
     {
       "name": "Tracy Goodwin",
-      "paid": false,
+      "paid": true,
       "pickcode": "tg63",
       "picks": "0,5,16,7,11"
     },
