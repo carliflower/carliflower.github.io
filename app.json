@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "33",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "32",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "21",
@@ -185,9 +185,9 @@
       "bio": "http://www.cbs.com/shows/big_brother/cast/215655/",
       "hoh": 0,
       "hometown": "DeValls Bluff, AR",
-      "jury": false,
+      "jury": true,
       "name": "Raven Walton",
-      "photo": "assets/raven-walton.png",
+      "photo": "assets/raven-walton-bw.png",
       "pov": 0,
       "profession": "Dance Teacher",
       "weeks": 11
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 3,
       "profession": "Clothing Designer",
-      "weeks": 11
+      "weeks": 12
     }
   ],
   "members": [
