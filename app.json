@@ -310,7 +310,7 @@
     },
     {
       "name": "Sean Hamilton",
-      "paid": false,
+      "paid": true,
       "pickcode": "sh12",
       "picks": "0,1,3,7,10"
     },
@@ -544,7 +544,7 @@
     },
     {
       "name": "Emilie LeBlanc",
-      "paid": false,
+      "paid": true,
       "pickcode": "el47",
       "picks": "0,1,5,16,14"
     },
