@@ -135,7 +135,7 @@
     {
       "age": "28",
       "bio": "http://www.cbs.com/shows/big_brother/cast/215651/",
-      "hoh": 2,
+      "hoh": 3,
       "hometown": "Camarillo, CA",
       "jury": false,
       "name": "Alex Ow",
@@ -460,7 +460,7 @@
     },
     {
       "name": "Caramen Landry",
-      "paid": false,
+      "paid": true,
       "pickcode": "cl72",
       "picks": "0,3,7,9,14"
     },
