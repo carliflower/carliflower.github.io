@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "33",
@@ -53,9 +53,9 @@
       "bio": "http://www.cbs.com/shows/big_brother/cast/215644/",
       "hoh": 2,
       "hometown": "Humeston, IA",
-      "jury": false,
+      "jury": true,
       "name": "Jason Dent",
-      "photo": "assets/jason-dent.png",
+      "photo": "assets/jason-dent-bw.png",
       "pov": 3,
       "profession": "Rodeo Clown",
       "weeks": 10
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "32",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "24",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "21",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 3,
       "profession": "Clothing Designer",
-      "weeks": 10
+      "weeks": 11
     }
   ],
   "members": [
