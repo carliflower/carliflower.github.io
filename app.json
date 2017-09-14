@@ -195,12 +195,12 @@
     {
       "age": "24",
       "bio": "http://www.cbs.com/shows/big_brother/cast/215658/",
-      "hoh": 2,
+      "hoh": 3,
       "hometown": "Tarzana, CA",
       "jury": false,
       "name": "Paul Abrahamian",
       "photo": "assets/paul-abrahamian.png",
-      "pov": 5,
+      "pov": 4,
       "profession": "Clothing Designer",
       "weeks": 13
     }
