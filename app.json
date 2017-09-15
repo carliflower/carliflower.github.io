@@ -232,7 +232,7 @@
     },
     {
       "name": "Ericka Branscombe",
-      "paid": false,
+      "paid": true,
       "pickcode": "eb23",
       "picks": "4,5,9,10,15"
     },
@@ -250,7 +250,7 @@
     },
     {
       "name": "Jordan Bonaparte",
-      "paid": false,
+      "paid": true,
       "pickcode": "jbp23",
       "picks": "2,4,5,16,13"
     },
@@ -262,7 +262,7 @@
     },
     {
       "name": "Kim Sampson",
-      "paid": false,
+      "paid": true,
       "pickcode": "ks78",
       "picks": "0,1,2,16,7"
     },
@@ -340,7 +340,7 @@
     },
     {
       "name": "Julie Chidiac",
-      "paid": false,
+      "paid": true,
       "pickcode": "jf12",
       "picks": "0,10,11,12,13"
     },
@@ -478,7 +478,7 @@
     },
     {
       "name": "Jessica Francis",
-      "paid": false,
+      "paid": true,
       "pickcode": "jf42",
       "picks": "2,9,11,13,14"
     },
@@ -604,7 +604,7 @@
     },
     {
       "name": "John Chidiac",
-      "paid": false,
+      "paid": true,
       "pickcode": "jc36",
       "picks": "0,2,5,10,11"
     },
@@ -622,7 +622,7 @@
     },
     {
       "name": "Christine Kostiuk Boyd",
-      "paid": false,
+      "paid": true,
       "pickcode": "ckb18",
       "picks": "0,2,16,7,10"
     },
@@ -634,7 +634,7 @@
     },
     {
       "name": "Heather Morton",
-      "paid": false,
+      "paid": true,
       "pickcode": "hm66",
       "picks": "0,1,7,8,15"
     },
@@ -646,7 +646,7 @@
     },
     {
       "name": "Clayton Bothwell",
-      "paid": false,
+      "paid": true,
       "pickcode": "cb49",
       "picks": "0,1,16,7,13"
     },
