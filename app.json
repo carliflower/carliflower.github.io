@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 13
+      "weeks": 14
     },
     {
       "age": "33",
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 13
+      "weeks": 14
     },
     {
       "age": "32",
@@ -161,9 +161,9 @@
       "bio": "http://www.cbs.com/shows/big_brother/cast/215653/",
       "hoh": 0,
       "hometown": "Boston, MA",
-      "jury": false,
+      "jury": true,
       "name": "Kevin Schlehuber",
-      "photo": "assets/kevin-schlehuber.png",
+      "photo": "assets/kevin-schlehuber-bw.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
       "weeks": 13
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 5,
       "profession": "Clothing Designer",
-      "weeks": 13
+      "weeks": 14
     }
   ],
   "members": [
