@@ -200,7 +200,7 @@
       "jury": false,
       "name": "Paul Abrahamian",
       "photo": "assets/paul-abrahamian.png",
-      "pov": 4,
+      "pov": 5,
       "profession": "Clothing Designer",
       "weeks": 13
     }
@@ -286,7 +286,7 @@
     },
     {
       "name": "Matt Currie",
-      "paid": false,
+      "paid": true,
       "pickcode": "mc89",
       "picks": "4,5,16,10,12"
     },
