@@ -508,7 +508,7 @@
     },
     {
       "name": "Lisa Skinner",
-      "paid": false,
+      "paid": true,
       "pickcode": "ls93",
       "picks": "1,2,5,16,10"
     },
@@ -568,13 +568,13 @@
     },
     {
       "name": "Melissa Deveaux",
-      "paid": false,
+      "paid": true,
       "pickcode": "md44",
       "picks": "1,3,4,16,14"
     },
     {
       "name": "Becca Melanson",
-      "paid": false,
+      "paid": true,
       "pickcode": "bm04",
       "picks": "0,5,7,10,14"
     },
@@ -640,7 +640,7 @@
     },
     {
       "name": "Stephanie Stone",
-      "paid": false,
+      "paid": true,
       "pickcode": "ss55",
       "picks": "0,16,7,9,10"
     },
