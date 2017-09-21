@@ -5,7 +5,7 @@
       "bio": "http://www.cbs.com/shows/big_brother/cast/215639/",
       "hoh": 2,
       "hometown": "Raleigh, NC",
-      "jury": false,
+      "jury": true,
       "name": "Christmas Abbott",
       "photo": "assets/christmas-abbott-bw.png",
       "pov": 0,
@@ -111,14 +111,14 @@
     {
       "age": "23",
       "bio": "http://www.cbs.com/shows/big_brother/cast/215649/",
-      "hoh": 2,
+      "hoh": 3,
       "hometown": "Homestead, FL",
       "jury": false,
       "name": "Josh Martinez",
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 15
+      "weeks": 17
     },
     {
       "age": "32",
@@ -199,10 +199,10 @@
       "hometown": "Tarzana, CA",
       "jury": false,
       "name": "Paul Abrahamian",
-      "photo": "assets/paul-abrahamian.png",
+      "photo": "assets/paul-abrahamian-bw.png",
       "pov": 5,
       "profession": "Clothing Designer",
-      "weeks": 15
+      "weeks": 16
     }
   ],
   "members": [
