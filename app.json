@@ -382,13 +382,13 @@
     },
     {
       "name": "Erin Fletcher",
-      "paid": false,
+      "paid": true,
       "pickcode": "ef68",
       "picks": "0,4,7,10,14"
     },
     {
       "name": "Courtney Gallichon",
-      "paid": false,
+      "paid": true,
       "pickcode": "cg27",
       "picks": "1,4,8,12,15"
     },
@@ -496,7 +496,7 @@
     },
     {
       "name": "Ben Milton",
-      "paid": false,
+      "paid": true,
       "pickcode": "bm29",
       "picks": "0,1,2,4,13"
     },
@@ -586,7 +586,7 @@
     },
     {
       "name": "Jason Sprague",
-      "paid": false,
+      "paid": true,
       "pickcode": "js19",
       "picks": "0,5,16,7,10"
     },
