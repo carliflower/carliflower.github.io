@@ -7,7 +7,7 @@
       "hometown": "Raleigh, NC",
       "jury": false,
       "name": "Christmas Abbott",
-      "photo": "assets/christmas-abbott.png",
+      "photo": "assets/christmas-abbott-bw.png",
       "pov": 0,
       "profession": "Fitness superstar",
       "weeks": 14
@@ -118,7 +118,7 @@
       "photo": "assets/josh-martinez.png",
       "pov": 0,
       "profession": "Haircare Sales",
-      "weeks": 14
+      "weeks": 15
     },
     {
       "age": "32",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian.png",
       "pov": 5,
       "profession": "Clothing Designer",
-      "weeks": 14
+      "weeks": 15
     }
   ],
   "members": [
