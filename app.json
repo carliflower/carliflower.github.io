@@ -10,7 +10,7 @@
       "photo": "assets/christmas-abbott-bw.png",
       "pov": 0,
       "profession": "Fitness superstar",
-      "weeks": 12
+      "weeks": 14
     },
     {
       "age": "33",
@@ -22,7 +22,7 @@
       "photo": "assets/matthew-clines-bw.png",
       "pov": 1,
       "profession": "Renovation consultant",
-      "weeks": 7
+      "weeks": 9
     },
     {
       "age": "26",
@@ -34,7 +34,7 @@
       "photo": "assets/elena-davis-bw.png",
       "pov": 0,
       "profession": "Radio personality",
-      "weeks": 5
+      "weeks": 7
     },
     {
       "age": "30",
@@ -46,7 +46,7 @@
       "photo": "assets/dominique-cooper-bw.png",
       "pov": 0,
       "profession": "Government Engineer",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "37",
@@ -58,7 +58,7 @@
       "photo": "assets/jason-dent-bw.png",
       "pov": 3,
       "profession": "Rodeo Clown",
-      "weeks": 8
+      "weeks": 10
     },
     {
       "age": "26",
@@ -70,7 +70,7 @@
       "photo": "assets/jessica-graf-bw.png",
       "pov": 1,
       "profession": "VIP Concierge",
-      "weeks": 3
+      "weeks": 5
     },
     {
       "age": "24",
@@ -94,7 +94,7 @@
       "photo": "assets/mark-jenson-bw.png",
       "pov": 2,
       "profession": "Personal Trainer",
-      "weeks": 6
+      "weeks": 8
     },
     {
       "age": "28",
@@ -106,19 +106,19 @@
       "photo": "assets/megan-lowder-bw.png",
       "pov": 0,
       "profession": "Dog Walker",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "23",
       "bio": "http://www.cbs.com/shows/big_brother/cast/215649/",
-      "hoh": 3,
+      "hoh": 2,
       "hometown": "Homestead, FL",
       "jury": false,
       "name": "Josh Martinez",
       "photo": "assets/josh-martinez.png",
       "pov": 1,
       "profession": "Haircare Sales",
-      "weeks": 14
+      "weeks": 16
     },
     {
       "age": "32",
@@ -130,7 +130,7 @@
       "photo": "assets/cody-nickson-bw.png",
       "pov": 0,
       "profession": "Construction Sales Rep",
-      "weeks": 4
+      "weeks": 3
     },
     {
       "age": "28",
@@ -142,7 +142,7 @@
       "photo": "assets/alex-ow-bw.png",
       "pov": 1,
       "profession": "Eco-Friendly Marketing Rep",
-      "weeks": 10
+      "weeks": 12
     },
     {
       "age": "24",
@@ -154,7 +154,7 @@
       "photo": "assets/jillian-parker-bw.png",
       "pov": 0,
       "profession": "Timeshare Sales Rep",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "55",
@@ -166,7 +166,7 @@
       "photo": "assets/kevin-schlehuber-bw.png",
       "pov": 0,
       "profession": "Stay At Home Dad",
-      "weeks": 11
+      "weeks": 13
     },
     {
       "age": "21",
@@ -178,7 +178,7 @@
       "photo": "assets/ramses-soto-bw.png",
       "pov": 0,
       "profession": "Cosplay Artist",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "23",
@@ -190,7 +190,7 @@
       "photo": "assets/raven-walton-bw.png",
       "pov": 0,
       "profession": "Dance Teacher",
-      "weeks": 9
+      "weeks": 11
     },
     {
       "age": "24",
@@ -202,7 +202,7 @@
       "photo": "assets/paul-abrahamian-bw.1.png",
       "pov": 5,
       "profession": "Clothing Designer",
-      "weeks": 13
+      "weeks": 15
     }
   ],
   "members": [
