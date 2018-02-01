@@ -84,7 +84,7 @@
     }
     function init() {
       $log.debug('init');
-      // vm.generateStandings();
+      vm.generateStandings();
       vm.statReports();
     }
 
@@ -113,11 +113,11 @@
       });
       var sortedPoints = _.pairs(pointCounts);
       //used when the point spread has start to thin out and show the prize values/
-      vm.firstPlacePointValue = sortedPoints[sortedPoints.length - 1][0];
-      vm.secondPlacePointValue = sortedPoints[sortedPoints.length - 2][0];
-      vm.thirdPlacePointValue = sortedPoints[sortedPoints.length - 3][0];
-      vm.fourthPlacePointValue = sortedPoints[sortedPoints.length - 4][0];
-      vm.lastPlacePointValue = sortedPoints[0][0];
+      // vm.firstPlacePointValue = sortedPoints[sortedPoints.length - 1][0];
+      // vm.secondPlacePointValue = sortedPoints[sortedPoints.length - 2][0];
+      // vm.thirdPlacePointValue = sortedPoints[sortedPoints.length - 3][0];
+      // vm.fourthPlacePointValue = sortedPoints[sortedPoints.length - 4][0];
+      // vm.lastPlacePointValue = sortedPoints[0][0];
       // $log.debug("generateStandings", vm.members, vm.houseguests);
     }
 
