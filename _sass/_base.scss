@@ -11,9 +11,7 @@ body {
   background-color: black;
 }
 
-.view-content
-
-.tiny {
+.view-content .tiny {
   font-size: 12px;
   color: black;
 }
@@ -224,7 +222,7 @@ h6 {
   height: 127%;
   display: inline-block;
   position: relative;
-  background-size: contain !important;
+  background-size: cover !important;
 
   &.alternate {
     background-size: initial !important;
