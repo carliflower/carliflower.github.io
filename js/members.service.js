@@ -1,13 +1,13 @@
 //IIFE - keeps code isolated and off global scope
 (function() {
-  angular.module("members", []).service("MembersService", MembersService);
+  angular.module('members', []).service('MembersService', MembersService);
 
   //injection for js minification
-  MembersService.$inject = ["$log", "$firebaseArray", "DataService"];
+  MembersService.$inject = ['$log', '$firebaseArray', 'DataService'];
 
   //service begins
   function MembersService($log, $firebaseArray, DataService) {
-    $log = $log.getInstance("MembersService", false);
+    $log = $log.getInstance('MembersService', false);
 
     this.tallyPickPoints = tallyPickPoints;
     this.findMemberByPickCode = findMemberByPickCode;
@@ -23,17 +23,17 @@
     //internal methods
     function get() {
       this.ref = new Firebase(
-        "https://" + this.DataService.firebaseUrl + "/members/"
+        'https://' + this.DataService.firebaseUrl + '/members/'
       );
       return $firebaseArray(this.ref);
     }
 
     function tallyPickPoints(houseguests, member) {
-      $log.debug("tallyPickPoints", houseguests, member);
+      $log.debug('tallyPickPoints', houseguests, member);
       var tally = 0;
       for (var h = 0; h < houseguests.length; h++) {
         //loop through each houseguest and then loop through the members picks
-        var picks = member.picks.split(",");
+        var picks = member.picks.split(',');
         for (var m = 0; m < picks.length; m++) {
           var pick = picks[m];
           if (pick == h) {
@@ -42,12 +42,12 @@
           }
         }
       }
-      $log.debug("tallyPickPoints", tally);
+      $log.debug('tallyPickPoints', tally);
       return tally;
     }
 
     function findMemberByPickCode(members, pickCode) {
-      $log.debug("findMemberByPickCode", pickCode);
+      $log.debug('findMemberByPickCode', pickCode);
       var response = {
         isValidCode: false,
         member: null
@@ -66,7 +66,7 @@
       var a = [];
       if (member.picks) {
         if (member.picks.length) {
-          a = member.picks.split(",");
+          a = member.picks.split(',');
         }
       }
       return a;
@@ -79,12 +79,12 @@
       //sort by numeric order and then return as a string.
       //ex.  ["3", "2", "1"] becomes "1,2,3"
       var s = memberpicks.sort(compareNumbers).join();
-      $log.debug("setMemberPicksAsString", memberpicks, s);
+      $log.debug('setMemberPicksAsString', memberpicks, s);
       return s;
     }
 
     function checkIfPicksAreValid(members, currentpicks) {
-      $log.debug("checkIfPicksAreValid", members, currentpicks);
+      $log.debug('checkIfPicksAreValid', members, currentpicks);
       var arePicksValid = false;
 
       var allCurrentPicksAsArrayOfSortedStrings = this.gatherAllMemberPicks(
@@ -94,20 +94,20 @@
         allCurrentPicksAsArrayOfSortedStrings,
         currentpicks
       );
-      $log.debug("pickSetIsUsed", pickSetIsUsed);
+      $log.debug('pickSetIsUsed', pickSetIsUsed);
 
       if (!pickSetIsUsed) {
         arePicksValid = true;
       }
 
-      $log.debug("arePicksValid", arePicksValid);
+      $log.debug('arePicksValid', arePicksValid);
       return arePicksValid;
     }
 
     function hasCompletedPicks(member, maxpicks) {
-      $log.debug("hasCompletedPicks", member, maxpicks);
+      $log.debug('hasCompletedPicks', member, maxpicks);
       var r = false;
-      if (member.picks.split(",").length === maxpicks) {
+      if (member.picks.split(',').length === maxpicks) {
         r = true;
       }
       return r;
@@ -123,7 +123,7 @@
         );
         picks.push(memberPicksAsSortedString);
       }
-      $log.debug("gatherMemberPicks", picks);
+      $log.debug('gatherMemberPicks', picks);
       return picks;
     }
 
@@ -137,14 +137,14 @@
       var randomizedHouseguestsOrder = _.shuffle(houseguests);
       // $log.debug("randomizedHouseguestsOrder", randomizedHouseguestsOrder);
       var randomSample = [];
-      var availablePickSet = "";
+      var availablePickSet = '';
 
       // $log.debug("allCurrentPicksAsArrayOfSortedStrings", allCurrentPicksAsArrayOfSortedStrings);
       while (pickSetIsUsed) {
         //generate 5 unique random index #s
-        randomSample = _.sample(randomizedHouseguestsOrder, 5);
+        randomSample = _.sample(randomizedHouseguestsOrder, 3);
         // $log.debug("randomSample", randomSample);
-        var randomSampleIds = _.map(randomSample, "$id");
+        var randomSampleIds = _.map(randomSample, '$id');
         var randomSampleString = this.setMemberPicksAsString(randomSampleIds);
         // $log.debug("randomSampleString", randomSampleString);
         //check if randomSample is used
@@ -152,9 +152,9 @@
           allCurrentPicksAsArrayOfSortedStrings,
           randomSampleString
         );
-        $log.debug("generateRandomPick", pickSetIsUsed, randomSampleString);
+        $log.debug('generateRandomPick', pickSetIsUsed, randomSampleString);
         if (!pickSetIsUsed) {
-          availablePickSet = randomSampleString.split(",");
+          availablePickSet = randomSampleString.split(',');
         }
       }
 

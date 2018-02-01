@@ -10,13 +10,13 @@
 
     <div ng-if="!vm.picksSaved && vm.isLoaded">
 
-        <!--<h3>This is open for testing right now. Any picks made will be lost when the test is completed.</h3>-->
+        <h3>This is open for testing right now. Any picks made will be lost when the test is completed.</h3>
 
         <h2>Rules for Picking</h2>
 
         <ul class="pick-rules">
-            <li>Each person picks a team of 5 houseguests.</li>
-            <li>No two people can have the exact same 5 houseguests on their team.</li>
+            <li>Each person picks a team of 3 houseguests.</li>
+            <li>No two people can have the exact same 3 houseguests on their team.</li>
             <li>The site will tell you if someone else has already chosen the combo you want.</li>
             <li>If you can't make up your mind, use the random pick button at the bottom of the screen!</li>
         </ul>
@@ -35,17 +35,17 @@
 
             <!--<h3>Not open for picks yet</h3>-->
 
-            <p>To make your picks select 5 houseguests and press the button at the bottom of the page</p>
+            <p>To make your picks select 3 houseguests and press the button at the bottom of the page</p>
 
             <ul class="houseguest-grid">
                 <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
-                    <div class="houseguest-tile" ng-class="{ 'selected': houseguest.selected }" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;"
+                    <div class="houseguest-tile" ng-class="{ 'selected': houseguest.selected }" style="background: rgb(33, 33, 33) url('{[{houseguest.photo}]}') 0 0 no-repeat;"
                         ng-click="vm.selectPick(houseguest.$id)">
                         <div class="bio">
                             <p class="name">{[{houseguest.name}]}</p>
-                            <p class="age">Age: {[{houseguest.age}]}</p>
+                            <!-- <p class="age">Age: {[{houseguest.age}]}</p>
                             <p class="hometown">{[{houseguest.hometown}]}</p>
-                            <p class="profession">{[{houseguest.profession}]}</p>
+                            <p class="profession">{[{houseguest.profession}]}</p> -->
                         </div>
                     </div>
                 </li>

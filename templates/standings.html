@@ -10,8 +10,8 @@
         <li style="margin-bottom: 5px;">Last: $25</li>
     </ul> -->
 
-    <p>{[{vm.members.length}]} People</p>
-    <!--<p>{[{vm.picksMade}]} Picks Made</p>-->
+    <!-- <p>{[{vm.members.length}]} People</p> -->
+    <p>{[{vm.picksMade}]} Picks Made</p>
 
     <ul class="member-standings">
         <li class="member-tile" ng-repeat="member in vm.sortedMembers">
@@ -25,7 +25,7 @@
                             alt="{[{vm.houseguests[id].name}]}">
                     </li>
                 </ul>
-                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
+                <!-- <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
                     Winner $500
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.secondPlacePointValue">
@@ -36,7 +36,7 @@
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.lastPlacePointValue">
                     Winner $25
-                </div>
+                </div> -->
             </div>
         </li>
     </ul>
