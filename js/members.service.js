@@ -141,7 +141,7 @@
 
       // $log.debug("allCurrentPicksAsArrayOfSortedStrings", allCurrentPicksAsArrayOfSortedStrings);
       while (pickSetIsUsed) {
-        //generate 5 unique random index #s
+        //generate 3 unique random index #s
         randomSample = _.sample(randomizedHouseguestsOrder, 3);
         // $log.debug("randomSample", randomSample);
         var randomSampleIds = _.map(randomSample, '$id');
