@@ -655,6 +655,12 @@
       "paid": false,
       "pickcode": "ks94",
       "picks": ""
+    },
+    {
+      "name": "Laura Fitzgerald",
+      "paid": false,
+      "pickcode": "lf39",
+      "picks": ""
     }
   ]
 }
