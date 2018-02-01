@@ -10,7 +10,7 @@
 
     <div ng-if="!vm.picksSaved && vm.isLoaded">
 
-        <h3>This is open for testing right now. Any picks made will be lost when the test is completed.</h3>
+        <!-- <h3>This is open for testing right now. Any picks made will be lost when the test is completed.</h3> -->
 
         <h2>Rules for Picking</h2>
 
@@ -33,9 +33,9 @@
 
             <h2>Hello {[{vm.member.name}]}</h2>
 
-            <!--<h3>Not open for picks yet</h3>-->
+            <h3>Not open for picks yet</h3>
 
-            <p>To make your picks select 3 houseguests and press the button at the bottom of the page</p>
+            <!-- <p>To make your picks select 3 houseguests and press the button at the bottom of the page</p>
 
             <ul class="houseguest-grid">
                 <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
@@ -43,9 +43,6 @@
                         ng-click="vm.selectPick(houseguest.$id)">
                         <div class="bio">
                             <p class="name">{[{houseguest.name}]}</p>
-                            <!-- <p class="age">Age: {[{houseguest.age}]}</p>
-                            <p class="hometown">{[{houseguest.hometown}]}</p>
-                            <p class="profession">{[{houseguest.profession}]}</p> -->
                         </div>
                     </div>
                 </li>
@@ -64,7 +61,7 @@
                     <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}"
                     />
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
