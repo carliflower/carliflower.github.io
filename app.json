@@ -661,6 +661,48 @@
       "paid": false,
       "pickcode": "lf39",
       "picks": ""
+    },
+    {
+      "name": "Brett Fulmore",
+      "paid": false,
+      "pickcode": "bf72",
+      "picks": ""
+    },
+    {
+      "name": "Leigh-Anne Fulmore",
+      "paid": false,
+      "pickcode": "laf88",
+      "picks": ""
+    },
+    {
+      "name": "Trisha Noel",
+      "paid": false,
+      "pickcode": "tn12",
+      "picks": ""
+    },
+    {
+      "name": "Kelly Hibbert",
+      "paid": false,
+      "pickcode": "kh37",
+      "picks": ""
+    },
+    {
+      "name": "Erin Dewolf-Walker",
+      "paid": false,
+      "pickcode": "edw55",
+      "picks": ""
+    },
+    {
+      "name": "Antony Walker",
+      "paid": false,
+      "pickcode": "aw60",
+      "picks": ""
+    },
+    {
+      "name": "Alex Seufert",
+      "paid": false,
+      "pickcode": "as84",
+      "picks": ""
     }
   ]
 }
