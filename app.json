@@ -688,13 +688,13 @@
     },
     {
       "name": "Erin Dewolf-Walker",
-      "paid": false,
+      "paid": true,
       "pickcode": "edw55",
       "picks": ""
     },
     {
       "name": "Antony Walker",
-      "paid": false,
+      "paid": true,
       "pickcode": "aw60",
       "picks": ""
     },
@@ -707,12 +707,6 @@
     {
       "name": "Erin Maclellan",
       "paid": true,
-      "pickcode": "em12",
-      "picks": ""
-    },
-    {
-      "name": "Erin Maclellan",
-      "paid": false,
       "pickcode": "em12",
       "picks": ""
     },
