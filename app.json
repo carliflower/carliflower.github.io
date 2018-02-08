@@ -225,6 +225,12 @@
       "picks": "5,7,8"
     },
     {
+      "name": "Kaitlyn Burke",
+      "paid": true,
+      "pickcode": "kb99",
+      "picks": "1,4,5"
+    },
+    {
       "name": "Shawn Gillam-Wright",
       "paid": true,
       "pickcode": "sgw34",
