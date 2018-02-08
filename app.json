@@ -159,24 +159,6 @@
       "picks": "3,6,8"
     },
     {
-      "name": "Ericka Branscombe",
-      "paid": false,
-      "pickcode": "eb23",
-      "picks": ""
-    },
-    {
-      "name": "Jade Billings",
-      "paid": false,
-      "pickcode": "jb67",
-      "picks": ""
-    },
-    {
-      "name": "Jennifer Nixon",
-      "paid": false,
-      "pickcode": "jn12",
-      "picks": ""
-    },
-    {
       "name": "Jordan Bonaparte",
       "paid": false,
       "pickcode": "jbp23",
@@ -225,12 +207,6 @@
       "picks": "1,4,7"
     },
     {
-      "name": "Patricia Johnston",
-      "paid": false,
-      "pickcode": "pj56",
-      "picks": ""
-    },
-    {
       "name": "Scott Munro",
       "paid": false,
       "pickcode": "sm89",
@@ -273,12 +249,6 @@
       "picks": "0,1,6"
     },
     {
-      "name": "Lyla Arab",
-      "paid": false,
-      "pickcode": "lf12",
-      "picks": ""
-    },
-    {
       "name": "Krista Ratchford",
       "paid": false,
       "pickcode": "kd12",
@@ -309,18 +279,6 @@
       "picks": "2,4,8"
     },
     {
-      "name": "Erin Fletcher",
-      "paid": false,
-      "pickcode": "ef68",
-      "picks": ""
-    },
-    {
-      "name": "Courtney Gallichon",
-      "paid": false,
-      "pickcode": "cg27",
-      "picks": ""
-    },
-    {
       "name": "Tamara Carr",
       "paid": false,
       "pickcode": "tc34",
@@ -337,12 +295,6 @@
       "paid": true,
       "pickcode": "as34",
       "picks": "2,5,9"
-    },
-    {
-      "name": "Chuck Boudreau",
-      "paid": false,
-      "pickcode": "cb32",
-      "picks": ""
     },
     {
       "name": "Victoria Samson",
@@ -363,34 +315,10 @@
       "picks": "1,7,9"
     },
     {
-      "name": "Crystal Thompson",
-      "paid": false,
-      "pickcode": "ct77",
-      "picks": ""
-    },
-    {
-      "name": "Kaitlin Burke",
-      "paid": true,
-      "pickcode": "kb58",
-      "picks": ""
-    },
-    {
       "name": "Tuesdaie Faulkner",
       "paid": true,
       "pickcode": "tf18",
       "picks": "3,6,10"
-    },
-    {
-      "name": "Kathy Hampson",
-      "paid": false,
-      "pickcode": "kh64",
-      "picks": ""
-    },
-    {
-      "name": "Caramen Landry",
-      "paid": false,
-      "pickcode": "cl72",
-      "picks": ""
     },
     {
       "name": "Alex Moreira",
@@ -423,34 +351,10 @@
       "picks": "3,7,8"
     },
     {
-      "name": "Ben Milton",
-      "paid": false,
-      "pickcode": "bm29",
-      "picks": ""
-    },
-    {
-      "name": "Chantale Murphy",
-      "paid": false,
-      "pickcode": "cm06",
-      "picks": ""
-    },
-    {
       "name": "Lisa Skinner",
       "paid": true,
       "pickcode": "ls93",
       "picks": "1,6,9"
-    },
-    {
-      "name": "Heather McEwen",
-      "paid": false,
-      "pickcode": "hm38",
-      "picks": ""
-    },
-    {
-      "name": "Allison Heard",
-      "paid": false,
-      "pickcode": "ah48",
-      "picks": ""
     },
     {
       "name": "Drew Miller",
@@ -471,58 +375,10 @@
       "picks": "0,5,8"
     },
     {
-      "name": "Emilie LeBlanc",
-      "paid": false,
-      "pickcode": "el47",
-      "picks": ""
-    },
-    {
-      "name": "Charlene Cheverie",
-      "paid": false,
-      "pickcode": "cc77",
-      "picks": ""
-    },
-    {
-      "name": "Allysa Lee",
-      "paid": false,
-      "pickcode": "al91",
-      "picks": ""
-    },
-    {
-      "name": "Emily DeKleer",
-      "paid": false,
-      "pickcode": "ed94",
-      "picks": ""
-    },
-    {
-      "name": "Melissa Deveaux",
-      "paid": false,
-      "pickcode": "md44",
-      "picks": ""
-    },
-    {
-      "name": "Becca Melanson",
-      "paid": false,
-      "pickcode": "bm04",
-      "picks": ""
-    },
-    {
       "name": "Pamela Trenholm",
       "paid": true,
       "pickcode": "pt51",
       "picks": "1,2,6"
-    },
-    {
-      "name": "Jason Sprague",
-      "paid": false,
-      "pickcode": "js19",
-      "picks": ""
-    },
-    {
-      "name": "Kerry MacKenzie",
-      "paid": false,
-      "pickcode": "km47",
-      "picks": ""
     },
     {
       "name": "Emily Reid",
@@ -535,12 +391,6 @@
       "paid": true,
       "pickcode": "jc36",
       "picks": "5,7,10"
-    },
-    {
-      "name": "Courtney Keun",
-      "paid": false,
-      "pickcode": "ck77",
-      "picks": ""
     },
     {
       "name": "Ashley Hryckowian",
@@ -565,54 +415,6 @@
       "paid": false,
       "pickcode": "hm66",
       "picks": "4,9,10"
-    },
-    {
-      "name": "Stephanie Stone",
-      "paid": false,
-      "pickcode": "ss55",
-      "picks": ""
-    },
-    {
-      "name": "Clayton Bothwell",
-      "paid": false,
-      "pickcode": "cb49",
-      "picks": ""
-    },
-    {
-      "name": "Beth Morash",
-      "paid": false,
-      "pickcode": "bm37",
-      "picks": ""
-    },
-    {
-      "name": "Amy Jollimore",
-      "paid": false,
-      "pickcode": "aj99",
-      "picks": ""
-    },
-    {
-      "name": "Christine Porpiglia-Naldrett",
-      "paid": false,
-      "pickcode": "cpn66",
-      "picks": ""
-    },
-    {
-      "name": "Graham Johnston",
-      "paid": false,
-      "pickcode": "gj69",
-      "picks": ""
-    },
-    {
-      "name": "Meaghan Kennedy",
-      "paid": false,
-      "pickcode": "mk44",
-      "picks": ""
-    },
-    {
-      "name": "Erin Ryan",
-      "paid": false,
-      "pickcode": "er23",
-      "picks": ""
     },
     {
       "name": "Kendra Landry",
@@ -675,12 +477,6 @@
       "picks": ""
     },
     {
-      "name": "Trisha Noel",
-      "paid": false,
-      "pickcode": "tn12",
-      "picks": ""
-    },
-    {
       "name": "Kelly Hibbert",
       "paid": true,
       "pickcode": "kh37",
@@ -699,12 +495,6 @@
       "picks": "5,9,10"
     },
     {
-      "name": "Alex Seufert",
-      "paid": false,
-      "pickcode": "as84",
-      "picks": ""
-    },
-    {
       "name": "Erin Maclellan",
       "paid": true,
       "pickcode": "em12",
@@ -721,12 +511,6 @@
       "paid": false,
       "pickcode": "qm74",
       "picks": "2,4,10"
-    },
-    {
-      "name": "Lindsay Carroll",
-      "paid": false,
-      "pickcode": "lc18",
-      "picks": ""
     }
   ]
 }
