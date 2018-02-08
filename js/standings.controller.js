@@ -80,7 +80,7 @@
 
     function showBio(bio) {
       $log.debug('showBio');
-      $window.open(bio, '_blank');
+      // $window.open(bio, '_blank');
     }
     function init() {
       $log.debug('init');
