@@ -502,7 +502,7 @@
     },
     {
       "name": "Jeff MacEachern",
-      "paid": false,
+      "paid": true,
       "pickcode": "jm82",
       "picks": "0,1,8"
     },
