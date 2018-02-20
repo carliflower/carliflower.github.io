@@ -214,7 +214,7 @@
     },
     {
       "name": "Sean Hamilton",
-      "paid": false,
+      "paid": true,
       "pickcode": "sh12",
       "picks": "6,7,10"
     },
@@ -304,7 +304,7 @@
     },
     {
       "name": "Victoria Samson",
-      "paid": false,
+      "paid": true,
       "pickcode": "vs99",
       "picks": "2,4,7"
     },
@@ -454,7 +454,7 @@
     },
     {
       "name": "Bobbie Doyle-Gillis",
-      "paid": false,
+      "paid": true,
       "pickcode": "bdg44",
       "picks": "0,3,6"
     },
