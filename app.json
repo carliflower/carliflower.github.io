@@ -160,7 +160,7 @@
     },
     {
       "name": "Jordan Bonaparte",
-      "paid": false,
+      "paid": true,
       "pickcode": "jbp23",
       "picks": "2,6,10"
     },
