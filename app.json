@@ -178,7 +178,7 @@
     },
     {
       "name": "Alexis Diakow",
-      "paid": false,
+      "paid": true,
       "pickcode": "ld12",
       "picks": "6,7,9"
     },
@@ -190,7 +190,7 @@
     },
     {
       "name": "Mark Sutherland",
-      "paid": false,
+      "paid": true,
       "pickcode": "ms78",
       "picks": "0,1,10"
     },
@@ -208,7 +208,7 @@
     },
     {
       "name": "Scott Munro",
-      "paid": false,
+      "paid": true,
       "pickcode": "sm89",
       "picks": "5,6,7"
     },
@@ -406,7 +406,7 @@
     },
     {
       "name": "Christine Kostiuk Boyd",
-      "paid": false,
+      "paid": true,
       "pickcode": "ckb18",
       "picks": "1,2,4"
     },
@@ -508,7 +508,7 @@
     },
     {
       "name": "Quincy Morrison",
-      "paid": false,
+      "paid": true,
       "pickcode": "qm74",
       "picks": "2,4,10"
     }
