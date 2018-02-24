@@ -116,7 +116,7 @@
       "jury": false,
       "name": "Ross Mathews",
       "photo": "assets/ross-mathews.png",
-      "pov": 1,
+      "pov": 2,
       "profession": "",
       "weeks": 5
     },
@@ -256,7 +256,7 @@
     },
     {
       "name": "Krista Ratchford",
-      "paid": false,
+      "paid": true,
       "pickcode": "kd12",
       "picks": "3,4,7"
     },
@@ -286,7 +286,7 @@
     },
     {
       "name": "Tamara Carr",
-      "paid": false,
+      "paid": true,
       "pickcode": "tc34",
       "picks": "5,7,9"
     },
