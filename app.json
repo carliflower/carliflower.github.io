@@ -102,48 +102,13 @@
       "hoh": 0,
       "hometown": "",
       "jury": false,
-      "name": "Kristen MacInnis",
-      "photo": "assets/kristen-macinnis.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 0
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
       "name": "Maddy Poplett",
       "photo": "assets/maddy-poplett.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 0
     },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Merron Haile",
-      "photo": "assets/merron-haile.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 0
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Mikey Jakobczak",
-      "photo": "assets/mikey-jakobczak.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 0
-    },
+
     {
       "age": "",
       "bio": "",
@@ -192,6 +157,43 @@
       "profession": "",
       "weeks": 0
     },
+
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "",
+      "jury": false,
+      "name": "William Kenny",
+      "photo": "assets/william-kenny.jpg",
+      "pov": 0,
+      "profession": "",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "",
+      "jury": false,
+      "name": "Merron Haile",
+      "photo": "assets/merron-haile.jpg",
+      "pov": 0,
+      "profession": "",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "",
+      "jury": false,
+      "name": "Mikey Jakobczak",
+      "photo": "assets/mikey-jakobczak.jpg",
+      "pov": 0,
+      "profession": "",
+      "weeks": 0
+    },
     {
       "age": "",
       "bio": "",
@@ -210,8 +212,8 @@
       "hoh": 0,
       "hometown": "",
       "jury": false,
-      "name": "William Kenny",
-      "photo": "assets/william-kenny.jpg",
+      "name": "Kristen MacInnis",
+      "photo": "assets/kristen-macinnis.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 0
