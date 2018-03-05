@@ -281,13 +281,13 @@
     },
     {
       "name": "Shanna Burke",
-      "paid": false,
+      "paid": true,
       "pickcode": "sb23",
       "picks": ""
     },
     {
       "name": "Kaitlyn Burke",
-      "paid": false,
+      "paid": true,
       "pickcode": "kb99",
       "picks": ""
     },
@@ -383,7 +383,7 @@
     },
     {
       "name": "Tuesdaie Faulkner",
-      "paid": false,
+      "paid": true,
       "pickcode": "tf18",
       "picks": ""
     },
