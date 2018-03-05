@@ -6,7 +6,7 @@
         <li ng-repeat="houseguest in vm.houseguests | orderBy: ['-points','name']">
             <div class="houseguest-tile" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') 0 0 no-repeat;">
                 <div class="bio">
-                    <p class="name" ng-click="vm.showBio(houseguest.bio)">{[{houseguest.name}]}</p>
+                    <p class="name">{[{houseguest.name}]}</p>
                     <!-- <p class="age">Age: {[{houseguest.age}]}</p>
                     <p class="hometown">{[{houseguest.hometown}]}</p>
                     <p class="profession">{[{houseguest.profession}]}</p>
