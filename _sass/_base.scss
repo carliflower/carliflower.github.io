@@ -92,7 +92,7 @@ header {
       margin-top: 10px;
       display: inline-block;
       font-family: "Shrikhand";
-      color: #dcb722;
+      color: white;
       background-color: rgba(0, 0, 0, 0.5);
     }
   }
@@ -113,7 +113,7 @@ nav {
   color: #fff;
   background-color: #000;
   text-align: center;
-  padding: 0 0 50px 0;
+  padding: 0 10px 50px 10px;
   margin: 0 auto;
 
   h1 {
@@ -213,7 +213,7 @@ h6 {
   li {
     display: inline-block;
     width: 250px;
-    height: 250px;
+    height: 140px;
     padding: 10px;
   }
 }
@@ -223,14 +223,9 @@ h6 {
   height: 127%;
   display: inline-block;
   position: relative;
-  background-size: 100% 60% !important;
-  background-position: 100% 50% !important;
-  background-color: #f4f7fc !important;
-
-  &.alternate {
-    background-size: initial !important;
-    background-position: 50% 0 !important;
-  }
+  background-size: contain !important;
+  // background-position: 100% 50% !important;
+  // background-color: #eff2f9 !important;
 
   &.selected {
     .bio {
@@ -245,7 +240,7 @@ h6 {
     left: 20%;
     width: 60%;
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 0 0 0;
     background: rgba(0, 0, 0, 0.58);
     color: white;
     text-transform: uppercase;
