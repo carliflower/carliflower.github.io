@@ -157,7 +157,6 @@
       "profession": "",
       "weeks": 0
     },
-
     {
       "age": "",
       "bio": "",
@@ -166,6 +165,30 @@
       "jury": false,
       "name": "William Kenny",
       "photo": "assets/william-kenny.jpg",
+      "pov": 0,
+      "profession": "",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "",
+      "jury": false,
+      "name": "Mystery Houseguest Male",
+      "photo": "assets/male-avatar.png",
+      "pov": 0,
+      "profession": "",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "",
+      "jury": false,
+      "name": "Mystery Houseguest Female",
+      "photo": "assets/female-avatar.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 0
