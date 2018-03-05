@@ -223,7 +223,9 @@ h6 {
   height: 127%;
   display: inline-block;
   position: relative;
-  background-size: cover !important;
+  background-size: 100% 60% !important;
+  background-position: 100% 50% !important;
+  background-color: #f4f7fc !important;
 
   &.alternate {
     background-size: initial !important;
