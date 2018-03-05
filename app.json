@@ -197,7 +197,7 @@
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah34",
       "picks": ""
     },
@@ -209,7 +209,7 @@
     },
     {
       "name": "Carli Poirier",
-      "paid": false,
+      "paid": true,
       "pickcode": "cp23",
       "picks": ""
     },
@@ -239,7 +239,7 @@
     },
     {
       "name": "Alexis Diakow",
-      "paid": false,
+      "paid": true,
       "pickcode": "ld12",
       "picks": ""
     },
@@ -251,7 +251,7 @@
     },
     {
       "name": "Mark Sutherland",
-      "paid": false,
+      "paid": true,
       "pickcode": "ms78",
       "picks": ""
     },
@@ -305,7 +305,7 @@
     },
     {
       "name": "TC Fougere",
-      "paid": false,
+      "paid": true,
       "pickcode": "tcf23",
       "picks": ""
     },
@@ -365,7 +365,7 @@
     },
     {
       "name": "Victoria Samson",
-      "paid": false,
+      "paid": true,
       "pickcode": "vs99",
       "picks": ""
     },
@@ -571,6 +571,12 @@
       "name": "Quincy Morrison",
       "paid": false,
       "pickcode": "qm74",
+      "picks": ""
+    },
+    {
+      "name": "Halie MacLean",
+      "paid": false,
+      "pickcode": "hm44",
       "picks": ""
     }
   ]
