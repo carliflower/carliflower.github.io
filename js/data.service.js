@@ -15,7 +15,7 @@
     this.useFirebase = true;
     this.teamSize = 5;
     // this.firebaseUrl = "luminous-heat-7812.firebaseio.com/";
-    this.firebaseUrl = "https://bb-pool.firebaseio.com/";
+    this.firebaseUrl = "bb-pool.firebaseio.com";
     this.get = get;
 
     //internal methods
