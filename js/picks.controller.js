@@ -24,7 +24,7 @@
 
     //apply internal properties
     vm.isLoaded = false;
-    vm.maxPicks = this.MemberService.DataService.teamSize;
+    vm.maxPicks = this.MembersService.DataService.teamSize;
     vm.pickCode = "";
     vm.codeMessage = "";
     vm.memberPicks = [];
