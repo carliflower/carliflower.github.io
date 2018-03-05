@@ -1,6 +1,6 @@
 // site vars
 // $base-font-family: 'Shadows Into Light Two',Helvetica, Arial, sans-serif;
-$base-font-family: 'Bree Serif', sans-serif;
+$base-font-family: "Bree Serif", sans-serif;
 $base-font-size: 24px;
 $base-font-color: #cdcdcd;
 
@@ -77,8 +77,8 @@ header {
 
   h1 {
     font-size: 46px;
-    background-image: url(https://carliflower.github.io/assets/golden-stars-on-black.jpg);
-    background-size: cover;
+    // background-image: url(https://carliflower.github.io/assets/golden-stars-on-black.jpg);
+    // background-size: cover;
     padding-bottom: 25px;
 
     img {
@@ -91,7 +91,7 @@ header {
       vertical-align: middle;
       margin-top: 10px;
       display: inline-block;
-      font-family: 'Shrikhand';
+      font-family: "Shrikhand";
       color: #dcb722;
       background-color: rgba(0, 0, 0, 0.5);
     }
@@ -117,7 +117,7 @@ nav {
   margin: 0 auto;
 
   h1 {
-    font-family: 'Abril Fatface';
+    font-family: "Abril Fatface";
   }
 }
 
@@ -179,7 +179,7 @@ h6 {
 
 .member-standings {
   display: inline-block;
-  font-family: 'Shrikhand';
+  font-family: "Shrikhand";
 
   & > li {
     margin: 10px;

@@ -1,18 +1,18 @@
 //IIFE - keeps code isolated and off global scope
 (function() {
-  angular.module('picks', []).controller('PicksCtrl', PicksCtrl);
+  angular.module("picks", []).controller("PicksCtrl", PicksCtrl);
 
   //injection for js minification
   PicksCtrl.$inject = [
-    '$log',
-    '$scope',
-    'MembersService',
-    'HouseguestsService'
+    "$log",
+    "$scope",
+    "MembersService",
+    "HouseguestsService"
   ];
 
   //controller begins
   function PicksCtrl($log, $scope, MembersService, HouseguestsService) {
-    $log = $log.getInstance('PicksCtrl', false);
+    $log = $log.getInstance("PicksCtrl", false);
 
     //controllerAs 'vm' scope
     var vm = this;
@@ -24,10 +24,9 @@
 
     //apply internal properties
     vm.isLoaded = false;
-    vm.maxPicks = 3;
-    vm.pickCode = '';
-    vm.codeMessage = '';
-    vm.memeber = {};
+    vm.maxPicks = this.MemberService.DataService.teamSize;
+    vm.pickCode = "";
+    vm.codeMessage = "";
     vm.memberPicks = [];
     vm.isValidPickCode = false;
     vm.picksSaved = false;
@@ -64,7 +63,7 @@
     }
 
     function init() {
-      $log.debug('init');
+      $log.debug("init");
       vm.isLoaded = true;
 
       //mark all houseguests as unselected initially
@@ -88,11 +87,11 @@
         vm.members,
         vm.pickCode
       );
-      $log.debug('onPickCodeChange', vm.pickCode, check);
+      $log.debug("onPickCodeChange", vm.pickCode, check);
       vm.isValidCode = check.isValidCode;
 
       if (check.isValidCode && check.member) {
-        vm.codeMessage = '';
+        vm.codeMessage = "";
         vm.member = check.member;
 
         if (vm.MembersService.hasCompletedPicks(vm.member, vm.maxPicks)) {
@@ -101,12 +100,12 @@
 
         vm.memberPicks = vm.MembersService.getMemberPicksAsArray(vm.member);
       } else {
-        vm.codeMessage = 'Invalid Pick Code. Please enter your full code.';
+        vm.codeMessage = "Invalid Pick Code. Please enter your full code.";
       }
     }
 
     function selectPick(houseguestID) {
-      $log.debug('selectPick', houseguestID);
+      $log.debug("selectPick", houseguestID);
 
       //check if pick is already in memberpicks to unselect
       if (vm.memberPicks.indexOf(houseguestID) > -1) {
@@ -123,27 +122,27 @@
           vm.memberPicks.push(houseguestID);
           vm.houseguests[houseguestID].selected = true;
         } else {
-          alert('you already have picked ' + vm.maxPicks + ' houseguests!');
+          alert("you already have picked " + vm.maxPicks + " houseguests!");
         }
       }
     }
 
     function savePicksCopy() {
-      $log.debug('savePicksCopy');
-      var s = 'Save Your Picks Now';
+      $log.debug("savePicksCopy");
+      var s = "Save Your Picks Now";
       var pickCount = vm.memberPicks.length;
       if (pickCount < vm.maxPicks) {
         s =
           vm.maxPicks -
           pickCount +
-          ' picks left before you can save your team.';
+          " picks left before you can save your team.";
       }
       return s;
     }
 
     function savePicks() {
-      $log.debug('savePicks');
-      console.log('savePicks', vm.memberPicks, vm.member);
+      $log.debug("savePicks");
+      console.log("savePicks", vm.memberPicks, vm.member);
       //check if picks are valid
       var picks = vm.MembersService.setMemberPicksAsString(vm.memberPicks);
       var arePicksValid = vm.MembersService.checkIfPicksAreValid(
@@ -159,21 +158,21 @@
       } else {
         //notify user to make new picks
         alert(
-          'Sorry, That combination of houseguests is taken. Try a new combination.'
+          "Sorry, That combination of houseguests is taken. Try a new combination."
         );
       }
     }
 
     function getPickNameString() {
-      var names = '';
+      var names = "";
       for (var i = 0; i < vm.memberPicks.length; i++) {
-        names += vm.houseguests[vm.memberPicks[i]].name + ', ';
+        names += vm.houseguests[vm.memberPicks[i]].name + ", ";
       }
       return names;
     }
 
     function clearSelections() {
-      $log.debug('clearSelections');
+      $log.debug("clearSelections");
       for (var i = 0; i < vm.houseguests.length; i++) {
         vm.houseguests[i].selected = false;
       }
@@ -181,7 +180,7 @@
     }
 
     function getAvailableRandomPick() {
-      $log.debug('randomPicks');
+      $log.debug("randomPicks");
       vm.clearSelections();
       vm.memberPicks = vm.MembersService.generateRandomPick(
         vm.members,

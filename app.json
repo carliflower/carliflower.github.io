@@ -3,514 +3,394 @@
     {
       "age": "",
       "bio": "",
-      "hoh": 1,
+      "hoh": 0,
       "hometown": "",
       "jury": false,
       "name": "Ariadna Gutierrez",
       "photo": "assets/ariadna-gutierrez-bw.png",
-      "pov": 1,
-      "profession": "",
-      "weeks": 7
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Brandi Glanville",
-      "photo": "assets/brandi-glanville-bw.png",
-      "pov": 0,
-      "profession": "",
-      "weeks": 4
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Chuck Liddell",
-      "photo": "assets/chuck-liddell-bw.png",
       "pov": 0,
       "profession": "",
       "weeks": 0
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "James Maslow",
-      "photo": "assets/james-maslow-bw.png",
-      "pov": 1,
-      "profession": "",
-      "weeks": 5
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Keshia Knight Pullian",
-      "photo": "assets/keshia-knight-pullian-bw.png",
-      "pov": 0,
-      "profession": "",
-      "weeks": 1
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Marissa Winokur",
-      "photo": "assets/marissa-winokur.png",
-      "pov": 1,
-      "profession": "",
-      "weeks": 8
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Mark Mcgrath",
-      "photo": "assets/mark-mcgrath-bw.png",
-      "pov": 0,
-      "profession": "",
-      "weeks": 7
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Metta World Peace",
-      "photo": "assets/metta-world-peace-bw.png",
-      "pov": 0,
-      "profession": "",
-      "weeks": 3
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Omaraosa Manigault",
-      "photo": "assets/omaraosa-manigault-bw.png",
-      "pov": 0,
-      "profession": "",
-      "weeks": 6
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Ross Mathews",
-      "photo": "assets/ross-mathews-bw.png",
-      "pov": 3,
-      "profession": "",
-      "weeks": 7
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Shannon Elizabeth",
-      "photo": "assets/shannon-elizabeth-bw.png",
-      "pov": 1,
-      "profession": "",
-      "weeks": 2
     }
   ],
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah34",
-      "picks": "0,2,10"
+      "picks": ""
     },
     {
       "name": "Bryna Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "bm89",
-      "picks": "1,3,9"
+      "picks": ""
     },
     {
       "name": "Carli Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "cp23",
-      "picks": "4,6,9"
+      "picks": ""
     },
     {
       "name": "Claudine Sampson",
-      "paid": true,
+      "paid": false,
       "pickcode": "cs45",
-      "picks": "3,6,8"
+      "picks": ""
     },
     {
       "name": "Jordan Bonaparte",
-      "paid": true,
+      "paid": false,
       "pickcode": "jbp23",
-      "picks": "2,6,10"
+      "picks": ""
     },
     {
       "name": "Kayla Crocker",
-      "paid": true,
+      "paid": false,
       "pickcode": "kc56",
-      "picks": "2,3,4"
+      "picks": ""
     },
     {
       "name": "Kim Sampson",
-      "paid": true,
+      "paid": false,
       "pickcode": "ks78",
-      "picks": "5,6,10"
+      "picks": ""
     },
     {
       "name": "Alexis Diakow",
-      "paid": true,
+      "paid": false,
       "pickcode": "ld12",
-      "picks": "6,7,9"
+      "picks": ""
     },
     {
       "name": "Lori Doiron-Benoit",
-      "paid": true,
+      "paid": false,
       "pickcode": "ldb45",
-      "picks": "2,4,9"
+      "picks": ""
     },
     {
       "name": "Mark Sutherland",
-      "paid": true,
+      "paid": false,
       "pickcode": "ms78",
-      "picks": "0,1,10"
+      "picks": ""
     },
     {
       "name": "Matt Currie",
-      "paid": true,
+      "paid": false,
       "pickcode": "mc89",
-      "picks": "4,6,8"
+      "picks": ""
     },
     {
       "name": "Michelle Hearn",
-      "paid": true,
+      "paid": false,
       "pickcode": "mh23",
-      "picks": "1,4,7"
+      "picks": ""
     },
     {
       "name": "Scott Munro",
-      "paid": true,
+      "paid": false,
       "pickcode": "sm89",
-      "picks": "5,6,7"
+      "picks": ""
     },
     {
       "name": "Sean Hamilton",
-      "paid": true,
+      "paid": false,
       "pickcode": "sh12",
-      "picks": "6,7,10"
+      "picks": ""
     },
     {
       "name": "Shanna Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "sb23",
-      "picks": "5,7,8"
+      "picks": ""
     },
     {
       "name": "Kaitlyn Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "kb99",
-      "picks": "1,3,4"
+      "picks": ""
     },
     {
       "name": "Shawn Gillam-Wright",
-      "paid": true,
+      "paid": false,
       "pickcode": "sgw34",
-      "picks": "2,4,6"
+      "picks": ""
     },
     {
       "name": "Stacey Pottie",
-      "paid": true,
+      "paid": false,
       "pickcode": "sp67",
-      "picks": "2,3,10"
+      "picks": ""
     },
     {
       "name": "TC Fougere",
-      "paid": true,
+      "paid": false,
       "pickcode": "tcf23",
-      "picks": "3,6,9"
+      "picks": ""
     },
     {
       "name": "Julie Chidiac",
-      "paid": true,
+      "paid": false,
       "pickcode": "jf12",
-      "picks": "0,1,6"
+      "picks": ""
     },
     {
       "name": "Krista Ratchford",
-      "paid": true,
+      "paid": false,
       "pickcode": "kd12",
-      "picks": "3,4,7"
+      "picks": ""
     },
     {
       "name": "Lori MacDonald",
-      "paid": true,
+      "paid": false,
       "pickcode": "lmd12",
-      "picks": "2,6,9"
+      "picks": ""
     },
     {
       "name": "Felicia Brushett O`Toole",
-      "paid": true,
+      "paid": false,
       "pickcode": "fbo35",
-      "picks": "2,5,6"
+      "picks": ""
     },
     {
       "name": "Amanda Short",
-      "paid": true,
+      "paid": false,
       "pickcode": "as19",
-      "picks": "4,5,9"
+      "picks": ""
     },
     {
       "name": "Teresa Grezel",
-      "paid": true,
+      "paid": false,
       "pickcode": "tm48",
-      "picks": "2,4,8"
+      "picks": ""
     },
     {
       "name": "Tamara Carr",
-      "paid": true,
+      "paid": false,
       "pickcode": "tc34",
-      "picks": "5,7,9"
+      "picks": ""
     },
     {
       "name": "Ryan Le Forte",
-      "paid": true,
+      "paid": false,
       "pickcode": "rlf62",
-      "picks": "1,2,10"
+      "picks": ""
     },
     {
       "name": "Andrew Smith",
-      "paid": true,
+      "paid": false,
       "pickcode": "as34",
-      "picks": "2,5,9"
+      "picks": ""
     },
     {
       "name": "Victoria Samson",
-      "paid": true,
+      "paid": false,
       "pickcode": "vs99",
-      "picks": "2,4,7"
+      "picks": ""
     },
     {
       "name": "Teddy Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "tp88",
-      "picks": "3,8,10"
+      "picks": ""
     },
     {
       "name": "Patsy Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "mom101",
-      "picks": "1,7,9"
+      "picks": ""
     },
     {
       "name": "Tuesdaie Faulkner",
-      "paid": true,
+      "paid": false,
       "pickcode": "tf18",
-      "picks": "3,6,10"
+      "picks": ""
     },
     {
       "name": "Alex Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "am77",
-      "picks": "2,6,7"
+      "picks": ""
     },
     {
       "name": "Janeen Felix",
-      "paid": true,
+      "paid": false,
       "pickcode": "jf38",
-      "picks": "2,9,10"
+      "picks": ""
     },
     {
       "name": "Jessica Francis",
-      "paid": true,
+      "paid": false,
       "pickcode": "jf42",
-      "picks": "2,3,8"
+      "picks": ""
     },
     {
       "name": "Amanda Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "ap47",
-      "picks": "2,8,9"
+      "picks": ""
     },
     {
       "name": "Stephen Wayne Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "swp51",
-      "picks": "3,7,8"
+      "picks": ""
     },
     {
       "name": "Lisa Skinner",
-      "paid": true,
+      "paid": false,
       "pickcode": "ls93",
-      "picks": "1,6,9"
+      "picks": ""
     },
     {
       "name": "Drew Miller",
-      "paid": true,
+      "paid": false,
       "pickcode": "dm91",
-      "picks": "2,7,10"
+      "picks": ""
     },
     {
       "name": "Kelly Marie",
-      "paid": true,
+      "paid": false,
       "pickcode": "km64",
-      "picks": "1,3,7"
+      "picks": ""
     },
     {
       "name": "Olivia Hearn",
-      "paid": true,
+      "paid": false,
       "pickcode": "oh15",
-      "picks": "0,5,8"
+      "picks": ""
     },
     {
       "name": "Pamela Trenholm",
-      "paid": true,
+      "paid": false,
       "pickcode": "pt51",
-      "picks": "1,2,6"
+      "picks": ""
     },
     {
       "name": "Emily Reid",
-      "paid": true,
+      "paid": false,
       "pickcode": "er67",
-      "picks": "2,3,6"
+      "picks": ""
     },
     {
       "name": "John Chidiac",
-      "paid": true,
+      "paid": false,
       "pickcode": "jc36",
-      "picks": "5,7,10"
+      "picks": ""
     },
     {
       "name": "Ashley Hryckowian",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah55",
-      "picks": "4,5,6"
+      "picks": ""
     },
     {
       "name": "Christine Kostiuk Boyd",
-      "paid": true,
+      "paid": false,
       "pickcode": "ckb18",
-      "picks": "1,2,4"
+      "picks": ""
     },
     {
       "name": "Tracy Goodwin",
-      "paid": true,
+      "paid": false,
       "pickcode": "tg63",
-      "picks": "2,5,7"
+      "picks": ""
     },
     {
       "name": "Heather Morton",
-      "paid": true,
+      "paid": false,
       "pickcode": "hm66",
-      "picks": "4,9,10"
+      "picks": ""
     },
     {
       "name": "Kendra Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "kl56",
-      "picks": "5,6,9"
+      "picks": ""
     },
     {
       "name": "Tyler Smith",
-      "paid": true,
+      "paid": false,
       "pickcode": "ts69",
-      "picks": "3,9,10"
+      "picks": ""
     },
     {
       "name": "Krista Smith",
-      "paid": true,
+      "paid": false,
       "pickcode": "ks69",
-      "picks": "6,9,10"
+      "picks": ""
     },
     {
       "name": "Cyndi Brine",
-      "paid": true,
+      "paid": false,
       "pickcode": "cb16",
-      "picks": "3,4,8"
+      "picks": ""
     },
     {
       "name": "Jason Marchand",
-      "paid": true,
+      "paid": false,
       "pickcode": "jm77",
-      "picks": "3,4,9"
+      "picks": ""
     },
     {
       "name": "Bobbie Doyle-Gillis",
-      "paid": true,
+      "paid": false,
       "pickcode": "bdg44",
-      "picks": "0,3,6"
+      "picks": ""
     },
     {
       "name": "Katlyn Shrum",
-      "paid": true,
+      "paid": false,
       "pickcode": "ks94",
-      "picks": "7,9,10"
+      "picks": ""
     },
     {
       "name": "Laura Fitzgerald",
-      "paid": true,
+      "paid": false,
       "pickcode": "lf39",
-      "picks": "3,7,10"
+      "picks": ""
     },
     {
       "name": "Brett Fulmore",
-      "paid": true,
+      "paid": false,
       "pickcode": "bf72",
-      "picks": "3,4,10"
+      "picks": ""
     },
     {
       "name": "Kelly Hibbert",
-      "paid": true,
+      "paid": false,
       "pickcode": "kh37",
-      "picks": "2,7,8"
+      "picks": ""
     },
     {
       "name": "Erin Dewolf-Walker",
-      "paid": true,
+      "paid": false,
       "pickcode": "edw55",
-      "picks": "3,4,6"
+      "picks": ""
     },
     {
       "name": "Antony Walker",
-      "paid": true,
+      "paid": false,
       "pickcode": "aw60",
-      "picks": "5,9,10"
+      "picks": ""
     },
     {
       "name": "Erin Maclellan",
-      "paid": true,
+      "paid": false,
       "pickcode": "em12",
-      "picks": "0,3,7"
+      "picks": ""
     },
     {
       "name": "Jeff MacEachern",
-      "paid": true,
+      "paid": false,
       "pickcode": "jm82",
-      "picks": "0,1,8"
+      "picks": ""
     },
     {
       "name": "Quincy Morrison",
-      "paid": true,
+      "paid": false,
       "pickcode": "qm74",
-      "picks": "2,4,10"
+      "picks": ""
     }
   ]
 }

@@ -1,21 +1,17 @@
 //IIFE - keeps code isolated and off global scope
 (function() {
-    angular
-        .module('rules', [])
-        .controller('RulesCtrl', RulesCtrl);
+  angular.module("rules", []).controller("RulesCtrl", RulesCtrl);
 
-    //injection for js minification
-    RulesCtrl.$inject = [
-        '$log'
-    ];
+  //injection for js minification
+  RulesCtrl.$inject = ["$log", "DataService"];
 
-    //controller begins
-    function RulesCtrl($log) {
-        $log = $log.getInstance('RulesCtrl', false);
+  //controller begins
+  function RulesCtrl($log, DataService) {
+    $log = $log.getInstance("RulesCtrl", false);
 
-        //controllerAs 'vm' scope
-        var vm = this;
-
-    }
-    //controller ends
+    //controllerAs 'vm' scope
+    var vm = this;
+    vm.DataService = DataService;
+  }
+  //controller ends
 })();

@@ -1,20 +1,20 @@
 //IIFE - keeps code isolated and off global scope
 (function() {
   angular
-    .module('houseguests', [])
-    .controller('HouseguestsCtrl', HouseguestsCtrl);
+    .module("houseguests", [])
+    .controller("HouseguestsCtrl", HouseguestsCtrl);
 
   //injection for js minification
   HouseguestsCtrl.$inject = [
-    '$log',
-    'HouseguestsService',
-    '$window',
-    'DataService'
+    "$log",
+    "HouseguestsService",
+    "$window",
+    "DataService"
   ];
 
   //controller begins
   function HouseguestsCtrl($log, HouseguestsService, $window, DataService) {
-    $log = $log.getInstance('HouseguestsCtrl', false);
+    $log = $log.getInstance("HouseguestsCtrl", false);
 
     //controllerAs 'vm' scope
     var vm = this;
@@ -43,7 +43,7 @@
     function loadDataFirebase() {
       vm.houseguests = vm.HouseguestsService.get();
       vm.houseguests.$loaded().then(function() {
-        $log.debug('loadData', vm.houseguests);
+        $log.debug("loadData", vm.houseguests);
         vm.init();
       });
     }
@@ -53,36 +53,28 @@
       if (!vm.DataService.houseguests.length) {
         vm.DataService.get()
           .success(function(data, status, headers, config) {
-            $log.debug('loadData', data);
-            _vm.houseguests = data['houseguests'];
-            _vm.members = data['members'];
+            $log.debug("loadData", data);
+            _vm.houseguests = data["houseguests"];
+            _vm.members = data["members"];
             _vm.init();
           })
           .error(function(data, status, headers, config) {
-            console.log('Error: loading data');
+            console.log("Error: loading data");
           });
       }
     }
 
     function init() {
-      $log.debug('init');
+      $log.debug("init");
       for (var i = 0; i < vm.houseguests.length; i++) {
         vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(
           vm.houseguests[i]
         );
-        vm.houseguests[i].isAlternate = '';
-        if (
-          vm.houseguests[i].name === 'Jeffrey Weldon' ||
-          vm.houseguests[i].name === 'Jackie Ibarra'
-        ) {
-          console.log('alternate', vm.houseguests[i].name);
-          vm.houseguests[i].isAlternate = 'alternate';
-        }
       }
     }
 
     function showBio(bio) {
-      $log.debug('showBio');
+      $log.debug("showBio");
       // $window.open(bio, '_blank');
     }
 
