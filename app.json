@@ -310,7 +310,7 @@
     },
     {
       "name": "Teresa Grezel",
-      "paid": false,
+      "paid": true,
       "pickcode": "tm48",
       "picks": "1,2,5,8,9"
     },
@@ -400,19 +400,19 @@
     },
     {
       "name": "Pamela Trenholm",
-      "paid": false,
+      "paid": true,
       "pickcode": "pt51",
       "picks": "4,5,8,10,12"
     },
     {
       "name": "Emily Reid",
-      "paid": false,
+      "paid": true,
       "pickcode": "er67",
       "picks": "0,1,5,9,13"
     },
     {
       "name": "Ashley Hryckowian",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah55",
       "picks": "0,1,5,7,12"
     },
