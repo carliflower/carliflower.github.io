@@ -10,7 +10,7 @@
       "photo": "assets/ali-martinez.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -19,7 +19,7 @@
       "hometown": "",
       "jury": false,
       "name": "Andrew Miller",
-      "photo": "assets/andrew-miller.jpg",
+      "photo": "assets/andrew-miller-bw.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 1
@@ -34,7 +34,7 @@
       "photo": "assets/derek-kesseler.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -46,7 +46,7 @@
       "photo": "assets/erica-hill.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/hamza-hatoum.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -70,7 +70,7 @@
       "photo": "assets/jesse-larson.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/johnny-mulder.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -94,7 +94,7 @@
       "photo": "assets/kaela-grant.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -106,7 +106,7 @@
       "photo": "assets/maddy-poplett.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -118,7 +118,7 @@
       "photo": "assets/olivia-riemer.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/paras-atashnak.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -154,7 +154,7 @@
       "photo": "assets/ryan-ballantine.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -166,7 +166,7 @@
       "photo": "assets/william-kenny.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -178,7 +178,7 @@
       "photo": "assets/merron-haile.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 0
+      "weeks": 1
     },
     {
       "age": "",
@@ -190,7 +190,7 @@
       "photo": "assets/veronica-doherty.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 0
+      "weeks": 1
     }
   ],
   "members": [
