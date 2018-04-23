@@ -10,7 +10,7 @@
       "photo": "assets/ali-martinez.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -32,9 +32,9 @@
       "jury": false,
       "name": "Derek Kesseler",
       "photo": "assets/derek-kesseler.jpg",
-      "pov": 0,
+      "pov": 1,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/johnny-mulder.jpg",
       "pov": 3,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -94,7 +94,7 @@
       "photo": "assets/kaela-grant.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -106,7 +106,7 @@
       "photo": "assets/maddy-poplett.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -118,7 +118,7 @@
       "photo": "assets/olivia-riemer.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/paras-atashnak.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -151,7 +151,7 @@
       "hometown": "",
       "jury": false,
       "name": "Ryan Ballantine",
-      "photo": "assets/ryan-ballantine.jpg",
+      "photo": "assets/ryan-ballantine-bw.jpg",
       "pov": 1,
       "profession": "",
       "weeks": 7
@@ -166,7 +166,7 @@
       "photo": "assets/william-kenny.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
