@@ -87,12 +87,12 @@
     {
       "age": "",
       "bio": "",
-      "hoh": 1,
+      "hoh": 2,
       "hometown": "",
       "jury": false,
       "name": "Kaela Grant",
       "photo": "assets/kaela-grant.jpg",
-      "pov": 0,
+      "pov": 1,
       "profession": "",
       "weeks": 10
     },
