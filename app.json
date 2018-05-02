@@ -92,7 +92,7 @@
       "jury": false,
       "name": "Kaela Grant",
       "photo": "assets/kaela-grant.jpg",
-      "pov": 1,
+      "pov": 2,
       "profession": "",
       "weeks": 10
     },
@@ -250,7 +250,7 @@
     },
     {
       "name": "Matt Currie",
-      "paid": false,
+      "paid": true,
       "pickcode": "mc89",
       "picks": "3,6,7,12,15"
     },
@@ -424,7 +424,7 @@
     },
     {
       "name": "Tracy Goodwin",
-      "paid": false,
+      "paid": true,
       "pickcode": "tg63",
       "picks": "5,6,7,10,13"
     },
