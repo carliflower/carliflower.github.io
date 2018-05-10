@@ -364,13 +364,13 @@
     },
     {
       "name": "Amanda Piercey",
-      "paid": false,
+      "paid": true,
       "pickcode": "ap47",
       "picks": "7,11,13,14,15"
     },
     {
       "name": "Stephen Wayne Piercey",
-      "paid": false,
+      "paid": true,
       "pickcode": "swp51",
       "picks": "3,4,6,7,10"
     },
