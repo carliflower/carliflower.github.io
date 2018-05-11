@@ -123,7 +123,7 @@
     {
       "age": "",
       "bio": "",
-      "hoh": 1,
+      "hoh": 2,
       "hometown": "",
       "jury": false,
       "name": "Paras Atashnak",
@@ -496,7 +496,7 @@
     },
     {
       "name": "Cayla Joudrey",
-      "paid": false,
+      "paid": true,
       "pickcode": "cj36",
       "picks": "3,4,7,13,14"
     },
@@ -550,7 +550,7 @@
     },
     {
       "name": "Patty Johnston",
-      "paid": false,
+      "paid": true,
       "pickcode": "pj99",
       "picks": "6,8,9,13,14"
     }
