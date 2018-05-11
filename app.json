@@ -91,7 +91,7 @@
       "hometown": "",
       "jury": false,
       "name": "Kaela Grant",
-      "photo": "assets/kaela-grant.jpg",
+      "photo": "assets/kaela-grant-bw.jpg",
       "pov": 3,
       "profession": "",
       "weeks": 13
@@ -130,7 +130,7 @@
       "photo": "assets/paras-atashnak.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 13
+      "weeks": 14
     },
     {
       "age": "",
@@ -460,7 +460,7 @@
     },
     {
       "name": "Quincy Morrison",
-      "paid": false,
+      "paid": true,
       "pickcode": "qm74",
       "picks": "3,7,8,9,13"
     },
