@@ -22,13 +22,13 @@
 
         <hr/>
 
-        <div class="code-entry" ng-if="!vm.isValidCode">
+        <div class="code-entry" ng-if="!vm.isValidCode || vm.member.paid">
             <h3>Enter your pick code</h3>
             <input type="text" ng-model="vm.pickCode" />
             <div ng-if="vm.pickCode !== ''" class="code-message">{[{vm.codeMessage}]}</div>
         </div>
 
-        <div class="picker" ng-if="vm.isValidCode">
+        <div class="picker" ng-if="vm.isValidCode && vm.member.paid">
 
             <h2>Hello {[{vm.member.name}]}</h2>
 

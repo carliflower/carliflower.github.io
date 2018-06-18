@@ -90,7 +90,7 @@
       $log.debug("onPickCodeChange", vm.pickCode, check);
       vm.isValidCode = check.isValidCode;
 
-      if (check.isValidCode && check.member) {
+      if (check.isValidCode && check.member && check.member.paid) {
         vm.codeMessage = "";
         vm.member = check.member;
 
@@ -101,6 +101,9 @@
         vm.memberPicks = vm.MembersService.getMemberPicksAsArray(vm.member);
       } else {
         vm.codeMessage = "Invalid Pick Code. Please enter your full code.";
+        if (!check.member.paid) {
+          vm.codeMessage = "You must pay to enabled your pick code.";
+        }
       }
     }
 

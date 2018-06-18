@@ -1,558 +1,558 @@
 {
   "houseguests": [
     {
-      "age": "",
+      "age": "40",
       "bio": "",
       "hoh": 0,
-      "hometown": "",
+      "hometown": "Parsippany, NJ",
       "jury": false,
-      "name": "Ali Martinez",
-      "photo": "assets/ali-martinez-bw.jpg",
+      "name": "Steve Arienta",
+      "photo": "assets/steve-arienta.jpg",
       "pov": 0,
-      "profession": "",
-      "weeks": 8
+      "profession": "Former Undercover Cop",
+      "weeks": 0
     },
     {
-      "age": "",
+      "age": "27",
       "bio": "",
       "hoh": 0,
-      "hometown": "",
+      "hometown": "Stuarts Draft, VA",
       "jury": false,
-      "name": "Andrew Miller",
-      "photo": "assets/andrew-miller-bw.jpg",
+      "name": "Sam Bledsoe",
+      "photo": "assets/sam-bledsoe.jpg",
       "pov": 0,
-      "profession": "",
-      "weeks": 1
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Derek Kesseler",
-      "photo": "assets/derek-kesseler-bw.jpg",
-      "pov": 2,
-      "profession": "",
-      "weeks": 12
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Erica Hill",
-      "photo": "assets/erica-hill-bw.jpg",
-      "pov": 2,
-      "profession": "",
-      "weeks": 6
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Hamza Hatoum",
-      "photo": "assets/hamza-hatoum-bw.jpg",
-      "pov": 1,
-      "profession": "",
-      "weeks": 4
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Jesse Larson",
-      "photo": "assets/jesse-larson-bw.png",
-      "pov": 0,
-      "profession": "",
-      "weeks": 2
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Johnny Mulder",
-      "photo": "assets/johnny-mulder-bw.jpg",
-      "pov": 3,
-      "profession": "",
-      "weeks": 9
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Kaela Grant",
-      "photo": "assets/kaela-grant-bw.jpg",
-      "pov": 3,
-      "profession": "",
-      "weeks": 13
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Maddy Poplett",
-      "photo": "assets/maddy-poplett-bw.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 10
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Olivia Riemer",
-      "photo": "assets/olivia-riemer-bw.png",
-      "pov": 0,
-      "profession": "",
-      "weeks": 9
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Paras Atashnak",
-      "photo": "assets/paras-atashnak.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 14
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Rozina Yaqub",
-      "photo": "assets/rozina-yaqub-bw.png",
-      "pov": 0,
-      "profession": "",
+      "profession": "Welder",
       "weeks": 0
     },
     {
       "age": "",
       "bio": "",
-      "hoh": 1,
-      "hometown": "",
+      "hoh": 0,
+      "hometown": "Village Mills, TX",
       "jury": false,
-      "name": "Ryan Ballantine",
-      "photo": "assets/ryan-ballantine-bw.jpg",
-      "pov": 1,
-      "profession": "",
-      "weeks": 7
+      "name": "Haleigh Broucher",
+      "photo": "assets/haleigh-broucher.jpg",
+      "pov": 0,
+      "profession": "Collage Student",
+      "weeks": 0
     },
     {
-      "age": "",
+      "age": "30",
       "bio": "",
       "hoh": 0,
-      "hometown": "",
+      "hometown": "San Diego, CA",
       "jury": false,
-      "name": "William Kenny",
-      "photo": "assets/william-kenny-bw.jpg",
+      "name": "Kaycee Clark",
+      "photo": "assets/kaycee-clark.jpg",
       "pov": 0,
-      "profession": "",
-      "weeks": 11
+      "profession": "Pro Football Player",
+      "weeks": 0
     },
     {
-      "age": "",
+      "age": "23",
       "bio": "",
       "hoh": 0,
-      "hometown": "",
+      "hometown": "Rossford, OH",
       "jury": false,
-      "name": "Merron Haile",
-      "photo": "assets/merron-haile-bw.jpg",
+      "name": "Tyler Crispen",
+      "photo": "assets/tyler-crispen.jpg",
       "pov": 0,
-      "profession": "",
-      "weeks": 4
+      "profession": "Lifeguard",
+      "weeks": 0
     },
     {
-      "age": "",
+      "age": "25",
       "bio": "",
       "hoh": 0,
-      "hometown": "",
+      "hometown": "Lees Summit, MT",
       "jury": false,
-      "name": "Veronica Doherty",
-      "photo": "assets/veronica-doherty-bw.jpg",
+      "name": "Bayleigh Dayton",
+      "photo": "assets/bayleigh-dayton.jpg",
       "pov": 0,
-      "profession": "",
-      "weeks": 2
+      "profession": "Flight Attendant",
+      "weeks": 0
+    },
+    {
+      "age": "24",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Plainview, NY",
+      "jury": false,
+      "name": "Kaitlyn Herman",
+      "photo": "assets/kaitlyn-herman.jpg",
+      "pov": 0,
+      "profession": "Life coach",
+      "weeks": 0
+    },
+    {
+      "age": "28",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Somerset, KY",
+      "jury": false,
+      "name": "Winston Hines",
+      "photo": "assets/winston-hines.jpg",
+      "pov": 0,
+      "profession": "Medical sales rep",
+      "weeks": 0
+    },
+    {
+      "age": "34",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Columbia, MD",
+      "jury": false,
+      "name": "Angie Lantry",
+      "photo": "assets/angie-lantry.jpg",
+      "pov": 0,
+      "profession": "Stay At Home Mom",
+      "weeks": 0
+    },
+    {
+      "age": "28",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Miami, FL",
+      "jury": false,
+      "name": "JC Monduix",
+      "photo": "assets/jc-monduix.jpg",
+      "pov": 0,
+      "profession": "Professional Dancer",
+      "weeks": 0
+    },
+    {
+      "age": "25",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Oakdale, CT",
+      "jury": false,
+      "name": "Brett Robinson",
+      "photo": "assets/brett-robinson.jpg",
+      "pov": 0,
+      "profession": "Cybersecurity engineer",
+      "weeks": 0
+    },
+    {
+      "age": "26",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Hilton Head, SC",
+      "jury": false,
+      "name": "Angela Rummans",
+      "photo": "assets/angela-rummans.jpg",
+      "pov": 0,
+      "profession": "Fitness Model",
+      "weeks": 0
+    },
+    {
+      "age": "26",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Shorewood, IL",
+      "jury": false,
+      "name": "Scottie Salton",
+      "photo": "assets/scottie-salton.jpg",
+      "pov": 0,
+      "profession": "Shipping Manager",
+      "weeks": 0
+    },
+    {
+      "age": "26",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Orlando, FL",
+      "jury": false,
+      "name": "Faysal Shafaat",
+      "photo": "assets/faysal-shafaat.jpg",
+      "pov": 0,
+      "profession": "Substitute teacher",
+      "weeks": 0
+    },
+    {
+      "age": "29",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Myrtle Beach, SC",
+      "jury": false,
+      "name": "Rachel Swindler",
+      "photo": "assets/rachel-swindler.jpg",
+      "pov": 0,
+      "profession": "Vegas entertainer",
+      "weeks": 0
+    },
+    {
+      "age": "23",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Bridgeport, CN",
+      "jury": false,
+      "name": "Chris Williams",
+      "photo": "assets/chris-williams.jpg",
+      "pov": 0,
+      "profession": "Day Trader",
+      "weeks": 0
     }
   ],
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah34",
-      "picks": "0,8,9,10,15"
+      "picks": ""
     },
     {
       "name": "Bryna Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "bm89",
-      "picks": "2,6,7,10,13"
+      "picks": ""
     },
     {
       "name": "Carli Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "cp23",
-      "picks": "2,3,4,5,9"
+      "picks": ""
     },
     {
       "name": "Claudine Sampson",
-      "paid": true,
+      "paid": false,
       "pickcode": "cs45",
-      "picks": "0,6,13,14,15"
+      "picks": ""
     },
     {
       "name": "Jordan Bonaparte",
-      "paid": true,
+      "paid": false,
       "pickcode": "jbp23",
-      "picks": "1,5,7,13,15"
+      "picks": ""
     },
     {
       "name": "Kim Sampson",
-      "paid": true,
+      "paid": false,
       "pickcode": "ks78",
-      "picks": "2,3,4,5,15"
+      "picks": ""
     },
     {
       "name": "Alexis Diakow",
-      "paid": true,
+      "paid": false,
       "pickcode": "ld12",
-      "picks": "3,5,6,7,13"
+      "picks": ""
     },
     {
       "name": "Lori Doiron-Benoit",
-      "paid": true,
+      "paid": false,
       "pickcode": "ldb45",
-      "picks": "3,6,9,12,14"
+      "picks": ""
     },
     {
       "name": "Mark Sutherland",
-      "paid": true,
+      "paid": false,
       "pickcode": "ms78",
-      "picks": "3,7,8,9,10"
+      "picks": ""
     },
     {
       "name": "Matt Currie",
-      "paid": true,
+      "paid": false,
       "pickcode": "mc89",
-      "picks": "3,6,7,12,15"
+      "picks": ""
     },
     {
       "name": "Michelle Hearn",
-      "paid": true,
+      "paid": false,
       "pickcode": "mh23",
-      "picks": "2,3,5,7,12"
+      "picks": ""
     },
     {
       "name": "Scott Munro",
-      "paid": true,
+      "paid": false,
       "pickcode": "sm89",
-      "picks": "1,7,8,12,13"
+      "picks": ""
     },
     {
       "name": "Shanna Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "sb23",
-      "picks": "2,4,5,7,9"
+      "picks": ""
     },
     {
       "name": "Kaitlyn Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "kb99",
-      "picks": "3,5,8,10,13"
+      "picks": ""
     },
     {
       "name": "Stacey Pottie",
-      "paid": true,
+      "paid": false,
       "pickcode": "sp67",
-      "picks": "0,2,3,6,11"
+      "picks": ""
     },
     {
       "name": "TC Fougere",
-      "paid": true,
+      "paid": false,
       "pickcode": "tcf23",
-      "picks": "2,3,5,8,13"
+      "picks": ""
     },
     {
       "name": "Krista Ratchford",
-      "paid": true,
+      "paid": false,
       "pickcode": "kd12",
-      "picks": "0,3,5,12,13"
+      "picks": ""
     },
     {
       "name": "Lori MacDonald",
-      "paid": true,
+      "paid": false,
       "pickcode": "lmd12",
-      "picks": "2,5,12,13,14"
+      "picks": ""
     },
     {
       "name": "Felicia Brushett O`Toole",
-      "paid": true,
+      "paid": false,
       "pickcode": "fbo35",
-      "picks": "2,3,13,14,15"
+      "picks": ""
     },
     {
       "name": "Teresa Grezel",
-      "paid": true,
+      "paid": false,
       "pickcode": "tm48",
-      "picks": "1,2,5,8,9"
+      "picks": ""
     },
     {
       "name": "Tamara Carr",
       "paid": false,
       "pickcode": "tc34",
-      "picks": "0,5,7,13,15"
+      "picks": ""
     },
     {
       "name": "Ryan Le Forte",
-      "paid": true,
+      "paid": false,
       "pickcode": "rlf62",
-      "picks": "0,2,3,7,12"
+      "picks": ""
     },
     {
       "name": "Andrew Smith",
-      "paid": true,
+      "paid": false,
       "pickcode": "as34",
-      "picks": "0,2,4,10,13"
+      "picks": ""
     },
     {
       "name": "Victoria Samson",
-      "paid": true,
+      "paid": false,
       "pickcode": "vs99",
-      "picks": "3,5,7,13,15"
+      "picks": ""
     },
     {
       "name": "Teddy Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "tp88",
-      "picks": "4,7,9,10,14"
+      "picks": ""
     },
     {
       "name": "Patsy Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "mom101",
-      "picks": "1,6,9,10,11"
+      "picks": ""
     },
     {
       "name": "Tuesdaie Faulkner",
-      "paid": true,
+      "paid": false,
       "pickcode": "tf18",
-      "picks": "2,3,5,10,13"
+      "picks": ""
     },
     {
       "name": "Alex Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "am77",
-      "picks": "3,4,5,9,10"
+      "picks": ""
     },
     {
       "name": "Amanda Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "ap47",
-      "picks": "7,11,13,14,15"
+      "picks": ""
     },
     {
       "name": "Stephen Wayne Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "swp51",
-      "picks": "3,4,6,7,10"
+      "picks": ""
     },
     {
       "name": "Lisa Skinner",
-      "paid": true,
+      "paid": false,
       "pickcode": "ls93",
-      "picks": "1,3,6,13,15"
+      "picks": ""
     },
     {
       "name": "Drew Miller",
-      "paid": true,
+      "paid": false,
       "pickcode": "dm91",
-      "picks": "1,7,10,13,14"
+      "picks": ""
     },
     {
       "name": "Kelly Marie",
-      "paid": true,
+      "paid": false,
       "pickcode": "km64",
-      "picks": "5,6,9,13,15"
+      "picks": ""
     },
     {
       "name": "Olivia Hearn",
-      "paid": true,
+      "paid": false,
       "pickcode": "oh15",
-      "picks": "1,4,7,10,13"
+      "picks": ""
     },
     {
       "name": "Pamela Trenholm",
-      "paid": true,
+      "paid": false,
       "pickcode": "pt51",
-      "picks": "4,5,8,10,12"
+      "picks": ""
     },
     {
       "name": "Emily Reid",
-      "paid": true,
+      "paid": false,
       "pickcode": "er67",
-      "picks": "0,1,5,9,13"
+      "picks": ""
     },
     {
       "name": "Ashley Hryckowian",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah55",
-      "picks": "0,1,5,7,12"
+      "picks": ""
     },
     {
       "name": "Christine Kostiuk Boyd",
-      "paid": true,
+      "paid": false,
       "pickcode": "ckb18",
-      "picks": "0,1,3,5,15"
+      "picks": ""
     },
     {
       "name": "Tracy Goodwin",
-      "paid": true,
+      "paid": false,
       "pickcode": "tg63",
-      "picks": "5,6,7,10,13"
+      "picks": ""
     },
     {
       "name": "Kendra Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "kl56",
-      "picks": "3,4,6,8,13"
+      "picks": ""
     },
     {
       "name": "Krista Smith",
       "paid": false,
       "pickcode": "ks69",
-      "picks": "1,3,6,7,13"
+      "picks": ""
     },
     {
       "name": "Cyndi Brine",
-      "paid": true,
+      "paid": false,
       "pickcode": "cb16",
-      "picks": "1,3,6,11,14"
+      "picks": ""
     },
     {
       "name": "Brett Fulmore",
       "paid": false,
       "pickcode": "bf72",
-      "picks": "5,7,9,10,14"
+      "picks": ""
     },
     {
       "name": "Erin Maclellan",
-      "paid": true,
+      "paid": false,
       "pickcode": "em12",
-      "picks": "1,5,7,9,10"
+      "picks": ""
     },
     {
       "name": "Quincy Morrison",
-      "paid": true,
+      "paid": false,
       "pickcode": "qm74",
-      "picks": "3,7,8,9,13"
+      "picks": ""
     },
     {
       "name": "Halie MacLean",
-      "paid": true,
+      "paid": false,
       "pickcode": "hm44",
-      "picks": "3,12,13,14,15"
+      "picks": ""
     },
     {
       "name": "Lyla Arab",
-      "paid": true,
+      "paid": false,
       "pickcode": "lf12",
-      "picks": "0,2,5,7,14"
+      "picks": ""
     },
     {
       "name": "Jennifer Nixon",
       "paid": false,
       "pickcode": "jn12",
-      "picks": "2,6,8,9,13"
+      "picks": ""
     },
     {
       "name": "Becca Melanson",
       "paid": false,
       "pickcode": "bm04",
-      "picks": "1,2,3,14,15"
+      "picks": ""
     },
     {
       "name": "Courtney Keun",
-      "paid": true,
+      "paid": false,
       "pickcode": "ck77",
-      "picks": "1,3,9,14,15"
+      "picks": ""
     },
     {
       "name": "Cayla Joudrey",
-      "paid": true,
+      "paid": false,
       "pickcode": "cj36",
-      "picks": "3,4,7,13,14"
+      "picks": ""
     },
     {
       "name": "Janeen Felix",
-      "paid": true,
+      "paid": false,
       "pickcode": "jf38",
-      "picks": "1,3,7,12,13"
+      "picks": ""
     },
     {
       "name": "Justin Moore",
-      "paid": true,
+      "paid": false,
       "pickcode": "jm05",
-      "picks": "1,2,5,7,13"
+      "picks": ""
     },
     {
       "name": "Anthony Edwards",
-      "paid": true,
+      "paid": false,
       "pickcode": "ae99",
-      "picks": "2,4,7,8,13"
+      "picks": ""
     },
     {
       "name": "Ericka Branscombe",
-      "paid": true,
+      "paid": false,
       "pickcode": "eb23",
-      "picks": "1,3,5,7,10"
+      "picks": ""
     },
     {
       "name": "Jeffrey Scott",
-      "paid": true,
+      "paid": false,
       "pickcode": "js55",
-      "picks": "0,2,4,6,13"
+      "picks": ""
     },
     {
       "name": "Kimmy Scott",
       "paid": false,
       "pickcode": "ks27",
-      "picks": "1,5,11,12,15"
+      "picks": ""
     },
     {
       "name": "Joe Uttaro",
-      "paid": true,
+      "paid": false,
       "pickcode": "ju77",
-      "picks": "2,3,8,9,13"
+      "picks": ""
     },
     {
       "name": "Debbie Shortall",
-      "paid": true,
+      "paid": false,
       "pickcode": "ds05",
-      "picks": "3,5,12,13,14"
+      "picks": ""
     },
     {
       "name": "Patty Johnston",
-      "paid": true,
+      "paid": false,
       "pickcode": "pj99",
-      "picks": "6,8,9,13,14"
+      "picks": ""
     }
   ]
 }
