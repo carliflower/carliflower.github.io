@@ -31,7 +31,6 @@
         <div class="picker" ng-if="vm.isValidCode">
 
             <h2>Hello {[{vm.member.name}]}</h2>
-
             <div ng-if="!vm.member.paid" class="code-message">{[{vm.codeMessage}]}</div>
 
             <div ng-if="vm.member && vm.member.paid">
@@ -40,33 +39,34 @@
 
                 <!-- <p>To make your picks select {[{vm.maxPicks}]} houseguests and press the button at the bottom of the page</p>
 
-            <ul class="houseguest-grid">
-                <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
-                    <div class="houseguest-tile" ng-class="{ 'selected': houseguest.selected }" style="background: rgb(33, 33, 33) url('{[{houseguest.photo}]}') 0 0 no-repeat;"
-                        ng-click="vm.selectPick(houseguest.$id)">
-                        <div class="bio">
-                            <p class="name">{[{houseguest.name}]}</p>
+                <ul class="houseguest-grid">
+                    <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
+                        <div class="houseguest-tile" ng-class="{ 'selected': houseguest.selected }" style="background: rgb(33, 33, 33) url('{[{houseguest.photo}]}') 0 0 no-repeat;"
+                            ng-click="vm.selectPick(houseguest.$id)">
+                            <div class="bio">
+                                <p class="name">{[{houseguest.name}]}</p>
+                            </div>
                         </div>
+                    </li>
+                </ul>
+
+                <div class="pick-buttons">
+                    <div>
+                        <input class="button" type="submit" ng-click="vm.clearSelections()" value="Clear Selections" />
+                        <input class="button" type="submit" ng-click="vm.getAvailableRandomPick()" value="Make Random Picks" />
                     </div>
-                </li>
-            </ul>
+                    <div class="selected-picks">
+                        <p>Your Current Picks are:</p>
+                        <p>{[{vm.getPickNameString()}]}</p>
+                    </div>
+                    <div>
+                        <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}"
+                        />
+                    </div>
+                </div> -->
 
-            <div class="pick-buttons">
-                <div>
-                    <input class="button" type="submit" ng-click="vm.clearSelections()" value="Clear Selections" />
-                    <input class="button" type="submit" ng-click="vm.getAvailableRandomPick()" value="Make Random Picks" />
-                </div>
-                <div class="selected-picks">
-                    <p>Your Current Picks are:</p>
-                    <p>{[{vm.getPickNameString()}]}</p>
-                </div>
-                <div>
-                    <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}"
-                    />
-                </div>
-            </div> -->
+
             </div>
-
 
         </div>
 
