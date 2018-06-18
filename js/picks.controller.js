@@ -101,7 +101,7 @@
         vm.memberPicks = vm.MembersService.getMemberPicksAsArray(vm.member);
       } else {
         vm.codeMessage = "Invalid Pick Code. Please enter your full code.";
-        if (check.member && check.member.paid) {
+        if (check.member !== null && !check.member.paid) {
           vm.codeMessage = "You must pay to enabled your pick code.";
         }
       }
