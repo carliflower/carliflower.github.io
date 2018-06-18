@@ -84,7 +84,7 @@
     }
     function init() {
       $log.debug("init");
-      vm.generateStandings();
+      // vm.generateStandings();
       vm.statReports();
     }
 
