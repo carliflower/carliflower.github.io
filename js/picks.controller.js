@@ -30,7 +30,7 @@
     vm.memberPicks = [];
     vm.isValidPickCode = false;
     vm.picksSaved = false;
-    vm.check = {;}
+    vm.check = {};
 
     //apply internal methods to scope
     vm.loadData = loadData;
