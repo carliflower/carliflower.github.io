@@ -22,19 +22,23 @@
 
         <hr/>
 
-        <div class="code-entry" ng-if="!vm.isValidCode || vm.member.paid">
+        <div class="code-entry" ng-if="!vm.isValidCode">
             <h3>Enter your pick code</h3>
             <input type="text" ng-model="vm.pickCode" />
             <div ng-if="vm.pickCode !== ''" class="code-message">{[{vm.codeMessage}]}</div>
         </div>
 
-        <div class="picker" ng-if="vm.isValidCode && vm.member.paid">
+        <div class="picker" ng-if="vm.isValidCode">
 
             <h2>Hello {[{vm.member.name}]}</h2>
 
-            <h3>Not open for picks yet</h3>
+            <div ng-if="!vm.member.paid" class="code-message">{[{vm.codeMessage}]}</div>
 
-            <!-- <p>To make your picks select {[{vm.maxPicks}]} houseguests and press the button at the bottom of the page</p>
+            <div ng-if="vm.member && vm.member.paid">
+
+                <h3>Not open for picks yet</h3>
+
+                <!-- <p>To make your picks select {[{vm.maxPicks}]} houseguests and press the button at the bottom of the page</p>
 
             <ul class="houseguest-grid">
                 <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
@@ -61,6 +65,8 @@
                     />
                 </div>
             </div> -->
+            </div>
+
 
         </div>
 
