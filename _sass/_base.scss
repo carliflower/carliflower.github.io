@@ -224,9 +224,8 @@ h6 {
   height: 120%;
   display: inline-block;
   position: relative;
-  background-size: 100% 80% !important;
-  background-position: 0% 90% !important;
-  background-color: black !important;
+  background-size: 60% 100% !important;
+  background-position: center !important;
 
   &.selected {
     .bio {
