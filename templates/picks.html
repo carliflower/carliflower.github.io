@@ -30,7 +30,7 @@
 
         <div class="picker" ng-if="vm.isValidCode">
 
-            <h2>Hello {[{vm.member.name}]}</h2>
+            <h2>Hello {[{vm.check.member.name}]}</h2>
             <div ng-if="!vm.member.paid" class="code-message">{[{vm.codeMessage}]}</div>
 
             <div ng-if="vm.member && vm.member.paid">

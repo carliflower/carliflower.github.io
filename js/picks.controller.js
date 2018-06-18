@@ -30,6 +30,7 @@
     vm.memberPicks = [];
     vm.isValidPickCode = false;
     vm.picksSaved = false;
+    vm.check = {;}
 
     //apply internal methods to scope
     vm.loadData = loadData;
@@ -83,16 +84,16 @@
     }
 
     function onPickCodeChange() {
-      var check = vm.MembersService.findMemberByPickCode(
+      vm.check = vm.MembersService.findMemberByPickCode(
         vm.members,
         vm.pickCode
       );
-      $log.debug("onPickCodeChange", vm.pickCode, check);
-      vm.isValidCode = check.isValidCode;
+      $log.debug("onPickCodeChange", vm.pickCode, vm.check);
+      vm.isValidCode = vm.check.isValidCode;
 
-      if (check.isValidCode && check.member && check.member.paid) {
+      if (vm.check.isValidCode && vm.check.member && vm.check.member.paid) {
         vm.codeMessage = "";
-        vm.member = check.member;
+        vm.member = vm.check.member;
 
         if (vm.MembersService.hasCompletedPicks(vm.member, vm.maxPicks)) {
           vm.picksSaved = true;
@@ -101,7 +102,7 @@
         vm.memberPicks = vm.MembersService.getMemberPicksAsArray(vm.member);
       } else {
         vm.codeMessage = "Invalid Pick Code. Please enter your full code.";
-        if (check.member !== null && !check.member.paid) {
+        if (vm.check.member !== null && !vm.check.member.paid) {
           console.log(check);
           vm.codeMessage = "You must pay to enabled your pick code.";
         }
