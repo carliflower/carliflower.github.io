@@ -103,7 +103,7 @@
       } else {
         vm.codeMessage = "Invalid Pick Code. Please enter your full code.";
         if (vm.check.member !== null && !vm.check.member.paid) {
-          vm.codeMessage = "You must pay to enabled your pick code.";
+          vm.codeMessage = "You must pay to enable your pick code.";
         }
       }
     }
