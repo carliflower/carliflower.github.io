@@ -66,19 +66,14 @@ footer {
 
 header {
   text-align: center;
-  //   background-image: url(/assets/big-brother-logo.jpg);
-  //   background-position: 0 0;
-  //   background-repeat: no-repeat;
-  //   background-size: 12%;
+  background-image: url(/assets/summer-bg.jpg);
 
   h3 {
-    color: #aaaaaa;
+    color: black;
   }
 
   h1 {
     font-size: 46px;
-    // background-image: url(https://carliflower.github.io/assets/golden-stars-on-black.jpg);
-    // background-size: cover;
     padding-bottom: 25px;
 
     img {
@@ -92,8 +87,7 @@ header {
       margin-top: 10px;
       display: inline-block;
       font-family: "Shrikhand";
-      color: white;
-      background-color: rgba(0, 0, 0, 0.5);
+      color: black;
     }
   }
 }
