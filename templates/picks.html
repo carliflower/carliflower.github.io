@@ -35,9 +35,9 @@
 
             <div ng-if="vm.member && vm.member.paid">
 
-                <!-- <h3>Not open for picks yet</h3> -->
+                <h3>Not open for picks yet</h3>
 
-                <p>To make your picks select {[{vm.maxPicks}]} houseguests and press the button at the bottom of the page</p>
+                <!-- <p>To make your picks select {[{vm.maxPicks}]} houseguests and press the button at the bottom of the page</p>
 
                 <ul class="houseguest-grid">
                     <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
@@ -63,7 +63,7 @@
                         <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}"
                         />
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
