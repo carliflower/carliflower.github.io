@@ -232,7 +232,7 @@
     },
     {
       "name": "Alexis Diakow",
-      "paid": false,
+      "paid": true,
       "pickcode": "ld12",
       "picks": ""
     },
@@ -244,7 +244,7 @@
     },
     {
       "name": "Mark Sutherland",
-      "paid": false,
+      "paid": true,
       "pickcode": "ms78",
       "picks": ""
     },
@@ -388,7 +388,7 @@
     },
     {
       "name": "Kelly Marie",
-      "paid": false,
+      "paid": true,
       "pickcode": "km64",
       "picks": ""
     },
@@ -406,7 +406,7 @@
     },
     {
       "name": "Emily Reid",
-      "paid": false,
+      "paid": true,
       "pickcode": "er67",
       "picks": ""
     },
@@ -502,7 +502,7 @@
     },
     {
       "name": "Janeen Felix",
-      "paid": false,
+      "paid": true,
       "pickcode": "jf38",
       "picks": ""
     },
@@ -612,6 +612,12 @@
       "name": "Laura Fitzgerald",
       "paid": true,
       "pickcode": "lf39",
+      "picks": ""
+    },
+    {
+      "name": "Halie Maclean",
+      "paid": true,
+      "pickcode": "hm44",
       "picks": ""
     }
   ]
