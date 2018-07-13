@@ -22,7 +22,7 @@
       "photo": "assets/sam-bledsoe.jpg",
       "pov": 0,
       "profession": "Welder",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/haleigh-broucher.jpg",
       "pov": 0,
       "profession": "Collage Student",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "30",
@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 0,
       "profession": "Pro Football Player",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 1,
       "profession": "Lifeguard",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "25",
@@ -70,7 +70,7 @@
       "photo": "assets/bayleigh-dayton.jpg",
       "pov": 0,
       "profession": "Flight Attendant",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "24",
@@ -82,7 +82,7 @@
       "photo": "assets/kaitlyn-herman.jpg",
       "pov": 0,
       "profession": "Life coach",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "28",
@@ -94,7 +94,7 @@
       "photo": "assets/winston-hines.jpg",
       "pov": 0,
       "profession": "Medical sales rep",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "34",
@@ -106,7 +106,7 @@
       "photo": "assets/angie-lantry.jpg",
       "pov": 0,
       "profession": "Stay At Home Mom",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "28",
@@ -118,7 +118,7 @@
       "photo": "assets/jc-monduix.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "25",
@@ -130,7 +130,7 @@
       "photo": "assets/brett-robinson.jpg",
       "pov": 0,
       "profession": "Cybersecurity engineer",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "26",
@@ -142,7 +142,7 @@
       "photo": "assets/angela-rummans.jpg",
       "pov": 0,
       "profession": "Fitness Model",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "26",
@@ -154,7 +154,7 @@
       "photo": "assets/scottie-salton.jpg",
       "pov": 0,
       "profession": "Shipping Manager",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "26",
@@ -166,7 +166,7 @@
       "photo": "assets/faysal-shafaat.jpg",
       "pov": 1,
       "profession": "Substitute teacher",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "29",
@@ -178,7 +178,7 @@
       "photo": "assets/rachel-swindler.jpg",
       "pov": 0,
       "profession": "Vegas entertainer",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "23",
@@ -187,7 +187,7 @@
       "hometown": "Bridgeport, CN",
       "jury": false,
       "name": "Chris Williams",
-      "photo": "assets/chris-williams.jpg",
+      "photo": "assets/chris-williams-bw.jpg",
       "pov": 0,
       "profession": "Day Trader",
       "weeks": 1
