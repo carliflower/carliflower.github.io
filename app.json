@@ -22,7 +22,7 @@
       "photo": "assets/sam-bledsoe.jpg",
       "pov": 0,
       "profession": "Welder",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/haleigh-broucher.jpg",
       "pov": 0,
       "profession": "Collage Student",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "30",
@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 0,
       "profession": "Pro Football Player",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 2,
       "profession": "Lifeguard",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "25",
@@ -70,7 +70,7 @@
       "photo": "assets/bayleigh-dayton.jpg",
       "pov": 0,
       "profession": "Flight Attendant",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "24",
@@ -106,7 +106,7 @@
       "photo": "assets/angie-lantry.jpg",
       "pov": 0,
       "profession": "Stay At Home Mom",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "28",
@@ -118,7 +118,7 @@
       "photo": "assets/jc-monduix.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "25",
@@ -130,7 +130,7 @@
       "photo": "assets/brett-robinson.jpg",
       "pov": 0,
       "profession": "Cybersecurity engineer",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "26",
@@ -142,7 +142,7 @@
       "photo": "assets/angela-rummans.jpg",
       "pov": 0,
       "profession": "Fitness Model",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "26",
@@ -154,7 +154,7 @@
       "photo": "assets/scottie-salton.jpg",
       "pov": 1,
       "profession": "Shipping Manager",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "26",
@@ -166,7 +166,7 @@
       "photo": "assets/faysal-shafaat.jpg",
       "pov": 2,
       "profession": "Substitute teacher",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "29",
@@ -175,7 +175,7 @@
       "hometown": "Myrtle Beach, SC",
       "jury": false,
       "name": "Rachel Swindler",
-      "photo": "assets/rachel-swindler.jpg",
+      "photo": "assets/rachel-swindler-bw.jpg",
       "pov": 0,
       "profession": "Vegas entertainer",
       "weeks": 4
