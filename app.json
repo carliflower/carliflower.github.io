@@ -56,7 +56,7 @@
       "jury": false,
       "name": "Tyler Crispen",
       "photo": "assets/tyler-crispen.jpg",
-      "pov": 3,
+      "pov": 2,
       "profession": "Lifeguard",
       "weeks": 5
     },
@@ -140,7 +140,7 @@
       "jury": false,
       "name": "Angela Rummans",
       "photo": "assets/angela-rummans.jpg",
-      "pov": 0,
+      "pov": 1,
       "profession": "Fitness Model",
       "weeks": 5
     },
