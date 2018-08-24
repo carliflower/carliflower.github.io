@@ -22,7 +22,7 @@
       "photo": "assets/sam-bledsoe.jpg",
       "pov": 0,
       "profession": "Welder",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/haleigh-broucher.jpg",
       "pov": 0,
       "profession": "Collage Student",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "30",
@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 0,
       "profession": "Pro Football Player",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 3,
       "profession": "Lifeguard",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "25",
@@ -118,7 +118,7 @@
       "photo": "assets/jc-monduix.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "25",
@@ -130,7 +130,7 @@
       "photo": "assets/brett-robinson.jpg",
       "pov": 1,
       "profession": "Cybersecurity engineer",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "26",
@@ -142,16 +142,16 @@
       "photo": "assets/angela-rummans.jpg",
       "pov": 1,
       "profession": "Fitness Model",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "26",
       "bio": "",
       "hoh": 1,
       "hometown": "Shorewood, IL",
-      "jury": false,
+      "jury": true,
       "name": "Scottie Salton",
-      "photo": "assets/scottie-salton.jpg",
+      "photo": "assets/scottie-salton-bw.jpg",
       "pov": 1,
       "profession": "Shipping Manager",
       "weeks": 7
@@ -166,7 +166,7 @@
       "photo": "assets/faysal-shafaat.jpg",
       "pov": 2,
       "profession": "Substitute teacher",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "29",
