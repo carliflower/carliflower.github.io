@@ -22,16 +22,16 @@
       "photo": "assets/sam-bledsoe.jpg",
       "pov": 0,
       "profession": "Welder",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "",
       "bio": "",
       "hoh": 1,
       "hometown": "Village Mills, TX",
-      "jury": false,
+      "jury": true,
       "name": "Haleigh Broucher",
-      "photo": "assets/haleigh-broucher.jpg",
+      "photo": "assets/haleigh-broucher-bw.jpg",
       "pov": 0,
       "profession": "Collage Student",
       "weeks": 10
@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 3,
       "profession": "Pro Football Player",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 3,
       "profession": "Lifeguard",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "25",
@@ -118,7 +118,7 @@
       "photo": "assets/jc-monduix.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "25",
@@ -130,7 +130,7 @@
       "photo": "assets/brett-robinson.jpg",
       "pov": 1,
       "profession": "Cybersecurity engineer",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "26",
@@ -142,7 +142,7 @@
       "photo": "assets/angela-rummans.jpg",
       "pov": 1,
       "profession": "Fitness Model",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "26",
