@@ -125,9 +125,9 @@
       "bio": "",
       "hoh": 0,
       "hometown": "Oakdale, CT",
-      "jury": false,
+      "jury": true,
       "name": "Brett Robinson",
-      "photo": "assets/brett-robinson.jpg",
+      "photo": "assets/brett-robinson-bw.jpg",
       "pov": 1,
       "profession": "Cybersecurity engineer",
       "weeks": 11
