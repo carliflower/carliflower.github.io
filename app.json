@@ -22,7 +22,7 @@
       "photo": "assets/sam-bledsoe.jpg",
       "pov": 0,
       "profession": "Welder",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "",
@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 3,
       "profession": "Pro Football Player",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 3,
       "profession": "Lifeguard",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "25",
@@ -118,7 +118,7 @@
       "photo": "assets/jc-monduix.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "25",
@@ -135,14 +135,14 @@
     {
       "age": "26",
       "bio": "",
-      "hoh": 2,
+      "hoh": 3,
       "hometown": "Hilton Head, SC",
       "jury": false,
       "name": "Angela Rummans",
       "photo": "assets/angela-rummans.jpg",
       "pov": 2,
       "profession": "Fitness Model",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "26",
