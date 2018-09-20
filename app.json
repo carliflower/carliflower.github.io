@@ -17,9 +17,9 @@
       "bio": "",
       "hoh": 1,
       "hometown": "Stuarts Draft, VA",
-      "jury": false,
+      "jury": true,
       "name": "Sam Bledsoe",
-      "photo": "assets/sam-bledsoe.jpg",
+      "photo": "assets/sam-bledsoe-bw.jpg",
       "pov": 0,
       "profession": "Welder",
       "weeks": 12
@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 4,
       "profession": "Pro Football Player",
-      "weeks": 12
+      "weeks": 13
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 3,
       "profession": "Lifeguard",
-      "weeks": 12
+      "weeks": 13
     },
     {
       "age": "25",
@@ -118,7 +118,7 @@
       "photo": "assets/jc-monduix.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
-      "weeks": 12
+      "weeks": 13
     },
     {
       "age": "25",
@@ -142,7 +142,7 @@
       "photo": "assets/angela-rummans.jpg",
       "pov": 2,
       "profession": "Fitness Model",
-      "weeks": 12
+      "weeks": 13
     },
     {
       "age": "26",
