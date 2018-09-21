@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 5,
       "profession": "Pro Football Player",
-      "weeks": 13
+      "weeks": 14
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 3,
       "profession": "Lifeguard",
-      "weeks": 13
+      "weeks": 14
     },
     {
       "age": "25",
@@ -118,7 +118,7 @@
       "photo": "assets/jc-monduix.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
-      "weeks": 13
+      "weeks": 14
     },
     {
       "age": "25",
@@ -139,7 +139,7 @@
       "hometown": "Hilton Head, SC",
       "jury": false,
       "name": "Angela Rummans",
-      "photo": "assets/angela-rummans.jpg",
+      "photo": "assets/angela-rumman-bw.jpg",
       "pov": 2,
       "profession": "Fitness Model",
       "weeks": 13
