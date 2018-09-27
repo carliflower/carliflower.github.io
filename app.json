@@ -46,7 +46,7 @@
       "photo": "assets/kaycee-clark.jpg",
       "pov": 5,
       "profession": "Pro Football Player",
-      "weeks": 14
+      "weeks": 15
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 3,
       "profession": "Lifeguard",
-      "weeks": 14
+      "weeks": 15
     },
     {
       "age": "25",
@@ -113,9 +113,9 @@
       "bio": "",
       "hoh": 1,
       "hometown": "Miami, FL",
-      "jury": false,
+      "jury": true,
       "name": "JC Monduix",
-      "photo": "assets/jc-monduix.jpg",
+      "photo": "assets/jc-monduix-bw.jpg",
       "pov": 0,
       "profession": "Professional Dancer",
       "weeks": 14
