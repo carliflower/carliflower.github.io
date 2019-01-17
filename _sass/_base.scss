@@ -68,7 +68,10 @@ header {
   text-align: center;
   background-image: url(/assets/celebrity-bg.jpg);
   background-size: cover;
-  background-position: 10% 16%;
+
+  @include small {
+    background-position: 10% 16%;
+  }
 
   @include medium {
     background-position: 10% 48%;
