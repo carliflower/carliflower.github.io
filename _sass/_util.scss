@@ -1,6 +1,6 @@
 $small-width: 400px;
 $medium-width: 800px;
-$medium-width: 1200px;
+$large-width: 1200px;
 
 @mixin small {
   @media (min-width: #{$small-width}) {
@@ -13,7 +13,7 @@ $medium-width: 1200px;
   }
 }
 @mixin large {
-  @media (min-width: #{$medium-width}) {
+  @media (min-width: #{$large-width}) {
     @content;
   }
 }
