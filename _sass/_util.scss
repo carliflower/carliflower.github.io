@@ -1,42 +1,54 @@
 $small-width: 400px;
+$medium-width: 800px;
+$medium-width: 1200px;
 
 @mixin small {
   @media (min-width: #{$small-width}) {
     @content;
   }
 }
+@mixin medium {
+  @media (min-width: #{$medium-width}) {
+    @content;
+  }
+}
+@mixin large {
+  @media (min-width: #{$medium-width}) {
+    @content;
+  }
+}
 
 *:focus {
-    outline: none;
+  outline: none;
 }
 
 .inline-list {
-    list-style-type: none;
+  list-style-type: none;
 
-    li {
-        display: inline-block;
-    }
+  li {
+    display: inline-block;
+  }
 }
 
-input[disabled].button, input[disabled].button:hover, input[disabled].button:hover, input[disabled].button:focus{
+input[disabled].button,
+input[disabled].button:hover,
+input[disabled].button:hover,
+input[disabled].button:focus {
   cursor: not-allowed;
-  background: #CDCDCD;
+  background: #cdcdcd;
 }
 
 .button {
-   background: #CDCDCD;
-   padding: 14px 28px;
-   border-radius: 14px;
-   border: 0px solid #000;
-   color: #000;
-   font-size: 22px;
-   text-decoration: none;
-   vertical-align: middle;
-   cursor: pointer;
-
-
-
+  background: #cdcdcd;
+  padding: 14px 28px;
+  border-radius: 14px;
+  border: 0px solid #000;
+  color: #000;
+  font-size: 22px;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
 }
 .button:hover {
-   background: rgba(240,159,10, 1);
+  background: rgba(240, 159, 10, 1);
 }

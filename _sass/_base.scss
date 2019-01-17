@@ -67,6 +67,15 @@ footer {
 header {
   text-align: center;
   background-image: url(/assets/celebrity-bg.jpg);
+  background-size: cover;
+  background-position: 10% 16%;
+
+  @include medium {
+    background-position: 10% 48%;
+  }
+  @include large {
+    background-position: 10% 47%;
+  }
 
   h3 {
     color: black;
@@ -88,6 +97,7 @@ header {
       display: inline-block;
       font-family: "Shrikhand";
       color: black;
+      text-shadow: 3px 3px #fff;
     }
   }
 }
