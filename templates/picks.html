@@ -1,75 +1,99 @@
 <div class="picks">
+  <h1>Make Your Picks</h1>
+  <!-- <h1>This is open for testing right now. Any picks made will be lost when the test is completed.</h1> -->
 
-    <h1>Make Your Picks</h1>
-    <!-- <h1>This is open for testing right now. Any picks made will be lost when the test is completed.</h1> -->
+  <div ng-if="vm.picksSaved && vm.isLoaded">
+    <h2>Good Luck! {[{vm.member.name}]}</h2>
+    <h2>Your picks were:</h2>
+    <p>{[{vm.getPickNameString()}]}</p>
+  </div>
 
-    <div ng-if="vm.picksSaved && vm.isLoaded">
-        <h2>Good Luck! {[{vm.member.name}]}</h2>
-        <h2>Your picks were:</h2>
-        <p>{[{vm.getPickNameString()}]}</p>
+  <div ng-if="!vm.picksSaved && vm.isLoaded">
+    <h2>Rules for Picking</h2>
+
+    <ul class="pick-rules">
+      <li>Each person picks a team of {[{vm.maxPicks}]} houseguests.</li>
+      <li>
+        No two people can have the exact same {[{vm.maxPicks}]} houseguests on
+        their team.
+      </li>
+      <li>
+        The site will tell you if someone else has already chosen the combo you
+        want.
+      </li>
+      <li>
+        If you can't make up your mind, use the random pick button at the bottom
+        of the screen!
+      </li>
+    </ul>
+
+    <hr />
+
+    <div class="code-entry" ng-if="!vm.isValidCode">
+      <h3>Enter your pick code</h3>
+      <input type="text" ng-model="vm.pickCode" />
+      <div ng-if="vm.pickCode !== ''" class="code-message">
+        {[{vm.codeMessage}]}
+      </div>
     </div>
 
-    <div ng-if="!vm.picksSaved && vm.isLoaded">
+    <div class="picker" ng-if="vm.isValidCode">
+      <h2>Hello {[{vm.check.member.name}]}</h2>
+      <!-- <div ng-if="!vm.member.paid" class="code-message">
+        {[{vm.codeMessage}]}
+      </div> -->
 
-        <h2>Rules for Picking</h2>
+      <div ng-if="vm.member && !vm.member.paid">
+        <!-- <h3>Not open for picks yet</h3> -->
 
-        <ul class="pick-rules">
-            <li>Each person picks a team of {[{vm.maxPicks}]} houseguests.</li>
-            <li>No two people can have the exact same {[{vm.maxPicks}]} houseguests on their team.</li>
-            <li>The site will tell you if someone else has already chosen the combo you want.</li>
-            <li>If you can't make up your mind, use the random pick button at the bottom of the screen!</li>
+        <p>
+          To make your picks select {[{vm.maxPicks}]} houseguests and press the
+          button at the bottom of the page
+        </p>
+
+        <ul class="houseguest-grid">
+          <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
+            <div
+              class="houseguest-tile"
+              ng-class="{ 'selected': houseguest.selected }"
+              style="background: rgb(33, 33, 33) url('{[{houseguest.photo}]}') 0 0 no-repeat;"
+              ng-click="vm.selectPick(houseguest.$id)"
+            >
+              <div class="bio"><p class="name">{[{houseguest.name}]}</p></div>
+            </div>
+          </li>
         </ul>
 
-        <hr/>
-
-        <div class="code-entry" ng-if="!vm.isValidCode">
-            <h3>Enter your pick code</h3>
-            <input type="text" ng-model="vm.pickCode" />
-            <div ng-if="vm.pickCode !== ''" class="code-message">{[{vm.codeMessage}]}</div>
+        <div class="pick-buttons">
+          <div>
+            <input
+              class="button"
+              type="submit"
+              ng-click="vm.clearSelections()"
+              value="Clear Selections"
+            />
+            <input
+              class="button"
+              type="submit"
+              ng-click="vm.getAvailableRandomPick()"
+              value="Make Random Picks"
+            />
+          </div>
+          <div class="selected-picks">
+            <p>Your Current Picks are:</p>
+            <p>{[{vm.getPickNameString()}]}</p>
+          </div>
+          <div>
+            <input
+              ng-disabled="vm.memberPicks.length < vm.maxPicks"
+              class="button"
+              type="submit"
+              ng-click="vm.savePicks()"
+              value="{[{vm.savePicksCopy()}]}"
+            />
+          </div>
         </div>
-
-        <div class="picker" ng-if="vm.isValidCode">
-
-            <h2>Hello {[{vm.check.member.name}]}</h2>
-            <div ng-if="!vm.member.paid" class="code-message">{[{vm.codeMessage}]}</div>
-
-            <div ng-if="vm.member && vm.member.paid">
-
-                <!-- <h3>Not open for picks yet</h3> -->
-
-                <p>To make your picks select {[{vm.maxPicks}]} houseguests and press the button at the bottom of the page</p>
-
-                <ul class="houseguest-grid">
-                    <li ng-repeat="houseguest in vm.houseguests  | orderBy: '+name'">
-                        <div class="houseguest-tile" ng-class="{ 'selected': houseguest.selected }" style="background: rgb(33, 33, 33) url('{[{houseguest.photo}]}') 0 0 no-repeat;"
-                            ng-click="vm.selectPick(houseguest.$id)">
-                            <div class="bio">
-                                <p class="name">{[{houseguest.name}]}</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-
-                <div class="pick-buttons">
-                    <div>
-                        <input class="button" type="submit" ng-click="vm.clearSelections()" value="Clear Selections" />
-                        <input class="button" type="submit" ng-click="vm.getAvailableRandomPick()" value="Make Random Picks" />
-                    </div>
-                    <div class="selected-picks">
-                        <p>Your Current Picks are:</p>
-                        <p>{[{vm.getPickNameString()}]}</p>
-                    </div>
-                    <div>
-                        <input ng-disabled="vm.memberPicks.length < vm.maxPicks" class="button" type="submit" ng-click="vm.savePicks()" value="{[{vm.savePicksCopy()}]}"
-                        />
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-
+      </div>
     </div>
-
+  </div>
 </div>
