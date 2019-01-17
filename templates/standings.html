@@ -1,32 +1,37 @@
 <div class="standings">
+  <h1>Standings</h1>
 
-    <h1>Standings</h1>
+  <!-- <h2>Prizes</h2>
+  <ul style="text-transform: uppercase; margin-bottom: 25px;">
+    <li style="margin-bottom: 5px;">1st: $500</li>
+    <li style="margin-bottom: 5px;">2nd: $100</li>
+    <li style="margin-bottom: 5px;">3rd: $20</li>
+    <li style="margin-bottom: 5px;">Last: $10</li>
+  </ul> -->
 
-    <h2>Prizes</h2>
-    <ul style="text-transform: uppercase; margin-bottom: 25px;">
-        <li style="margin-bottom: 5px;">1st: $500</li>
-        <li style="margin-bottom: 5px;">2nd: $100</li>
-        <li style="margin-bottom: 5px;">3rd: $20</li>
-        <li style="margin-bottom: 5px;">Last: $10</li>
-    </ul>
+  <!-- <p>{[{vm.members.length}]} People</p> -->
+  <p>{[{vm.picksMade}]} Picks Made</p>
 
-
-    <p>{[{vm.members.length}]} People</p>
-    <!-- <p>{[{vm.picksMade}]} Picks Made</p> -->
-
-    <ul class="member-standings">
-        <li class="member-tile" ng-repeat="member in vm.sortedMembers">
-            <div>
-                <div class="name">
-                    <span class="paid" ng-if="member.paid">$</span> {[{member.name}]} - {[{member.points}]}
-                </div>
-                <ul class="houseguest-picks">
-                    <li class="houseguest-thumb" ng-repeat="id in vm.MembersService.getMemberPicksAsArray(member)">
-                        <img ng-click="vm.showBio(vm.houseguests[id].bio)" ng-src="{[{vm.houseguests[id].photo}]}"
-                            title="{[{vm.houseguests[id].name}]}" alt="{[{vm.houseguests[id].name}]}">
-                    </li>
-                </ul>
-                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
+  <ul class="member-standings">
+    <li class="member-tile" ng-repeat="member in vm.sortedMembers">
+      <div>
+        <div class="name">
+          <span class="paid" ng-if="member.paid">$</span> {[{member.name}]} -
+          {[{member.points}]}
+        </div>
+        <ul class="houseguest-picks">
+          <li
+            class="houseguest-thumb"
+            ng-repeat="id in vm.MembersService.getMemberPicksAsArray(member)"
+          >
+            <img
+              ng-src="{[{vm.houseguests[id].photo}]}"
+              title="{[{vm.houseguests[id].name}]}"
+              alt="{[{vm.houseguests[id].name}]}"
+            />
+          </li>
+        </ul>
+        <!-- <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
                     Winner $500
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.secondPlacePointValue">
@@ -37,9 +42,8 @@
                 </div>
                 <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.lastPlacePointValue">
                     Winner $10
-                </div>
-            </div>
-        </li>
-    </ul>
-
+                </div> -->
+      </div>
+    </li>
+  </ul>
 </div>

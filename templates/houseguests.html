@@ -1,28 +1,29 @@
 <div class="houseguests">
+  <h1>Houseguests</h1>
 
-    <h1>Houseguests</h1>
-
-    <ul class="houseguest-grid">
-        <li ng-repeat="houseguest in vm.houseguests | orderBy: ['-points','name']">
-            <div class="houseguest-tile" style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') no-repeat;">
-                <div class="bio">
-                    <p class="name">{[{houseguest.name}]}</p>
-                    <!-- <p class="age">Age: {[{houseguest.age}]}</p>
+  <ul class="houseguest-grid">
+    <li ng-repeat="houseguest in vm.houseguests | orderBy: ['-points','name']">
+      <div
+        class="houseguest-tile"
+        style="background: rgb(53, 53, 53) url('{[{houseguest.photo}]}') no-repeat;"
+      >
+        <div class="bio">
+          <p class="name">{[{houseguest.name}]}</p>
+          <!-- <p class="age">Age: {[{houseguest.age}]}</p>
                     <p class="hometown">{[{houseguest.hometown}]}</p>
                     <p class="profession">{[{houseguest.profession}]}</p>
                     <p ng-if="houseguest.bio.length" class="biolink" ng-click="vm.showBio(houseguest.bio)">View Full Bio</p> -->
-                </div>
-                <div class="points">
-                    <div class="wins">
-                        <span class="hoh">HOH: {[{houseguest.hoh}]}</span>
-                        <span class="pov">POV: {[{houseguest.pov}]}</span>
-                        <span class="weeks">EVICTIONS: {[{houseguest.weeks}]}</span>
-                    </div>
-                    <div class="total">{[{vm.totalPoints(houseguest)}]}</div>
-                    <div ng-if="houseguest.jury">Jury&nbsp;</div>
-                </div>
-            </div>
-        </li>
-    </ul>
-
+        </div>
+        <div class="points">
+          <div class="wins">
+            <span class="hoh">HOH: {[{houseguest.hoh}]}</span>
+            <span class="pov">POV: {[{houseguest.pov}]}</span>
+            <span class="weeks">EVICTIONS: {[{houseguest.weeks}]}</span>
+          </div>
+          <div class="total">{[{vm.totalPoints(houseguest)}]}</div>
+          <div ng-if="houseguest.jury">Jury&nbsp;</div>
+        </div>
+      </div>
+    </li>
+  </ul>
 </div>
