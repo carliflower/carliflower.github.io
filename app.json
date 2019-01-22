@@ -171,34 +171,16 @@
       "picks": "1,2,4"
     },
     {
-      "name": "Jordan Bonaparte",
-      "paid": false,
-      "pickcode": "jbp23",
-      "picks": ""
-    },
-    {
       "name": "Kim Sampson",
       "paid": false,
       "pickcode": "ks78",
       "picks": "5,8,10"
     },
     {
-      "name": "Alexis Diakow",
-      "paid": false,
-      "pickcode": "ld12",
-      "picks": ""
-    },
-    {
       "name": "Lori Doiron-Benoit",
       "paid": false,
       "pickcode": "ldb45",
       "picks": "7,9,11"
-    },
-    {
-      "name": "Mark Sutherland",
-      "paid": false,
-      "pickcode": "ms78",
-      "picks": ""
     },
     {
       "name": "Courtney Gallichon",
@@ -235,18 +217,6 @@
       "paid": false,
       "pickcode": "tcf23",
       "picks": "1,3,10"
-    },
-    {
-      "name": "Krista Ratchford",
-      "paid": false,
-      "pickcode": "kd12",
-      "picks": ""
-    },
-    {
-      "name": "Lori MacDonald",
-      "paid": false,
-      "pickcode": "lmd12",
-      "picks": ""
     },
     {
       "name": "Felicia Brushett O`Toole",
@@ -309,12 +279,6 @@
       "picks": "4,9,10"
     },
     {
-      "name": "Pamela Trenholm",
-      "paid": false,
-      "pickcode": "pt51",
-      "picks": ""
-    },
-    {
       "name": "Emily Reid",
       "paid": false,
       "pickcode": "er67",
@@ -337,12 +301,6 @@
       "paid": false,
       "pickcode": "kl56",
       "picks": "1,2,5"
-    },
-    {
-      "name": "Mo Mctague",
-      "paid": false,
-      "pickcode": "mm22",
-      "picks": ""
     },
     {
       "name": "Erin Maclellan",
@@ -369,22 +327,10 @@
       "picks": "0,3,5"
     },
     {
-      "name": "Jennifer Nixon",
-      "paid": false,
-      "pickcode": "jn12",
-      "picks": ""
-    },
-    {
       "name": "Janeen Felix",
       "paid": false,
       "pickcode": "jf38",
       "picks": "4,8,10"
-    },
-    {
-      "name": "Anthony Edwards",
-      "paid": false,
-      "pickcode": "ae99",
-      "picks": ""
     },
     {
       "name": "Ericka Branscombe",
@@ -411,28 +357,10 @@
       "picks": "0,3,10"
     },
     {
-      "name": "Christopher Curtis",
-      "paid": false,
-      "pickcode": "cc77",
-      "picks": ""
-    },
-    {
       "name": "Heather Morton",
       "paid": false,
       "pickcode": "hm66",
       "picks": "1,3,4"
-    },
-    {
-      "name": "Erin Dewolf Walker",
-      "paid": false,
-      "pickcode": "edw55",
-      "picks": ""
-    },
-    {
-      "name": "Antony Walker",
-      "paid": false,
-      "pickcode": "aw60",
-      "picks": ""
     },
     {
       "name": "Bobbie Doyle Gillis",
@@ -453,58 +381,10 @@
       "picks": "4,5,11"
     },
     {
-      "name": "Clayton Bothwell",
-      "paid": false,
-      "pickcode": "cb49",
-      "picks": ""
-    },
-    {
-      "name": "Allysa Lee",
-      "paid": false,
-      "pickcode": "al91",
-      "picks": ""
-    },
-    {
-      "name": "Catherine Edwards",
-      "paid": false,
-      "pickcode": "ce05",
-      "picks": ""
-    },
-    {
       "name": "Laura Fitzgerald",
       "paid": false,
       "pickcode": "lf39",
       "picks": "0,1,3"
-    },
-    {
-      "name": "John Chidiac",
-      "paid": false,
-      "pickcode": "jc36",
-      "picks": ""
-    },
-    {
-      "name": "Julie Chidiac",
-      "paid": false,
-      "pickcode": "jf12",
-      "picks": ""
-    },
-    {
-      "name": "Jessica Francis",
-      "paid": false,
-      "pickcode": "jf42",
-      "picks": ""
-    },
-    {
-      "name": "Shawna Purcell",
-      "paid": false,
-      "pickcode": "sp00",
-      "picks": ""
-    },
-    {
-      "name": "Justin Bellefontaine",
-      "paid": false,
-      "pickcode": "jb77",
-      "picks": ""
     },
     {
       "name": "Joe Uttaro",
