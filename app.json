@@ -32,7 +32,7 @@
       "jury": false,
       "name": "Kato Kaelin",
       "photo": "assets/kato-kaelin.jpg",
-      "pov": 0,
+      "pov": 1,
       "profession": "",
       "weeks": 0
     },
@@ -103,7 +103,7 @@
       "hometown": "",
       "jury": false,
       "name": "Anthony Scaramucci",
-      "photo": "assets/anthony-scaramucci.jpg",
+      "photo": "assets/anthony-scaramucci-bw.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 0
