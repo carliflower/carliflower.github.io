@@ -7,7 +7,7 @@
       "hometown": "",
       "jury": false,
       "name": "Ryan Lochte",
-      "photo": "assets/ryan-lochte.jpg",
+      "photo": "assets/ryan-lochte-bw.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 1
@@ -22,7 +22,7 @@
       "photo": "assets/kandi-burruss.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/kato-kaelin.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -46,7 +46,7 @@
       "photo": "assets/lolo-jones.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/joey-lawrence.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -70,7 +70,7 @@
       "photo": "assets/natalie-eva-marie.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/ricky-williams.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -94,7 +94,7 @@
       "photo": "assets/dina-lohan.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -118,7 +118,7 @@
       "photo": "assets/tamar-braxton.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "",
@@ -140,9 +140,9 @@
       "jury": false,
       "name": "Tom Green",
       "photo": "assets/tom-green.jpg",
-      "pov": 0,
+      "pov": 1,
       "profession": "",
-      "weeks": 1
+      "weeks": 2
     }
   ],
   "members": [
