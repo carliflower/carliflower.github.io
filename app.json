@@ -22,7 +22,7 @@
       "photo": "assets/kandi-burruss.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/kato-kaelin.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "",
@@ -46,7 +46,7 @@
       "photo": "assets/lolo-jones.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "",
@@ -55,7 +55,7 @@
       "hometown": "",
       "jury": false,
       "name": "Joey Lawrence",
-      "photo": "assets/joey-lawrence.jpg",
+      "photo": "assets/joey-lawrence-bw.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 2
@@ -70,7 +70,7 @@
       "photo": "assets/natalie-eva-marie.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/ricky-williams.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "",
@@ -94,7 +94,7 @@
       "photo": "assets/dina-lohan.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "",
@@ -118,7 +118,7 @@
       "photo": "assets/tamar-braxton.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "",
@@ -142,7 +142,7 @@
       "photo": "assets/tom-green.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 2
+      "weeks": 3
     }
   ],
   "members": [
