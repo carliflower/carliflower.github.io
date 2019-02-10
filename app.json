@@ -22,7 +22,7 @@
       "photo": "assets/kandi-burruss.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -46,7 +46,7 @@
       "photo": "assets/lolo-jones.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/ricky-williams.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -94,7 +94,7 @@
       "photo": "assets/dina-lohan.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -118,7 +118,7 @@
       "photo": "assets/tamar-braxton.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -139,7 +139,7 @@
       "hometown": "",
       "jury": false,
       "name": "Tom Green",
-      "photo": "assets/tom-green.jpg",
+      "photo": "assets/tom-green-bw.jpg",
       "pov": 2,
       "profession": "",
       "weeks": 5
