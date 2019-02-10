@@ -22,7 +22,7 @@
       "photo": "assets/kandi-burruss.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -39,14 +39,14 @@
     {
       "age": "",
       "bio": "",
-      "hoh": 0,
+      "hoh": 1,
       "hometown": "",
       "jury": false,
       "name": "Lolo Jones",
       "photo": "assets/lolo-jones.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/ricky-williams.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -94,7 +94,7 @@
       "photo": "assets/dina-lohan.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -118,7 +118,7 @@
       "photo": "assets/tamar-braxton.jpg",
       "pov": 0,
       "profession": "",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -142,7 +142,7 @@
       "photo": "assets/tom-green.jpg",
       "pov": 2,
       "profession": "",
-      "weeks": 4
+      "weeks": 5
     }
   ],
   "members": [
