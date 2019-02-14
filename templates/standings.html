@@ -1,16 +1,16 @@
 <div class="standings">
   <h1>Standings</h1>
 
-  <!-- <h2>Prizes</h2>
+  <h2>Prizes</h2>
   <ul style="text-transform: uppercase; margin-bottom: 25px;">
     <li style="margin-bottom: 5px;">1st: $500</li>
     <li style="margin-bottom: 5px;">2nd: $100</li>
     <li style="margin-bottom: 5px;">3rd: $20</li>
     <li style="margin-bottom: 5px;">Last: $10</li>
-  </ul> -->
+  </ul>
 
-  <!-- <p>{[{vm.members.length}]} People</p> -->
-  <p>{[{vm.picksMade}]} Picks Made</p>
+  <p>{[{vm.members.length}]} People</p>
+  <!-- <p>{[{vm.picksMade}]} Picks Made</p> -->
 
   <ul class="member-standings">
     <li class="member-tile" ng-repeat="member in vm.sortedMembers">
@@ -31,18 +31,30 @@
             />
           </li>
         </ul>
-        <!-- <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.firstPlacePointValue">
-                    Winner $500
-                </div>
-                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.secondPlacePointValue">
-                    Winner $100
-                </div>
-                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.thirdPlacePointValue">
-                    Winner $20
-                </div>
-                <div style="margin: 5px 0 0 0;" ng-if="member.points == vm.lastPlacePointValue">
-                    Winner $10
-                </div> -->
+        <div
+          style="margin: 5px 0 0 0;"
+          ng-if="member.points == vm.firstPlacePointValue"
+        >
+          Winner $300
+        </div>
+        <div
+          style="margin: 5px 0 0 0;"
+          ng-if="member.points == vm.secondPlacePointValue"
+        >
+          Winner $100
+        </div>
+        <div
+          style="margin: 5px 0 0 0;"
+          ng-if="member.points == vm.thirdPlacePointValue"
+        >
+          Winner $70
+        </div>
+        <div
+          style="margin: 5px 0 0 0;"
+          ng-if="member.points == vm.lastPlacePointValue"
+        >
+          Winner $10
+        </div>
       </div>
     </li>
   </ul>

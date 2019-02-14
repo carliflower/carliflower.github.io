@@ -1,6 +1,6 @@
 //IIFE - keeps code isolated and off global scope
-;(function() {
-  angular.module("standings", []).controller("StandingsCtrl", StandingsCtrl)
+(function() {
+  angular.module("standings", []).controller("StandingsCtrl", StandingsCtrl);
 
   //injection for js minification
   StandingsCtrl.$inject = [
@@ -9,7 +9,7 @@
     "HouseguestsService",
     "DataService",
     "$window"
-  ]
+  ];
 
   //controller begins
   function StandingsCtrl(
@@ -19,87 +19,87 @@
     DataService,
     $window
   ) {
-    $log = $log.getInstance("StandingsCtrl", false)
+    $log = $log.getInstance("StandingsCtrl", false);
 
     //controllerAs 'vm' scope
-    var vm = this
+    var vm = this;
 
-    vm.sortedMembers = []
+    vm.sortedMembers = [];
 
     //dependancy injections on scope
-    vm.DataService = DataService
-    vm.MembersService = MembersService
-    vm.HouseguestsService = HouseguestsService
+    vm.DataService = DataService;
+    vm.MembersService = MembersService;
+    vm.HouseguestsService = HouseguestsService;
 
     //apply internal methods to scope
-    vm.loadData = loadData
-    vm.loadDataFirebase = loadDataFirebase
-    vm.init = init
-    vm.generateStandings = generateStandings
-    vm.statReports = statReports
-    vm.showBio = showBio
+    vm.loadData = loadData;
+    vm.loadDataFirebase = loadDataFirebase;
+    vm.init = init;
+    vm.generateStandings = generateStandings;
+    vm.statReports = statReports;
+    vm.showBio = showBio;
 
     //start controller
     if (vm.DataService.useFirebase) {
-      vm.loadDataFirebase()
+      vm.loadDataFirebase();
     } else {
-      vm.loadData()
+      vm.loadData();
     }
 
     //internal methods
     function loadData() {
-      var _vm = vm
+      var _vm = vm;
       if (!vm.DataService.houseguests.length) {
         vm.DataService.get()
           .success(function(data, status, headers, config) {
-            $log.debug("loadData", data)
-            _vm.houseguests = data["houseguests"]
-            _vm.members = data["members"]
-            _vm.init()
+            $log.debug("loadData", data);
+            _vm.houseguests = data["houseguests"];
+            _vm.members = data["members"];
+            _vm.init();
           })
           .error(function(data, status, headers, config) {
-            console.log("Error: loading data", data, status, headers, config)
-          })
+            console.log("Error: loading data", data, status, headers, config);
+          });
       }
     }
 
     function loadDataFirebase() {
-      var _vm = vm
+      var _vm = vm;
 
-      $log.debug("loadData")
-      vm.members = vm.MembersService.get()
+      $log.debug("loadData");
+      vm.members = vm.MembersService.get();
       vm.members.$loaded().then(function() {
-        $log.debug(vm.members, _vm.members.length)
-        _vm.houseguests = _vm.HouseguestsService.get()
+        $log.debug(vm.members, _vm.members.length);
+        _vm.houseguests = _vm.HouseguestsService.get();
         _vm.houseguests.$loaded().then(function() {
-          $log.debug(_vm.houseguests)
-          _vm.init()
-        })
-      })
+          $log.debug(_vm.houseguests);
+          _vm.init();
+        });
+      });
     }
 
     function showBio(bio) {
-      $log.debug("showBio")
+      $log.debug("showBio");
       // $window.open(bio, '_blank');
     }
     function init() {
-      $log.debug("init")
-      vm.generateStandings()
-      vm.statReports()
+      $log.debug("init");
+      vm.generateStandings();
+      vm.statReports();
     }
 
     function generateStandings() {
       for (var i = 0; i < vm.houseguests.length; i++) {
         vm.houseguests[i].points = vm.HouseguestsService.tallyPoints(
           vm.houseguests[i]
-        )
+        );
         // vm.houseguests.$save(i);
       }
       for (var x = 0; x < vm.members.length; x++) {
         vm.members[x].points = vm.MembersService.tallyPickPoints(
           vm.houseguests,
           vm.members[x]
-        )
+        );
         // vm.members.$save(x);
       }
       //sort members by points and alphaname
@@ -107,74 +107,74 @@
         vm.members,
         ["points", "name"],
         [false, true]
-      )
+      );
       var pointCounts = _.countBy(vm.sortedMembers, function(member) {
-        return member.points
-      })
-      var sortedPoints = _.pairs(pointCounts)
+        return member.points;
+      });
+      var sortedPoints = _.pairs(pointCounts);
       //used when the point spread has start to thin out and show the prize values/
-      // vm.firstPlacePointValue = sortedPoints[sortedPoints.length - 1][0]
-      // vm.secondPlacePointValue = sortedPoints[sortedPoints.length - 2][0]
-      // vm.thirdPlacePointValue = sortedPoints[sortedPoints.length - 3][0]
-      // vm.fourthPlacePointValue = sortedPoints[sortedPoints.length - 4][0]
-      // vm.lastPlacePointValue = sortedPoints[0][0]
-      $log.debug("generateStandings", vm.members, vm.houseguests)
+      vm.firstPlacePointValue = sortedPoints[sortedPoints.length - 1][0];
+      vm.secondPlacePointValue = sortedPoints[sortedPoints.length - 2][0];
+      vm.thirdPlacePointValue = sortedPoints[sortedPoints.length - 3][0];
+      vm.fourthPlacePointValue = sortedPoints[sortedPoints.length - 4][0];
+      vm.lastPlacePointValue = sortedPoints[0][0];
+      $log.debug("generateStandings", vm.members, vm.houseguests);
     }
 
     function statReports() {
-      console.log("----------  REPORTS -----------")
+      console.log("----------  REPORTS -----------");
 
       //how many people have picked
-      var t = 0
+      var t = 0;
       for (var i = 0; i < vm.members.length; i++) {
         if (vm.members[i].picks.length) {
-          t++
+          t++;
         }
       }
 
-      vm.picksMade = t
+      vm.picksMade = t;
 
-      console.log(t + " people have made their picks.")
+      console.log(t + " people have made their picks.");
 
       //duplicate check
-      var p = []
+      var p = [];
       for (var i = 0; i < vm.members.length; i++) {
         if (vm.members[i].picks.length) {
-          var m = vm.members[i].picks.split()
-          p.push(m.join(""))
+          var m = vm.members[i].picks.split();
+          p.push(m.join(""));
         }
       }
 
-      p.sort()
+      p.sort();
 
-      var c = p.slice(0)
+      var c = p.slice(0);
 
       for (var i = 0; i < c.length; i++) {
-        var pick = c[i]
+        var pick = c[i];
 
         //loop through p and count how many times it exists
-        var t = 0
+        var t = 0;
         for (var x = 0; x < p.length; x++) {
           if (p[x] === pick) {
-            t++
+            t++;
           }
         }
 
-        console.log(pick + ": " + t)
+        console.log(pick + ": " + t);
       }
 
       //payee count
-      var outstandingPayees = 0
+      var outstandingPayees = 0;
       for (var i = 0; i < vm.members.length; i++) {
         if (!vm.members[i].paid) {
-          outstandingPayees++
+          outstandingPayees++;
         }
       }
 
       console.log(
         outstandingPayees + " of " + vm.members.length + " still owe us money."
-      )
+      );
     }
   }
   //controller ends
-})()
+})();
