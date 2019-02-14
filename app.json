@@ -43,10 +43,10 @@
       "hometown": "",
       "jury": false,
       "name": "Lolo Jones",
-      "photo": "assets/lolo-jones.jpg",
+      "photo": "assets/lolo-jones-bw.jpg",
       "pov": 2,
       "profession": "",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/ricky-williams.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 7
+      "weeks": 9
     },
     {
       "age": "",
@@ -91,7 +91,7 @@
       "hometown": "",
       "jury": false,
       "name": "Dina Lohan",
-      "photo": "assets/dina-lohan.jpg",
+      "photo": "assets/dina-lohan-bw.jpg",
       "pov": 0,
       "profession": "",
       "weeks": 7
@@ -118,7 +118,7 @@
       "photo": "assets/tamar-braxton.jpg",
       "pov": 1,
       "profession": "",
-      "weeks": 7
+      "weeks": 9
     },
     {
       "age": "",
