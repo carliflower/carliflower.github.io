@@ -3,436 +3,460 @@
     {
       "age": "",
       "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Ryan Lochte",
-      "photo": "assets/ryan-lochte-bw.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 1
-    },
-    {
-      "age": "",
-      "bio": "",
       "hoh": 0,
-      "hometown": "",
+      "hometown": "Richmond, On",
       "jury": false,
-      "name": "Kandi Burruss",
-      "photo": "assets/kandi-burruss-bw.jpg",
+      "name": "Anthony Douglas",
+      "photo": "assets/anthony-douglas.jpg",
       "pov": 0,
-      "profession": "",
-      "weeks": 6
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Kato Kaelin",
-      "photo": "assets/kato-kaelin-bw.jpg",
-      "pov": 1,
-      "profession": "",
-      "weeks": 3
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Lolo Jones",
-      "photo": "assets/lolo-jones-bw.jpg",
-      "pov": 2,
-      "profession": "",
-      "weeks": 8
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Joey Lawrence",
-      "photo": "assets/joey-lawrence-bw.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 2
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Natalie Eva Marie",
-      "photo": "assets/natalie-eva-marie-bw.jpg",
-      "pov": 1,
-      "profession": "",
-      "weeks": 4
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 2,
-      "hometown": "",
-      "jury": false,
-      "name": "Ricky Williams",
-      "photo": "assets/ricky-williams-bw.jpg",
-      "pov": 1,
-      "profession": "",
-      "weeks": 9
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Dina Lohan",
-      "photo": "assets/dina-lohan-bw.jpg",
-      "pov": 0,
-      "profession": "",
-      "weeks": 7
-    },
-    {
-      "age": "",
-      "bio": "",
-      "hoh": 0,
-      "hometown": "",
-      "jury": false,
-      "name": "Anthony Scaramucci",
-      "photo": "assets/anthony-scaramucci-bw.jpg",
-      "pov": 0,
-      "profession": "",
+      "profession": "Gas Inspector",
       "weeks": 0
     },
     {
       "age": "",
       "bio": "",
-      "hoh": 1,
-      "hometown": "",
-      "jury": false,
-      "name": "Tamar Braxton",
-      "photo": "assets/tamar-braxton.jpg",
-      "pov": 1,
-      "profession": "",
-      "weeks": 10
-    },
-    {
-      "age": "",
-      "bio": "",
       "hoh": 0,
-      "hometown": "",
+      "hometown": "Conception Bay, NL",
       "jury": false,
-      "name": "Jonathan Bennett",
-      "photo": "assets/jonathan-bennett-bw.jpg",
+      "name": "Samantha Picco",
+      "photo": "assets/samantha-picco.jpg",
       "pov": 0,
-      "profession": "",
+      "profession": "Beauty Salon Owner",
       "weeks": 0
     },
     {
       "age": "",
       "bio": "",
-      "hoh": 2,
-      "hometown": "",
+      "hoh": 0,
+      "hometown": "Edmonton, AB",
       "jury": false,
-      "name": "Tom Green",
-      "photo": "assets/tom-green-bw.jpg",
-      "pov": 2,
-      "profession": "",
-      "weeks": 5
+      "name": "Mark Drelich",
+      "photo": "assets/mark-drelich.jpg",
+      "pov": 0,
+      "profession": "Travel Guide",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Calgary, AB",
+      "jury": false,
+      "name": "Laura Roberts",
+      "photo": "assets/laura-roberts.jpg",
+      "pov": 0,
+      "profession": "Judicial Clerk",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Montreal, QC",
+      "jury": false,
+      "name": "Cyra Shenker",
+      "photo": "assets/cyra-shenker.jpg",
+      "pov": 0,
+      "profession": "Bartender",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Nadleh Whut'en, BC",
+      "jury": false,
+      "name": "Damien Ketlo",
+      "photo": "assets/damien-ketlo.jpg",
+      "pov": 0,
+      "profession": "Goalie Coach",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Gatineau, QC",
+      "jury": false,
+      "name": "Estefania Hoyos",
+      "photo": "assets/estefania-hoyos.jpg",
+      "pov": 0,
+      "profession": "Student",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Montreal, QC",
+      "jury": false,
+      "name": "Eddie Lin",
+      "photo": "assets/eddie-lin.jpg",
+      "pov": 0,
+      "profession": "Crypocurrency Developer",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Kelowna, BC",
+      "jury": false,
+      "name": "Dane Rupert",
+      "photo": "assets/dane-rupert.jpg",
+      "pov": 0,
+      "profession": "Civil Technician",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Port Moody, BC",
+      "jury": false,
+      "name": "Kiera Wallace",
+      "photo": "assets/kiera-wallace.jpg",
+      "pov": 0,
+      "profession": "Bartender",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Spaniards, NL",
+      "jury": false,
+      "name": "Adam Pike",
+      "photo": "assets/adam-pike.jpg",
+      "pov": 0,
+      "profession": "Oil Field Worker",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Grand Prairie, AB",
+      "jury": false,
+      "name": "Kailyn Archer",
+      "photo": "assets/kailyn-archer.jpg",
+      "pov": 0,
+      "profession": "Psychic",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Edmonton, AB",
+      "jury": false,
+      "name": "Chelsea Bird",
+      "photo": "assets/chelsea-bird.jpg",
+      "pov": 0,
+      "profession": "Radio Host",
+      "weeks": 0
+    },
+    {
+      "age": "",
+      "bio": "",
+      "hoh": 0,
+      "hometown": "Toronto, ON",
+      "jury": false,
+      "name": "Maki Moto",
+      "photo": "assets/maki-moto.jpg",
+      "pov": 0,
+      "profession": "Poet/DJ",
+      "weeks": 0
     }
   ],
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah34",
-      "picks": "0,3,11"
+      "picks": ""
     },
     {
       "name": "Bryna Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "bm89",
-      "picks": "0,3,4"
+      "picks": ""
     },
     {
       "name": "Carli Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "cp23",
-      "picks": "3,4,10"
+      "picks": ""
     },
     {
       "name": "Claudine Sampson",
-      "paid": true,
+      "paid": false,
       "pickcode": "cs45",
-      "picks": "1,2,4"
+      "picks": ""
     },
     {
       "name": "Kim Sampson",
-      "paid": true,
+      "paid": false,
       "pickcode": "ks78",
-      "picks": "5,8,10"
+      "picks": ""
     },
     {
       "name": "Lori Doiron-Benoit",
-      "paid": true,
+      "paid": false,
       "pickcode": "ldb45",
-      "picks": "7,9,11"
+      "picks": ""
     },
     {
       "name": "Courtney Gallichon",
-      "paid": true,
+      "paid": false,
       "pickcode": "cg27",
-      "picks": "4,5,10"
+      "picks": ""
     },
     {
       "name": "Scott Munro",
-      "paid": true,
+      "paid": false,
       "pickcode": "sm89",
-      "picks": "3,6,10"
+      "picks": ""
     },
     {
       "name": "Shanna Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "sb23",
-      "picks": "3,4,11"
+      "picks": ""
     },
     {
       "name": "Kaitlyn Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "kb99",
-      "picks": "5,6,10"
+      "picks": ""
     },
     {
       "name": "Stacey Pottie",
-      "paid": true,
+      "paid": false,
       "pickcode": "sp67",
-      "picks": "1,4,10"
+      "picks": ""
     },
     {
       "name": "TC Fougere",
-      "paid": true,
+      "paid": false,
       "pickcode": "tcf23",
-      "picks": "1,3,10"
+      "picks": ""
     },
     {
       "name": "Felicia Brushett O`Toole",
-      "paid": true,
+      "paid": false,
       "pickcode": "fbo35",
-      "picks": "0,4,11"
+      "picks": ""
     },
     {
       "name": "Teresa Grezel",
-      "paid": true,
+      "paid": false,
       "pickcode": "tm48",
-      "picks": "2,7,10"
+      "picks": ""
     },
     {
       "name": "Ryan Le Forte",
-      "paid": true,
+      "paid": false,
       "pickcode": "rlf62",
-      "picks": "5,6,11"
+      "picks": ""
     },
     {
       "name": "Tuesdaie Faulkner",
-      "paid": true,
+      "paid": false,
       "pickcode": "tf18",
-      "picks": "0,4,10"
+      "picks": ""
     },
     {
       "name": "Alex Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "am77",
-      "picks": "5,10,11"
+      "picks": ""
     },
     {
       "name": "Amanda Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "ap47",
-      "picks": "0,1,6"
+      "picks": ""
     },
     {
       "name": "Stephen Wayne Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "swp51",
-      "picks": "0,5,11"
+      "picks": ""
     },
     {
       "name": "Lisa Skinner",
-      "paid": true,
+      "paid": false,
       "pickcode": "ls93",
-      "picks": "0,1,10"
+      "picks": ""
     },
     {
       "name": "Kelly Marie",
-      "paid": true,
+      "paid": false,
       "pickcode": "km64",
-      "picks": "0,5,10"
+      "picks": ""
     },
     {
       "name": "Kaylyn Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "kl13",
-      "picks": "4,9,10"
+      "picks": ""
     },
     {
       "name": "Emily Reid",
-      "paid": true,
+      "paid": false,
       "pickcode": "er67",
-      "picks": "0,6,10"
+      "picks": ""
     },
     {
       "name": "Ashley Hryckowian",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah55",
-      "picks": "0,1,5"
+      "picks": ""
     },
     {
       "name": "Tracy Goodwin",
-      "paid": true,
+      "paid": false,
       "pickcode": "tg63",
-      "picks": "0,3,6"
+      "picks": ""
     },
     {
       "name": "Kendra Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "kl56",
-      "picks": "1,2,5"
+      "picks": ""
     },
     {
       "name": "Erin Maclellan",
-      "paid": true,
+      "paid": false,
       "pickcode": "em12",
-      "picks": "0,3,9"
+      "picks": ""
     },
     {
       "name": "Pauline Reid",
-      "paid": true,
+      "paid": false,
       "pickcode": "pr74",
-      "picks": "2,5,6"
+      "picks": ""
     },
     {
       "name": "Halie MacLean",
-      "paid": true,
+      "paid": false,
       "pickcode": "hm44",
-      "picks": "3,5,10"
+      "picks": ""
     },
     {
       "name": "Lyla Arab",
       "paid": false,
       "pickcode": "lf12",
-      "picks": "0,3,5"
+      "picks": ""
     },
     {
       "name": "Janeen Felix",
-      "paid": true,
+      "paid": false,
       "pickcode": "jf38",
-      "picks": "4,8,10"
+      "picks": ""
     },
     {
       "name": "Ericka Branscombe",
-      "paid": true,
+      "paid": false,
       "pickcode": "eb23",
-      "picks": "0,4,5"
+      "picks": ""
     },
     {
       "name": "Jeffrey Scott",
-      "paid": true,
+      "paid": false,
       "pickcode": "js55",
-      "picks": "1,3,11"
+      "picks": ""
     },
     {
       "name": "Kimmy Scott",
-      "paid": true,
+      "paid": false,
       "pickcode": "ks27",
-      "picks": "3,5,6"
+      "picks": ""
     },
     {
       "name": "Sandra Leaman",
-      "paid": true,
+      "paid": false,
       "pickcode": "sl21",
-      "picks": "0,3,10"
+      "picks": ""
     },
     {
       "name": "Heather Morton",
-      "paid": true,
+      "paid": false,
       "pickcode": "hm66",
-      "picks": "1,3,4"
+      "picks": ""
     },
     {
       "name": "Bobbie Doyle Gillis",
-      "paid": true,
+      "paid": false,
       "pickcode": "bdg44",
-      "picks": "3,5,11"
+      "picks": ""
     },
     {
       "name": "Joyce Doyle",
-      "paid": true,
+      "paid": false,
       "pickcode": "jd12",
-      "picks": "0,8,11"
+      "picks": ""
     },
     {
       "name": "Edward Gillis",
-      "paid": true,
+      "paid": false,
       "pickcode": "eg44",
-      "picks": "4,5,11"
+      "picks": ""
     },
     {
       "name": "Laura Fitzgerald",
-      "paid": true,
+      "paid": false,
       "pickcode": "lf39",
-      "picks": "0,1,3"
+      "picks": ""
     },
     {
       "name": "Joe Uttaro",
-      "paid": true,
+      "paid": false,
       "pickcode": "ju20",
-      "picks": "0,5,6"
+      "picks": ""
     },
     {
       "name": "Debbie Shortall",
-      "paid": true,
+      "paid": false,
       "pickcode": "ds88",
-      "picks": "2,4,11"
+      "picks": ""
     },
     {
       "name": "Andrew Smith",
-      "paid": true,
+      "paid": false,
       "pickcode": "as12",
-      "picks": "2,4,10"
+      "picks": ""
     },
     {
       "name": "Charlene Cheverie",
-      "paid": true,
+      "paid": false,
       "pickcode": "cc66",
-      "picks": "4,10,11"
+      "picks": ""
     },
     {
       "name": "Robin Hawley",
-      "paid": true,
+      "paid": false,
       "pickcode": "rh99",
-      "picks": "3,4,5"
+      "picks": ""
     },
     {
       "name": "Brett Fulmore",
-      "paid": true,
+      "paid": false,
       "pickcode": "bf77",
-      "picks": "3,10,11"
+      "picks": ""
     },
     {
       "name": "Joel Samson",
-      "paid": true,
+      "paid": false,
       "pickcode": "js34",
-      "picks": "4,5,8"
+      "picks": ""
     },
     {
       "name": "Katie Hart",
-      "paid": true,
+      "paid": false,
       "pickcode": "kh09",
-      "picks": "4,7,10"
+      "picks": ""
     }
   ]
 }
