@@ -475,6 +475,12 @@
       "paid": false,
       "pickcode": "ae99",
       "picks": ""
+    },
+    {
+      "name": "Stephanie Stanton",
+      "paid": false,
+      "pickcode": "ss11",
+      "picks": ""
     }
   ]
 }
