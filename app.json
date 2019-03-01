@@ -457,6 +457,18 @@
       "paid": false,
       "pickcode": "kh09",
       "picks": ""
+    },
+    {
+      "name": "Eric MacDonald",
+      "paid": false,
+      "pickcode": "em68",
+      "picks": ""
+    },
+    {
+      "name": "Ashley Beggs",
+      "paid": false,
+      "pickcode": "ab49",
+      "picks": ""
     }
   ]
 }
