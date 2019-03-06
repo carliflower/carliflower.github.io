@@ -421,6 +421,18 @@
       "paid": false,
       "pickcode": "jf42",
       "picks": "1,2,4,6,12"
+    },
+    {
+      "name": "Halie Mclean",
+      "paid": false,
+      "pickcode": "hm44",
+      "picks": "2,8,9,10,11"
+    },
+    {
+      "name": "Pauline Reid",
+      "paid": false,
+      "pickcode": "pr74",
+      "picks": "0,3,7,8,9"
     }
   ]
 }
