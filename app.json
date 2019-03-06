@@ -222,13 +222,13 @@
       "name": "Shanna Burke",
       "paid": false,
       "pickcode": "sb23",
-      "picks": ""
+      "picks": "1,2,3,12,13"
     },
     {
       "name": "Kaitlyn Burke",
       "paid": false,
       "pickcode": "kb99",
-      "picks": ""
+      "picks": "0,2,4,6,9"
     },
     {
       "name": "Stacey Pottie",
@@ -258,7 +258,7 @@
       "name": "Ryan Le Forte",
       "paid": false,
       "pickcode": "rlf62",
-      "picks": ""
+      "picks": "0,6,8,10,12"
     },
     {
       "name": "Tuesdaie Faulkner",
@@ -276,13 +276,13 @@
       "name": "Amanda Piercey",
       "paid": false,
       "pickcode": "ap47",
-      "picks": ""
+      "picks": "0,5,8,12,13"
     },
     {
       "name": "Stephen Wayne Piercey",
       "paid": false,
       "pickcode": "swp51",
-      "picks": ""
+      "picks": "4,8,10,12,13"
     },
     {
       "name": "Lisa Skinner",
@@ -312,13 +312,13 @@
       "name": "Ashley Hryckowian",
       "paid": false,
       "pickcode": "ah55",
-      "picks": ""
+      "picks": "1,5,10,11,12"
     },
     {
       "name": "Tracy Goodwin",
       "paid": false,
       "pickcode": "tg63",
-      "picks": ""
+      "picks": "1,2,7,10,12"
     },
     {
       "name": "Kendra Landry",
@@ -348,13 +348,13 @@
       "name": "Lyla Arab",
       "paid": false,
       "pickcode": "lf12",
-      "picks": ""
+      "picks": "2,3,8,12,13"
     },
     {
       "name": "Janeen Felix",
       "paid": false,
       "pickcode": "jf38",
-      "picks": ""
+      "picks": "1,2,3,10,12"
     },
     {
       "name": "Ericka Branscombe",
@@ -366,13 +366,13 @@
       "name": "Jeffrey Scott",
       "paid": false,
       "pickcode": "js55",
-      "picks": ""
+      "picks": "1,4,5,7,9"
     },
     {
       "name": "Kimmy Scott",
       "paid": false,
       "pickcode": "ks27",
-      "picks": ""
+      "picks": "0,7,9,12,13"
     },
     {
       "name": "Sandra Leaman",
@@ -474,7 +474,7 @@
       "name": "Anthony Edwards",
       "paid": false,
       "pickcode": "ae99",
-      "picks": ""
+      "picks": "1,8,10,12,13"
     },
     {
       "name": "Stephanie Stanton",
@@ -492,7 +492,7 @@
       "name": "John Chidiac",
       "paid": false,
       "pickcode": "jc36",
-      "picks": ""
+      "picks": "0,1,4,5,13"
     },
     {
       "name": "Pamela Trenholm",
@@ -504,13 +504,13 @@
       "name": "Julie Chidiac",
       "paid": false,
       "pickcode": "jf12",
-      "picks": ""
+      "picks": "5,6,8,10,11"
     },
     {
       "name": "Jessica Francis",
       "paid": false,
       "pickcode": "jf42",
-      "picks": ""
+      "picks": "1,2,4,6,12"
     }
   ]
 }
