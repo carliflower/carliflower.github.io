@@ -10,7 +10,7 @@
       "photo": "assets/anthony-douglas.jpg",
       "pov": 0,
       "profession": "Gas Inspector",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -22,7 +22,7 @@
       "photo": "assets/samantha-picco.jpg",
       "pov": 1,
       "profession": "Beauty Salon Owner",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/mark-drelich.jpg",
       "pov": 0,
       "profession": "Travel Guide",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/cyra-shenker.jpg",
       "pov": 0,
       "profession": "Bartender",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -70,7 +70,7 @@
       "photo": "assets/damien-ketlo.jpg",
       "pov": 0,
       "profession": "Goalie Coach",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/estefania-hoyos.jpg",
       "pov": 0,
       "profession": "Student",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -91,7 +91,7 @@
       "hometown": "Montreal, QC",
       "jury": false,
       "name": "Eddie Lin",
-      "photo": "assets/eddie-lin.jpg",
+      "photo": "assets/eddie-lin-bw.jpg",
       "pov": 0,
       "profession": "Crypocurrency Developer",
       "weeks": 4
@@ -106,7 +106,7 @@
       "photo": "assets/dane-rupert.jpg",
       "pov": 0,
       "profession": "Civil Technician",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -116,9 +116,9 @@
       "jury": false,
       "name": "Kiera Wallace",
       "photo": "assets/kiera-wallace.jpg",
-      "pov": 0,
+      "pov": 1,
       "profession": "Bartender",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/adam-pike.jpg",
       "pov": 1,
       "profession": "Oil Field Worker",
-      "weeks": 4
+      "weeks": 5
     },
     {
       "age": "",
@@ -178,7 +178,7 @@
       "photo": "assets/cory-kennedy.jpg",
       "pov": 1,
       "profession": "Middle School Teacher",
-      "weeks": 3
+      "weeks": 4
     }
   ],
   "members": [
