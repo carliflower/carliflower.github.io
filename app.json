@@ -10,7 +10,7 @@
       "photo": "assets/anthony-douglas.jpg",
       "pov": 0,
       "profession": "Gas Inspector",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -22,7 +22,7 @@
       "photo": "assets/samantha-picco.jpg",
       "pov": 1,
       "profession": "Beauty Salon Owner",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/mark-drelich.jpg",
       "pov": 0,
       "profession": "Travel Guide",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/cyra-shenker.jpg",
       "pov": 1,
       "profession": "Bartender",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -70,7 +70,7 @@
       "photo": "assets/damien-ketlo.jpg",
       "pov": 0,
       "profession": "Goalie Coach",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/estefania-hoyos.jpg",
       "pov": 0,
       "profession": "Student",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -106,7 +106,7 @@
       "photo": "assets/dane-rupert.jpg",
       "pov": 0,
       "profession": "Civil Technician",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -115,7 +115,7 @@
       "hometown": "Port Moody, BC",
       "jury": false,
       "name": "Kiera Wallace",
-      "photo": "assets/kiera-wallace.jpg",
+      "photo": "assets/kiera-wallace-bw.jpg",
       "pov": 1,
       "profession": "Bartender",
       "weeks": 5
@@ -130,7 +130,7 @@
       "photo": "assets/adam-pike.jpg",
       "pov": 2,
       "profession": "Oil Field Worker",
-      "weeks": 5
+      "weeks": 6
     },
     {
       "age": "",
@@ -178,7 +178,7 @@
       "photo": "assets/cory-kennedy.jpg",
       "pov": 1,
       "profession": "Middle School Teacher",
-      "weeks": 4
+      "weeks": 5
     }
   ],
   "members": [
