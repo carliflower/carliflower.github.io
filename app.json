@@ -10,16 +10,16 @@
       "photo": "assets/anthony-douglas.jpg",
       "pov": 0,
       "profession": "Gas Inspector",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "",
       "bio": "",
       "hoh": 1,
       "hometown": "Conception Bay, NL",
-      "jury": false,
+      "jury": true,
       "name": "Samantha Picco",
-      "photo": "assets/samantha-picco.jpg",
+      "photo": "assets/samantha-picco-bw.jpg",
       "pov": 1,
       "profession": "Beauty Salon Owner",
       "weeks": 6
@@ -34,7 +34,7 @@
       "photo": "assets/mark-drelich.jpg",
       "pov": 0,
       "profession": "Travel Guide",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/cyra-shenker.jpg",
       "pov": 1,
       "profession": "Bartender",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "",
@@ -70,7 +70,7 @@
       "photo": "assets/damien-ketlo.jpg",
       "pov": 0,
       "profession": "Goalie Coach",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/estefania-hoyos.jpg",
       "pov": 0,
       "profession": "Student",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "",
@@ -106,7 +106,7 @@
       "photo": "assets/dane-rupert.jpg",
       "pov": 1,
       "profession": "Civil Technician",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/adam-pike.jpg",
       "pov": 2,
       "profession": "Oil Field Worker",
-      "weeks": 6
+      "weeks": 7
     },
     {
       "age": "",
@@ -178,7 +178,7 @@
       "photo": "assets/cory-kennedy.jpg",
       "pov": 1,
       "profession": "Middle School Teacher",
-      "weeks": 5
+      "weeks": 6
     }
   ],
   "members": [
