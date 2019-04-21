@@ -10,7 +10,7 @@
       "photo": "assets/anthony-douglas.jpg",
       "pov": 0,
       "profession": "Gas Inspector",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/mark-drelich.jpg",
       "pov": 0,
       "profession": "Travel Guide",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/cyra-shenker.jpg",
       "pov": 1,
       "profession": "Bartender",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -70,7 +70,7 @@
       "photo": "assets/damien-ketlo.jpg",
       "pov": 0,
       "profession": "Goalie Coach",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -82,7 +82,7 @@
       "photo": "assets/estefania-hoyos.jpg",
       "pov": 0,
       "profession": "Student",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -106,7 +106,7 @@
       "photo": "assets/dane-rupert.jpg",
       "pov": 1,
       "profession": "Civil Technician",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/adam-pike.jpg",
       "pov": 3,
       "profession": "Oil Field Worker",
-      "weeks": 7
+      "weeks": 8
     },
     {
       "age": "",
@@ -173,9 +173,9 @@
       "bio": "",
       "hoh": 1,
       "hometown": "Sussex, NB",
-      "jury": false,
+      "jury": true,
       "name": "Cory Kennedy",
-      "photo": "assets/cory-kennedy.jpg",
+      "photo": "assets/cory-kennedy-bw.jpg",
       "pov": 1,
       "profession": "Middle School Teacher",
       "weeks": 6
