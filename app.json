@@ -10,7 +10,7 @@
       "photo": "assets/anthony-douglas.jpg",
       "pov": 1,
       "profession": "Gas Inspector",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/mark-drelich.jpg",
       "pov": 0,
       "profession": "Travel Guide",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/cyra-shenker.jpg",
       "pov": 1,
       "profession": "Bartender",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "",
@@ -67,7 +67,7 @@
       "hometown": "Nadleh Whut'en, BC",
       "jury": false,
       "name": "Damien Ketlo",
-      "photo": "assets/damien-ketlo.jpg",
+      "photo": "assets/damien-ketlo-bw.jpg",
       "pov": 1,
       "profession": "Goalie Coach",
       "weeks": 9
@@ -106,7 +106,7 @@
       "photo": "assets/dane-rupert.jpg",
       "pov": 1,
       "profession": "Civil Technician",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/adam-pike.jpg",
       "pov": 3,
       "profession": "Oil Field Worker",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "",
