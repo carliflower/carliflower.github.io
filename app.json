@@ -10,7 +10,7 @@
       "photo": "assets/anthony-douglas.jpg",
       "pov": 0,
       "profession": "Gas Inspector",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "",
@@ -34,7 +34,7 @@
       "photo": "assets/mark-drelich.jpg",
       "pov": 0,
       "profession": "Travel Guide",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "",
@@ -58,7 +58,7 @@
       "photo": "assets/cyra-shenker.jpg",
       "pov": 1,
       "profession": "Bartender",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "",
@@ -70,7 +70,7 @@
       "photo": "assets/damien-ketlo.jpg",
       "pov": 1,
       "profession": "Goalie Coach",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "",
@@ -79,7 +79,7 @@
       "hometown": "Gatineau, QC",
       "jury": false,
       "name": "Estefania Hoyos",
-      "photo": "assets/estefania-hoyos.jpg",
+      "photo": "assets/estefania-hoyos-bw.jpg",
       "pov": 0,
       "profession": "Student",
       "weeks": 8
@@ -106,7 +106,7 @@
       "photo": "assets/dane-rupert.jpg",
       "pov": 1,
       "profession": "Civil Technician",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/adam-pike.jpg",
       "pov": 3,
       "profession": "Oil Field Worker",
-      "weeks": 8
+      "weeks": 9
     },
     {
       "age": "",
