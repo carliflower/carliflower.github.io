@@ -68,7 +68,7 @@
       "jury": false,
       "name": "Damien Ketlo",
       "photo": "assets/damien-ketlo.jpg",
-      "pov": 0,
+      "pov": 1,
       "profession": "Goalie Coach",
       "weeks": 8
     },
@@ -123,7 +123,7 @@
     {
       "age": "",
       "bio": "",
-      "hoh": 2,
+      "hoh": 3,
       "hometown": "Spaniards, NL",
       "jury": false,
       "name": "Adam Pike",
