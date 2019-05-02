@@ -10,7 +10,7 @@
       "photo": "assets/anthony-douglas.jpg",
       "pov": 1,
       "profession": "Gas Inspector",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "",
@@ -29,9 +29,9 @@
       "bio": "",
       "hoh": 1,
       "hometown": "Edmonton, AB",
-      "jury": false,
+      "jury": true,
       "name": "Mark Drelich",
-      "photo": "assets/mark-drelich.jpg",
+      "photo": "assets/mark-drelich-bw.jpg",
       "pov": 0,
       "profession": "Travel Guide",
       "weeks": 10
@@ -58,7 +58,7 @@
       "photo": "assets/cyra-shenker.jpg",
       "pov": 1,
       "profession": "Bartender",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "",
@@ -106,7 +106,7 @@
       "photo": "assets/dane-rupert.jpg",
       "pov": 1,
       "profession": "Civil Technician",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "",
@@ -130,7 +130,7 @@
       "photo": "assets/adam-pike.jpg",
       "pov": 4,
       "profession": "Oil Field Worker",
-      "weeks": 10
+      "weeks": 11
     },
     {
       "age": "",
