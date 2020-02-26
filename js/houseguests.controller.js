@@ -15,6 +15,7 @@
   //controller begins
   function HouseguestsCtrl($log, HouseguestsService, $window, DataService) {
     $log = $log.getInstance("HouseguestsCtrl", false);
+    ga("send", "pageview");
 
     //controllerAs 'vm' scope
     var vm = this;

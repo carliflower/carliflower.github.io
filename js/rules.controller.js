@@ -12,6 +12,7 @@
     //controllerAs 'vm' scope
     var vm = this;
     vm.DataService = DataService;
+    ga("send", "pageview");
   }
   //controller ends
 })();

@@ -20,6 +20,7 @@
     $window
   ) {
     $log = $log.getInstance("StandingsCtrl", false);
+    ga("send", "pageview");
 
     //controllerAs 'vm' scope
     var vm = this;
