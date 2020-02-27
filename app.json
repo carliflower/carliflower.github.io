@@ -196,19 +196,19 @@
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah34",
       "picks": ""
     },
     {
       "name": "Bryna Moreira",
-      "paid": false,
+      "paid": true,
       "pickcode": "bm89",
       "picks": ""
     },
     {
       "name": "Carli Poirier",
-      "paid": false,
+      "paid": true,
       "pickcode": "cp23",
       "picks": ""
     },
@@ -226,13 +226,13 @@
     },
     {
       "name": "Shanna Burke",
-      "paid": false,
+      "paid": true,
       "pickcode": "sb23",
       "picks": ""
     },
     {
       "name": "Kaitlyn Burke",
-      "paid": false,
+      "paid": true,
       "pickcode": "kb99",
       "picks": ""
     },
@@ -244,7 +244,7 @@
     },
     {
       "name": "TC Fougere",
-      "paid": false,
+      "paid": true,
       "pickcode": "tcf23",
       "picks": ""
     },
@@ -256,7 +256,7 @@
     },
     {
       "name": "Teresa Grezel",
-      "paid": false,
+      "paid": true,
       "pickcode": "tm48",
       "picks": ""
     },
@@ -274,7 +274,7 @@
     },
     {
       "name": "Alex Moreira",
-      "paid": false,
+      "paid": true,
       "pickcode": "am77",
       "picks": ""
     },
@@ -304,7 +304,7 @@
     },
     {
       "name": "Kaylyn Landry",
-      "paid": false,
+      "paid": true,
       "pickcode": "kl13",
       "picks": ""
     },
@@ -316,7 +316,7 @@
     },
     {
       "name": "Ashley Hryckowian",
-      "paid": false,
+      "paid": true,
       "pickcode": "ah55",
       "picks": ""
     },
@@ -328,7 +328,7 @@
     },
     {
       "name": "Kendra Landry",
-      "paid": false,
+      "paid": true,
       "pickcode": "kl56",
       "picks": ""
     },
@@ -388,13 +388,13 @@
     },
     {
       "name": "Robin Hawley",
-      "paid": false,
+      "paid": true,
       "pickcode": "rh99",
       "picks": ""
     },
     {
       "name": "Eric MacDonald",
-      "paid": false,
+      "paid": true,
       "pickcode": "em68",
       "picks": ""
     },
@@ -456,6 +456,60 @@
       "name": "Pauline Reid",
       "paid": false,
       "pickcode": "pr74",
+      "picks": ""
+    },
+    {
+      "name": "Holly Landry",
+      "paid": true,
+      "pickcode": "hl77",
+      "picks": ""
+    },
+    {
+      "name": "Candice Landry",
+      "paid": true,
+      "pickcode": "cl77",
+      "picks": ""
+    },
+    {
+      "name": "Nicole Leech-Barrett",
+      "paid": false,
+      "pickcode": "nlb24",
+      "picks": ""
+    },
+    {
+      "name": "Phil Ducnanny",
+      "paid": false,
+      "pickcode": "pd68",
+      "picks": ""
+    },
+    {
+      "name": "Amber Malcolm",
+      "paid": false,
+      "pickcode": "am45",
+      "picks": ""
+    },
+    {
+      "name": "Mikey Hudson",
+      "paid": false,
+      "pickcode": "mh18",
+      "picks": ""
+    },
+    {
+      "name": "Mallory Elizabeth",
+      "paid": true,
+      "pickcode": "me34",
+      "picks": ""
+    },
+    {
+      "name": "Sheri Marie",
+      "paid": true,
+      "pickcode": "sm98",
+      "picks": ""
+    },
+    {
+      "name": "Cory Barrett",
+      "paid": true,
+      "pickcode": "cb34",
       "picks": ""
     }
   ]
