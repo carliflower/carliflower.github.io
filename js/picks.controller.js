@@ -160,8 +160,20 @@
           picks: picks
         });
         vm.picksSaved = true;
+        ga("send", {
+          hitType: "event",
+          eventCategory: "Picks",
+          eventAction: "Pick",
+          eventLabel: "Saved Pick"
+        });
       } else {
         //notify user to make new picks
+        ga("send", {
+          hitType: "event",
+          eventCategory: "Picks",
+          eventAction: "Pick",
+          eventLabel: "Invalid Picks"
+        });
         alert(
           "Sorry, That combination of houseguests is taken. Try a new combination."
         );
@@ -178,6 +190,12 @@
 
     function clearSelections() {
       $log.debug("clearSelections");
+      ga("send", {
+        hitType: "event",
+        eventCategory: "Picks",
+        eventAction: "Pick",
+        eventLabel: "Clear Selections"
+      });
       for (var i = 0; i < vm.houseguests.length; i++) {
         vm.houseguests[i].selected = false;
       }
@@ -186,6 +204,12 @@
 
     function getAvailableRandomPick() {
       $log.debug("randomPicks");
+      ga("send", {
+        hitType: "event",
+        eventCategory: "Picks",
+        eventAction: "Pick",
+        eventLabel: "Random Pick"
+      });
       vm.clearSelections();
       vm.memberPicks = vm.MembersService.generateRandomPick(
         vm.members,
