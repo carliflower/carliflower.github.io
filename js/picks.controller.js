@@ -13,7 +13,7 @@
   //controller begins
   function PicksCtrl($log, $scope, MembersService, HouseguestsService) {
     $log = $log.getInstance("PicksCtrl", false);
-    ga("send", "pageview");
+    ga("send", "pageview", "/picks");
 
     //controllerAs 'vm' scope
     var vm = this;

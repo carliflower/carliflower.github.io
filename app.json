@@ -334,7 +334,7 @@
     },
     {
       "name": "Erin Maclellan",
-      "paid": false,
+      "paid": true,
       "pickcode": "em12",
       "picks": ""
     },

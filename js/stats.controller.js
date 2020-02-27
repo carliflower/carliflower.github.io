@@ -13,7 +13,7 @@
   //controller begins
   function StatsCtrl($log, MembersService, HouseguestsService, DataService) {
     $log = $log.getInstance("StatsCtrl", false);
-    ga("send", "pageview");
+    ga("send", "pageview", "/stats");
 
     //controllerAs 'vm' scope
     var vm = this;
