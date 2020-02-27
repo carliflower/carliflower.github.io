@@ -238,7 +238,7 @@
     },
     {
       "name": "Stacey Pottie",
-      "paid": false,
+      "paid": true,
       "pickcode": "sp67",
       "picks": ""
     },
@@ -250,7 +250,7 @@
     },
     {
       "name": "Felicia Brushett O`Toole",
-      "paid": false,
+      "paid": true,
       "pickcode": "fbo35",
       "picks": ""
     },
@@ -280,13 +280,13 @@
     },
     {
       "name": "Amanda Piercey",
-      "paid": false,
+      "paid": true,
       "pickcode": "ap47",
       "picks": ""
     },
     {
       "name": "Stephen Wayne Piercey",
-      "paid": false,
+      "paid": true,
       "pickcode": "swp51",
       "picks": ""
     },
@@ -510,6 +510,12 @@
       "name": "Cory Barrett",
       "paid": true,
       "pickcode": "cb34",
+      "picks": ""
+    },
+    {
+      "name": "Drew Miller",
+      "paid": true,
+      "pickcode": "dm88",
       "picks": ""
     }
   ]
