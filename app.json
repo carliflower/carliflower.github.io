@@ -517,6 +517,12 @@
       "paid": true,
       "pickcode": "dm88",
       "picks": ""
+    },
+    {
+      "name": "Jill Wadden",
+      "paid": true,
+      "pickcode": "jw12",
+      "picks": ""
     }
   ]
 }
