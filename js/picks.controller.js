@@ -12,7 +12,7 @@
 
   //controller begins
   function PicksCtrl($log, $scope, MembersService, HouseguestsService) {
-    $log = $log.getInstance("PicksCtrl", false);
+    $log = $log.getInstance("PicksCtrl", true);
     ga("send", "pageview", "/picks");
 
     //controllerAs 'vm' scope
@@ -146,8 +146,7 @@
     }
 
     function savePicks() {
-      $log.debug("savePicks");
-      console.log("savePicks", vm.memberPicks, vm.member);
+      $log.debug("savePicks", vm.member);
       //check if picks are valid
       var picks = vm.MembersService.setMemberPicksAsString(vm.memberPicks);
       var arePicksValid = vm.MembersService.checkIfPicksAreValid(
