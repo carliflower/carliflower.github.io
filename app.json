@@ -523,6 +523,12 @@
       "paid": true,
       "pickcode": "jw12",
       "picks": ""
+    },
+    {
+      "name": "Andrew Smith",
+      "paid": false,
+      "pickcode": "as94",
+      "picks": ""
     }
   ]
 }
