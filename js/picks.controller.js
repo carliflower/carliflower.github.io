@@ -92,7 +92,7 @@
       $log.debug("onPickCodeChange", vm.pickCode, vm.check);
       vm.isValidCode = vm.check.isValidCode;
 
-      if (vm.check.isValidCode && vm.check.member && !vm.check.member.paid) {
+      if (vm.check.isValidCode && vm.check.member) {
         vm.codeMessage = "";
         vm.member = vm.check.member;
 
