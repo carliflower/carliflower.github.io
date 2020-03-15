@@ -10,7 +10,7 @@
       "photo": "assets/chris.jpg",
       "pov": 0,
       "profession": "Brain Transformation Specialist",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "28",
@@ -22,7 +22,7 @@
       "photo": "assets/minh.jpg",
       "pov": 0,
       "profession": "Flight Attendant",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "22",
@@ -34,7 +34,7 @@
       "photo": "assets/john.jpg",
       "pov": 0,
       "profession": "Journalist",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "44",
@@ -46,7 +46,7 @@
       "photo": "assets/carol.jpg",
       "pov": 0,
       "profession": "Disability Caregiver",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "23",
@@ -58,7 +58,7 @@
       "photo": "assets/jamar.jpg",
       "pov": 0,
       "profession": "Warehouse Worker",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "29",
@@ -70,7 +70,7 @@
       "photo": "assets/rianne.jpg",
       "pov": 0,
       "profession": "OR Nurse",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "30",
@@ -82,7 +82,7 @@
       "photo": "assets/hira.jpg",
       "pov": 0,
       "profession": "Accountant",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "33",
@@ -94,7 +94,7 @@
       "photo": "assets/angie.jpg",
       "pov": 0,
       "profession": "Communications Officer",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "25",
@@ -103,7 +103,7 @@
       "hometown": "Prince George, BC",
       "jury": false,
       "name": "Micheal Stubley",
-      "photo": "assets/michael.jpg",
+      "photo": "assets/michael-bw.jpg",
       "pov": 0,
       "profession": "Military Infantryman",
       "weeks": 1
@@ -118,7 +118,7 @@
       "photo": "assets/brooke.jpg",
       "pov": 0,
       "profession": "Social Support Worker",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "24",
@@ -130,7 +130,7 @@
       "photo": "assets/sheldon.jpg",
       "pov": 0,
       "profession": "Pro Wrestler",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "24",
@@ -142,7 +142,7 @@
       "photo": "assets/susanne.jpg",
       "pov": 0,
       "profession": "Corporate Recruiter",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "31",
@@ -154,7 +154,7 @@
       "photo": "assets/kyle.jpg",
       "pov": 0,
       "profession": "Electrician",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "26",
@@ -166,7 +166,7 @@
       "photo": "assets/vanessa.jpg",
       "pov": 0,
       "profession": "Lobster Fisherman",
-      "weeks": 1
+      "weeks": 2
     },
     {
       "age": "31",
@@ -190,7 +190,7 @@
       "photo": "assets/madeline.jpg",
       "pov": 0,
       "profession": "Substitute Teacher",
-      "weeks": 1
+      "weeks": 2
     }
   ],
   "members": [
