@@ -10,7 +10,7 @@
       "photo": "assets/chris.jpg",
       "pov": 0,
       "profession": "Brain Transformation Specialist",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "28",
@@ -22,7 +22,7 @@
       "photo": "assets/minh.jpg",
       "pov": 0,
       "profession": "Flight Attendant",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "22",
@@ -34,7 +34,7 @@
       "photo": "assets/john.jpg",
       "pov": 0,
       "profession": "Journalist",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "44",
@@ -46,7 +46,7 @@
       "photo": "assets/carol.jpg",
       "pov": 0,
       "profession": "Disability Caregiver",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "23",
@@ -55,7 +55,7 @@
       "hometown": "Ajax, ON",
       "jury": false,
       "name": "Jamar Lee",
-      "photo": "assets/jamar.jpg",
+      "photo": "assets/jamar-bw.jpg",
       "pov": 0,
       "profession": "Warehouse Worker",
       "weeks": 2
@@ -70,7 +70,7 @@
       "photo": "assets/rianne.jpg",
       "pov": 0,
       "profession": "OR Nurse",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "30",
@@ -82,7 +82,7 @@
       "photo": "assets/hira.jpg",
       "pov": 1,
       "profession": "Accountant",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "33",
@@ -94,7 +94,7 @@
       "photo": "assets/angie.jpg",
       "pov": 0,
       "profession": "Communications Officer",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "25",
@@ -118,7 +118,7 @@
       "photo": "assets/brooke.png",
       "pov": 0,
       "profession": "Social Support Worker",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "24",
@@ -130,7 +130,7 @@
       "photo": "assets/sheldon.jpg",
       "pov": 0,
       "profession": "Pro Wrestler",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "24",
@@ -142,7 +142,7 @@
       "photo": "assets/susanne.jpg",
       "pov": 0,
       "profession": "Corporate Recruiter",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "31",
@@ -151,7 +151,7 @@
       "hometown": "Okootoks, AB",
       "jury": false,
       "name": "Kyle Rozendal",
-      "photo": "assets/kyle.jpg",
+      "photo": "assets/kyle-bw.jpg",
       "pov": 0,
       "profession": "Electrician",
       "weeks": 2
@@ -166,7 +166,7 @@
       "photo": "assets/vanessa.jpg",
       "pov": 0,
       "profession": "Lobster Fisherman",
-      "weeks": 2
+      "weeks": 3
     },
     {
       "age": "31",
@@ -190,7 +190,7 @@
       "photo": "assets/madeline.jpg",
       "pov": 1,
       "profession": "Substitute Teacher",
-      "weeks": 2
+      "weeks": 3
     }
   ],
   "members": [
