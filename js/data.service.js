@@ -1,5 +1,5 @@
 //IIFE - keeps code isolated and off global scope
-(function() {
+(function () {
   angular.module("data", []).service("DataService", DataService);
 
   //injection for js minification
@@ -12,7 +12,7 @@
     //internal method attached to service
     this.houseguests = [];
     this.members = [];
-    this.useFirebase = false;
+    this.useFirebase = true;
     this.teamSize = 5;
     this.firebaseUrl = "bb-pool.firebaseio.com";
     this.get = get;
