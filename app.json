@@ -163,7 +163,7 @@
       "hometown": "West Nanticoke, PN",
       "jury": false,
       "name": "Sam Smith",
-      "photo": "assets/sam-smith.jpg",
+      "photo": "asset/sam-smith.jpg",
       "pov": 0,
       "profession": "Truck Driver",
       "weeks": 0
@@ -196,19 +196,19 @@
   "members": [
     {
       "name": "Andrew Hamilton",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah34",
       "picks": ""
     },
     {
       "name": "Bryna Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "bm89",
       "picks": ""
     },
     {
       "name": "Carli Poirier",
-      "paid": true,
+      "paid": false,
       "pickcode": "cp23",
       "picks": ""
     },
@@ -220,43 +220,43 @@
     },
     {
       "name": "Lori Doiron-Benoit",
-      "paid": true,
+      "paid": false,
       "pickcode": "ldb45",
       "picks": ""
     },
     {
       "name": "Shanna Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "sb23",
       "picks": ""
     },
     {
       "name": "Kaitlyn Burke",
-      "paid": true,
+      "paid": false,
       "pickcode": "kb99",
       "picks": ""
     },
     {
       "name": "Stacey Pottie",
-      "paid": true,
+      "paid": false,
       "pickcode": "sp67",
       "picks": ""
     },
     {
       "name": "TC Fougere",
-      "paid": true,
+      "paid": false,
       "pickcode": "tcf23",
       "picks": ""
     },
     {
       "name": "Felicia Brushett O`Toole",
-      "paid": true,
+      "paid": false,
       "pickcode": "fbo35",
       "picks": ""
     },
     {
       "name": "Teresa Grezel",
-      "paid": true,
+      "paid": false,
       "pickcode": "tm48",
       "picks": ""
     },
@@ -268,19 +268,19 @@
     },
     {
       "name": "Alex Moreira",
-      "paid": true,
+      "paid": false,
       "pickcode": "am77",
       "picks": ""
     },
     {
       "name": "Amanda Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "ap47",
       "picks": ""
     },
     {
       "name": "Stephen Wayne Piercey",
-      "paid": true,
+      "paid": false,
       "pickcode": "swp51",
       "picks": ""
     },
@@ -292,37 +292,37 @@
     },
     {
       "name": "Kaylyn Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "kl13",
       "picks": ""
     },
     {
       "name": "Ashley Hryckowian",
-      "paid": true,
+      "paid": false,
       "pickcode": "ah55",
       "picks": ""
     },
     {
       "name": "Kendra Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "kl56",
       "picks": ""
     },
     {
       "name": "Erin Maclellan",
-      "paid": true,
+      "paid": false,
       "pickcode": "em12",
       "picks": ""
     },
     {
       "name": "Jeffrey Scott",
-      "paid": true,
+      "paid": false,
       "pickcode": "js55",
       "picks": ""
     },
     {
       "name": "Kimmy Scott",
-      "paid": true,
+      "paid": false,
       "pickcode": "ks27",
       "picks": ""
     },
@@ -346,19 +346,19 @@
     },
     {
       "name": "Robin Hawley",
-      "paid": true,
+      "paid": false,
       "pickcode": "rh99",
       "picks": ""
     },
     {
       "name": "Eric MacDonald",
-      "paid": true,
+      "paid": false,
       "pickcode": "em68",
       "picks": ""
     },
     {
       "name": "Anthony Edwards",
-      "paid": true,
+      "paid": false,
       "pickcode": "ae99",
       "picks": ""
     },
@@ -376,7 +376,7 @@
     },
     {
       "name": "Pamela Trenholm",
-      "paid": true,
+      "paid": false,
       "pickcode": "pt51",
       "picks": ""
     },
@@ -394,25 +394,25 @@
     },
     {
       "name": "Holly Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "hl77",
       "picks": ""
     },
     {
       "name": "Candice Landry",
-      "paid": true,
+      "paid": false,
       "pickcode": "cl77",
       "picks": ""
     },
     {
       "name": "Nicole Leech-Barrett",
-      "paid": true,
+      "paid": false,
       "pickcode": "nlb24",
       "picks": ""
     },
     {
       "name": "Phil Ducnanny",
-      "paid": true,
+      "paid": false,
       "pickcode": "pd68",
       "picks": ""
     },
@@ -430,43 +430,43 @@
     },
     {
       "name": "Mallory Elizabeth",
-      "paid": true,
+      "paid": false,
       "pickcode": "me34",
       "picks": ""
     },
     {
       "name": "Sheri Marie",
-      "paid": true,
+      "paid": false,
       "pickcode": "sm98",
       "picks": ""
     },
     {
       "name": "Cory Barrett",
-      "paid": true,
+      "paid": false,
       "pickcode": "cb34",
       "picks": ""
     },
     {
       "name": "Drew Miller",
-      "paid": true,
+      "paid": false,
       "pickcode": "dm88",
       "picks": ""
     },
     {
       "name": "Jill Wadden",
-      "paid": true,
+      "paid": false,
       "pickcode": "jw12",
       "picks": ""
     },
     {
       "name": "Andrew Smith",
-      "paid": true,
+      "paid": false,
       "pickcode": "as94",
       "picks": ""
     },
     {
       "name": "Mike Latta",
-      "paid": true,
+      "paid": false,
       "pickcode": "ml44",
       "picks": ""
     },
@@ -478,13 +478,13 @@
     },
     {
       "name": "Brandy Bowie",
-      "paid": true,
+      "paid": false,
       "pickcode": "bb66",
       "picks": ""
     },
     {
       "name": "Scott Munro",
-      "paid": true,
+      "paid": false,
       "pickcode": "sm89",
       "picks": ""
     },
