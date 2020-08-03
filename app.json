@@ -511,6 +511,18 @@
       "paid": false,
       "pickcode": "ju20",
       "picks": ""
+    },
+    {
+      "name": "Courtney Gallichon",
+      "paid": false,
+      "pickcode": "cg27",
+      "picks": ""
+    },
+    {
+      "name": "Kymbur Lee Woodlock",
+      "paid": false,
+      "pickcode": "klw12",
+      "picks": ""
     }
   ]
 }
