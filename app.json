@@ -499,6 +499,18 @@
       "paid": false,
       "pickcode": "as44",
       "picks": ""
+    },
+    {
+      "name": "Debbie Shortall",
+      "paid": false,
+      "pickcode": "ds88",
+      "picks": ""
+    },
+    {
+      "name": "Joe Uttari",
+      "paid": false,
+      "pickcode": "ju20",
+      "picks": ""
     }
   ]
 }
