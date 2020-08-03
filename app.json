@@ -493,6 +493,12 @@
       "paid": false,
       "pickcode": "bm22",
       "picks": ""
+    },
+    {
+      "name": "Amanda Short",
+      "paid": false,
+      "pickcode": "as44",
+      "picks": ""
     }
   ]
 }
