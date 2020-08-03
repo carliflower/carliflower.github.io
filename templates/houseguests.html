@@ -2,10 +2,13 @@
   <h1>Houseguests</h1>
 
   <ul class="houseguest-grid">
-    <li ng-repeat="houseguest in vm.houseguests | orderBy: ['-points','name']">
+    <!-- <li ng-repeat="houseguest in vm.houseguests | orderBy: ['-points','name']"> -->
+    <li ng-repeat="houseguest in vm.houseguests">
       <div
         class="houseguest-tile"
-        style="background: rgb(3, 22, 47) url('{[{houseguest.photo}]}') no-repeat;"
+        style="
+          background: rgb(3, 22, 47) url('{[{houseguest.photo}]}') no-repeat;
+        "
       >
         <div class="bio">
           <p class="name">{[{houseguest.name}]}</p>
