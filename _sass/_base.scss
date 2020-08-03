@@ -305,10 +305,8 @@ h6 {
   }
 
   .pick-rules {
-    line-height: 24px;
     margin: 0 auto;
     margin-bottom: 20px;
-    max-width: 80%;
 
     li {
       padding: 15px 0;
@@ -356,11 +354,13 @@ h6 {
   }
 
   ul {
+    line-height: 24px;
     margin: 0 auto;
     margin-bottom: 20px;
+    max-width: 80%;
 
     li {
-      padding: 6px 0;
+      padding: 15px 0;
     }
   }
 }
