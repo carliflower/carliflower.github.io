@@ -12,7 +12,7 @@
     //internal method attached to service
     this.houseguests = [];
     this.members = [];
-    this.useFirebase = true;
+    this.useFirebase = false;
     this.teamSize = 5;
     this.firebaseUrl = "bb-pool.firebaseio.com";
     this.get = get;
