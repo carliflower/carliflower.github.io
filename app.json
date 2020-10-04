@@ -22,7 +22,7 @@
       "photo": "assets/christmas-abbott.jpg",
       "pov": 2,
       "profession": "Fitness Entrepreneur",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "29",
@@ -34,7 +34,7 @@
       "photo": "assets/cody-calafiore.jpg",
       "pov": 2,
       "profession": "Soccer Coach",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "33",
@@ -82,7 +82,7 @@
       "photo": "assets/enzo-palumbo.jpg",
       "pov": 1,
       "profession": "Insurance Adjuster",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "29",
@@ -154,7 +154,7 @@
       "photo": "assets/memphis-garrett.jpg",
       "pov": 1,
       "profession": "Restaurateur",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "25",
@@ -178,7 +178,7 @@
       "photo": "assets/nicole-franzel.jpg",
       "pov": 0,
       "profession": "Social Media Influencer",
-      "weeks": 9
+      "weeks": 10
     },
     {
       "age": "25",
@@ -190,7 +190,7 @@
       "photo": "assets/tyler-crispen.jpg",
       "pov": 2,
       "profession": "Jewelry Company Exec",
-      "weeks": 9
+      "weeks": 10
     }
   ],
   "members": [
