@@ -22,7 +22,7 @@
       "photo": "assets/christmas-abbott.jpg",
       "pov": 2,
       "profession": "Fitness Entrepreneur",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "29",
@@ -34,7 +34,7 @@
       "photo": "assets/cody-calafiore.jpg",
       "pov": 3,
       "profession": "Soccer Coach",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "33",
@@ -75,14 +75,14 @@
     {
       "age": "42",
       "bio": "",
-      "hoh": 1,
+      "hoh": 2,
       "hometown": "Bayonne, NJ",
       "jury": false,
       "name": "Enzo Palumbo",
       "photo": "assets/enzo-palumbo.jpg",
       "pov": 1,
       "profession": "Insurance Adjuster",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "29",
@@ -178,7 +178,7 @@
       "photo": "assets/nicole-franzel.jpg",
       "pov": 1,
       "profession": "Social Media Influencer",
-      "weeks": 11
+      "weeks": 12
     },
     {
       "age": "25",
