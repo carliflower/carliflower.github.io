@@ -1,5 +1,5 @@
 //IIFE - keeps code isolated and off global scope
-(function() {
+(function () {
   angular.module("standings", []).controller("StandingsCtrl", StandingsCtrl);
 
   //injection for js minification
@@ -8,7 +8,7 @@
     "MembersService",
     "HouseguestsService",
     "DataService",
-    "$window"
+    "$window",
   ];
 
   //controller begins
@@ -52,13 +52,13 @@
       var _vm = vm;
       if (!vm.DataService.houseguests.length) {
         vm.DataService.get()
-          .success(function(data, status, headers, config) {
+          .success(function (data, status, headers, config) {
             $log.debug("loadData", data);
             _vm.houseguests = data["houseguests"];
             _vm.members = data["members"];
             _vm.init();
           })
-          .error(function(data, status, headers, config) {
+          .error(function (data, status, headers, config) {
             console.log("Error: loading data", data, status, headers, config);
           });
       }
@@ -69,10 +69,10 @@
 
       $log.debug("loadData");
       vm.members = vm.MembersService.get();
-      vm.members.$loaded().then(function() {
+      vm.members.$loaded().then(function () {
         $log.debug(vm.members, _vm.members.length);
         _vm.houseguests = _vm.HouseguestsService.get();
-        _vm.houseguests.$loaded().then(function() {
+        _vm.houseguests.$loaded().then(function () {
           $log.debug(_vm.houseguests);
           _vm.init();
         });
@@ -109,16 +109,16 @@
         ["points", "name"],
         [false, true]
       );
-      var pointCounts = _.countBy(vm.sortedMembers, function(member) {
+      var pointCounts = _.countBy(vm.sortedMembers, function (member) {
         return member.points;
       });
       var sortedPoints = _.pairs(pointCounts);
       //used when the point spread has start to thin out and show the prize values/
-      // vm.firstPlacePointValue = sortedPoints[sortedPoints.length - 1][0];
-      // vm.secondPlacePointValue = sortedPoints[sortedPoints.length - 2][0];
-      // vm.thirdPlacePointValue = sortedPoints[sortedPoints.length - 3][0];
-      // vm.fourthPlacePointValue = sortedPoints[sortedPoints.length - 4][0];
-      // vm.lastPlacePointValue = sortedPoints[0][0];
+      vm.firstPlacePointValue = sortedPoints[sortedPoints.length - 1][0];
+      vm.secondPlacePointValue = sortedPoints[sortedPoints.length - 2][0];
+      vm.thirdPlacePointValue = sortedPoints[sortedPoints.length - 3][0];
+      vm.fourthPlacePointValue = sortedPoints[sortedPoints.length - 4][0];
+      vm.lastPlacePointValue = sortedPoints[0][0];
       $log.debug("generateStandings", vm.members, vm.houseguests);
     }
 
